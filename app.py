@@ -4,6 +4,7 @@
 from os.path import realpath, dirname, join, getmtime
 from os import listdir
 from staticjinja import make_renderer
+from markdown import Markdown
 import yaml, re
 
 PROJECT_DIR = realpath(dirname(__file__))
@@ -13,8 +14,16 @@ ASSET_DIR = join(PROJECT_DIR, "src", "asset")
 ASSET_DIR_REl = "asset"
 DATA_DIR = join(PROJECT_DIR, "src", "data")
 
+def mdconv(markdown_source):
+    # md = Markdown(extensions=['meta', 'toc', 'tables', 'fenced_code'])
+    md = Markdown()
+    html_content = md.convert(markdown_source)
+    return html_content
+
 data_mtimes = {}
-pycon_context = {}
+pycon_context = {
+    'mdconv' : mdconv
+}
 
 def load_data():
     global data_mtimes

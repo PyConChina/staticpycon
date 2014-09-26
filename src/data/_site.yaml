@@ -27,9 +27,9 @@ nav:
 - title: 往届
   children:
   - title: '2011/上海'
-    url: "/"
+    url: "/2011.html"
   - title: '2012/京沪'
-    url: "/"
+    url: "/2012.html"
   - title: '2013/京沪珠'
-    url: "/"
+    url: "/2013.html"
 toc: []
