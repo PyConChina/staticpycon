@@ -1,0 +1,27 @@
+
+site_name: PyCon2014China
+site_description: Python中国2014大会官方网站
+site_author: PyConChina@googlegroups.com
+site_url: http://cn.pycon.org/2014/
+page_description: Pycon China 2014
+meta:
+  source: []
+config:
+nav: 
+- title: 首页
+  url: "/index.html" 
+- title: 报名
+  url: "/proposals.html"
+- title: 日程
+  children:
+  - title: 北京
+  - title: 上海
+  - title: 珠海
+- title: 赞助
+- title: 志愿
+- title: 往届
+  children:
+  - title: '2011/上海'
+  - title: '2012/京沪'
+  - title: '2013/京沪珠'
+toc: []
