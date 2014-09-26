@@ -1,0 +1,13 @@
+
+
+img.sponsor-gold, img.sponsor-silver, img.sponsor-bronze {
+    max-height: 60px;
+    max-width: 200px;
+    padding: 5px;
+}
+
+.proposal-card {
+    height: 150px;
+    padding: 10px;
+    border: solid #CCC 1px;
+}

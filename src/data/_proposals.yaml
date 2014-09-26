@@ -1,0 +1,144 @@
+-
+  name: 李宽
+  city_beijing: 1
+  city: beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/li-kuan.png?imageView2/2/h/80
+  intro: 
+-
+  name: 梁杰
+  city_beijing: 1
+  city: beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/liang-jie-head.png?imageView2/2/h/80
+  intro: 北京航空航天大学大四学生
+-
+  name: 屈晓龙
+  city_beijing: 1
+  city: beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: 北京信易云媒Python工程师
+-
+  name: 郑堃
+  city_beijing: 1
+  city: beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: 知道创宇程序员,客串项目经理. 擅长 Web 开发,从事的工作是 Web 安全相关产品的研发和管理. 信奉,现阶段成功的软件开发如果有所谓"银弹"的话,那只能是靠谱的团队(或者是说所谓的人件,湿件吧).
+-
+  name: 林帅
+  city_beijing: 1
+  city: beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: Python 爱好者,目前就职于 scrapy 创始人的公司
+-
+  name: ..
+  city_beijing: 1
+  city: beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: ...
+-
+  name: 罗志城
+  city_shanghai: 1
+  city: shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: 北京正点时空科技有限公司研发经理
+-
+  name: KJ
+  city_shanghai: 1
+  city: shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/KJ-head.png?imageView2/2/h/80
+  intro: GDG上海创始人, 齐书CEO
+-
+  name: 徐涛
+  city_shanghai: 1
+  city: shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
+  intro: 豆瓣Python 开发工程师.
+-
+  name: Adieu
+  city_shanghai: 1
+  city: shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: 2014年开始全职创业.
+-
+  name: 许智翔(Shell909090)
+  city_shanghai: 1
+  city: shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/Shell909090-lighting.png?imageView2/2/h/80
+  intro: 现任七牛工程师,python/c程序员
+-
+  name: 王剑峰
+  city_shanghai: 1
+  city: shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/jeff-openerp_14_11_jeff.png?imageView2/2/h/80
+  intro: 致力于基于Python的OpenERP在中国的推广
+-
+  name: 叶剑烨
+  city_shanghai: 1
+  city: shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ryan_500x500.jpg?imageView2/2/h/80
+  intro: 之前在Slide和Google任技术经理,目前是Glow公司的CTO,也是公司的创始人之一
+-
+  name: 王安宇
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wang-an-yu-15_11_%E6%97%A0%E6%A0%87%E9%A2%98.png?imageView2/2/h/80
+  intro: 深圳矽递科技(SeeedStudio)运营总监&CIO; Python爱好者,Raspberry Pi玩家
+-
+  name: 马全一
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ma-quan-yi_docker_7_11_meaglith_logo.png?imageView2/2/h/80
+  intro: Docker 中文社区创始人
+-
+  name: jeff
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/images/speakers/131123_jeff.png?imageView2/2/h/80
+  intro: 广州图锐信息科技创始人兼技术负责人,珠三角技术沙龙常务组委. 长年活跃在一线的python码农.
+-
+  name: 陶文
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: 在腾讯游戏运营部,使用python做运营开发. 曾经用python搞过电子商城,营销平台,手机代理程序等各类型应用
+-
+  name: 潘俊勇
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/panjunyong_13_11_image.png?imageView2/2/h/80
+  intro: Python老人,易度云办公 easydo.cn 创始人,前中国Zope/Plone社区推广者
+-
+  name: 吴章金
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: MEIZU 工程师
+-
+  name: 黄毅
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/images/speakers/huangyi_1.jpeg?imageView2/2/h/80
+  intro: 云悦科技技术合伙人,Python,Haskell爱好者,手游开发者.
+-
+  name: 翁伟(Wuvist)
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wuvist.jpg?imageView2/2/h/80
+  intro: 80后创业者,今年沉迷于使用python生成Go源码
+-
+  name: 赖勇浩
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/2013/static/images/speakers/laiyonghao.png?imageView2/2/h/80
+  intro: 从业 8 年多,曾从事客户端游戏,网页游戏的研发,最近一年构建,带领团队开发基于 Web 技术的互联网,电话,自助终端销售彩票管理系统;开发食品,药品溯源系统等. 也是珠三角技术沙龙的创办人和组委之一.
+-
+  name: 龙利民
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif?imageView2/2/h/80
+  intro: 猎豹移动,工程师
+-
+  name: 温铭
+  city_zhuhai: 1
+  city: zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wenmin-16_11_psb.jpg?imageView2/2/h/80
+  intro: 旧金山人,曾负责水银云查杀和反钓鱼的开发

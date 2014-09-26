@@ -2,12 +2,98 @@
 
 {% block content %}
 
+<!-- infomation -->
+<p><img alt="" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"  class="center-block"/></p>
+<h1 id="pycon2014china">PyCon2014China 来了!</h1>
+<p>世界Pythoneer 的品牌盛会PyCon! 由<a href="https://www.python.org/psf/about/">Python软件基金会</a>下的<strong><a href="http://PyCon.org">PyCon.org</a></strong>授权中国举办第四届<code>PyConChina</code> 大会. 本次大会由CPyUG,GDG,TopGeek在
+上海,北京,珠海,杭州,苏州同时举办.</p>
+
+<ul>
+<li><strong><a href="proposals/">主题/工作坊提交入口</a></strong></li>
+<li>参会报名,预计 10 月下旬发布,敬请期待</li>
+</ul>
+<h2 id="_1">大会赞助</h2>
+<p><code>募集ing..</code></p>
+<ul>
+<li>赞助商权益说明书, 下载:<a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">PyCon2014China-SponsorshipProposal-v140727.pdf</a></li>
+<li>特别的,今年为个人赞助追加了特殊权益. 参考:<a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">PyCon2014China-PersonSponsor-v140711.pdf</a></li>
+
+<!-- sponsors -->
+{% if sponsors %}
+    <div class="row">
+    {# defination #}
+    {% set diamond_sponsors = sponsors | selectattr('level_diamond') %}
+    {% set platinum_sponsors = sponsors | selectattr('level_platinum') %}
+    {% set gold_sponsors = sponsors | selectattr('level_gold') %}
+    {% set silver_sponsors = sponsors | selectattr('level_silver') %}
+    {% set bronze_sponsors = sponsors | selectattr('level_bronze') %}
+    {% macro simple_sponsors_list(some_sponsors) %}
+        <p>
+            {% for sponsor in some_sponsors %}
+            <a href="{{ sponsor.link }}">
+                <img src="{{ sponsor.logo }}" alt="" class="sponsor-{{ sponsor.level }}"/>
+            </a>
+            {% endfor %}
+        </p>
+    {% endmacro %}
+    <h3>钻石</h3>
+    {{ simple_sponsors_list(diamond_sponsors) }}
+    <h3>白金</h3>
+    {{ simple_sponsors_list(platinum_sponsors) }}
+    <h3>黄金</h3>
+    {{ simple_sponsors_list(gold_sponsors) }}
+    <h3>白银</h3>
+    {{ simple_sponsors_list(silver_sponsors) }}
+    <h3>青铜</h3>
+    {{ simple_sponsors_list(bronze_sponsors) }}
+    </div>
+{% endif %}
+
+<!-- proposals -->
+{% if proposals %}
+    <div class="row">
+    {# defination #}
+    {% set beijing_proposals = proposals | selectattr('city_beijing') %}
+    {% set shanghai_proposals = proposals | selectattr('city_shanghai') %}
+    {% set zhuhai_proposals = proposals | selectattr('city_zhuhai') %}
+    {% macro proposal_list(some_proposals) %}
+    {% for row in some_proposals | batch(2) %}
+        <div class="row">
+            {% for proposal in row %}
+            <div class="col-md-6 show-grid proposal-card">
+                <img src="{{ proposal.avatar }}" alt="{{ proposal.name }}" class="img-rounded pull-left"/>
+                <p>{{ proposal.name }} </p>
+                <p>{{ proposal.intro}} </p>
+            </div>
+            {% endfor%}
+        </div>
+    {% endfor%}
+    {% endmacro %}
+    {# presentation #}
+    <h3>北京</h3>
+    {{ proposal_list(beijing_proposals) }}
+    <h3>上海</h3>
+    {{ proposal_list(shanghai_proposals) }}
+    <h3>珠海</h3>
+    {{ proposal_list(zhuhai_proposals) }}
+    </div>
+{% endif%}
+
+<!-- donators -->
+<h2>蠎人赞助</h2>
+<p>(按捐助达成时间排序)</p>
 {% if donators %}
-{% for donator in donators %}
-<li> {{ donator }} </li>
-{% endfor %}
+    <table class="table table-bordered">
+    <tbody>
+    {% for row in donators | batch(5, fill_with=' ') %}
+      <tr>
+      {% for donator in row %}
+        <td>{{ donator }}</td>
+      {% endfor %}
+      </tr>
+    {% endfor %}
+    </tbody>
+    </table>
 {% endif %}
 
 {% endblock %}
-
-
