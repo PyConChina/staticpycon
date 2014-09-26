@@ -1,4 +1,4 @@
-{% extends "_base.html" %}
+{% extends "base/_base.html" %}
 
 {% block content %}
 
@@ -20,7 +20,8 @@
 
 <!-- sponsors -->
 {% if sponsors %}
-    <div class="row">
+    <div class="clearfix"></div>
+    <div class="">
     {# defination #}
     {% set diamond_sponsors = sponsors | selectattr('level_diamond') %}
     {% set platinum_sponsors = sponsors | selectattr('level_platinum') %}
@@ -51,14 +52,15 @@
 
 <!-- proposals -->
 {% if proposals %}
-    <div class="row">
+    <div class="clearfix"></div>
+    <div class="">
     {# defination #}
     {% set beijing_proposals = proposals | selectattr('city_beijing') %}
     {% set shanghai_proposals = proposals | selectattr('city_shanghai') %}
     {% set zhuhai_proposals = proposals | selectattr('city_zhuhai') %}
     {% macro proposal_list(some_proposals) %}
     {% for row in some_proposals | batch(2) %}
-        <div class="row">
+        <div class="">
             {% for proposal in row %}
             <div class="col-md-6 show-grid proposal-card">
                 <img src="{{ proposal.avatar }}" alt="{{ proposal.name }}" class="img-rounded pull-left"/>
@@ -67,6 +69,7 @@
             </div>
             {% endfor%}
         </div>
+        <div class="clearfix"></div>
     {% endfor%}
     {% endmacro %}
     {# presentation #}
@@ -79,7 +82,9 @@
     </div>
 {% endif%}
 
+
 <!-- donators -->
+<div class="clearfix"></div>
 <h2>蠎人赞助</h2>
 <p>(按捐助达成时间排序)</p>
 {% if donators %}

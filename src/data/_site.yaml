@@ -15,13 +15,21 @@ nav:
 - title: 日程
   children:
   - title: 北京
+    url: "/"
   - title: 上海
+    url: "/"
   - title: 珠海
+    url: "/"
 - title: 赞助
+  url: "/sponsors.html"
 - title: 志愿
+  url: "/volunteers.html"
 - title: 往届
   children:
   - title: '2011/上海'
+    url: "/"
   - title: '2012/京沪'
+    url: "/"
   - title: '2013/京沪珠'
+    url: "/"
 toc: []
