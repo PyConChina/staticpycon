@@ -1,13 +1,3 @@
-
-site_name: PyCon2014China
-site_description: Python中国2014大会官方网站
-site_author: PyConChina@googlegroups.com
-site_url: http://cn.pycon.org/2014/
-page_description: Pycon China 2014
-meta:
-  source: []
-config:
-nav: 
 - title: 首页
   url: "/index.html" 
 - title: 报名
@@ -32,4 +22,3 @@ nav:
     url: "/history-2012.html"
   - title: '2013/京沪珠'
     url: "/history-2013.html"
-toc: []

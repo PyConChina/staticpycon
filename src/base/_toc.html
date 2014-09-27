@@ -1,3 +1,4 @@
+{% if toc %}
 <div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     {% for toc_item in toc %}
@@ -8,3 +9,4 @@
     {% endfor %}
     </ul>
 </div>
+{% endif %}
