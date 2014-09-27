@@ -1,0 +1,42 @@
+{% macro speech_tr(speech) %}
+    <tr>
+    <td>{{ speech.time or "" }} </td>
+    {% if speech.speaker %}
+    <td>{{ speech.topic or "" }} </td>
+    <td>{{ speech.speaker or "" }} </td>
+    <td>{{ speech.preview or "" }} </td>
+    {% else %}
+    <td colspan="3">{{ speech.topic or "" }} </td>
+    {% endif %}
+    </tr>
+{% endmacro %}
+
+{% macro title_tr(title) %}
+    <tr>
+    <td colspan="4" class="text-center success">{{ title }}</td>
+    </tr>
+{% endmacro %}
+
+<h2>交通</h2>
+<div>
+    <p>地址: {{ schedule.address }}</p>
+    <p>会场: {{ schedule.venue }}</p>
+    <p>交通: {{ schedule.traffic }}</p>
+</div>
+<h2>议程</h2>
+<table class="table table-bordered text-center">
+    <tbody>
+        {{ title_tr("上午") }}
+        {% for speech in schedule.am %} {{ speech_tr(speech) }} {% endfor %}
+        {{ title_tr("中午") }}
+        {% for speech in schedule.noon %} {{ speech_tr(speech) }} {% endfor %}
+        {{ title_tr("下午") }}
+        {% for speech in schedule.pm %} {{ speech_tr(speech) }} {% endfor %}
+        {{ title_tr("闪电演讲") }}
+        {% for speech in schedule.lt %} {{ speech_tr(speech) }} {% endfor %}
+    </tbody>
+</table>
+<h2>注意</h2>
+<div>
+    <p>{{ schedule.notices or "" }}</p>
+</div>

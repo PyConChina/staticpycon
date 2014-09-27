@@ -19,7 +19,7 @@ nav:
   - title: 上海
     url: "/"
   - title: 珠海
-    url: "/"
+    url: "/schedule-zhuhai.html"
 - title: 赞助
   url: "/sponsors.html"
 - title: 志愿
@@ -27,9 +27,9 @@ nav:
 - title: 往届
   children:
   - title: '2011/上海'
-    url: "/2011.html"
+    url: "/history-2011.html"
   - title: '2012/京沪'
-    url: "/2012.html"
+    url: "/history-2012.html"
   - title: '2013/京沪珠'
-    url: "/2013.html"
+    url: "/history-2013.html"
 toc: []

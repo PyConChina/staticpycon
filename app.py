@@ -52,7 +52,7 @@ def render_cn_page(renderer, template, **context):
 def dev():
     renderer = make_renderer(searchpath=SOURCE_DIR, staticpath=ASSET_DIR_REl,
         outpath=SITE_DIR, rules=[
-            ("\w+\.cn\.html", render_cn_page),
+            ("[\w-]+\.cn\.html", render_cn_page),
         ])
     def serve():
         from SimpleHTTPServer import SimpleHTTPRequestHandler
