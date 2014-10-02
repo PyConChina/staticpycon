@@ -2,7 +2,8 @@
 #encoding:utf8
 
 from os.path import realpath, dirname, join, getmtime
-from os import listdir
+from os.path import exists as file_exists
+from os import listdir, makedirs
 from staticjinja import make_renderer
 from markdown import Markdown
 import yaml, re
@@ -31,23 +32,30 @@ def load_data(data_context, data_pattern):
         filemtime = int(getmtime(filepath))
         if filepath in data_mtimes and filemtime == data_mtimes[filepath]:
             continue # skip unmodified file
-        data_mtimes[filepath] = filemtime
         match = data_pattern.match(filename)
         if match:
+            data_mtimes[filepath] = filemtime
             entryname = match.group(1)
             data = yaml.load(open(filepath))
             data_context[entryname] = data
+
+def ensure_dir(filename):
+    head = dirname(filename)
+    if head and not file_exists(head):
+        makedirs(head)
 
 def render_cn_page(renderer, template, **context):
     load_data(cn_pycon_context, cn_data_pattern)
     outfile = template.name.replace(".cn.html", ".html")
     filepath = join(SITE_DIR, outfile)
+    ensure_dir(filepath)
     template.stream(cn_pycon_context).dump(filepath, "utf8")
 
 def render_en_page(renderer, template, **context):
     load_data(en_pycon_context, en_data_pattern)
-    outfile = template.name # template.name.replace(".en.html", ".html")
-    filepath = join(SITE_DIR, outfile)
+    outfile = template.name.replace(".en.html", ".html")
+    filepath = join(SITE_DIR, "en", outfile)
+    ensure_dir(filepath)
     template.stream(en_pycon_context).dump(filepath, "utf8")
 
 def dev():

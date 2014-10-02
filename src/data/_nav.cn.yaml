@@ -17,8 +17,10 @@
 - title: 往届
   children:
   - title: '2011/上海'
-    url: "/history-2011.html"
+    url: "http://cn.pycon.org/2011"
   - title: '2012/京沪'
-    url: "/history-2012.html"
+    url: "http://cn.pycon.org/2012"
   - title: '2013/京沪珠'
-    url: "/history-2013.html"
+    url: "http://cn.pycon.org/2013"
+- title: EN
+  url: "/en/index.html"
