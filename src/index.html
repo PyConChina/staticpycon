@@ -4,20 +4,11 @@
 
 <!-- infomation -->
 <p><img alt="" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"  class="center-block"/></p>
-<h1 id="pycon2014china">PyCon2014China 来了!</h1>
-<p>世界Pythoneer 的品牌盛会PyCon! 由<a href="https://www.python.org/psf/about/">Python软件基金会</a>下的<strong><a href="http://PyCon.org">PyCon.org</a></strong>授权中国举办第四届<code>PyConChina</code> 大会. 本次大会由CPyUG,GDG,TopGeek在
-上海,北京,珠海,杭州,苏州同时举办.</p>
-
-<ul>
-<li><strong><a href="proposals/">主题/工作坊提交入口</a></strong></li>
-<li>参会报名,预计 10 月下旬发布,敬请期待</li>
-</ul>
-<h2 id="_1">大会赞助</h2>
-<p><code>募集ing..</code></p>
-<ul>
-<li>赞助商权益说明书, 下载:<a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">PyCon2014China-SponsorshipProposal-v140727.pdf</a></li>
-<li>特别的,今年为个人赞助追加了特殊权益. 参考:<a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">PyCon2014China-PersonSponsor-v140711.pdf</a></li>
-
+<h1 id="pycon2014china">{{ message.home_title }}</h1>
+<p>{{ message.home_intro }}</p>
+<h2 id="_1">{{ message.home_sponsors }}</h2>
+<p>{{ message.home_sponsors_wanted }}</p>
+{{ message.home_sponsors_hint }}
 <!-- sponsors -->
 {% if sponsors %}
     <div class="clearfix"></div>
@@ -28,7 +19,8 @@
     {% set gold_sponsors = sponsors | selectattr('level_gold') %}
     {% set silver_sponsors = sponsors | selectattr('level_silver') %}
     {% set bronze_sponsors = sponsors | selectattr('level_bronze') %}
-    {% macro simple_sponsors_list(some_sponsors) %}
+    {% macro simple_sponsors_list(some_sponsors, sponsor_level) %}
+        <h3>{{ sponsor_level }}</h3>
         <p>
             {% for sponsor in some_sponsors %}
             <a href="{{ sponsor.link }}">
@@ -37,16 +29,11 @@
             {% endfor %}
         </p>
     {% endmacro %}
-    <h3>钻石</h3>
-    {{ simple_sponsors_list(diamond_sponsors) }}
-    <h3>白金</h3>
-    {{ simple_sponsors_list(platinum_sponsors) }}
-    <h3>黄金</h3>
-    {{ simple_sponsors_list(gold_sponsors) }}
-    <h3>白银</h3>
-    {{ simple_sponsors_list(silver_sponsors) }}
-    <h3>青铜</h3>
-    {{ simple_sponsors_list(bronze_sponsors) }}
+    {{ simple_sponsors_list(diamond_sponsors, message.sponsors_diamond) }}
+    {{ simple_sponsors_list(platinum_sponsors, message.sponsors_platinum) }}
+    {{ simple_sponsors_list(gold_sponsors, message.sponsors_gold) }}
+    {{ simple_sponsors_list(silver_sponsors, message.sponsors_silver) }}
+    {{ simple_sponsors_list(bronze_sponsors, message.sponsors_bronze) }}
     </div>
 {% endif %}
 
@@ -73,11 +60,11 @@
     {% endfor%}
     {% endmacro %}
     {# presentation #}
-    <h3>北京</h3>
+    <h3>{{ message.beijing }}</h3>
     {{ proposal_list(beijing_proposals) }}
-    <h3>上海</h3>
+    <h3>{{ message.shanghai }}</h3>
     {{ proposal_list(shanghai_proposals) }}
-    <h3>珠海</h3>
+    <h3>{{ message.zhuhai }}</h3>
     {{ proposal_list(zhuhai_proposals) }}
     </div>
 {% endif%}
@@ -85,8 +72,8 @@
 
 <!-- donators -->
 <div class="clearfix"></div>
-<h2>蠎人赞助</h2>
-<p>(按捐助达成时间排序)</p>
+<h2>{{ message.donators }}</h2>
+<p>{{ message.donators_orderby }}</p>
 {% if donators %}
     <table class="table table-bordered">
     <tbody>

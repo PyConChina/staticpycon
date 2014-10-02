@@ -26,10 +26,10 @@
         {% endfor %}
     {% endmacro %}
     {# presentation #}
-    <h1>志愿者们</h1>
-    <h2>组织者</h2>
+    <h1>{{ message.volunteers }}</h1>
+    <h2>{{ message.organizers }}</h2>
     {{ volunteer_list(organizer_volunteers) }}
-    <h2>技术组</h2>
+    <h2>{{ message.technicians }}</h2>
     {{ volunteer_list(technician_volunteers) }}
 {% endif %}
 

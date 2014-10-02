@@ -1,0 +1,54 @@
+# home
+home_title: PyCon2014China is Coming!
+home_intro: > 
+  PyCon, the party of world-wide pythoneers!
+  Authorized by <strong><a href="http://PyCon.org">PyCon.org</a></strong>
+  of <a href="https://www.python.org/psf/about/">Pyton Sofware Foundation</a>,
+  this is the fourth year of <code>PyConChina</code>.
+  It is organized by CPyUG/GDG/TopGeek,
+  and held simultaneously in <strong>Shanghai/Beijing/Zhuhai/Shenzhen</strong>!
+home_sponsors: Sponsors 
+home_sponsors_wanted: <code>Wanted..</code>
+home_sponsors_hint: >
+  <ul>
+  <li>Sponsorship Proposal, download:
+  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">
+  PyCon2014China-SponsorshipProposal-v140727.pdf</a></li>
+  <li>We have added proposal for personal sponorship this year, download:
+  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">
+  PyCon2014China-PersonSponsor-v140711.pdf</a></li>
+  </ul>
+beijing: Beijing
+shanghai: Shanghai
+zhuhai: Zhuhai
+donators: Personal Sponsorship
+donators_orderby: (sorted by time of sponsorship)
+# proposal
+# schedule
+schedule: Schedule
+address: Address
+venue: Venue
+traffic: Traffic
+morning: Moring
+noon: Noon
+afternoon: Afternoon
+lighting_talks: Lighting Talks
+notices: Notices
+# sponsor
+sponsors: SPONSORS
+sponsors_hint: >
+  Supports from sponors are necessary for the success of PyCon. 
+  If you or your organization is willing to help the Python 
+  community of China, please contact PyCon committee 
+  (<a href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a>).
+  We will show the logo and introduction of all sponsors on the home page
+  of our official website
+sponsors_diamond: Diamond
+sponsors_platinum: Platinum
+sponsors_gold: Gold
+sponsors_silver: Silver
+sponsors_bronze: Bronze
+# volunteer
+volunteers: Volunteers
+organizers: Coordinators
+technicians: Technical Volunteers

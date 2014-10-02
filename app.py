@@ -21,48 +21,49 @@ def mdconv(markdown_source):
     return html_content
 
 data_mtimes = {}
-cn_data_pattern = re.compile("_(\w+)\.cn\.yaml")
-en_data_pattern = re.compile("_(\w+)\.en\.yaml")
-cn_pycon_context = { 'mdconv' : mdconv }
-en_pycon_context = { 'mdconv' : mdconv }
+data_table = {
+    'cn' : {
+        'basedir' : "",
+        'pattern' : re.compile("_(\w+)\.cn\.yaml"),
+        'context' : { 'mdconv' : mdconv, 'lang' : 'cn' }
+    },
+    'en' : {
+        'basedir' : 'en',
+        'pattern' : re.compile("_(\w+)\.en\.yaml"),
+        'context' : { 'mdconv' : mdconv, 'lang' : 'en' }
+    }
+}
 
-def load_data(data_context, data_pattern):
+def load_data():
     for filename in listdir(DATA_DIR):
         filepath = join(DATA_DIR, filename)
         filemtime = int(getmtime(filepath))
         if filepath in data_mtimes and filemtime == data_mtimes[filepath]:
             continue # skip unmodified file
-        match = data_pattern.match(filename)
-        if match:
-            data_mtimes[filepath] = filemtime
-            entryname = match.group(1)
-            data = yaml.load(open(filepath))
-            data_context[entryname] = data
+        for lang, v in data_table.iteritems():
+            match = v['pattern'].match(filename)
+            if match:
+                data_mtimes[filepath] = filemtime
+                entryname = match.group(1)
+                data = yaml.load(open(filepath))
+                v['context'][entryname] = data
+                break
 
-def ensure_dir(filename):
-    head = dirname(filename)
-    if head and not file_exists(head):
-        makedirs(head)
-
-def render_cn_page(renderer, template, **context):
-    load_data(cn_pycon_context, cn_data_pattern)
-    outfile = template.name.replace(".cn.html", ".html")
-    filepath = join(SITE_DIR, outfile)
-    ensure_dir(filepath)
-    template.stream(cn_pycon_context).dump(filepath, "utf8")
-
-def render_en_page(renderer, template, **context):
-    load_data(en_pycon_context, en_data_pattern)
-    outfile = template.name.replace(".en.html", ".html")
-    filepath = join(SITE_DIR, "en", outfile)
-    ensure_dir(filepath)
-    template.stream(en_pycon_context).dump(filepath, "utf8")
+def render_page(renderer, template, **context):
+    load_data()
+    for lang, v in data_table.iteritems():
+        outfile = join(SITE_DIR, v['basedir'], template.name)
+        # ensure dir
+        head = dirname(outfile)
+        if head and not file_exists(head):
+            makedirs(head)
+        print "Generating [%s] %s ..." % (lang, outfile)
+        template.stream(v['context']).dump(outfile, "utf8") 
 
 def dev():
     renderer = make_renderer(searchpath=SOURCE_DIR, staticpath=ASSET_DIR_REl,
         outpath=SITE_DIR, rules=[
-            ("[\w-]+\.cn\.html", render_cn_page),
-            ("[\w-]+\.en\.html", render_en_page),
+            ("[\w-]+\.html", render_page)
         ])
     def serve():
         from SimpleHTTPServer import SimpleHTTPRequestHandler

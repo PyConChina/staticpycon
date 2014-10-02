@@ -19,26 +19,26 @@
 {% endmacro %}
 
 {% if schedule %}
-    <h2>交通</h2>
+    <h2>{{ message.traffic }}</h2>
     <div>
-        <p>地址: {{ schedule.address }}</p>
-        <p>会场: {{ schedule.venue }}</p>
-        <p>交通: {{ schedule.traffic }}</p>
+        <p>{{ message.address }}: {{ schedule.address }}</p>
+        <p>{{ message.venue }}: {{ schedule.venue }}</p>
+        <p>{{ message.traffic }}: {{ schedule.traffic }}</p>
     </div>
-    <h2>议程</h2>
+    <h2>{{ message.schedule }}</h2>
     <table class="table table-bordered text-center">
         <tbody>
-            {{ title_tr("上午") }}
+            {{ title_tr(message.morning) }}
             {% for speech in schedule.am %} {{ speech_tr(speech) }} {% endfor %}
-            {{ title_tr("中午") }}
+            {{ title_tr(message.noon) }}
             {% for speech in schedule.noon %} {{ speech_tr(speech) }} {% endfor %}
-            {{ title_tr("下午") }}
+            {{ title_tr(message.afternoon) }}
             {% for speech in schedule.pm %} {{ speech_tr(speech) }} {% endfor %}
-            {{ title_tr("闪电演讲") }}
+            {{ title_tr(message.lighting_talks) }}
             {% for speech in schedule.lt %} {{ speech_tr(speech) }} {% endfor %}
         </tbody>
     </table>
-    <h2>注意</h2>
+    <h2>{{ message.notices }}</h2>
     <div>
         <p>{{ schedule.notices or "" }}</p>
     </div>
