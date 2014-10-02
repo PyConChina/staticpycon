@@ -1,4 +1,6 @@
 {% extends "base/_base.html" %}
+{% set titles = { "cn" : "首页", "en" : "Home" } %}
+{% set page_title = titles[lang] %}
 
 {% block content %}
 
@@ -68,7 +70,6 @@
     {{ proposal_list(zhuhai_proposals) }}
     </div>
 {% endif%}
-
 
 <!-- donators -->
 <div class="clearfix"></div>

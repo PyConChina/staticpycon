@@ -1,4 +1,6 @@
 {% extends "base/_base.html" %}
+{% set titles = { "cn" : "珠海日程", "en" : "Schedule in Zhuhai" } %}
+{% set page_title = titles[lang] %}
 
 {% block content %}
 {% if schedule_zhuhai %}
