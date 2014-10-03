@@ -1,0 +1,53 @@
+address: 待定
+venue: 待定
+traffic: 待定
+notices:
+am:
+  - time: "09:00"
+    topic: "签到 & 开场"
+    speaker:
+    preview:
+  - time: ""
+    topic: Python 在知道创宇的应用--- 软件构建实践分享
+    speaker: 郑堃
+    preview: Python 都用在了哪些类型的开发上;代码管理的实践;单元测试的实践;code review 的实践;包管理/构建发布的实践;持续集成的实践;等等软件构件中涉及的大小主题. 部分内容已经分享到了:http://pm.readthedocs.org/
+  - time: ""
+    topic: "How CODE works"
+    speaker: 徐涛 
+    preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy. CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验.
+noon:
+  - time: "12:00"
+    topic: 午餐+合照
+    speaker:
+    preview:
+pm:
+  - time: "13:00"
+    timespan: 45'
+    topic: 花蓮.py 社区体验
+    speaker: 魏泽人
+    preview: 我的开源体验，如何在没有人用 Python 的偏乡，建立 Python 社区的一些小小经验。 这三四年参与开源社区活动，并尝试将从社区学到的经验，回馈到地方。
+  - time: ""
+    topic: "工作坊"
+    speaker: 林帅
+    preview: 现场教大家用 Scrapy 框架做网络爬虫,以及面向开发者的网络爬虫 PaaS - ScrapyCloud. 具体内容包括从最开始怎么写爬虫,到用一个 SAE 上的应用来展示爬虫获取的数据. 最后如果时间允许可以再简单介绍一下不用写代码的自动爬虫工具 Auto-Scraping.
+lt:
+  - time: ""
+    topic: 生物领域的大数据和Python
+    speaker: 李宽
+    preview: 简单介绍一下python在生物领域大数据分析中的应用.
+  - time: ""
+    topic: 如何阅读Python 代码
+    speaker: 梁杰
+    preview: Python以其多种多样的第三方库闻名于世,许多程序员经过一段时间的学习都可以掌握这些库,但是掌握了之后,自己的水平就遇到了瓶颈,无法继续提高. 阅读源码则是一种简单粗暴,人人都可以使用的技术进阶方法,但是在我实际的学习过程中以及和周围朋友的交流中发现,很多人不敢阅读源码,很多人不想阅读源码,很多人不懂到底该如何阅读源码. 然而,要想真正的提升自己,成为一个优秀的程序员,阅读源码是必由之路. 我想和大家分享的就是我自己在阅读源码过程中总结的一些经验和方法,希望对大家的技术提升有所帮助. 
+  - time: ""
+    topic: ""
+    speaker: 屈晓龙
+    preview: 简单介绍如何使用Python+JavaScript+Html+Css搭建类似于PhoneGap的轻量级,定制化的混合应用框架.
+  - time: ""
+    topic: QPython - 安卓上的Python
+    speaker: 曲池峰
+    preview: 介绍QPython，如何在手机和平板上写Python程序，在手机上用Python写出实用的脚本程序，随时随地写程序。
+  - time: ""
+    topic: redis-mgr 介绍
+    speaker: 杨林
+    preview: 是一个用python开发的redis集群管理工具,用redis-mgr可以快速(10min)搭建一个由redis/twemproxy/redis-sentinel 构成的redis 集群.   功能包括 一键式部署, failover, 监控, 实例迁移, 模块升级等.  github.com/idning/redis-mgr  

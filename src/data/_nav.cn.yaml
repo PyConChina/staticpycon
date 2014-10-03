@@ -5,7 +5,7 @@
 - title: 日程
   children:
   - title: 北京
-    url: "/"
+    url: "/beijing.html"
   - title: 上海
     url: "/shanghai.html"
   - title: 珠海
