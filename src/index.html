@@ -5,7 +5,7 @@
 {% block content %}
 
 <!-- infomation -->
-<p><img alt="" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"  class="center-block"/></p>
+<p><img alt="" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"  class="center-block img-responsive"/></p>
 <h1 id="pycon2014china">{{ message.home_title }}</h1>
 <p>{{ message.home_intro }}</p>
 <h2 id="_1">{{ message.home_sponsors }}</h2>
@@ -86,17 +86,19 @@
 <h2>{{ message.donators }}</h2>
 <p>{{ message.donators_orderby }}</p>
 {% if donators %}
-    <table class="table table-bordered">
-    <tbody>
-    {% for row in donators | batch(5, fill_with=' ') %}
-      <tr>
-      {% for donator in row %}
-        <td>{{ donator }}</td>
-      {% endfor %}
-      </tr>
-    {% endfor %}
-    </tbody>
-    </table>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+        <tbody>
+        {% for row in donators | batch(5, fill_with=' ') %}
+          <tr>
+          {% for donator in row %}
+            <td>{{ donator }}</td>
+          {% endfor %}
+          </tr>
+        {% endfor %}
+        </tbody>
+        </table>
+    </div>
 {% endif %}
 
 {% endblock %}
