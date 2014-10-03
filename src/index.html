@@ -44,6 +44,7 @@
     <div class="clearfix"></div>
     <div class="">
     {# defination #}
+    {% set global_proposals = proposals | selectattr('city_global') %}
     {% set beijing_proposals = proposals | selectattr('city_beijing') %}
     {% set shanghai_proposals = proposals | selectattr('city_shanghai') %}
     {% set zhuhai_proposals = proposals | selectattr('city_zhuhai') %}
@@ -62,13 +63,17 @@
     {% endfor%}
     {% endmacro %}
     {# presentation #}
+    <h3>{{ message.global }}</h3>
+    {{ proposal_list(global_proposals) }}
     <h3>{{ message.beijing }}</h3>
     {{ proposal_list(beijing_proposals) }}
     <h3>{{ message.shanghai }}</h3>
     {{ proposal_list(shanghai_proposals) }}
     <h3>{{ message.zhuhai }}</h3>
     {{ proposal_list(zhuhai_proposals) }}
+
     </div>
+
 {% endif%}
 
 <!-- donators -->
