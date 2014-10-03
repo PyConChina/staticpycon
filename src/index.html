@@ -49,18 +49,23 @@
     {% set shanghai_proposals = proposals | selectattr('city_shanghai') %}
     {% set zhuhai_proposals = proposals | selectattr('city_zhuhai') %}
     {% macro proposal_list(some_proposals) %}
-    {% for row in some_proposals | batch(2) %}
-        <div class="">
-            {% for proposal in row %}
-            <div class="col-md-6 show-grid proposal-card">
-                <img src="{{ proposal.avatar }}" alt="{{ proposal.name }}" class="img-rounded pull-left"/>
-                <p>{{ proposal.name }} </p>
-                <p>{{ proposal.intro}} </p>
+    <div class="row">
+        {% for proposal in some_proposals %}
+            <div class="col-xs-12 col-sm-6 media proposal">
+                <a href="javascript:;" class="pull-left">
+                    <img src="{{ proposal.avatar }}" alt="{{ proposal.name }}"
+                        class="media-object img-circle"/>
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">{{ proposal.name }} </h4>
+                    <p>{{ proposal.intro }} </p>
+                </div>
             </div>
-            {% endfor%}
-        </div>
-        <div class="clearfix"></div>
-    {% endfor%}
+            {% if loop.index is divisibleby(2) or loop.last %}
+                <div class="clearfix hidden-xs-block hidden-phone"></div>
+            {% endif %}
+        {% endfor%}
+    </div>
     {% endmacro %}
     {# presentation #}
     <h3>{{ message.global }}</h3>
