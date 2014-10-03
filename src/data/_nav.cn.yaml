@@ -7,9 +7,9 @@
   - title: 北京
     url: "/"
   - title: 上海
-    url: "/"
+    url: "/shanghai.html"
   - title: 珠海
-    url: "/schedule-zhuhai.html"
+    url: "/zhuhai.html"
 - title: 赞助
   url: "/sponsors.html"
 - title: 志愿
