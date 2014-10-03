@@ -33,22 +33,16 @@
     </head>
 
     <body>
-
         {% include "base/_nav.html" %}
-
         <div class="container">
-
-            <div class="col-md-9" role="main">{% block content %}{% endblock %}</div>
-
-            <div class="col-md-3">{% include "base/_toc.html" %}</div>
-
-            <div class="col-md-9" role="main">{% include "base/_disqus.html" %}</div>
-
-            <div class="col-md-9" role="main">{% include "base/_footer.html" %}</div>
-
-
+            <div class="col-md-10 col-md-offset-1">
+                <div>{% block content %}{% endblock %}</div>
+                <div class="clearfix"></div>
+                <div>{% include "base/_disqus.html" %}</div>
+                <div class="clearfix"></div>
+                <div>{% include "base/_footer.html" %}</div>
+            </div>
         </div>
-
         <script src="{{ site.base_url }}/asset/js/jquery-1.10.2.min.js"></script>
         <script src="{{ site.base_url }}/asset/js/bootstrap-3.0.3.min.js"></script>
         <script src="{{ site.base_url }}/asset/js/prettify-1.0.min.js"></script>
