@@ -16,23 +16,16 @@ ASSET_DIR = join(PROJECT_DIR, "src", "asset")
 ASSET_DIR_REl = "asset"
 DATA_DIR = join(PROJECT_DIR, "src", "data")
 
-def mdconv(markdown_source):
-    md = Markdown()
-    html_content = md.convert(markdown_source)
-    return html_content
-
 data_mtimes = {}
 data_table = {
     'cn' : {
         'suffix'  : '_cn',
         'basedir' : "",
-        'pattern' : re.compile("_(\w+)\.cn\.yaml"),
         'context' : { 'lang' : 'cn' }
     },
     'en' : {
         'suffix'  : '_en',
         'basedir' : 'en',
-        'pattern' : re.compile("_(\w+)\.en\.yaml"),
         'context' : { 'lang' : 'en' }
     }
 }
@@ -59,14 +52,6 @@ def load_data():
         filemtime = int(getmtime(filepath))
         if filepath in data_mtimes and filemtime == data_mtimes[filepath]:
             continue # skip unmodified file
-        for lang, v in data_table.iteritems():
-            match = v['pattern'].match(filename)
-            if match:
-                data_mtimes[filepath] = filemtime
-                entryname = match.group(1)
-                data = yaml.load(open(filepath))
-                v['context'][entryname] = data
-                break
         match = data_pattern.match(filename)
         if match:
             data_mtimes[filepath] = filemtime
