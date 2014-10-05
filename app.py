@@ -7,6 +7,7 @@ from os import listdir, makedirs
 from staticjinja import make_renderer
 from markdown import Markdown
 import yaml, re
+from copy import deepcopy
 
 PROJECT_DIR = realpath(dirname(__file__))
 SITE_DIR = join(PROJECT_DIR, "out")
@@ -23,16 +24,34 @@ def mdconv(markdown_source):
 data_mtimes = {}
 data_table = {
     'cn' : {
+        'suffix'  : '_cn',
         'basedir' : "",
         'pattern' : re.compile("_(\w+)\.cn\.yaml"),
-        'context' : { 'mdconv' : mdconv, 'lang' : 'cn' }
+        'context' : { 'lang' : 'cn' }
     },
     'en' : {
+        'suffix'  : '_en',
         'basedir' : 'en',
         'pattern' : re.compile("_(\w+)\.en\.yaml"),
-        'context' : { 'mdconv' : mdconv, 'lang' : 'en' }
+        'context' : { 'lang' : 'en' }
     }
 }
+data_pattern = re.compile("_(\w+)\.yaml")
+
+def process_data(data, suffix):
+    if isinstance(data, list):
+        for v in data:
+            process_data(v, suffix)
+    elif isinstance(data, dict):
+        for k, v in data.iteritems():
+            if isinstance(v, list) or isinstance(v, dict):
+                process_data(v, suffix)
+            if k.endswith(suffix):
+                kn = k[:-len(suffix)]
+                if kn in data:
+                    data[kn] = v
+                else:
+                    print 'Warning: invalid attribute ', kn
 
 def load_data():
     for filename in listdir(DATA_DIR):
@@ -48,6 +67,15 @@ def load_data():
                 data = yaml.load(open(filepath))
                 v['context'][entryname] = data
                 break
+        match = data_pattern.match(filename)
+        if match:
+            data_mtimes[filepath] = filemtime
+            entryname = match.group(1)
+            data = yaml.load(open(filepath))
+            for lang, v in data_table.iteritems():
+                data_copy = deepcopy(data)
+                process_data(data_copy, v['suffix'])
+                v['context'][entryname] = data_copy
 
 def render_page(renderer, template, **context):
     load_data()
