@@ -23,6 +23,14 @@
   weibo: http://weibo.com/rothcold
   github: https://github.com/rothcold
 -
+  name: Coyote(陈伟晴)
+  role: technician
+  avatar: http://pyconcn.qiniudn.com/coyote/images/myphoto.png?imageView2/2/h/80
+  role_technician: 1
+  intro: 北京天融信 程序员; Python爱好者，网络安全初学者;崇尚菜鸟先飞,为pycon贡献微薄之力;
+  weibo: http://weibo.com/coytoe
+  github: https://github.com/chencoyote
+-
   name: ...
   role: technician
   avatar: http://pyconcn.qiniudn.com/zoomquiet/2013/static/images/speakers/nopic.gif?imageView2/2/h/80
