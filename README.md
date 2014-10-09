@@ -17,8 +17,8 @@
 
 ## 使用
 
-    $ pip install staticjinja mkdocs
-    $ git clone git@gitcafe.com:toddgao/staticpycon.git
+    $ pip install staticjinja
+    $ git clone git@gitcafe.com:PyConChina/staticpycon.git
     $ cd staticpycon
     $ python app.py
 

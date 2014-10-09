@@ -14,3 +14,8 @@ img.sponsor-gold, img.sponsor-silver, img.sponsor-bronze {
     width: 64px;
     height: 64px;
 }
+
+.volunteer img{
+    max-width: 80px;
+    max-height: 80px;
+}

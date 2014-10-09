@@ -39,12 +39,10 @@
   weibo: http://weibo.com/coderzhao
   github: https://github.com/zijing07
 -
-  name: ...
+  name: Todd Gao
   role: technician
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/2013/static/images/speakers/nopic.gif?imageView2/2/h/80
+  avatar: http://ww3.sinaimg.cn/mw690/e382d508jw1el53ymgjgbg204j04j772.gif
   role_technician: 1
-  intro: ...
-  weibo: http://weibo.com
-  github: https://github.com
-
-
+  intro: 研二学生，关注分布式计算相关领域，Python爱好者
+  intro_en: A graduate student, interested in distributed computing and related, Python lover.
+  github: https://github.com/7c00

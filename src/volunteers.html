@@ -17,7 +17,7 @@
     {% endmacro %}
     {% macro volunteer_list(some_volunteers) %}
         {% for volunteer in some_volunteers %}
-            <div>
+            <div class="volunteer">
                <img src="{{ volunteer.avatar }}">
                <span><strong>{{ volunteer.name }}</strong></span>
                <p>{{ volunteer.intro }}</p>

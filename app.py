@@ -5,7 +5,6 @@ from os.path import realpath, dirname, join, getmtime
 from os.path import exists as file_exists
 from os import listdir, makedirs
 from staticjinja import make_renderer
-from markdown import Markdown
 import yaml, re
 from copy import deepcopy
 
