@@ -1,34 +1,34 @@
 - title: 首页
   title_en: HOME
-  url: "/index.html"
-  url_en: "/en/index.html"
+  url: "index.html"
+  url_en: "en/index.html"
 - title: 报名
   title_en: PROPOSALS
-  url: "/proposals.html"
-  url_en: "/en/proposals.html"
+  url: "proposals.html"
+  url_en: "en/proposals.html"
 - title: 日程
   title_en: SCHEDULE
   children:
   - title: 北京
     title_en: BEIJING
-    url: "/beijing.html"
-    url_en: "/en/beijing.html"
+    url: "beijing.html"
+    url_en: "en/beijing.html"
   - title: 上海
     title_en: SHANGHAI
-    url: "/shanghai.html"
-    url_en: "/en/shanghai.html"
+    url: "shanghai.html"
+    url_en: "en/shanghai.html"
   - title: 珠海
     title_en: ZHUHAI
-    url: "/zhuhai.html"
-    url_en: "/en/zhuhai.html"
+    url: "zhuhai.html"
+    url_en: "en/zhuhai.html"
 - title: 赞助
   title_en: SPONSORS
-  url: "/sponsors.html"
-  url_en: "/en/sponsors.html"
+  url: "sponsors.html"
+  url_en: "en/sponsors.html"
 - title: 志愿
   title_en: VOLUNTEERS
-  url: "/volunteers.html"
-  url_en: "/en/volunteers.html"
+  url: "volunteers.html"
+  url_en: "en/volunteers.html"
 - title: 往届
   title_en: HISTORY
   children:
@@ -40,5 +40,5 @@
     url: "http://cn.pycon.org/2013"
 - title: EN
   title_en: 中文
-  url: "/en/index.html"
-  url_en: "/index.html"
+  url: "en/index.html"
+  url_en: "index.html"
