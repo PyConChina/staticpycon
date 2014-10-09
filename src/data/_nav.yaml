@@ -33,11 +33,11 @@
   title_en: HISTORY
   children:
   - title: '2011'
-    url: "/2011"
+    url: "../2011"
   - title: '2012'
-    url: "/2012"
+    url: "../2012"
   - title: '2013'
-    url: "http://cn.pycon.org/2013"
+    url: "../2013"
 - title: EN
   title_en: 中文
   url: "en/index.html"
