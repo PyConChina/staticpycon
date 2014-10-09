@@ -5,8 +5,8 @@ from os.path import realpath, dirname, join, getmtime
 from os.path import exists as file_exists
 from os import listdir, makedirs
 from staticjinja import make_renderer
-from markdown import Markdown
 import yaml, re
+from copy import deepcopy
 
 PROJECT_DIR = realpath(dirname(__file__))
 SITE_DIR = join(PROJECT_DIR, "out")
@@ -15,24 +15,35 @@ ASSET_DIR = join(PROJECT_DIR, "src", "asset")
 ASSET_DIR_REl = "asset"
 DATA_DIR = join(PROJECT_DIR, "src", "data")
 
-def mdconv(markdown_source):
-    md = Markdown()
-    html_content = md.convert(markdown_source)
-    return html_content
-
 data_mtimes = {}
 data_table = {
     'cn' : {
+        'suffix'  : '_cn',
         'basedir' : "",
-        'pattern' : re.compile("_(\w+)\.cn\.yaml"),
-        'context' : { 'mdconv' : mdconv, 'lang' : 'cn' }
+        'context' : { 'lang' : 'cn' }
     },
     'en' : {
+        'suffix'  : '_en',
         'basedir' : 'en',
-        'pattern' : re.compile("_(\w+)\.en\.yaml"),
-        'context' : { 'mdconv' : mdconv, 'lang' : 'en' }
+        'context' : { 'lang' : 'en' }
     }
 }
+data_pattern = re.compile("_(\w+)\.yaml")
+
+def process_data(data, suffix):
+    if isinstance(data, list):
+        for v in data:
+            process_data(v, suffix)
+    elif isinstance(data, dict):
+        for k, v in data.iteritems():
+            if isinstance(v, list) or isinstance(v, dict):
+                process_data(v, suffix)
+            if k.endswith(suffix):
+                kn = k[:-len(suffix)]
+                if kn in data:
+                    data[kn] = v
+                else:
+                    print 'Warning: invalid attribute ', kn
 
 def load_data():
     for filename in listdir(DATA_DIR):
@@ -40,14 +51,15 @@ def load_data():
         filemtime = int(getmtime(filepath))
         if filepath in data_mtimes and filemtime == data_mtimes[filepath]:
             continue # skip unmodified file
-        for lang, v in data_table.iteritems():
-            match = v['pattern'].match(filename)
-            if match:
-                data_mtimes[filepath] = filemtime
-                entryname = match.group(1)
-                data = yaml.load(open(filepath))
-                v['context'][entryname] = data
-                break
+        match = data_pattern.match(filename)
+        if match:
+            data_mtimes[filepath] = filemtime
+            entryname = match.group(1)
+            data = yaml.load(open(filepath))
+            for lang, v in data_table.iteritems():
+                data_copy = deepcopy(data)
+                process_data(data_copy, v['suffix'])
+                v['context'][entryname] = data_copy
 
 def render_page(renderer, template, **context):
     load_data()

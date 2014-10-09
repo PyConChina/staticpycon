@@ -6,8 +6,16 @@ img.sponsor-gold, img.sponsor-silver, img.sponsor-bronze {
     padding: 5px;
 }
 
-.proposal-card {
-    height: 150px;
-    padding: 10px;
-    border: solid #CCC 1px;
+.proposal {
+    margin-top: 0px;
+    padding: 10px
+}
+.proposal img{
+    width: 64px;
+    height: 64px;
+}
+
+.volunteer img{
+    max-width: 80px;
+    max-height: 80px;
 }

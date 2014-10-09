@@ -20,7 +20,7 @@
             <h3>{{ sponsors_level }}</h3>
             {% for sponsor in some_sponsors %}
             <a href="{{ sponsor.link }}">
-                <img src="{{ sponsor.logo }}" alt="" class="sponsor-{{ sponsor.level }}"/>
+                <img src="{{ sponsor.logo }}" alt="" class="sponsor-{{ sponsor.level }} img-responsive"/>
             </a>
             <p>{{ sponsor.intro }}<p>
             {% endfor %}

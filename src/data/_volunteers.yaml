@@ -23,10 +23,26 @@
   weibo: http://weibo.com/rothcold
   github: https://github.com/rothcold
 -
-  name: ...
+  name: Coyote(陈伟晴)
+  role: technician
+  avatar: http://pyconcn.qiniudn.com/coyote/images/myphoto.png?imageView2/2/h/80
+  role_technician: 1
+  intro: 北京天融信 程序员; Python爱好者，网络安全初学者;崇尚菜鸟先飞,为pycon贡献微薄之力;
+  weibo: http://weibo.com/coytoe
+  github: https://github.com/chencoyote
+-
+  name: zijing07(赵紫晶)
   role: technician
   avatar: http://pyconcn.qiniudn.com/zoomquiet/2013/static/images/speakers/nopic.gif?imageView2/2/h/80
   role_technician: 1
-  intro: ...
-  weibo: http://weibo.com
-  github: https://github.com
+  intro: 同济大学软件学院研究生二年级；热爱Python，任何事情都想先用Python解决；热爱并善于与人交流，喜爱和人合作；喜欢了解各种技术，梦想计算机改善大家的生活。
+  weibo: http://weibo.com/coderzhao
+  github: https://github.com/zijing07
+-
+  name: Todd Gao
+  role: technician
+  avatar: http://ww3.sinaimg.cn/mw690/e382d508jw1el53ymgjgbg204j04j772.gif
+  role_technician: 1
+  intro: 研二学生，关注分布式计算相关领域，Python爱好者
+  intro_en: A graduate student, interested in distributed computing and related, Python lover.
+  github: https://github.com/7c00
