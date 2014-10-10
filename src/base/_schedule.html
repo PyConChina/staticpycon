@@ -3,9 +3,9 @@
     <tr>
     <td>{{ speech.time or "" }} </td>
     {% if speech.speaker %}
-    <td>{{ speech.topic or "" }} </td>
-    <td>{{ speech.speaker or "" }} </td>
-    <td>{{ speech.preview or "" }} </td>
+    <td style="width:30%;"><strong>{{ speech.topic or "" }}</strong></td>
+    <td style="width:5em;">{{ speech.speaker or "" }} </td>
+    <td class="text-left">{{ speech.preview or "" }} </td>
     {% else %}
     <td colspan="3">{{ speech.topic or "" }} </td>
     {% endif %}
