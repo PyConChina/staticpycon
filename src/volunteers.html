@@ -3,8 +3,6 @@
 
 {% block content %}
 
-<script src='https://jinshuju.net/f/v7N6kL/embedded.js?banner=show&height=1516'></script>
-
 {% if volunteers %}
     {# defination #}
     {% set organizer_volunteers = volunteers | selectattr("role_organizer") %}
@@ -16,14 +14,22 @@
     {% endmacro %}
     {% macro volunteer_list(some_volunteers) %}
         {% for volunteer in some_volunteers %}
-            <div class="volunteer">
-               <img src="{{ volunteer.avatar }}">
-               <span><strong>{{ volunteer.name }}</strong></span>
-               <p>{{ volunteer.intro }}</p>
-               {{ volunteer_link("github", volunteer.github) }}
-               {{ volunteer_link("weibo", volunteer.weibo) }}
-               {{ volunteer_link("blog", volunteer.blog) }}
+            <div class="col-xs-12 col-sm-6 media volunteer">
+                <a href="javascript:;" class="pull-left">
+                    <img src="{{ volunteer.avatar }}" alt="{{ volunteer.name }}"
+                        class="media-object img-circle"/>
+                </a>
+                <div class="media-body">
+                    <h3 class="media-heading">{{ volunteer.name }} </h3>
+                    <p>{{ volunteer.intro }}</p>
+                    {{ volunteer_link("github", volunteer.github) }}
+                    {{ volunteer_link("weibo", volunteer.weibo) }}
+                    {{ volunteer_link("blog", volunteer.blog) }}
+                </div>
             </div>
+            {% if loop.index is divisibleby(2) or loop.last %}
+                <div class="clearfix hidden-xs-block"></div>
+            {% endif %}
         {% endfor %}
     {% endmacro %}
     {# presentation #}
