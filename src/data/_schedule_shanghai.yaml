@@ -85,7 +85,7 @@ lt:
     preview: NSQ&Redis等组合拳快速实现移动社交产品动态流
     preview_en: Rapidly implement a mobile dynamic product flow using NSQ & Redis etc..
   - time: "17:00"
-    topic: ""
+    topic: "TBD"
     speaker: 罗志城
     speaker_en: 罗志城 (Luo Zhicheng)
     preview: 如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验.
