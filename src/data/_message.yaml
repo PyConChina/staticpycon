@@ -40,7 +40,19 @@ home_intro_en: >
   of <a href="https://www.python.org/psf/about/">Pyton Sofware Foundation</a>,
   this is the fourth year of <code>PyConChina</code>.
   It is organized by CPyUG/GDG/TopGeek,
-  and held simultaneously in <strong>Shanghai/Beijing/Zhuhai/Shenzhen</strong>!
+  and held simultaneously in <strong>Shanghai/Beijing/Zhuhai/Shenzhen</strong>!<ul>
+  <li><strong><a href="/en/proposals.html">Topic/Workshop Submit Entrance</a></strong></li>
+  <li>Tickets <ul>
+  <li>0RMB    Students, Enter the meeting for free with your student ID card.</li>
+  <li>100RMB  Normal, All gifts and lunch included. <b>Notice: Buy before 11.1 (Nov 1st)</b> for <b>50RMB</b></li>
+  <li>200RMB  Enterprise, Invoice included.</li>
+  </ul></li>
+  <li>Sign Up:<i>(Half day at Suzhou/Hangzhou, both for free)</i><ul>
+  <li><a href="http://19wu.com/PyConShanghai"/>Shanghai Sign Up Link</a></li>
+  <li><a href="http://19wu.com/PyConBeijing"/>Beijing Sign Up Link</a></li>
+  <li><a href="http://19wu.com/PyConZhuhai"/>Zhuhai Sign Up Link</a></li>
+  </ul></li>
+  </ul>
 home_sponsors: 大会赞助 
 home_sponsors_en: Sponsors 
 home_sponsors_wanted: <code>募集ing...</code>
