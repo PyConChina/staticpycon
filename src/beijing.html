@@ -1,6 +1,5 @@
 {% extends "base/_base.html" %}
-{% set titles = { "cn" : "北京日程", "en" : "Schedule in Beijing" } %}
-{% set page_title = titles[lang] %}
+{% set page_title = message.page_title_beijing %}
 
 {% block content %}
 {% if schedule_beijing %}

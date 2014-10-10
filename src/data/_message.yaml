@@ -1,3 +1,18 @@
+# titles for each page
+page_title_index: 首页
+page_title_index_en: HOME
+page_title_beijing: 北京日程
+page_title_beijing_en: Schedule in Beijing
+page_title_proposals: 报名
+page_title_proposals_en: Proposals
+page_title_shanghai: 上海日程
+page_title_shanghai_en: Schedule in Shanghai
+page_title_sponsors: 赞助
+page_title_sponsors_en: Sponsors
+page_title_volunteers: 志愿
+page_title_volunteers_en: Volunteers
+page_title_zhuhai: 珠海日程
+page_title_zhuhai_en: Schedule in Zhuhai
 # home
 home_title: PyCon2014China 来了!
 home_title_en: PyCon2014China is Coming!
