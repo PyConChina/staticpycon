@@ -1,61 +1,92 @@
 address: 上海市浦东新区博云路2号
+address_en: No.2 Boyun Road, Pudong District
 venue: 浦软大厦2F
+venue: 2F at Pudong Software Park
 traffic: 地铁二号线金科路站
+traffic_en: Metro Line 2, Jinke Road Station
 notices:
 am:
   - time: "09:00"
     topic: "签到 & 开场"
+    topic_en: "Check-In & Opening"
     speaker:
     preview:
   - time: "10:00"
     topic: OpenERP 再说
+    topic_en: Review on OpenERP
     speaker: 王剑峰
+    speaker_en: 王剑峰 (Wang Jianfeng)
     preview:  汇报这年 OpenERP 的发展
+    preview_en: Talking about the developement of OpenERP in this year
   - time: "10:40"
     topic: "进程,线程,协程,同步,异步,回调."
+    topic_en: "Process, Thread, Coroutine, Synchronization, Asynchronization, Callback"
     speaker: 许智翔
+    speaker_en: 许智翔 (Xu Zhixiang)
     preview: "进程,线程,协程,同步,异步,回调."
+    preview_en: "Process, Thread, Coroutine, Synchronization, Asynchronization, Callback"
   - time: "11:20"
     topic: Django应该怎么用?!
+    topic_en: The right way to use Django?!
     speaker: Adieu 
-    preview: 看到国内用Django的同学越来越多,但是缺少必要的指导,想分享一下我用Django过程中积累的一些经验. 大概的框架可以参考 http://www.zhihu.com/question/21790279/answer/19377135 
+    preview: 看到国内用Django的同学越来越多,但是缺少必要的指导,想分享一下我用Django过程中积累的一些经验. 大概的框架可以参考 http://www.zhihu.com/question/21790279/answer/19377135
+    preview_en: With the increasing number of Django users, I want to share my experience during Django development. Outline reference http://www.zhihu.com/question/21790279/answer/19377135
 noon:
   - time: "12:00"
     topic: 午餐+合照
+    topic_en: Lunch + Photo
     speaker:
     preview:
 pm:
   - time: "13:00"
     timespan: 45'
     topic: 花蓮.py 社区体验
+    topic_en: http://hualien.python.org.tw - Community Experience
     speaker: 魏泽人
+    speaker_en: 魏泽人 (Wei Zeren)
     preview: 我的开源体验，如何在没有人用 Python 的偏乡，建立 Python 社区的一些小小经验。 这三四年参与开源社区活动，并尝试将从社区学到的经验，回馈到地方。
+    preview_en: Mainly about my open source experience, focusing on how to set up a Python community in a countryside place where nearly nobody uses Python. Besides, by taking part in activities held by open source communities, I try my best to share my experience with others and help them.
   - time: "13:50"
     topic: 用不好MySQL的Python工程师不是优秀的NoSQL专家
+    topic_en: A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL
     speaker: KJ
     preview: 用不好MySQL的Python工程师不是优秀的NoSQL专家
+    preview_en: A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL.
   - time: "14:30"
     topic:   How CODE works
     speaker: 徐涛
-    preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy.  CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验. 
+    speaker_en: 徐涛 (Xu Tao)
+    preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy.  CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验.
+    preview_en: Introduce how douban.com manages codes using CODE, a copy of Github. CODE is developed by Python, the lecture will mainly focus on the implementation of CODE, and experience during the development process.
   - time: "15:10"
     topic: 用Python搭建RPC framework
+    topic_en: Construct RPC framework using Python
     speaker: 叶剑烨
+    speaker_en: 叶剑烨 (Ye Jianye)
     preview: 可以和大家分享一下在Glow里我们是如何用Python编写各种Web Services,以及各个Services之间是如何通信的. 不过如果本届PyCon上的技术类话题太多,我也可以聊一些创业相关的话题(具体内容还没
+    preview_en: How we implement a variety of Web Services with Python in Glow, and how Services communicate with each other. If there is time, we can have a salon about start-up.
   - time: "15:50"
     topic: TBD
     speaker: 黄冬
+    speaker_en: 黄冬 (Huang Dong)
     preview: TBD
   - time: "16:10"
     topic: why python is slow, python runtime compared with other languages
-    speaker: 王震  
-    preview: 为什么我们会觉得Python的运行时效率是个问题，那么和其他的语言相比python 的运行时究竟有何不同呢？ 如果说python得执行效率较低的话低在什么地方？ python的效率问题应该如何对待 
+    speaker: 王震
+    speaker_en: 王震 (Wang Zhen)
+    preview: 为什么我们会觉得Python的运行时效率是个问题，那么和其他的语言相比python 的运行时究竟有何不同呢？ 如果说python得执行效率较低的话低在什么地方？ python的效率问题应该如何对待
+    preview: Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?
 lt:
   - time: "16:50"
     topic: NSQ&Redis等组合拳快速实现移动社交产品动态流
-    speaker: 李飞林 
+    topic_en: Rapidly implement a mobile dynamic product flow using NSQ & Redis etc..
+    speaker: 李飞林
+    speaker_en: 李飞林 (Li Feilin)
     preview: NSQ&Redis等组合拳快速实现移动社交产品动态流
+    preview_en: Rapidly implement a mobile dynamic product flow using NSQ & Redis etc..
   - time: "17:00"
     topic: ""
     speaker: 罗志城
+    speaker_en: 罗志城 (Luo Zhicheng)
     preview: 如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验.
+    preview_en: How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers.
