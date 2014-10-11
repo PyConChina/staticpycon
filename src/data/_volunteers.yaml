@@ -35,7 +35,8 @@
   role: technician
   avatar: http://avatar-ludwig.qiniudn.com/p.png
   role_technician: 1
-  intro: 同济大学软件学院研究生二年级；热爱Python，任何事情都想先用Python解决；热爱并善于与人交流，喜爱和人合作；喜欢了解各种技术，梦想计算机改善大家的生活。
+  intro: 院研究生二年级；热爱Python，任何事情都想先用Python解决；热爱并善于与人交流，喜爱和人合作；喜欢了解各种技术，梦想计算机改善大家的生活。
+  intro_en: Graduate Student, keen on Python, try to solve everything via Python; Feeling like and good at communication, happy to collaborate with others. Wish computer make life better.
   weibo: http://weibo.com/coderzhao
   github: https://github.com/zijing07
 -

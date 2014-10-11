@@ -63,7 +63,7 @@ pm:
     preview_en: Techniques related to front end changes from time to time, javascript is hard to use, so is html. Besides, it is extremely hard to make your website support countless terminal. Now, use python, you can eaily create your powerful and supportive page.
   - time:  "~ 15:00"
     topic: 花蓮.py 社区体验
-    topic_en: 花蓮.py community story
+    topic_en: 花蓮.py community story (hualien.python.org.tw)
     speaker:  魏泽人
     speaker_en: 魏泽人 (weijr)
     preview: (从台湾网络直播)如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
