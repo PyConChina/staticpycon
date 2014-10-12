@@ -15,6 +15,14 @@
   blog: http://blog.zoomquiet.io/
   weibo: http://weibo.com/zoomquiet
 -
+  name: Eric Lo(罗小能)
+  role: organizer
+  role_organizer: 1
+  avatar: http://pyconcn.qiniudn.com/images/volunteer/lxneng.jpg
+  intro: "从2008年开始使用Python并喜欢上Python, 活跃于沪上各类线下技术社区, 同时参与组织TopGeek和PMCamp社区, 目前就职于上海菜根科技有限公司。"
+  blog: http://lxneng.com
+  weibo: http://weibo.com/lxneng
+-
   name: Rothcold(方舟)
   role: organizer
   role_organizer: 1
