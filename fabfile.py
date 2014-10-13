@@ -4,7 +4,7 @@ import os
 
 # Local path configuration (can be absolute or relative to fabfile)
 #env.input_path = 'docs'
-env.deploy_path = 'site'
+env.deploy_path = 'out'
 DEPLOY_PATH = env.deploy_path
 
 env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
@@ -15,6 +15,55 @@ local_settings = os.path.expanduser(
     os.path.join(os.path.dirname(__file__), 'local_settings.py'))
 if os.path.exists(local_settings):
     execfile(local_settings)
+
+def put7niu():
+    local('cd {qiniu_path} && '
+            'pwd && '
+            'python gen4idx.py ./ footer-7niu.html 2014 && '
+            '{qiniu} -skipsym {qiniu_conf}&& '
+            'pwd '.format(**env)
+          )
+
+#   141013 ZQ appended new actions for pub. through gitcafe-pages
+'''depend on:
+0. ACL for https://gitcafe.com/PyConChina/PyConChina
+1. re-link staticpycon/out -> ../7niu.pyconcn/2014/
+2. editor ../7niu.pyconcn/2014/.git/config appended like
+...
+
+[remote "cafe"]
+    url = git@gitcafe.com:PyConChina/PyConChina.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "gitcafe-pages"]
+    remote = cafe
+    merge = refs/heads/gitcafe-pages
+...
+
+confirmed all OK this flow:
+
+- fixed some src/data/*.md 
+- python bin/gen.py
+- cd out
+- git ci -am "commit log some"
+- git pu
+
+so the daily working just:
+
+    $ fab pub2cafe
+
+'''
+def build():
+    local('python bin/gen.py')
+
+def pub2cafe():
+    build()
+    local('cd {deploy_path} && '
+            'git status && '
+            'git add . && '
+            'git commit -am \'upgraded from local. by StaticPyCon\' && '
+            'git push '.format(**env)
+          )
+
 
 # Remote server configuration
 #production = 'root@localhost:22'
@@ -42,15 +91,6 @@ if os.path.exists(local_settings):
 
 #def preview():
 #    local('pelican -s publishconf.py')
-
-def put7niu():
-    local('cd {qiniu_path} && '
-            'pwd && '
-            'python gen4idx.py ./ footer-7niu.html 2014 && '
-            '{qiniu} -skipsym {qiniu_conf}&& '
-            'pwd '.format(**env)
-          )
-
 
 #def cf_upload():
 #    rebuild()
@@ -82,4 +122,3 @@ def put7niu():
 #        run('git add . ')
 #        run("git ci -am 'upgraded in local.' " )
 #        run("git pu cafe gitcafe-page" )
-

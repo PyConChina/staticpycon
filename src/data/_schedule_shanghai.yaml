@@ -38,7 +38,7 @@ noon:
     speaker:
     preview:
 pm:
-  - time: "13:00"
+  - time: "14:30~15:00"
     timespan: 45'
     topic: 花蓮.py 社区体验
     topic_en: http://hualien.python.org.tw - Community Experience
