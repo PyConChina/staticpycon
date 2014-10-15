@@ -111,14 +111,16 @@ def pub2cafe():
 #    )
 
 # Remote server configuration
-#   deploy in obp hosting
-#env.hosts = ['cn.pycon.org']
-#env.port = 9022
-#env.user = 'pycon'
-#code_dir = '/opt/www/PyChina'
+#   deploy for upstream pycon-statics hosts
+env.hosts = ['obp:9022'
+    , 'root@PyConSS1'
+    , 'root@PyConSS3'
+    ]
+env.out_dir = '/opt/www/PyConChina/'
 
-#def pub2cafe():
-#    with cd('{deploy_path}'.format(**env)):
-#        run('git add . ')
-#        run("git ci -am 'upgraded in local.' " )
-#        run("git pu cafe gitcafe-page" )
+def sync2upstreams():
+    with cd('{out_dir}'.format(**env)):
+        run('uname -a')
+        run('pwd')
+        run("git status" )
+        run("git pull" )
