@@ -17,7 +17,7 @@ page_title_zhuhai_en: Schedule in Zhuhai
 home_title: PyCon2014China 来了!
 home_title_en: PyCon2014China is Coming!
 home_intro: > 
-  世界Pythoneer 的品牌盛会PyCon! 
+  世界 <a href="volunteers.html#pythoneer">Pythoneer</a> 的品牌盛会PyCon! 
   由<a href="https://www.python.org/psf/about/">Python软件基金会</a>下的
   <strong><a href="http://PyCon.org">PyCon.org</a></strong>授权中国举办
   第四届 PyConChina 大会. 本次大会由CPyUG,GDG,TopGeek在
@@ -35,7 +35,7 @@ home_intro: >
   </ul></li>
   </ul>
 home_intro_en: > 
-  PyCon, the party of world-wide pythoneers!
+  PyCon, the party of world-wide <a href="volunteers.html#pythoneer">Pythoneer</a>!
   Authorized by <strong><a href="http://PyCon.org">PyCon.org</a></strong>
   of <a href="https://www.python.org/psf/about/">Pyton Sofware Foundation</a>,
   this is the fourth year of <code>PyConChina</code>.
@@ -134,6 +134,8 @@ sponsors_bronze_en: Bronze
 # volunteers
 volunteers: 志愿者们
 volunteers_en: Volunteers
+pythoneer: <b><A NAME="anchor">pythoneer</a></b> ~ <sub>"A pioneer within the Python programming language community."</sub> 即, Pythoneer 是更加专业的 Pythonista, Pythoner 是最基础的 Python 用户.
+pythoneer_en: <b><A NAME="anchor">pythoneer</a></b> ~ "A pioneer within the Python programming language community." means, Pythoneer COOL than Pythonista, btw Pythoner just Python beginner.
 organizers: 组织者
 organizers_en: Coordinators
 technicians: 技术组
