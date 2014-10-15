@@ -1,9 +1,9 @@
 address: 上海市浦东新区博云路2号
-address_en: No.2 Boyun Road, Pudong District
+address_en: "No.2 Boyun Road, Pudong, Shanghai"
 venue: 浦软大厦2F
-venue: 2F at Pudong Software Park
+venue_en: 2F at Pudong Software Park
 traffic: 地铁二号线金科路站
-traffic_en: Metro Line 2, Jinke Road Station
+traffic_en: Jinke Road Station at Metro Line 2
 notices:
 am:
   - time: "09:00"

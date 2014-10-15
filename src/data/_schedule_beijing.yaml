@@ -1,9 +1,9 @@
 address: 中国科学院中关村园区教学楼
-address_en: TBD
+address_en: "Teaching Building at Zhongguancun Campus, CAS"
 venue: S201教室
-venue_en: TBD
+venue_en: Room S201
 traffic: (北四环保福寺桥南恒兴大厦向西200米) 
-traffic_en: TBD
+traffic_en: "(near Hengxing Building, Baofusi Bridge)"
 notices:
 am:
   - time: "09:00"
@@ -32,7 +32,6 @@ noon:
     preview:
 pm:
   - time: "14:30~15:00 !!!"
-    timespan: 45'
     topic: 花蓮.py 社区体验
     topic_en: 花蓮.py community story (hualien.python.org.tw)
     speaker: 魏泽人
