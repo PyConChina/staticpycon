@@ -81,3 +81,17 @@ lt:
     speaker_en: 杨林 (Yang Lin)
     preview: 是一个用python开发的redis集群管理工具,用redis-mgr可以快速(10min)搭建一个由redis/twemproxy/redis-sentinel 构成的redis 集群.   功能包括 一键式部署, failover, 监控, 实例迁移, 模块升级等.  github.com/idning/redis-mgr
     preview_en: redis-mgr is a cluster management tool. A redis cluster can be set up in 10 min with redis-mgr, consisting of redis/twemproxy/redis-sentinel. Features are quick deployment, failover, monitor, instance migrate, module update.  github.com/idning/redis-mgr
+  - time: ""
+    topic: https://github.com/binux/pyspider 爬虫框架介绍
+    topie_en: https://github.com/binux/pyspider Introduction to Web cawler framework
+    speaker: binux
+    preview: 两种无需编写代码的结构化数据抽取（http://blog.binux.me/2014/07/how-to-extract-data-from-web/ 中介绍的 data highlighter 和 自动模板生成与提取）演示
+    preview_en: Two demos about extract structural data without programming code.(data highlighter in http://blog.binux.me/2014/07/how-to-extract-data-from-web/  AND  generation and extraction via automatic template)
+  - time: ""
+    topic: Python与机器人
+    topie_en: Python and Robot
+    speaker: 刘晓明
+    speaker_en: 刘晓明 (Liu Xiaoming)
+    preview: Python在机器人技术中的优势与应用
+    preview_en: The advantages and application of Python in robot field
+
