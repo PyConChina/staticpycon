@@ -1,3 +1,6 @@
+#########################################
+#   钻石级
+#########################################
 -
   level_diamond: 1
   level: diamond
@@ -5,6 +8,9 @@
   link: http://www.google.com
   intro: Google是一家以提供搜索服务,并向企业客户提供广告服务为重点的盈利公司. Google以其搜索迅速,准确,容易使用等特点,被公认为是世界最佳搜索引擎.
   intro_en: Google is an American multinational corporation specializing in Internet-related services and products. These include online advertising technologies, search, cloud computing, and software.
+#########################################
+#   白金级
+#########################################
 -
   level_platinum: 1
   level: platinum
@@ -12,6 +18,9 @@
   link: http://www.speedycloud.cn/
   intro: SpeedyCloud是业界领先的云计算服务提供商迅达云成公司旗下品牌,专注于为企业提供互联网及企业IT相关基础设施云服务. 公司成员绝大多数来自于蓝汛,世纪互联等IT运维服务型上市企业, 利用最新的云计算及互联网技术帮助客户迅速扩展在线业务.
   intro_en: SpeedyCloud is the IaaS brand owned by Beijing SpeedyCloud Technology Co., Ltd.,, who is one of the leaders in cloud industry.The company was setup in 2012, with the capital of 10 million RMB invested all by ourselves.Being the general solution provider,  our focus is to provide IaaS for Internet and enterprises companies. Most of the team came from public IT operating and service companies like ChinaCache, 21ViaNet, etc. We are helping our customers with the most cutting-edge cloud computing technologies to expand their online businesses. 
+#########################################
+#   黄金级
+#########################################
 -
   level_gold: 1
   level: gold
@@ -60,6 +69,9 @@
   link: https://www.upyun.com/index.html
   intro: 又拍云存储是杭州又拍云科技有限公司旗下项目，成立于2005年6月，前期主要为又拍网、又拍图片管家提供图片云存储／云计算服务，于2010年2月对所有用户开放使用。
   intro_en: upyun cloud storage is hangzhou youpai technology co., LTD's project, was founded in June 2005, the early main take yupoo.com, and v.yupoo.com , in February 2010 is open to all users to use.
+#########################################
+#   白银级
+#########################################
 -
   level_silver: 1
   level: silver
@@ -67,6 +79,9 @@
   link: https://coding.net/home.html
   intro: Coding 是一个面向开发者的云端开发平台，目前提供代码托管，运行空间，质量控制，项目管理等功能。Coding 提供社会化协作功能，包含了社交元素，为开发者提供技术讨论和协作平台。
   intro_en: Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform.
+#########################################
+#   青铜级
+#########################################
 -
   level_bronze: 1
   level: bronze

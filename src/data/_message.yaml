@@ -1,4 +1,6 @@
+#########################################
 # titles for each page
+#########################################
 page_title_index: 首页
 page_title_index_en: HOME
 page_title_beijing: 北京日程
@@ -13,7 +15,9 @@ page_title_volunteers: 志愿
 page_title_volunteers_en: Volunteers
 page_title_zhuhai: 珠海日程
 page_title_zhuhai_en: Schedule in Zhuhai
+#########################################
 # home
+#########################################
 home_title: PyCon2014China 来了!
 home_title_en: PyCon2014China is Coming!
 home_intro: > 
@@ -76,8 +80,12 @@ home_sponsors_hint_en: >
   <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">
   PyCon2014China-PersonSponsor-v140711.pdf</a></li>
   </ul>
+#########################################
 # proposal
+#########################################
+#########################################
 # schedule
+#########################################
 schedule: 议程
 schedule_en: Schedule
 address: 地址
@@ -110,7 +118,9 @@ donators: 蠎人赞助
 donators_en: Personal Sponsorship
 donators_orderby: (按捐助达成时间排序)
 donators_orderby_en: (sorted by time of sponsorship)
+#########################################
 # sponsor
+#########################################
 sponsors: 赞助商
 sponsors_en: SPONSORS
 sponsors_hint: >
@@ -135,7 +145,9 @@ sponsors_silver: 白银
 sponsors_silver_en: Silver
 sponsors_bronze: 青铜
 sponsors_bronze_en: Bronze
+#########################################
 # volunteers
+#########################################
 volunteers: 志愿者们
 volunteers_en: Volunteers
 pythoneer: <b><A NAME="anchor">pythoneer</a></b> ~ <sub>"A pioneer within the Python programming language community."</sub> 即, Pythoneer 是更加专业的 Pythonista, Pythoner 是最基础的 Python 用户.
