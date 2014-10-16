@@ -1,10 +1,11 @@
 address: 珠海吉大 景山路 莲山巷8号 金山软件大厦
 address_en: Jinshan Software Building, No.8 Lianshan Road, Jingshan road, Xiangzhou, Zhuhai
-venue: 待定
-venue_en: To be decided
+venue: 一层会议厅
+venue_en: Floor 1 Meet Hall
 traffic: 珠海中天酒店对面,工商银行隔壁；4路,9路,K10路,13路,22路,23路,26路,99路 到水湾北下,即见!坐船,到九洲港下; 城铁到终点 拱北站下; TEXI 13元即达!
 traffic_en: Line 4, 9, K10, 13, 22, 23, 26, 99 at North Shuiwan Station; By ship, Jiu Zhou Port; Subway, Gong Bei Station; Taxi, RMB 13
-notices:
+notices: Lightning Talking ~ 闪电演讲使用极限模式/ 中午报名,每节10分钟,不用幻灯,到点下台!
+date: 2014-11-15 09:00~18:05
 am:
   - time: "09:00-09:30"
     topic: 签到
@@ -99,11 +100,44 @@ pm:
     speaker_en: 龙利民 (longlimin)
     preview: 在大数据实时统计系统架构过程中,必然的遇到了海量任务队列的分布式储存问题;分享如何一步步,用合适的开源系统升级架构,到最后,基于开源产品,完成原创系统的体验.
     preview_en: 在大数据实时统计系统架构过程中,必然的遇到了海量任务队列的分布式储存问题;分享如何一步步,用合适的开源系统升级架构,到最后,基于开源产品,完成原创系统的体验.
+  - time: "~ 17:15 "
+    topic: 间歇
+    topic_en: Intermission
+    speaker:
+    preview:
 lt:
-  - time: "~ 18:15" 
+  - time: "~ 17:25" 
     topic: Maker 中的 Pythonic
     topic_en: Pythonic in Maker
     speaker: 王安宇
     speaker_en: 王安宇 (Wang Anyu)
     preview: 移动互联网下智能硬件是一个绕不开的话题,开源硬件给移动互联网带来了很大的想象空间,也让更多人可以参与移动互联网---尤其是程序员. 针对目前开源硬件的现状,流行的平台模块和应用案例给大家做分享交流,希望给各路饥渴的程序员一些新的思路和启发
     preview_en: Intelligent hardware is an inevitable topic in mobile network time, open source hardware has brought huge develop space for internet, and make it possible for a lot of people, especially programmers, to join the whole IT. Share the knowledge about popular platform module and application case, wish to help all come up with new ideas.
+  - time: "~ 17:35" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.
+  - time: "~ 17:45" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.
+  - time: "~ 17:55" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.
+  - time: "~ 18:05" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.

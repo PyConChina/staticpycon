@@ -31,9 +31,6 @@ def put7niu():
 2. editor ../7niu.pyconcn/2014/.git/config appended like
 ...
 
-[remote "cafe"]
-    url = git@gitcafe.com:PyConChina/PyConChina.git
-    fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "gitcafe-pages"]
     remote = cafe
     merge = refs/heads/gitcafe-pages
@@ -61,66 +58,24 @@ def pub2cafe():
             'git status && '
             'git add . && '
             'git commit -am \'upgraded from local. by StaticPyCon\' && '
-            'git push '.format(**env)
+            'git push origin gitcafe-pages'.format(**env)
           )
-
-
-# Remote server configuration
-#production = 'root@localhost:22'
-#dest_path = '/var/www'
-
-#def clean():
-#    if os.path.isdir(DEPLOY_PATH):
-#        local('rm -rf {deploy_path}/*'.format(**env))
-#        #local('mkdir {deploy_path}'.format(**env))
-#    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
-
-#def build():
-#    local('mkdocs build')
-
-#def rebuild():
-#    clean()
-#    build()
-
-#def regenerate():
-#    local('pelican -r -s pelicanconf.py')
-#
-#def serve():
-#    local('python app.py')
-
-
-#def preview():
-#    local('pelican -s publishconf.py')
-
-#def cf_upload():
-#    rebuild()
-#    local('cd {deploy_path} && '
-#          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-#          '-U {cloudfiles_username} '
-#          '-K {cloudfiles_api_key} '
-#          'upload -c {cloudfiles_container} .'.format(**env))
-
-#@hosts(production)
-#def publish():
-#    local('pelican -s publishconf.py')
-#    project.rsync_project(
-#        remote_dir=dest_path,
-#        exclude=".DS_Store",
-#        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-#        delete=True
-#    )
 
 # Remote server configuration
 #   deploy for upstream pycon-statics hosts
-env.hosts = ['obp:9022'
-    , 'root@PyConSS1'
-    , 'root@PyConSS3'
-    ]
+env.roledefs = {
+        'smirrors': ['obp:9022'
+            , 'root@PyConSS1'
+            , 'root@PyConSS3'
+            ]
+    }
 env.out_dir = '/opt/www/PyConChina/'
 
+@roles('smirrors')
 def sync2upstreams():
     with cd('{out_dir}'.format(**env)):
         run('uname -a')
         run('pwd')
         run("git status" )
         run("git pull" )
+

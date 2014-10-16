@@ -4,7 +4,8 @@ venue: S201教室
 venue_en: Room S201
 traffic: (北四环保福寺桥南恒兴大厦向西200米) 
 traffic_en: "(near Hengxing Building, Baofusi Bridge)"
-notices:
+date: 2014-11-15 09:00~18:00
+notices: ...
 am:
   - time: "09:00"
     topic: "签到 & 开场"

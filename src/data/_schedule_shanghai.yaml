@@ -4,6 +4,7 @@ venue: 浦软大厦2F
 venue_en: 2F at Pudong Software Park
 traffic: 地铁二号线金科路站
 traffic_en: Jinke Road Station at Metro Line 2
+date: 2014-11-15 09:00~18:00
 notices:
 am:
   - time: "09:00"
