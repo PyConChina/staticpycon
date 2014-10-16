@@ -50,6 +50,12 @@
 -
   level_gold: 1
   level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/180
+  link: http://www.ituring.com.cn
+  intro: 图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销技术图书,是国内计算机图书著名的有影响力的出版单位之一,成立九年以来,图书累积销售500多万册,影响了上百万的读者. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内著名的专业的IT技术"交流+阅读"社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成长为国内知名科技电子书销售平台.
+-
+  level_gold: 1
+  level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/upyun-Logo-h200.png?imageView2/2/w/180
   link: https://www.upyun.com/index.html
   intro: 又拍云存储是杭州又拍云科技有限公司旗下项目，成立于2005年6月，前期主要为又拍网、又拍图片管家提供图片云存储／云计算服务，于2010年2月对所有用户开放使用。
@@ -89,3 +95,9 @@
   link: http://www.qisense.com/
   intro: 七感科技 (Qisense) 将复杂的数据简单化，旨在从海量数据中智能提炼重要信息。我们利用高级数学理论和统计模型进行分析计算，通过数据可视化向用户推送及时的，有价值的，并且可执行的商业情报。
   intro_en: Qisense can simplifying complex data , Aimed at intelligent extract important information from the huge amounts of data. We use advanced mathematical theory and statistical models for analysis and calculation, To the user through data visualization push timely and valuable, executable business intelligence.
+-
+  level_bronze: 1
+  level: bronze
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/ptpress_logo-blue.png?imageView2/2/w/160
+  link: http://www.ptpress.com.cn
+  intro: 人民邮电出版社是工业和信息化部主管的大型专业出版社,成立于1953年10月1日. 2003年被中央确定为文化体制改革第一批试点单位. 60多年来,人民邮电出版社坚持"立足信息产业,面向现代社会,传播科学知识,服务科教兴国,为走中国特色新型工业化道路服务"的出版宗旨,锐意改革探索,不断发展壮大,已成为集图书,期刊,音像电子出版物和网络出版于一体的,在国内外具有专业特色和品牌影响的综合性科技出版大社. 
