@@ -37,7 +37,7 @@ pm:
     topic_en: 花蓮.py community story (hualien.python.org.tw)
     speaker: 魏泽人
     speaker_en: 魏泽人 (weijr)
-    preview: 我的开源体验，如何在没有人用 Python 的偏乡，建立 Python 社区的一些小小经验。 这三四年参与开源社区活动，并尝试将从社区学到的经验，回馈到地方。
+    preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方. 
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
   - time: ""
     topic: "工作坊"
@@ -73,7 +73,7 @@ lt:
     topic_en: QPython - Python on Android
     speaker: 曲池峰
     speaker_en: 曲池峰 (Qu Chifeng)
-    preview: 介绍QPython，如何在手机和平板上写Python程序，在手机上用Python写出实用的脚本程序，随时随地写程序。
+    preview: 介绍QPython,如何在手机和平板上写Python程序,在手机上用Python写出实用的脚本程序,随时随地写程序. 
     preview_en: Introduce QPython. How to write useful Python on phone and tablet.
   - time: ""
     topic: redis-mgr 介绍
@@ -86,7 +86,7 @@ lt:
     topic: https://github.com/binux/pyspider 爬虫框架介绍
     topie_en: https://github.com/binux/pyspider Introduction to Web cawler framework
     speaker: binux
-    preview: 两种无需编写代码的结构化数据抽取（http://blog.binux.me/2014/07/how-to-extract-data-from-web/ 中介绍的 data highlighter 和 自动模板生成与提取）演示
+    preview: 两种无需编写代码的结构化数据抽取(http://blog.binux.me/2014/07/how-to-extract-data-from-web/ 中介绍的 data highlighter 和 自动模板生成与提取)演示
     preview_en: Two demos about extract structural data without programming code.(data highlighter in http://blog.binux.me/2014/07/how-to-extract-data-from-web/  AND  generation and extraction via automatic template)
   - time: ""
     topic: Python与机器人

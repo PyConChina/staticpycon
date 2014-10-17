@@ -26,7 +26,7 @@
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/cmcm-logo.png?imageView2/2/w/200
   link: http://www.cmcm.com
-  intro: 猎豹移动致力为全球用户提供更快速,更简单,更安全的网络及行动上网体验. 截止到2014年2月，猎豹移动拥有了超过3亿4千万的月活跃用户，旗下的产品品牌包括：Clean Master, CM Security, Battery Doctor 和Duba Anti-virus,为全球用户的移动互联网提供了更加快速、便捷并且安全的体验。根据 iResearch统计，截止到2014年2月，按照月活跃用户数量计算，猎豹移动已然是中国第二大互联网安全软件厂商。同时，根据App Annie的统计，在2014年3月，Clean Master已经是Google Play全球工具类别月下载排名第一位的app。
+  intro: 猎豹移动致力为全球用户提供更快速,更简单,更安全的网络及行动上网体验. 截止到2014年2月,猎豹移动拥有了超过3亿4千万的月活跃用户,旗下的产品品牌包括:Clean Master, CM Security, Battery Doctor 和Duba Anti-virus,为全球用户的移动互联网提供了更加快速,便捷并且安全的体验. 根据 iResearch统计,截止到2014年2月,按照月活跃用户数量计算,猎豹移动已然是中国第二大互联网安全软件厂商. 同时,根据App Annie的统计,在2014年3月,Clean Master已经是Google Play全球工具类别月下载排名第一位的app. 
   intro_en: Cheetah Mobile is a leading mobile internet company with more than 340 million monthly active users as of February 2014. Its mission critical applications, including Clean Master, CM Security, Battery Doctor and Duba Anti-virus, help make the internet and mobile experience speedier, simpler, and safer for users worldwide. Cheetah Mobile is the second largest internet security software provider in China by monthly active users as of February 2014, according to iResearch, and the publisher of Clean Master, the NO.1 mobile app in the Google Play Tools category worldwide by monthly downloads in March 2014, according to App Annie.
 -
   level_gold: 1
@@ -54,7 +54,7 @@
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/qiniu-logo.png?imageView2/2/h/80
   link: http://www.qiniu.com/
-  intro: 七牛云存储由国内存储行业的领军人物之一许式伟于2011年创立，致力于提供最适合开发者的数据在线托管、传输加速以及云端处理的服务。
+  intro: 七牛云存储由国内存储行业的领军人物之一许式伟于2011年创立,致力于提供最适合开发者的数据在线托管,传输加速以及云端处理的服务. 
   intro_en: qiniu cloud storage by domestic industry one of the leading Xu Shiwei was founded in 2011, Committed to providing the most suitable for developers of online hosting, transmission speed, and the cloud data processing services.
 -
   level_gold: 1
@@ -67,7 +67,7 @@
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/upyun-Logo-h200.png?imageView2/2/w/180
   link: https://www.upyun.com/index.html
-  intro: 又拍云存储是杭州又拍云科技有限公司旗下项目，成立于2005年6月，前期主要为又拍网、又拍图片管家提供图片云存储／云计算服务，于2010年2月对所有用户开放使用。
+  intro: 又拍云存储是杭州又拍云科技有限公司旗下项目,成立于2005年6月,前期主要为又拍网,又拍图片管家提供图片云存储／云计算服务,于2010年2月对所有用户开放使用. 
   intro_en: upyun cloud storage is hangzhou youpai technology co., LTD's project, was founded in June 2005, the early main take yupoo.com, and v.yupoo.com , in February 2010 is open to all users to use.
 #########################################
 #   白银级
@@ -77,7 +77,7 @@
   level: silver
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/h/70
   link: https://coding.net/home.html
-  intro: Coding 是一个面向开发者的云端开发平台，目前提供代码托管，运行空间，质量控制，项目管理等功能。Coding 提供社会化协作功能，包含了社交元素，为开发者提供技术讨论和协作平台。
+  intro: Coding 是一个面向开发者的云端开发平台,目前提供代码托管,运行空间,质量控制,项目管理等功能. Coding 提供社会化协作功能,包含了社交元素,为开发者提供技术讨论和协作平台. 
   intro_en: Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform.
 #########################################
 #   青铜级
@@ -87,7 +87,7 @@
   level: bronze
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/mudou-logo.png?imageView2/2/w/160
   link: http://www.modouwifi.com/
-  intro: 魔豆路由器是果壳电子于2014年6月5日发布的一款智能无线路由器。其配备了一块2.4英寸触控屏，用户可以通过这块屏幕，实现监控上网流量和设备状况，修改WiFi密码等功能。
+  intro: 魔豆路由器是果壳电子于2014年6月5日发布的一款智能无线路由器. 其配备了一块2.4英寸触控屏,用户可以通过这块屏幕,实现监控上网流量和设备状况,修改WiFi密码等功能. 
   intro_en: Modou wifi is GEAK released on June 5, 2014, a smart wireless router. It is equipped with a 2.4 -inch touch screen, the user can through the screen, to realize to monitor Internet traffic and equipment status, modify the WiFi password and etc..
 -
   level_bronze: 1
@@ -101,14 +101,14 @@
   level: bronze
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/duitang-logo.png?imageView2/2/h/60
   link: http://www.duitang.com/
-  intro: 堆糖,堆积生活中的一切美好，帮你收集和组织你喜欢的图片与物品。你可以用堆糖收集网络上你喜欢的图片和商品，保存你的设计灵感、计划你的旅行、准备你的换季购物清单, 而这一切只需要你动动鼠标，开始使用堆糖。
+  intro: 堆糖,堆积生活中的一切美好,帮你收集和组织你喜欢的图片与物品. 你可以用堆糖收集网络上你喜欢的图片和商品,保存你的设计灵感,计划你的旅行,准备你的换季购物清单, 而这一切只需要你动动鼠标,开始使用堆糖. 
   intro_en: Duitang means to collect all the good things in life, It can help you collect and organize your favorite photos and articles. You can use duitang collect picture you like on the network and goods, save your design inspiration, plan your trip, prepare your seasonal shopping list, And all this only need to click your mouse begin to use duitang.
 -
   level_bronze: 1
   level: bronze
   logo: http://www.qisense.com/elements/logo-black.png
   link: http://www.qisense.com/
-  intro: 七感科技 (Qisense) 将复杂的数据简单化，旨在从海量数据中智能提炼重要信息。我们利用高级数学理论和统计模型进行分析计算，通过数据可视化向用户推送及时的，有价值的，并且可执行的商业情报。
+  intro: 七感科技 (Qisense) 将复杂的数据简单化,旨在从海量数据中智能提炼重要信息. 我们利用高级数学理论和统计模型进行分析计算,通过数据可视化向用户推送及时的,有价值的,并且可执行的商业情报. 
   intro_en: Qisense can simplifying complex data , Aimed at intelligent extract important information from the huge amounts of data. We use advanced mathematical theory and statistical models for analysis and calculation, To the user through data visualization push timely and valuable, executable business intelligence.
 -
   level_bronze: 1

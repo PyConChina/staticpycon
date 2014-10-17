@@ -45,7 +45,7 @@ pm:
     topic_en: http://hualien.python.org.tw - Community Experience
     speaker: 魏泽人
     speaker_en: 魏泽人 (Wei Zeren)
-    preview: 我的开源体验，如何在没有人用 Python 的偏乡，建立 Python 社区的一些小小经验。 这三四年参与开源社区活动，并尝试将从社区学到的经验，回馈到地方。
+    preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方. 
     preview_en: Mainly about my open source experience, focusing on how to set up a Python community in a countryside place where nearly nobody uses Python. Besides, by taking part in activities held by open source communities, I try my best to share my experience with others and help them.
   - time: "13:50"
     topic: 用不好MySQL的Python工程师不是优秀的NoSQL专家
@@ -75,7 +75,7 @@ pm:
     topic: why python is slow, python runtime compared with other languages
     speaker: 王震
     speaker_en: 王震 (Wang Zhen)
-    preview: 为什么我们会觉得Python的运行时效率是个问题，那么和其他的语言相比python 的运行时究竟有何不同呢？ 如果说python得执行效率较低的话低在什么地方？ python的效率问题应该如何对待
+    preview: 为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待
     preview: Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?
 lt:
   - time: "16:50"
