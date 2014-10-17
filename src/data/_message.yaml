@@ -33,9 +33,13 @@ home_intro: >
   <li>200RMB  企业票,包含发票</li>
   </ul></li>
   <li>报名入口:<i>(苏/杭 只有半天,全部免费)</i><ul>
-  <li><a href="http://19wu.com/PyConShanghai">上海报名链接</a></li>
-  <li><a href="http://19wu.com/PyConBeijing">北京报名链接</a></li>
-  <li><a href="http://19wu.com/PyConZhuhai">珠海报名链接</a></li>
+  <li><a href="http://19wu.com/PyConShanghai"><b>上海</b>报名链接</a></li>
+  <li><a href="http://19wu.com/PyConBeijing"><b>北京</b>报名链接</a></li>
+  <li><a href="http://19wu.com/PyConZhuhai"><b>珠海</b>报名链接</a></li>
+
+  <li><a href="http://19wu.com/PyConSuzhou">苏州报名入口</a></li>
+  <li><a href="http://19wu.com/PyConHangzhou">杭州报名入口</a></li>
+
   </ul></li>
   <li>联系大会: <a href="mailto:support@pychina.org?subject=ask-PyCon2014China">support@pychina.org</a> </li> 
   </ul>
@@ -56,6 +60,10 @@ home_intro_en: >
   <li><a href="http://19wu.com/PyConShanghai">Shanghai Sign Up Link</a></li>
   <li><a href="http://19wu.com/PyConBeijing">Beijing Sign Up Link</a></li>
   <li><a href="http://19wu.com/PyConZhuhai">Zhuhai Sign Up Link</a></li>
+
+  <li><a href="http://19wu.com/PyConSuzhou">Suzhou Sign Up Link</a></li>
+  <li><a href="http://19wu.com/PyConHangzhou">Hangzhou Sign Up Link</a></li>
+
   </ul></li>
   <li>Contact: <a href="mailto:support@pychina.org?subject=ask-PyCon2014China">support@pychina.org</a> </li> 
   </ul>
