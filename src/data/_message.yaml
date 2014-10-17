@@ -5,7 +5,7 @@ page_title_index: 首页
 page_title_index_en: HOME
 page_title_beijing: 北京日程
 page_title_beijing_en: Schedule in Beijing
-page_title_proposals: 报名
+page_title_proposals: 演讲提交
 page_title_proposals_en: Proposals
 page_title_shanghai: 上海日程
 page_title_shanghai_en: Schedule in Shanghai
@@ -42,7 +42,7 @@ home_intro: >
   <li><a href="http://19wu.com/PyConZhuhai"><b>珠海</b>报名链接</a></li>
 
   <li><a href="http://19wu.com/PyConSuzhou">苏州报名入口</a></li>
-  <li><a href="http://19wu.com/PyConHangzhou">杭州报名入口</a></li>
+  <li><a href="https://gdgdocs.org/forms/d/1XW1pAjDncb_ww8PL9nhbfIP88MmWPTU7RUuGoNnvwwQ/viewform">杭州报名入口</a></li>
 
   </ul></li>
   <li>联系大会: <a href="mailto:support@pychina.org?subject=ask-PyCon2014China">support@pychina.org</a> </li> 
@@ -66,7 +66,7 @@ home_intro_en: >
   <li><a href="http://19wu.com/PyConZhuhai">Zhuhai Sign Up Link</a></li>
 
   <li><a href="http://19wu.com/PyConSuzhou">Suzhou Sign Up Link</a></li>
-  <li><a href="http://19wu.com/PyConHangzhou">Hangzhou Sign Up Link</a></li>
+  <li><a href="https://gdgdocs.org/forms/d/1XW1pAjDncb_ww8PL9nhbfIP88MmWPTU7RUuGoNnvwwQ/viewform">Hangzhou Sign Up Link</a></li>
 
   </ul></li>
   <li>Contact: <a href="mailto:support@pychina.org?subject=ask-PyCon2014China">support@pychina.org</a> </li> 
