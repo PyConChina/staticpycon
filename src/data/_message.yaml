@@ -106,6 +106,8 @@ lighting_talks: 闪电演讲
 lighting_talks_en: Lighting Talks
 notices: 注意
 notices_en: Notices
+speechmaker: 讲师
+speechmaker_en: Speechmaker
 global: 全球
 global_en: OnLine
 beijing: 北京
@@ -114,6 +116,10 @@ shanghai: 上海
 shanghai_en: Shanghai
 zhuhai: 珠海
 zhuhai_en: Zhuhai
+hangzhou: 杭州
+hangzhou_en: Hangzhou
+suzhou: 苏州
+suzhou_en: Suzhou
 donators: 蠎人赞助
 donators_en: Personal Sponsorship
 donators_orderby: (按捐助达成时间排序)

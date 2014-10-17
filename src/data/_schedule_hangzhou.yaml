@@ -4,43 +4,50 @@ venue: 诺基亚通信杭州全球研发中心
 venue_en: 诺基亚通信杭州全球研发中心
 traffic: 待定
 traffic_en: TBD
-notices: 是也乎 ..
-date: 2014-11-15 13:30~18:00
+notices: 出于综合考虑,杭州推迟一周专注组织本地 Pythoneer 的聚会
+date: 2014-11-22 13:30~18:00
 noon:
-  - time: "13:00-13:30"
+  - time: "13:00-13:15"
     topic: 签到
     topic_en: Check in
     speaker:
     preview:
 pm:
-  - time: "~ 14:30"
-    topic: 待定
+  - time: "~ 13:20"
+    topic: PyCon大会及活动组织方介绍
+    topic_en: PyCon intro.
     speaker: 待定
     speaker_en: TBD
+    preview: 
+    preview_en:
+  - time: "~ 14:00"
+    topic: idiomatic python
+    speaker: 施远敏
+    speaker_en: 施远敏
     preview: 待定
     preview_en: TBD
-  - time:  "~ 15:00"
-    topic: 花蓮.py 社区体验
-    topic_en: 花蓮.py community story (hualien.python.org.tw)
-    speaker:  魏泽人
-    speaker_en: 魏泽人 (weijr)
-    preview: (从台湾网络直播)如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
-    preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
+  - time: "~ 14:30"
+    topic: Python与LLVM
+    topic_en: Python and LLVM
+    speaker: 李枫
+    speaker_en: 李枫
+    preview: 待定
+    preview_en: TBD
   - time: "~ 15:10 "
     topic: 间歇
     topic_en: Intermission
     speaker:
     preview:
-  - time: "~ 15:50"
-    topic: 待定
-    speaker: 待定
-    speaker_en: TBD
+  - time: "~ 15:40"
+    topic: Python在FarBox的实际应用
+    speaker: Hepo Chen
+    speaker_en: Hepo Chen
     preview: 待定
     preview_en: TBD
-  - time: "~ 14:30"
-    topic: 待定
-    speaker: 待定
-    speaker_en: TBD
+  - time: "~ 16:30"
+    topic: Gevent简介
+    speaker: 令狐虫
+    speaker_en: 令狐虫
     preview: 待定
     preview_en: TBD
   - time: "~ 17:00"
@@ -49,38 +56,9 @@ pm:
     speaker_en: TBD
     preview: 待定
     preview_en: TBD
-  - time: "~ 17:30"
-    topic: 待定
-    speaker: 待定
-    speaker_en: TBD
-    preview: 待定
-    preview_en: TBD
-lt:
-  - time: "~ 17:35" 
-    topic: 现场认领
-    topic_en: TBD
-    speaker: 待定
-    speaker_en: TBD
-    preview: 待定
-    preview_en: TBD.
-  - time: "~ 17:45" 
-    topic: 现场认领
-    topic_en: TBD
-    speaker: 待定
-    speaker_en: TBD
-    preview: 待定
-    preview_en: TBD.
-  - time: "~ 17:55" 
-    topic: 现场认领
-    topic_en: TBD
-    speaker: 待定
-    speaker_en: TBD
-    preview: 待定
-    preview_en: TBD.
-  - time: "~ 18:05" 
-    topic: 现场认领
-    topic_en: TBD
-    speaker: 待定
-    speaker_en: TBD
-    preview: 待定
-    preview_en: TBD.
+  - time: "~ 17:10"
+    topic: 合影结束
+    speaker: 
+    speaker_en: 
+    preview: 
+    preview_en: 

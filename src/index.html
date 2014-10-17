@@ -7,9 +7,12 @@
 <p><img alt="" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"  class="center-block img-responsive"/></p>
 <h1 id="pycon2014china">{{ message.home_title }}</h1>
 <p>{{ message.home_intro }}</p>
+
+<hr/>
 <h2 id="_1">{{ message.home_sponsors }}</h2>
 <p>{{ message.home_sponsors_wanted }}</p>
 {{ message.home_sponsors_hint }}
+
 <!-- sponsors -->
 {% if sponsors %}
     <div class="clearfix"></div>
@@ -44,10 +47,15 @@
     <div class="">
     {# defination #}
     {% set global_proposals = proposals | selectattr('city_global') %}
+    
     {% set beijing_proposals = proposals | selectattr('city_beijing') %}
     {% set shanghai_proposals = proposals | selectattr('city_shanghai') %}
     {% set zhuhai_proposals = proposals | selectattr('city_zhuhai') %}
+    
+    {% set hangzhou_proposals = proposals | selectattr('city_hangzhou') %}
+
     {% macro proposal_list(some_proposals) %}
+    
     <div class="row">
         {% for proposal in some_proposals %}
             <div class="col-xs-12 col-sm-6 media proposal">
@@ -67,6 +75,10 @@
     </div>
     {% endmacro %}
     {# presentation #}
+
+<hr/>
+    <h2>{{ message.speechmaker }}</h2>
+
     <h3>{{ message.global }}</h3>
     {{ proposal_list(global_proposals) }}
     <h3>{{ message.beijing }}</h3>
@@ -75,6 +87,8 @@
     {{ proposal_list(shanghai_proposals) }}
     <h3>{{ message.zhuhai }}</h3>
     {{ proposal_list(zhuhai_proposals) }}
+    <h3>{{ message.hangzhou }}</h3>
+    {{ proposal_list(hangzhou_proposals) }}
 
     </div>
 
