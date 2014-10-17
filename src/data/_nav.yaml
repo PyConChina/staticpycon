@@ -21,6 +21,14 @@
     title_en: ZHUHAI
     url: "zhuhai.html"
     url_en: "en/zhuhai.html"
+  - title: 苏州
+    title_en: SUZHOU
+    url: "suzhou.html"
+    url_en: "en/suzhou.html"
+  - title: 杭州
+    title_en: HANGZHOU
+    url: "hangzhou.html"
+    url_en: "en/hangzhou.html"
 - title: 赞助
   title_en: SPONSORS
   url: "sponsors.html"

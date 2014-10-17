@@ -1,0 +1,86 @@
+address: 待定
+address_en: TBD
+venue: 待定
+venue_en: TBD
+traffic: 待定
+traffic_en: TBD
+notices: 是也乎 ..
+date: 2014-11-15 13:30~18:00
+noon:
+  - time: "13:00-13:30"
+    topic: 签到
+    topic_en: Check in
+    speaker:
+    preview:
+pm:
+  - time: "~ 14:30"
+    topic: 待定
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD
+  - time:  "~ 15:00"
+    topic: 花蓮.py 社区体验
+    topic_en: 花蓮.py community story (hualien.python.org.tw)
+    speaker:  魏泽人
+    speaker_en: 魏泽人 (weijr)
+    preview: (从台湾网络直播)如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
+    preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
+  - time: "~ 15:10 "
+    topic: 间歇
+    topic_en: Intermission
+    speaker:
+    preview:
+  - time: "~ 15:50"
+    topic: 待定
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD
+  - time: "~ 14:30"
+    topic: 待定
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD
+  - time: "~ 17:00"
+    topic: 待定
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD
+  - time: "~ 17:30"
+    topic: 待定
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD
+lt:
+  - time: "~ 17:35" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.
+  - time: "~ 17:45" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.
+  - time: "~ 17:55" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.
+  - time: "~ 18:05" 
+    topic: 现场认领
+    topic_en: TBD
+    speaker: 待定
+    speaker_en: TBD
+    preview: 待定
+    preview_en: TBD.
