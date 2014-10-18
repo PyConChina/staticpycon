@@ -54,6 +54,6 @@
   role: technician
   avatar: http://ww3.sinaimg.cn/mw690/e382d508jw1el53ymgjgbg204j04j772.gif
   role_technician: 1
-  intro: 研二学生,关注分布式计算相关领域,Python爱好者
-  intro_en: A graduate student, interested in distributed computing and related, Python lover.
+  intro: "魔都现役研究僧,关注分布式计算相关领域;本着实用主义使用Python."
+  intro_en: "A graduate student in Shanghai, interested in distributed computing and related, Python pragmaticist."
   github: https://github.com/7c00
