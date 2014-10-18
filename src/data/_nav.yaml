@@ -41,11 +41,14 @@
   title_en: HISTORY
   children:
   - title: '2011'
-    url: "../2011"
+    url: "http://cn.pycon.org/2011"
+    url_external: 1
   - title: '2012'
-    url: "../2012"
+    url: "http://cn.pycon.org/2012"
+    url_external: 1
   - title: '2013'
-    url: "../2013"
+    url: "http://cn.pycon.org/2013"
+    url_external: 1
 - title: EN
   title_en: 中文
   url: "en/index.html"

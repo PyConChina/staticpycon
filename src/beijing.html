@@ -4,6 +4,7 @@
 {% block content %}
 {% if schedule_beijing %}
     {% set schedule = schedule_beijing %}
+    {% set schedule_title = page_title %}
     {% include "base/_schedule.html" %}
 {% endif %}
 {% endblock %}

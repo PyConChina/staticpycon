@@ -12,13 +12,19 @@
     </tr>
 {% endmacro %}
 
-{% macro title_tr(title) %}
+{% macro speech_trs(speeches, a_title) %}
+{% if speeches %}
     <tr>
-    <td colspan="4" class="text-center success">{{ title }}</td>
+        <td colspan="4" class="text-center success">{{ a_title }}</td>
     </tr>
+    {% for speech in speeches %}
+        {{ speech_tr(speech) }}
+    {% endfor %}
+{% endif %}
 {% endmacro %}
 
 {% if schedule %}
+    <h1>{{ schedule_title }}</h1>
     <h2>{{ message.traffic }}</h2>
     <div>
         <p>{{ message.address }}: {{ schedule.address }}</p>
@@ -27,18 +33,16 @@
         <p>{{ message.date }}: <b>{{ schedule.date }}</b></p>
     </div>
     <h2>{{ message.schedule }}</h2>
-    <table class="table table-bordered text-center">
-        <tbody>
-            {{ title_tr(message.morning) }}
-            {% for speech in schedule.am %} {{ speech_tr(speech) }} {% endfor %}
-            {{ title_tr(message.noon) }}
-            {% for speech in schedule.noon %} {{ speech_tr(speech) }} {% endfor %}
-            {{ title_tr(message.afternoon) }}
-            {% for speech in schedule.pm %} {{ speech_tr(speech) }} {% endfor %}
-            {{ title_tr(message.lighting_talks) }}
-            {% for speech in schedule.lt %} {{ speech_tr(speech) }} {% endfor %}
-        </tbody>
-    </table>
+    <div class="table-responsive">
+        <table class="table table-bordered text-center">
+            <tbody>
+                {{ speech_trs(schedule.am, message.morning) }}
+                {{ speech_trs(schedule.noon, message.noon) }}
+                {{ speech_trs(schedule.pm, message.afternoon) }}
+                {{ speech_trs(schedule.lt, message.lighting_talks) }}
+            </tbody>
+        </table>
+    </div>
     <h2>{{ message.notices }}</h2>
     <div>
         <p>{{ schedule.notices or "" }}</p>

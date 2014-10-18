@@ -3,7 +3,8 @@
 
 {% block content %}
 {% if schedule_hangzhou %}
-    {% set schedule = schedule_hangzhou%}
+    {% set schedule = schedule_hangzhou %}
+    {% set schedule_title = page_title %}
     {% include "base/_schedule.html" %}
 {% endif %}
 {% endblock %}

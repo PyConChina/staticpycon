@@ -1,3 +1,11 @@
+{% macro nav_a(nav_item) %}
+  {% if nav_item.url_external %}
+    <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+  {% else %}
+    <a href="{{ site.base_url }}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+  {% endif %}
+{% endmacro %}
+
 <div class="navbar navbar-default navbar-fixed-top " role="navigation">
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
@@ -25,14 +33,14 @@
             <ul class="dropdown-menu">
             {% for nav_item in nav_item.children %}
               <li {% if nav_item.active %}class="active"{% endif %}>
-                <a href="{{ site.base_url }}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                {{ nav_a(nav_item) }}
               </li>
             {% endfor %}
             </ul>
           </li>
         {% else %}
           <li {% if nav_item.active %}class="active"{% endif %}>
-            <a href="{{ site.base_url }}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+            {{ nav_a(nav_item) }}
           </li>
         {% endif %}
         {% endfor %}
