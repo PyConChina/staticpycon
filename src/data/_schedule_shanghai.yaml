@@ -29,11 +29,13 @@ am:
     preview_en: "A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL."
 
   - time: "11:20"
-    topic: "Django应该怎么用?"
-    topic_en: "The right way to use Django?"
-    speaker: "Adieu"
-    preview: "看到国内用Django的同学越来越多,但是缺少必要的指导,想分享一下我用Django过程中积累的一些经验."
-    preview_en: "With the increasing number of Django users, I want to share my experience during Django development."
+    topic: "用Python搭建RPC framework"
+    topic_en: "Construct RPC framework using Python"
+    speaker: "叶剑烨"
+    speaker_en: "叶剑烨 (Ye Jianye)"
+    preview: "可以和大家分享一下在Glow里我们是如何用Python编写各种Web Services,以及各个Services之间是如何通信的. "
+    preview_en: "How we implement a variety of Web Services with Python in Glow, and how Services communicate with each other."
+
 noon:
   - time: "12:00"
     topic: "午餐+合照"
@@ -43,12 +45,11 @@ noon:
 
 pm:
   - time: "13:00"
-    topic: "用Python搭建RPC framework"
-    topic_en: "Construct RPC framework using Python"
-    speaker: "叶剑烨"
-    speaker_en: "叶剑烨 (Ye Jianye)"
-    preview: "可以和大家分享一下在Glow里我们是如何用Python编写各种Web Services,以及各个Services之间是如何通信的. "
-    preview_en: "How we implement a variety of Web Services with Python in Glow, and how Services communicate with each other."
+    topic: "Django应该怎么用?"
+    topic_en: "The right way to use Django?"
+    speaker: "Adieu"
+    preview: "看到国内用Django的同学越来越多,但是缺少必要的指导,想分享一下我用Django过程中积累的一些经验."
+    preview_en: "With the increasing number of Django users, I want to share my experience during Django development."
 
   - time: "13:40"
     topic: "TBD"
