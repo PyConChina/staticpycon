@@ -287,7 +287,7 @@
   city_hangzhou: 1
   city: 杭州
   city_en: Hangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://avatar-ludwig.qiniudn.com/ling-huchong.jpg
   intro: "SFIT资深软件工程师,BT群核心成员, g4pcc发起人"
   intro_en: "Senior software engineer of SFIT, core-member of BT group, founder-member of g4pcc"
 -
@@ -298,3 +298,11 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/hz-lifeng.jpg?imageView2/2/h/80
   intro: "在手机相关研发领域已有近11年工作经验,先后在摩托罗拉,三星等IT企业工作,现就职于阿里巴巴."
   intro_en: "Experienced in mobile development and related, worked for Moto, Samsung and other IT companies, now working at Alibaba"
+-
+  name: 施远敏
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://avatar-ludwig.qiniudn.com/shi-yuanmin.jpg
+  intro: 诺基亚通信的资深技术专家，软件研发教练
+  intro_en: Senior technology expert in Nokia Communication, Software development manager

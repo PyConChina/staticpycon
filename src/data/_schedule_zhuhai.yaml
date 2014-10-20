@@ -31,6 +31,7 @@ am:
     speaker: 赖勇浩
     speaker_en: 赖勇浩 (Lai Yonghao)
     preview: 回答了自身长久设问;到底框架和语言哪个更加重要?
+    preview_en: Framework of Language? which one is more important?
   - time:  "~ 11:10"
     topic: 一切皆python的易度前端框架
     topic_en: A simple front end framework with pure python
@@ -120,7 +121,7 @@ pm:
     speaker: 龙利民 <longlimin
     speaker_en: 龙利民 (longlimin)
     preview: 在大数据实时统计系统架构过程中,必然的遇到了海量任务队列的分布式储存问题;分享如何一步步,用合适的开源系统升级架构,到最后,基于开源产品,完成原创系统的体验.
-    preview_en: 在大数据实时统计系统架构过程中,必然的遇到了海量任务队列的分布式储存问题;分享如何一步步,用合适的开源系统升级架构,到最后,基于开源产品,完成原创系统的体验.
+    preview_en: In the process of constructing a big data real time system, problems like massive task queue, distributed storage will come up along. Lecture will be focusing on how to base on appropriate open source system frameworks, to develop your own system.
   - time: "~ 17:30 "
     topic: 间歇
     topic_en: Intermission
