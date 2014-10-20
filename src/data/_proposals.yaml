@@ -103,6 +103,15 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
   intro: 豆瓣Python 开发工程师.
   intro_en: Python engineer at Douban
+-
+  name: 高驰涛
+  name_en: Chitao Gao(高驰涛)
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: "云智慧高级架构师,PHP开发组成员,Python,Go爱好者,专注于APM(应用性能管理seb)产品的架构与研发。"
+  intro_en: "Senior architect at Yunzhihui, PHP developer, Python and Go lover, focused on the architecture and R&D of APM (Application Performance Management) products "
 #########################################
 #   魔都
 #########################################
