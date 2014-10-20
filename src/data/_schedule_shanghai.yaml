@@ -52,12 +52,12 @@ pm:
     preview_en: "With the increasing number of Django users, I want to share my experience during Django development."
 
   - time: "13:40"
-    topic: "TBD"
-    topic_en: "TBD"
+    topic: "Python机器学习实践"
+    topic_en: "Practical Machine Learning in Python"
     speaker: "胡景超"
     speaker_en: "胡景超 (Jingchao Hu)"
-    preview: "大数据分析相关话题"
-    preview_en: ""
+    preview: "Python机器学习实践"
+    preview_en: "Practical Machine Learning in Python"
 
   - time: "14:20"
     timespan: "45'"

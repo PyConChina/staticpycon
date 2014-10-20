@@ -22,16 +22,16 @@
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: 杨林, 百度云系统工程师, 目前负责百度云的MongoDB/Redis等NoSQL系统的开发和运维, 在高性能网络服务和分布式存储系统方面有丰富经验. 
+  intro: 杨林, 百度云系统工程师, 目前负责百度云的MongoDB/Redis等NoSQL系统的开发和运维, 在高性能网络服务和分布式存储系统方面有丰富经验.
 -
   name: 王为
   city_beijing: 1
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-wangwei.png?imageView2/2/h/80
-  intro: 经历丰富的实习生,从大一到大二在北京工业大学防灾减灾所做工业监控软件开发,大三在中科院计算所做 OpenStack 开发,大四(现)在UnitedStack 做虚拟网络与 OpenStack 开发. 活跃于 Buildbot,OpenStack 社区. 
-    - 个人博客:http://mytrix.me/ 
-    - Github:https://github.com/MatheMatrix 
+  intro: 经历丰富的实习生,从大一到大二在北京工业大学防灾减灾所做工业监控软件开发,大三在中科院计算所做 OpenStack 开发,大四(现)在UnitedStack 做虚拟网络与 OpenStack 开发. 活跃于 Buildbot,OpenStack 社区.
+    - 个人博客:http://mytrix.me/
+    - Github:https://github.com/MatheMatrix
     - Launchpad主页:https://launchpad.net/~damon-devops
 -
   name: 康雷
@@ -39,7 +39,7 @@
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-kanglei.png?imageView2/2/h/80
-  intro: 中国科学技术大学自动化专业硕士研究生,研究方向未来网络和多媒体计算,热爱python,用tornado框架做过一个分类兴趣网站,喜欢用python写脚本代替重复性劳动. 专注于python和开源硬件结合的领域. 
+  intro: 中国科学技术大学自动化专业硕士研究生,研究方向未来网络和多媒体计算,热爱python,用tornado框架做过一个分类兴趣网站,喜欢用python写脚本代替重复性劳动. 专注于python和开源硬件结合的领域.
 -
   name: 刘晓明
   city_beijing: 1
@@ -104,7 +104,7 @@
   city: 上海
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-felinx_lee.jpg?imageView2/2/h/80
-  intro: 上海掌和信息科技有限公司CEO,飞龙博客博主( http://feilong.me ),国内最早的Tornado脑残粉. 
+  intro: 上海掌和信息科技有限公司CEO,飞龙博客博主( http://feilong.me ),国内最早的Tornado脑残粉.
 -
   name: 黄冬
   name_en: HD
@@ -177,6 +177,15 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ryan_500x500.jpg?imageView2/2/h/80
   intro: 之前在Slide和Google任技术经理,目前是Glow公司的CTO,也是公司的创始人之一
   intro_en: CTO and co-founder of Glow, former technical manager of Slide and Google
+-
+  name: 胡景超
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: https://avatars1.githubusercontent.com/u/478194?v=2&s=460
+  intro: "2009年开始用Python工作后一直被其生态圈惯坏到现在, 长期从事互联网(创业)相关的技术领域, 目前专注于数据分析、机器学习方向，就职于上海菜根科技有限公司。"
+  intro_en: Spoiled by python ecosystem since 2009, long time enthusiast in web related technologies, currently focus on "Machine Learning" and "Data Analysis", works for Shanghai Caigen Tech Inc.
+
 #########################################
 #   珠三角
 #########################################
