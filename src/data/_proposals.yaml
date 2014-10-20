@@ -110,7 +110,7 @@
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: "云智慧高级架构师,PHP开发组成员,Python,Go爱好者,专注于APM(应用性能管理seb)产品的架构与研发。"
+  intro: "云智慧高级架构师,PHP开发组成员,Python,Go爱好者,专注于APM(应用性能管理seb)产品的架构与研发. "
   intro_en: "Senior architect at Yunzhihui, PHP developer, Python and Go lover, focused on the architecture and R&D of APM (Application Performance Management) products "
 #########################################
 #   魔都
@@ -192,7 +192,7 @@
   city: 上海
   city_en: Shanghai
   avatar: https://avatars1.githubusercontent.com/u/478194?v=2&s=460
-  intro: "2009年开始用Python工作后一直被其生态圈惯坏到现在, 长期从事互联网(创业)相关的技术领域, 目前专注于数据分析、机器学习方向，就职于上海菜根科技有限公司。"
+  intro: "2009年开始用Python工作后一直被其生态圈惯坏到现在, 长期从事互联网(创业)相关的技术领域, 目前专注于数据分析,机器学习方向,就职于上海菜根科技有限公司. "
   intro_en: Spoiled by python ecosystem since 2009, long time enthusiast in web related technologies, currently focus on "Machine Learning" and "Data Analysis", works for Shanghai Caigen Tech Inc.
 
 #########################################
@@ -322,5 +322,5 @@
   city: 杭州
   city_en: Hangzhou
   avatar: http://avatar-ludwig.qiniudn.com/shi-yuanmin.jpg
-  intro: 诺基亚通信的资深技术专家，软件研发教练
+  intro: 诺基亚通信的资深技术专家,软件研发教练
   intro_en: Senior technology expert in Nokia Communication, Software development manager
