@@ -2,7 +2,7 @@ address: 中国科学院中关村园区教学楼
 address_en: "Teaching Building at Zhongguancun Campus, CAS"
 venue: S201教室
 venue_en: Room S201
-traffic: (北四环保福寺桥南恒兴大厦向西200米) 
+traffic: (北四环保福寺桥南恒兴大厦向西200米)
 traffic_en: "(near Hengxing Building, Baofusi Bridge)"
 date: 2014-11-15 09:00~18:00
 notices: ...
@@ -37,8 +37,16 @@ pm:
     topic_en: 花蓮.py community story (hualien.python.org.tw)
     speaker: 魏泽人
     speaker_en: 魏泽人 (weijr)
-    preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方. 
+    preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
+
+  - time: ""
+    topic:   How CODE works
+    speaker: 徐涛
+    speaker_en: 徐涛 (Xu Tao)
+    preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy.  CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验.
+    preview_en: Introduce how douban.com manages codes using CODE, a copy of Github. CODE is developed by Python, the lecture will mainly focus on the implementation of CODE, and experience during the development process.
+
   - time: ""
     topic: "工作坊"
     topic_en: "Workshop"
@@ -46,7 +54,7 @@ pm:
     speaker_en: 林帅 (Lin Shuai)
     preview: 现场教大家用 Scrapy 框架做网络爬虫,以及面向开发者的网络爬虫 PaaS - ScrapyCloud. 具体内容包括从最开始怎么写爬虫,到用一个 SAE 上的应用来展示爬虫获取的数据. 最后如果时间允许可以再简单介绍一下不用写代码的自动爬虫工具 Auto-Scraping.
     preview_en: Make a web crawler with Scrapy. Introduce ScrapyCloud, a developer-oriented PaaS. From how to start programming a crawler, to display the collected data on SAE. Talking about Auto-Scraping.
-    
+
 lt:
   - time: ""
     topic: 生物领域的大数据和Python
@@ -73,7 +81,7 @@ lt:
     topic_en: QPython - Python on Android
     speaker: 曲池峰
     speaker_en: 曲池峰 (Qu Chifeng)
-    preview: 介绍QPython,如何在手机和平板上写Python程序,在手机上用Python写出实用的脚本程序,随时随地写程序. 
+    preview: 介绍QPython,如何在手机和平板上写Python程序,在手机上用Python写出实用的脚本程序,随时随地写程序.
     preview_en: Introduce QPython. How to write useful Python on phone and tablet.
   - time: ""
     topic: redis-mgr 介绍

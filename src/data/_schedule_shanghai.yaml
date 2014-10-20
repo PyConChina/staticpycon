@@ -81,13 +81,6 @@ pm:
     preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
     preview: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
 
-  - time: "16:00"
-    topic:   How CODE works
-    speaker: 徐涛
-    speaker_en: 徐涛 (Xu Tao)
-    preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy.  CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验.
-    preview_en: Introduce how douban.com manages codes using CODE, a copy of Github. CODE is developed by Python, the lecture will mainly focus on the implementation of CODE, and experience during the development process.
-
   - time: "-"
     topic: TBD
     speaker: 黄冬

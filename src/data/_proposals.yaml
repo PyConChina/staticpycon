@@ -94,6 +94,15 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
   intro: Python 爱好者,目前就职于 scrapy 创始人的公司, Seafile 项目核心开发者
   intro_en: Python lover, working with the creator of scrapy.  Core developer of Seafile project.
+-
+  name: 徐涛
+  name_en: Xu Tao(徐涛)
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
+  intro: 豆瓣Python 开发工程师.
+  intro_en: Python engineer at Douban
 #########################################
 #   魔都
 #########################################
@@ -136,15 +145,6 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/KJ-head.png?imageView2/2/h/80
   intro: GDG上海创始人, 齐书CEO
   intro_en: Founder of GDG Shanghai, CEO of Qishu.co
--
-  name: 徐涛
-  name_en: Xu Tao(徐涛)
-  city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
-  intro: 豆瓣Python 开发工程师.
-  intro_en: Python engineer at Douban
 -
   name: Adieu
   city_shanghai: 1
