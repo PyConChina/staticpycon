@@ -97,9 +97,9 @@
 -
   name: 徐涛
   name_en: Xu Tao(徐涛)
-  city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
   intro: 豆瓣Python 开发工程师.
   intro_en: Python engineer at Douban
