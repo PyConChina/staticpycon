@@ -87,16 +87,13 @@ def pub2cafe():
 #########################################
 #   deploy for upstream pycon-statics hosts
 #########################################
-env.roledefs = {
-        'smirror': ['gw2obp']
-    }
+#env.roledefs = {
+#        'smirror': ['gw2obp']
+#    }
 env.static_site = '/opt/www/staticpycon'
 
-@roles('smirror')
-def sync2upstreams():
-    with cd('{static_site}'.format(**env)):
-        run('uname -a')
-        run('pwd')
-        run("git pull origin master")
-        run("python ./bin/gen.py" )
+#@roles('smirror')
+def sync4upstream():
+    local('ssh gw2obp python {deploy_path}/deploy.py'.format(**env))
+
 
