@@ -6,8 +6,8 @@
 #=========================================================== var defines
 # Change following ines
 PATH="/opt/www/staticpycon"
-PY=$( which python)
-GIT=$( which git)
+PY=$(which python)
+GIT=$(which git)
 DEPLOY="$PY ./deploy.py"
 #=========================================================== path defines
 #=========================================================== action defines
