@@ -194,6 +194,14 @@
   avatar: https://avatars1.githubusercontent.com/u/478194?v=2&s=460
   intro: "2009年开始用Python工作后一直被其生态圈惯坏到现在, 长期从事互联网(创业)相关的技术领域, 目前专注于数据分析,机器学习方向,就职于上海菜根科技有限公司. "
   intro_en: Spoiled by python ecosystem since 2009, long time enthusiast in web related technologies, currently focus on "Machine Learning" and "Data Analysis", works for Shanghai Caigen Tech Inc.
+-
+  name: 曹文炯
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar:
+  intro: "堆糖网技术合伙人。曾担任阿里巴巴平台架构师，盛大研究员。"
+  intro_en: 堆糖网技术合伙人。曾担任阿里巴巴平台架构师，盛大研究员。
 
 #########################################
 #   珠三角

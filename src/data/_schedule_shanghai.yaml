@@ -81,6 +81,13 @@ pm:
     preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
     preview: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
 
+  - time: "16:00"
+    topic: "from python import data.process"
+    speaker: "曹文炯"
+    speaker_en: "曹文炯"
+    preview: "简单介绍如何使用python代码及开源库来做数据处理，也介绍了一些支持python的开源数据方案，以及它们在堆糖的应用情况。"
+    preview: "简单介绍如何使用python代码及开源库来做数据处理，也介绍了一些支持python的开源数据方案，以及它们在堆糖的应用情况。"
+
   - time: "-"
     topic: TBD
     speaker: 黄冬
