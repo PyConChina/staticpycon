@@ -8,7 +8,7 @@ from staticjinja import make_renderer
 import yaml, re, thread, sys
 from copy import deepcopy
 
-PROJECT_DIR = dirname(realpath(dirname(__file__)))
+PROJECT_DIR = dirname(dirname(realpath(dirname(__file__))))
 SITE_DIR = join(PROJECT_DIR, "out")
 SOURCE_DIR = join(PROJECT_DIR, "src")
 ASSET_DIR = join(PROJECT_DIR, "src", "asset")
@@ -68,7 +68,7 @@ def gen(start_server=False):
         outpath=SITE_DIR, rules=[
             ("[\w-]+\.html", render_page)
         ])
-    return renderer.run()
+    return renderer.run(use_reloader=start_server)
 
 
 if __name__ == "__main__":

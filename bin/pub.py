@@ -2,7 +2,9 @@
 #encoding:utf-8
 
 from sys import stderr
-import app
+
+from staticpycon import gen
+
 import qiniu.conf, qiniu.rs, qiniu.rsf, qiniu.io
 
 def print_error(msg):
@@ -19,8 +21,8 @@ def _setup():
     qiniu.conf.SECRET_KEY = PUB_SECRET_KEY
 
 def _generate_site():
-    print("Generating the new site in %s ..." % app.SITE_DIR)
-    app.run(start_server=False)
+    print("Generating the new site in %s ..." % gen.SITE_DIR)
+    gen.gen(start_server=False)
 
 def _list_site(bucket=PUB_BUCKET, prefix=PUB_SITE_PREFIX):
     rs, marker, err, files = qiniu.rsf.Client(), None, None, []
@@ -58,7 +60,7 @@ def main():
     # generate sites
     _generate_site()
     # publish sites
-    _upload_site(app.SITE_DIR)
+    _upload_site(gen.SITE_DIR)
     print("Done!")
 
 if __name__ == "__main__":
