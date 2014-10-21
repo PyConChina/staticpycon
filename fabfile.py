@@ -3,6 +3,9 @@ import fabric.contrib.project as project
 import os
 
 # Local path configuration (can be absolute or relative to fabfile)
+#########################################
+#   deploy for 7niu CDN
+#########################################
 #env.input_path = 'docs'
 env.deploy_path = 'out'
 DEPLOY_PATH = env.deploy_path
@@ -49,6 +52,9 @@ so the daily working just:
     $ fab pub2cafe
 
 '''
+#########################################
+#   deploy for gitcafe-pages
+#########################################
 def build():
     local('python bin/gen.py')
 
@@ -63,19 +69,34 @@ def pub2cafe():
 
 # Remote server configuration
 #   deploy for upstream pycon-statics hosts
+#env.roledefs = {
+#        'smirrors': ['obp:9022'
+#            , 'root@PyConSS1'
+#            , 'root@PyConSS3'
+#            ]
+#    }
+#env.out_dir = '/opt/www/PyConChina/'
+#
+#@roles('smirrors')
+#def sync2upstreams():
+#    with cd('{out_dir}'.format(**env)):
+#        run('uname -a')
+#        run('pwd')
+#        run("git status" )
+#        run("git pull" )
+#########################################
+#   deploy for upstream pycon-statics hosts
+#########################################
 env.roledefs = {
-        'smirrors': ['obp:9022'
-            , 'root@PyConSS1'
-            , 'root@PyConSS3'
-            ]
+        'smirror': ['gw2obp']
     }
-env.out_dir = '/opt/www/PyConChina/'
+env.static_site = '/opt/www/staticpycon'
 
-@roles('smirrors')
+@roles('smirror')
 def sync2upstreams():
-    with cd('{out_dir}'.format(**env)):
+    with cd('{static_site}'.format(**env)):
         run('uname -a')
         run('pwd')
-        run("git status" )
-        run("git pull" )
+        run("git pull origin master")
+        run("python ./bin/gen.py" )
 
