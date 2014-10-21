@@ -12,5 +12,8 @@
   ],
   "license": "pending",
   "homepage": "http://cn.pycon.org/",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "font-awesome": "~4.2.0"
+  }
 }
