@@ -1,0 +1,16 @@
+{
+  "name": "staticpycon",
+  "version": "0.0.0",
+  "authors": [
+    "PyConChina"
+  ],
+  "description": "Static site for PyCon China",
+  "main": "bin/app.py",
+  "keywords": [
+    "python",
+    "pycon"
+  ],
+  "license": "pending",
+  "homepage": "http://cn.pycon.org/",
+  "private": true
+}
