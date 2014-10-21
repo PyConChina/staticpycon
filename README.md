@@ -4,39 +4,7 @@ PyCon China 2014 官网生成工具
 
 ## 使用
 
- - 首次使用
- - (PUB_ACCESS_KEY 和 PUB_ACCESS_SECRET 请向大妈<zoomquiet+dama@gmail.com>索取)
- - 前提,成为志愿者(在官网提交过审请,并通过,且加入对应的工作列表)
-
-        # 基本安装
-        pip install staticjinja qiniu
-        git clone git@gitcafe.com:PyConChina/staticpycon.git
-        cd staticpycon
-        # 发布相关
-        cp bin/pubconf.py.example bin/pubconf.py
-        vi bin/pubconf.py # 补充 PUB_ACCESS_KEY 和 PUB_ACCESS_SECRET
-
- - 开始编辑;开启自动生成服务器
-        
-        python ./bin/app.py        
-        
- - 发布网站
- 
-        python ./bin/pub.py
-
-`是也乎:`
-
-- 发布网站,本质上就是将编译出来的静态页面,发布到合适的空间
-- 这类空间包含:
-  + github/gitcafe 等等 pages 空间
-  + 7niu 类似CDN 空间
-  + 自有主机空间
-  + ... etc.
-- 所以,这一仓库中包含了至少三种发布方式:
-  + `bin/pub.py` 使用 7niu 接口SDK 包,自动完成上传
-  + `fab put7niu` 使用 fabric 调用本地 7niu 同步工具完成上传
-  + 完成自动渲染后,用命令行,自行同步
-
+代码push到master后5分钟内会自动发布到[官网](http://cn.pycon.org).
 
 ---
 
