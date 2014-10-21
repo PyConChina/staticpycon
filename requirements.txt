@@ -1,2 +1,3 @@
 staticjinja>=0.3.0
 mkdocs>=0.9
+pyScss>=1.3.2
