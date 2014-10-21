@@ -8,12 +8,51 @@ from staticjinja import make_renderer
 import yaml, re, thread, sys
 from copy import deepcopy
 
+try:
+    import colorama
+except ImportError:
+    # just stub out ANSI control codes
+    class colorama(object):
+        class Style(object):
+            DIM = RESET_ALL = ''
+
+        class Fore(object):
+            BLACK = RED = GREEN = YELLOW = BLUE = MAGENTA = CYAN = WHITE = ''
+            RESET = ''
+
+        @staticmethod
+        def init():
+            pass
+
+
 PROJECT_DIR = dirname(dirname(realpath(dirname(__file__))))
 SITE_DIR = join(PROJECT_DIR, "out")
 SOURCE_DIR = join(PROJECT_DIR, "src")
 ASSET_DIR = join(PROJECT_DIR, "src", "asset")
 ASSET_DIR_REL = "asset"
 DATA_DIR = join(PROJECT_DIR, "src", "data")
+
+PROMPT_FMT_HTML = (
+    colorama.Style.DIM
+    + colorama.Fore.CYAN
+    + 'html '
+    + colorama.Fore.GREEN
+    + '[%s] '
+    + colorama.Fore.RESET
+    + colorama.Style.RESET_ALL
+    + '%s'
+)
+
+PROMPT_FMT_INVALID_ATTR = (
+    colorama.Style.DIM
+    + colorama.Fore.YELLOW
+    + 'warn '
+    + colorama.Style.RESET_ALL
+    + colorama.Fore.MAGENTA
+    + 'invalid attribute '
+    + colorama.Fore.RESET
+    + '%s'
+)
 
 data_mtimes = {}
 data_pattern = re.compile("_(\w+)\.yaml")
@@ -35,7 +74,7 @@ def process_data(data, suffix):
                 if kn in data:
                     data[kn] = v
                 else:
-                    print('Warning: invalid attribute %s' % kn)
+                    print(PROMPT_FMT_INVALID_ATTR % (kn, ))
 
 def load_data():
     for filename in listdir(DATA_DIR):
@@ -60,7 +99,7 @@ def render_page(renderer, template, **context):
         head = dirname(outfile)
         if head and not file_exists(head):
             makedirs(head)
-        print("Generating [%s] %s ... " % (context['lang'], outfile))
+        print(PROMPT_FMT_HTML % (context['lang'], outfile))
         template.stream(context).dump(outfile, "utf-8")
 
 def gen(start_server=False):
@@ -72,4 +111,5 @@ def gen(start_server=False):
 
 
 if __name__ == "__main__":
+    colorama.init()
     gen(start_server=(not "-g" in sys.argv))
