@@ -1,6 +1,12 @@
+deploy.py
+.hg/
+.hg
+.hgignore
+
 out/
 out
 .python-version
+
 
 *.py[cod]
 
