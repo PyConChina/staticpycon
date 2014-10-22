@@ -9,6 +9,14 @@
 #   帝都
 #########################################
 -
+  name: 陈剑(寒晨)
+  name_en: chen1324
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 知道创宇程序员,有5年左右的开发经验(主要python),擅长打杂和各类DIY,Google粉, FreeBSD粉,OpenWRT粉,业余单片机玩家. ,虚拟机重度依赖用户. @chen1324
+-
   name: 曲池峰
   name_en: chifeng
   city_beijing: 1

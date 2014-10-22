@@ -44,7 +44,12 @@ pm:
     speaker_en: 魏泽人 (weijr)
     preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
-
+  - time: ""
+    topic:   Python代码的多平台迁移
+    speaker: 陈剑(寒晨) 
+    speaker_en: chen1324
+    preview: 讲讲Python代码在多平台迁移时遇到的那些坑. 总结如何才能写出能够平滑进行多平台迁移的Python代码. 主要涉及硬编码,依赖导入,系统特性,发布方式等问题.  
+    preview_en: TBD
   - time: ""
     topic:   How CODE works
     speaker: 徐涛
