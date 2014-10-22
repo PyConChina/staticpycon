@@ -37,6 +37,7 @@ pm:
     speaker: 高驰涛
     speaker_en: Chitao Gao(高驰涛)
     preview: "在互联网,大数据发展的今天,应用性能管理(APM)已经越来越成为研发与运维所关注的难点与痛点.此次着重面向开发者与运维人员,分享云智慧在APM产品中,怎样运用先进的SmartAgent技术处理应用性能管理,更快更全面地发展已有的或潜在的性能瓶颈."
+    preview_en: "In the Internet and big data, APM(Application Performance Management) is increasingly difficult to developers and operations engineer. Introduce how SmartAgent work that it has been faster and comprehensive solve performance bottlenecks in Cloudsmart APM production"
   - time: "14:30~15:00 !!!"
     topic: 花蓮.py 社区体验
     topic_en: 花蓮.py community story (hualien.python.org.tw)
