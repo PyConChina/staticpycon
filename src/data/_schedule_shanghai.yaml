@@ -85,14 +85,14 @@ pm:
     topic: "from python import data.process"
     speaker: "曹文炯"
     speaker_en: "曹文炯"
-    preview: "简单介绍如何使用python代码及开源库来做数据处理，也介绍了一些支持python的开源数据方案，以及它们在堆糖的应用情况。"
-    preview: "简单介绍如何使用python代码及开源库来做数据处理，也介绍了一些支持python的开源数据方案，以及它们在堆糖的应用情况。"
+    preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
+    preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
 
   - time: "-"
-    topic: TBD
+    topic: Python in Modou
     speaker: 黄冬
     speaker_en: "黄冬 (Huang Dong)"
-    preview: "TBD"
+    preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Pyhton的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明. 还会加入一些这些年使用Python的一些心得"
 
 lt:
 
