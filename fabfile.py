@@ -93,11 +93,11 @@ def pub2cafe():
 env.static_site = '/opt/www/staticpycon'
 
 #@roles('smirror')
-def sync4upstream():
-    local('ssh gw2obp uname -a ; '
-            'cat {static_site}/deploy.py ; '
-            'cd {static_site} ; '
-            'python {static_site}/deploy.py'.format(**env)
-        )
+#def sync4upstream():
+#    local('ssh gw2obp uname -a ; '
+#            'cat {static_site}/deploy.py ; '
+#            'cd {static_site} ; '
+#            'python {static_site}/deploy.py'.format(**env)
+#        )
 
 
