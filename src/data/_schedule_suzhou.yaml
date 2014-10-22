@@ -14,8 +14,8 @@ noon:
     preview:
 pm:
   - time: "~ 14:30"
-    topic: 待定
-    speaker: 待定
+    topic: 使用 Docker 部署豆瓣的 CODE 系统
+    speaker: 巨震
     speaker_en: TBD
     preview: 待定
     preview_en: TBD

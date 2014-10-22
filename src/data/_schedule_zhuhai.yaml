@@ -84,7 +84,7 @@ pm:
     speaker:
     preview:
   - time: "~ 15:30"
-    topic: Docker & Python
+    topic: Docker Registry Build By Python
     speaker: 孟繁亮
     speaker_en: five star sky
     preview: 讨论在Docker 体系中 Python 的能力

@@ -9,6 +9,16 @@
 #   帝都
 #########################################
 -
+  name: laike9m 
+  name_en: laike9m 
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-laike9m.jpeg?imageView2/2/h/80
+  intro: 中科院计算所学生,热爱 Python/Django,致力于推广 Python(尤其是 Py3)的使用
+    - blog; http://laike9m.com
+    - github; https://github.com/laike9m
+-
   name: 陈剑(寒晨)
   name_en: chen1324
   city_beijing: 1
@@ -117,7 +127,7 @@
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-neeke.gao.png?imageView2/2/h/80
   intro: "云智慧高级架构师,PHP开发组成员,Python,Go爱好者,专注于APM(应用性能管理seb)产品的架构与研发. "
   intro_en: "Senior architect at Yunzhihui, PHP developer, Python and Go lover, focused on the architecture and R&D of APM (Application Performance Management) products "
 #########################################
@@ -204,13 +214,21 @@
   intro_en: Spoiled by python ecosystem since 2009, long time enthusiast in web related technologies, currently focus on "Machine Learning" and "Data Analysis", works for Shanghai Caigen Tech Inc.
 -
   name: 曹文炯
+  name_en: Laurence
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar:
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-duitang.jpg?imageView2/2/h/80
   intro: "堆糖网技术合伙人. 曾担任阿里巴巴平台架构师,盛大研究员. "
-  intro_en: 堆糖网技术合伙人. 曾担任阿里巴巴平台架构师,盛大研究员. 
-
+  intro_en: ... 
+-
+  name: 马全一
+  city_zhuhai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ma-quan-yi_docker_7_11_meaglith_logo.png?imageView2/2/h/80
+  intro: Docker 中文社区创始人
+  intro_en: Founder of Docker Chinese community
 #########################################
 #   珠三角
 #########################################
@@ -222,14 +240,6 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wang-an-yu-15_11_%E6%97%A0%E6%A0%87%E9%A2%98.png?imageView2/2/h/80
   intro: 深圳矽递科技(SeeedStudio)运营总监&CIO; Python爱好者,Raspberry Pi玩家
   intro_en: "COO & CIO of Shengzhen Seeed Studio, Python lover, Raspberry Pi player"
--
-  name: 马全一
-  city_zhuhai: 1
-  city: 珠海
-  city_en: Zhuhai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ma-quan-yi_docker_7_11_meaglith_logo.png?imageView2/2/h/80
-  intro: Docker 中文社区创始人
-  intro_en: Founder of Docker Chinese community
 -
   name: jeff
   city_zhuhai: 1
@@ -291,7 +301,7 @@
   city_zhuhai: 1
   city: 珠海
   city_en: Zhuhai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/zh-cmcm-llm.png?imageView2/2/h/80
   intro: 猎豹移动,工程师
   intro_en: Engineer of Cheetah Mobile
 -
@@ -302,9 +312,25 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wenmin-16_11_psb.jpg?imageView2/2/h/80
   intro: 旧金山人,曾负责水银云查杀和反钓鱼的开发
   intro_en: San Franciso developer, former leader of the development of Mecury cloud killing and anti-phishing
+-
+  name: 孟繁亮
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: docker.cn 核心开发人员. 一直从事云计算,大数据相关的开发和管理工作. 目前专注 Docker 技术和 Golang 语言的研究. 
+  intro_en: ...
 #########################################
 #   苏州
 #########################################
+-
+  name: 巨震
+  city_zhuhai: 1
+  city: 苏州
+  city_en: Suzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 80后复古伪文艺程序员,好奇一切计算机相关的技术,热爱骑行,美食和中国传统文化,"Docker权威指南"合作译者,目前使用NodeJS进行服务器端的开发. 
+  intro_en: ...
 #########################################
 #   杭州
 #########################################
