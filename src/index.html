@@ -53,6 +53,7 @@
     {% set zhuhai_proposals = proposals | selectattr('city_zhuhai') %}
     
     {% set hangzhou_proposals = proposals | selectattr('city_hangzhou') %}
+    {% set suzhou_proposals = proposals | selectattr('city_suzhou') %}
 
     {% macro proposal_list(some_proposals) %}
     
@@ -89,6 +90,8 @@
     {{ proposal_list(zhuhai_proposals) }}
     <h3>{{ message.hangzhou }}</h3>
     {{ proposal_list(hangzhou_proposals) }}
+    <h3>{{ message.suzhou }}</h3>
+    {{ proposal_list(suzhou_proposals) }}
 
     </div>
 
