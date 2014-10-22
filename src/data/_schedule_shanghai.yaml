@@ -88,15 +88,15 @@ pm:
     preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
     preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
 
-  - time: "-"
+  - time: "16: 40"
     topic: Python in Modou
     speaker: 黄冬
     speaker_en: "黄冬 (Huang Dong)"
-    preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Pyhton的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明. 还会加入一些这些年使用Python的一些心得"
+    preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Python的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明."
 
 lt:
 
-  - time: "16:50"
+  - time: "17:20"
     topic: "NSQ&Redis等组合拳快速实现移动社交产品动态流"
     topic_en: "Rapidly implement a mobile dynamic product flow using NSQ & Redis etc.."
     speaker: 李飞林
@@ -104,14 +104,14 @@ lt:
     preview: "NSQ&Redis等组合拳快速实现移动社交产品动态流"
     preview_en: "Rapidly implement a mobile dynamic product flow using NSQ & Redis etc.."
 
-  - time: "17:00"
+  - time: "17:35"
     topic: "TBD"
     speaker: 罗志城
     speaker_en: 罗志城 (Luo Zhicheng)
     preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
     preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
 
-  - time: "17: 10"
+  - time: "17: 50"
     topic: OpenERP 再说
     topic_en: Review on OpenERP
     speaker: 王剑峰
