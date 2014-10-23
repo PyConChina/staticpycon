@@ -31,7 +31,7 @@
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/logo_gitcafe_2013.png?imageView2/2/w/200
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/logo_gitcafe_2013.png?imageView2/2/w/180
   link: https://gitcafe.com/
   intro: "GitCafe 是一个基于代码托管服务打造的技术协作与分享平台,帮助研发团队更好地进行项目与代码的管理与协作,为企业提供优化的工作流程与解决方案;同时助力国内外 IT 企业打造更好的开发者生态系统,获得强有力的企业级技术推广平台."
   intro_en: "GitCafe is the online platform for you to host your projects.GitCafe is the most popular version control system on this planet. It's free, opensource and easy for personal or team to use."
@@ -45,34 +45,40 @@
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/200
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
   link: http://www.douban.com/
   intro: "豆瓣成立于2005年3月,目前已拥有5,300多万注册用户. 豆瓣一直致力于帮助都市人群发现生活中有用的事物,通过书影音,小组,小站,同城,豆瓣说等多产品及相关移动应用来服务都市生活的不同领域."
   intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/qiniu-logo.png?imageView2/2/h/80
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/qiniu-logo.png?imageView2/2/w/200
   link: http://www.qiniu.com/
   intro: "七牛云存储由国内存储行业的领军人物之一许式伟于2011年创立,致力于提供最适合开发者的数据在线托管,传输加速以及云端处理的服务."
   intro_en: "qiniu cloud storage by domestic industry one of the leading Xu Shiwei was founded in 2011, Committed to providing the most suitable for developers of online hosting, transmission speed, and the cloud data processing services."
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/upyun-Logo-h200.png?imageView2/2/w/180
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/upyun-Logo-h200.png?imageView2/2/w/160
   link: https://www.upyun.com/index.html
   intro: "又拍云存储是杭州又拍云科技有限公司旗下项目,成立于2005年6月,前期主要为又拍网,又拍图片管家提供图片云存储／云计算服务,于2010年2月对所有用户开放使用."
   intro_en: "upyun cloud storage is hangzhou youpai technology co., LTD's project, was founded in June 2005, the early main take yupoo.com, and v.yupoo.com , in February 2010 is open to all users to use."
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/180
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/120
   link: http://www.ituring.com.cn
   intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销技术图书,是国内计算机图书著名的有影响力的出版单位之一,成立九年以来,图书累积销售500多万册,影响了上百万的读者. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内著名的专业的IT技术交流+阅读社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成长为国内知名科技电子书销售平台."
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/books-hz-logo_nowords.png?imageView2/2/h/80
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/w/180
+  link: http://www.broadview.com.cn
+  intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."
+-
+  level_gold: 1
+  level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/books-hz-logo_nowords.png?imageView2/2/h/90
   link: http://www.hzbook.com/About/About.html
   intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
 #########################################
@@ -115,4 +121,4 @@
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/ptpress_logo-blue.png?imageView2/2/w/160
   link: http://www.ptpress.com.cn
   intro: "人民邮电出版社是工业和信息化部主管的大型专业出版社,成立于1953年10月1日. 2003年被中央确定为文化体制改革第一批试点单位. 60多年来,人民邮电出版社坚持 立足信息产业,面向现代社会,传播科学知识,服务科教兴国,为走中国特色新型工业化道路服务的出版宗旨,锐意改革探索,不断发展壮大,已成为集图书,期刊,音像电子出版物和网络出版于一体的,在国内外具有专业特色和品牌影响的综合性科技出版大社."
-  intro_en: "The People's Posts and Telecommunications Press（Posts & Telecom Press）was by Ministry of Industry and Information Technology of the People's Republic of China management, Founded in October 1, 1953."
+  intro_en: "The People's Posts and Telecommunications Press(Posts & Telecom Press)was by Ministry of Industry and Information Technology of the People's Republic of China management, Founded in October 1, 1953."
