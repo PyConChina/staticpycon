@@ -85,6 +85,12 @@
   link: https://coding.net/home.html
   intro: "Coding 是一个面向开发者的云端开发平台,目前提供代码托管,运行空间,质量控制,项目管理等功能. Coding 提供社会化协作功能,包含了社交元素,为开发者提供技术讨论和协作平台."
   intro_en: "Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform."
+-
+  level_silver: 1
+  level: silver
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/70
+  link: http://www.broadview.com.cn
+  intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."
 #########################################
 #   青铜级
 #########################################
@@ -116,9 +122,3 @@
   link: http://www.ptpress.com.cn
   intro: "人民邮电出版社是工业和信息化部主管的大型专业出版社,成立于1953年10月1日. 2003年被中央确定为文化体制改革第一批试点单位. 60多年来,人民邮电出版社坚持 立足信息产业,面向现代社会,传播科学知识,服务科教兴国,为走中国特色新型工业化道路服务的出版宗旨,锐意改革探索,不断发展壮大,已成为集图书,期刊,音像电子出版物和网络出版于一体的,在国内外具有专业特色和品牌影响的综合性科技出版大社."
   intro_en: "The People's Posts and Telecommunications Press(Posts & Telecom Press)was by Ministry of Industry and Information Technology of the People's Republic of China management, Founded in October 1, 1953."
--
-  level_bronze: 1
-  level: bronze
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/w/180
-  link: http://www.broadview.com.cn
-  intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."
