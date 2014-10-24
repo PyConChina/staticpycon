@@ -1,12 +1,18 @@
 #!/usr/bin/env python
 #encoding:utf8
 
-from os.path import realpath, dirname, join, getmtime
+from __future__ import unicode_literals, absolute_import, print_function
+from os.path import realpath, dirname, join, getmtime, splitext, basename
 from os.path import exists as file_exists
 from os import listdir, makedirs, chdir
 from staticjinja import make_renderer
 import yaml, re, thread, sys
 from copy import deepcopy
+import glob
+
+import scss
+
+from .util import mkdirp
 
 try:
     import colorama
@@ -26,11 +32,21 @@ except ImportError:
 
 
 PROJECT_DIR = dirname(dirname(realpath(dirname(__file__))))
+BOWER_DEP_DIR = join(PROJECT_DIR, "bower_components")
 SITE_DIR = join(PROJECT_DIR, "out")
 SOURCE_DIR = join(PROJECT_DIR, "src")
+STYLESHEET_DIR = join(PROJECT_DIR, "sass")
 ASSET_DIR = join(PROJECT_DIR, "src", "asset")
 ASSET_DIR_REL = "asset"
 DATA_DIR = join(PROJECT_DIR, "src", "data")
+CSS_OUTPUT_DIR = join(SITE_DIR, ASSET_DIR_REL, "css")
+
+SCSS_IMPORT_PATH = (
+    STYLESHEET_DIR,
+    join(BOWER_DEP_DIR, 'font-awesome/scss/'),
+    join(BOWER_DEP_DIR, 'bourbon/dist/'),
+    join(BOWER_DEP_DIR, 'neat/app/assets/stylesheets/'),
+)
 
 PROMPT_FMT_HTML = (
     colorama.Style.DIM
@@ -51,6 +67,15 @@ PROMPT_FMT_INVALID_ATTR = (
     + colorama.Fore.MAGENTA
     + 'invalid attribute '
     + colorama.Fore.RESET
+    + '%s'
+)
+
+PROMPT_FMT_SCSS = (
+    colorama.Style.DIM
+    + colorama.Fore.CYAN
+    + 'scss '
+    + colorama.Fore.RESET
+    + colorama.Style.RESET_ALL
     + '%s'
 )
 
@@ -102,7 +127,37 @@ def render_page(renderer, template, **context):
         print(PROMPT_FMT_HTML % (context['lang'], outfile))
         template.stream(context).dump(outfile, "utf-8")
 
+def render_scss():
+    # ensure output dir exists
+    mkdirp(CSS_OUTPUT_DIR)
+
+    for in_path in glob.iglob(join(STYLESHEET_DIR, '*.scss')):
+        in_filename = basename(in_path)
+        # don't process partials
+        if in_filename.startswith('_'):
+            continue
+
+        out_filename = splitext(in_filename)[0] + '.css'
+        out_path = join(CSS_OUTPUT_DIR, out_filename)
+        print(PROMPT_FMT_SCSS % (out_path, ))
+
+        with open(in_path, 'rb') as fp:
+            content = fp.read()
+
+        result = scss.compiler.compile_string(
+            content,
+            search_path=SCSS_IMPORT_PATH,
+            output_style='compressed',  # TODO: use expanded while debugging?
+        )
+
+        with open(out_path, 'wb') as fp:
+            fp.write(result.encode('utf-8'))
+
 def gen(start_server=False):
+    # Sass
+    render_scss()
+
+    # Pages
     renderer = make_renderer(searchpath=SOURCE_DIR, staticpath=ASSET_DIR_REL,
         outpath=SITE_DIR, rules=[
             ("[\w-]+\.html", render_page)
