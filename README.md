@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ./bin/app.py
 ```
 
-## 使用
+## 代码部署
 
 代码push到master后5分钟内会自动发布到[官网](http://cn.pycon.org).
 
