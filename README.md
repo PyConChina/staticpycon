@@ -2,6 +2,23 @@
 
 PyCon China 2014 官网生成工具
 
+
+## 构建环境配置
+
+```sh
+virtualenv venv-foo  # 预先 .gitignore 了 venv-* 和 test 所以不用担心
+. ./venv-foo/bin/activate
+pip install -r requirements.txt
+```
+
+## 本地构建方法
+
+```sh
+# 会执行构建, 并在本地 8080 端口启动测试服务器
+# 请访问 http://127.0.0.1:8080 观看效果
+./bin/app.py
+```
+
 ## 使用
 
 代码push到master后5分钟内会自动发布到[官网](http://cn.pycon.org).
