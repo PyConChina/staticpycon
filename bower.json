@@ -14,6 +14,8 @@
   "homepage": "http://cn.pycon.org/",
   "private": true,
   "dependencies": {
-    "font-awesome": "~4.2.0"
+    "font-awesome": "~4.2.0",
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0"
   }
 }
