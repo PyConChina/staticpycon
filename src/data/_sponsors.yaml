@@ -66,6 +66,13 @@
 -
   level_gold: 1
   level: gold
+  logo: http://cn.pycon.org/static/images/companies/Seeed.png?imageView2/2/w/180
+  link: http://www.seeedstudio.com.cn/
+  intro: "成立于2008年,是一家致力于促进开源硬件发展的服务型企业. 我们通过提供模块化的快速开发工具,使设计者能根据创意,简单快速地开发出产品原型. 此外,我们还通过提供从研发辅助,采购生产到渠道分销的一站式配套服务,帮助设计者实现从创意到产品的转换. 3年以来,我们不断加大技术和研发投入,努力优化供应链和销售渠道,使得企业的服务能力一直处于行业领先状态. "
+  intro_en: "Seeed Studio is an open hardware facilitation company based in Shenzhen, China. Benefiting from local manufacture power and convenient global logistic system, we integrate resources to serve new era of innovation. Seeed also works with global distributors and partners to push open hardware movement."
+-
+  level_gold: 1
+  level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/120
   link: http://www.ituring.com.cn
   intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销技术图书,是国内计算机图书著名的有影响力的出版单位之一,成立九年以来,图书累积销售500多万册,影响了上百万的读者. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内著名的专业的IT技术交流+阅读社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成长为国内知名科技电子书销售平台."
