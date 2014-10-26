@@ -84,15 +84,16 @@ pm:
   - time: "16:00"
     topic: "from python import data.process"
     speaker: "曹文炯"
-    speaker_en: "曹文炯"
+    speaker_en: "曹文炯 (Cao Wenjiong)"
     preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
-    preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
+    preview_en: "Data processing with python and some open source libraries, as well as some open source python project, and how they are used in Duitang."
 
   - time: "16: 40"
     topic: Python in Modou
     speaker: 黄冬
     speaker_en: "黄冬 (Huang Dong)"
     preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Python的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明."
+    preview_en: How Python works in the development of Modou Router. Key points of this lecture are the second and third network layers of Python, and remote function test.
 
 lt:
 
