@@ -75,12 +75,12 @@ lt:
     preview: 简单介绍一下python在生物领域大数据分析中的应用.
     preview_en: Introduce the application of Python in biology big data.
   - time: ""
-    topic: 如何阅读Python 代码
-    topic_en: How to read Python codes
+    topic: 如何参与开源项目
+    topic_en: 如何参与开源项目
     speaker: 梁杰
     speaker_en: 梁杰 (Liang Jie)
-    preview: Python以其多种多样的第三方库闻名于世,许多程序员经过一段时间的学习都可以掌握这些库,但是掌握了之后,自己的水平就遇到了瓶颈,无法继续提高. 阅读源码则是一种简单粗暴,人人都可以使用的技术进阶方法,但是在我实际的学习过程中以及和周围朋友的交流中发现,很多人不敢阅读源码,很多人不想阅读源码,很多人不懂到底该如何阅读源码. 然而,要想真正的提升自己,成为一个优秀的程序员,阅读源码是必由之路. 我想和大家分享的就是我自己在阅读源码过程中总结的一些经验和方法,希望对大家的技术提升有所帮助.
-    preview_en: Python is famouse for its sufficient third-party modules. Programmers can learn a lot from reading the source code. However, it is hard to read source code. This lecture will focus on the recommending methods of reading source code.
+    preview: 开源大家都听过，但是真正参与到开源项目中的程序员却少之又少。在这个快速演讲中我会介绍如何参与开源项目，让每个程序员都能更快地得到提升。
+    preview_en: 开源大家都听过，但是真正参与到开源项目中的程序员却少之又少。在这个快速演讲中我会介绍如何参与开源项目，让每个程序员都能更快地得到提升。
   - time: ""
     topic: ""
     speaker: 屈晓龙
