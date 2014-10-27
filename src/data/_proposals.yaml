@@ -2,7 +2,7 @@
   name: 魏泽人
   city_global: 1
   city: global
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/tw-wzren.jpg?imageMogr2/crop/!420x520a440a120|imageView2/2/w/150
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/tw-wzren.jpg?imageMogr2/crop/!420x520a440a120|imageView2/2/h/80
   intro: 东华应数副教授 PyCon APAC 2014 议程负责人 花莲.py 负责人 ; Open Source Projects xnes/JavaScript SNES Emulator, translatePDF /pdf 简体繁体转换, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker  ; Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
   intro_en: Associate Professor of Applied Mathematics, Donghua University ; PyCon APAC 2014 Agenda responsible person; founder of Hualien.py ; Open Source Projects xnes /JavaScript SNES Emulator, translatePDF /pdf Traditional and Simplified Chineses, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker;  Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
 #########################################
@@ -147,7 +147,7 @@
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-huangdong.jpg?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-huangdong.jpg?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
   intro: FreeBSD,Python社区发起人/魔豆路由器创始人/新浪,优酷土豆等多个核心系统平台和产品技术负责人
 -
   name: 王震
@@ -169,7 +169,7 @@
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/KJ-head.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/kj-foto.png?imageMogr2/crop/!200x200a50a20|imageView2/2/h/80
   intro: GDG上海创始人, 齐书CEO
   intro_en: Founder of GDG Shanghai, CEO of Qishu.co
 -
@@ -177,7 +177,7 @@
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-adieu-pic.png?imageView2/2/h/80
   intro: 2014年开始全职创业.
   intro_en: Begin his full-time startup since 2014
 -
@@ -285,7 +285,7 @@
   city_zhuhai: 1
   city: 珠海
   city_en: Zhuhai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wuvist.jpg?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wuvist.jpghttp://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wuvist.jpg?imageMogr2/crop/!700x700a0a70|imageView2/2/h/80
   intro: 80后创业者,今年沉迷于使用python生成Go源码
   intro_en: Entrepreneurs, hooked on generating Go source code with python this year
 -
@@ -293,7 +293,7 @@
   city_zhuhai: 1
   city: 珠海
   city_en: Zhuhai
-  avatar: http://pyconcn.qiniudn.com/images/speakers/laiyonghao.png
+  avatar: http://pyconcn.qiniudn.com/images/speakers/laiyonghao.png?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
   intro: 从业 8 年多,曾从事客户端游戏,网页游戏的研发,最近一年构建,带领团队开发基于 Web 技术的互联网,电话,自助终端销售彩票管理系统;开发食品,药品溯源系统等. 也是珠三角技术沙龙的创办人和组委之一.
   intro_en: Working on the client game, web page game, etc., founder and organizer of Tech Party
 -
@@ -301,7 +301,7 @@
   city_zhuhai: 1
   city: 珠海
   city_en: Zhuhai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/zh-cmcm-llm.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/zh-cmcm-llm.png?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
   intro: 猎豹移动,工程师
   intro_en: Engineer of Cheetah Mobile
 -
@@ -309,7 +309,7 @@
   city_zhuhai: 1
   city: 珠海
   city_en: Zhuhai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wenmin-16_11_psb.jpg?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wenmin-16_11_psb.jpg?imageMogr2/crop/!500x500a40a80|imageView2/2/h/80
   intro: 旧金山人,曾负责水银云查杀和反钓鱼的开发
   intro_en: San Franciso developer, former leader of the development of Mecury cloud killing and anti-phishing
 -
@@ -355,7 +355,7 @@
   city_hangzhou: 1
   city: 杭州
   city_en: Hangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/hz-lifeng.jpg?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/hz-lifeng.jpg?imageMogr2/crop/!400x400a40a60|imageView2/2/h/80
   intro: "在手机相关研发领域已有近11年工作经验,先后在摩托罗拉,三星等IT企业工作,现就职于阿里巴巴."
   intro_en: "Experienced in mobile development and related, worked for Moto, Samsung and other IT companies, now working at Alibaba"
 -

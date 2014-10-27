@@ -113,6 +113,12 @@
 -
   level_silver: 1
   level: silver
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/vpncloud-200.png?imageView2/2/h/70
+  link:  https://www.ytvpn.com/
+  intro: "云梯致力于提供专业的 VPN 服务，用我们的技术和热情，为大家打造快速、安全、高效的 VPN 接入及解决方案，满足自由访问互联网、网络传输加密、保护隐私等多种需求。成熟的技术、专业的管理以及真诚的服务，让所有人都能享受开放的互联网。云梯 VPN - 连接世界的梯子！"
+-
+  level_silver: 1
+  level: silver
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/70
   link: http://www.broadview.com.cn
   intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."
