@@ -3,9 +3,15 @@
     <tr>
     <td>{{ speech.time or "" }} </td>
     {% if speech.speaker %}
-    <td style="width:30%;"><strong>{{ speech.topic or "" }}</strong></td>
-    <td style="width:5em;">{{ speech.speaker or "" }} </td>
-    <td class="text-left">{{ speech.preview or "" }} </td>
+        {% set a_speaker = speakers[speech.speaker] %}
+        {% if a_speaker and a_speaker.topic %}
+            <td style="width:30%;"><strong>{{ a_speaker.topic.title or "" }}
+                </strong></td>
+            <td style="width:5em;">{{ a_speaker.name or "" }} </td>
+            <td class="text-left">{{ a_speaker.topic.preview or "" }} </td>
+        {% else %}
+            {{- printlog("invalid speaker:" + speech.speaker) -}}
+        {% endif %}
     {% else %}
     <td colspan="3">{{ speech.topic or "" }} </td>
     {% endif %}
@@ -36,10 +42,10 @@
     <div class="table-responsive">
         <table class="table table-bordered text-center">
             <tbody>
-                {{ speech_trs(schedule.am, message.morning) }}
+                {{ speech_trs(schedule.morning, message.morning) }}
                 {{ speech_trs(schedule.noon, message.noon) }}
-                {{ speech_trs(schedule.pm, message.afternoon) }}
-                {{ speech_trs(schedule.lt, message.lighting_talks) }}
+                {{ speech_trs(schedule.afternoon, message.afternoon) }}
+                {{ speech_trs(schedule.lightening_talks, message.lighting_talks) }}
             </tbody>
         </table>
     </div>

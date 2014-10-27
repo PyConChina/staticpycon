@@ -46,18 +46,18 @@
 {% endif %}
 
 <!-- proposals -->
-{% if proposals %}
+{% if speakers %}
     <div class="clearfix"></div>
     <div class="">
     {# defination #}
-    {% set global_proposals = proposals | selectattr('city_global') %}
+    {% set global_proposals = selectspeakers(speakers, 'global') %}
     
-    {% set beijing_proposals = proposals | selectattr('city_beijing') %}
-    {% set shanghai_proposals = proposals | selectattr('city_shanghai') %}
-    {% set zhuhai_proposals = proposals | selectattr('city_zhuhai') %}
+    {% set beijing_proposals = selectspeakers(speakers, 'beijing') %}
+    {% set shanghai_proposals = selectspeakers(speakers, 'shanghai')%}
+    {% set zhuhai_proposals = selectspeakers(speakers, 'zhuhai') %}
     
-    {% set hangzhou_proposals = proposals | selectattr('city_hangzhou') %}
-    {% set suzhou_proposals = proposals | selectattr('city_suzhou') %}
+    {% set hangzhou_proposals = selectspeakers(speakers, 'hangzhou') %}
+    {% set suzhou_proposals = selectspeakers(speakers, 'suzhou') %}
 
     {% macro proposal_list(some_proposals) %}
     

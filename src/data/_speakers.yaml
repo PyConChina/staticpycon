@@ -1,0 +1,587 @@
+id_weizeren:
+  name: 魏泽人
+  city_global: 1
+  city: global
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/tw-wzren.jpg?imageMogr2/crop/!420x520a440a120|imageView2/2/h/80
+  intro: 东华应数副教授 PyCon APAC 2014 议程负责人 花莲.py 负责人 ; Open Source Projects xnes/JavaScript SNES Emulator, translatePDF /pdf 简体繁体转换, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker  ; Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
+  intro_en: Associate Professor of Applied Mathematics, Donghua University ; PyCon APAC 2014 Agenda responsible person; founder of Hualien.py ; Open Source Projects xnes /JavaScript SNES Emulator, translatePDF /pdf Traditional and Simplified Chineses, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker;  Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
+  topic:
+    title: 花蓮.py 社区体验
+    title_en: 花蓮.py community story (hualien.python.org.tw)
+    preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
+    preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
+#########################################
+#   帝都
+#########################################
+id_laike9m:
+  name: laike9m 
+  name_en: laike9m 
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-laike9m.jpeg?imageView2/2/h/80
+  intro: 中科院计算所学生,热爱 Python/Django,致力于推广 Python(尤其是 Py3)的使用
+    - blog; http://laike9m.com
+    - github; https://github.com/laike9m
+
+id_chenjian:
+  name: 陈剑(寒晨)
+  name_en: chen1324
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 知道创宇程序员,有5年左右的开发经验(主要python),擅长打杂和各类DIY,Google粉, FreeBSD粉,OpenWRT粉,业余单片机玩家. ,虚拟机重度依赖用户. @chen1324
+  topic:
+    title:   Python代码的多平台迁移
+    preview: 讲讲Python代码在多平台迁移时遇到的那些坑. 总结如何才能写出能够平滑进行多平台迁移的Python代码. 主要涉及硬编码,依赖导入,系统特性,发布方式等问题.
+
+id_quchifeng:
+  name: 曲池峰
+  name_en: chifeng
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: QPython项目创始人,曾任职于Zynga,新浪网等互联网公司
+  topic: 
+    title: QPython - 安卓上的Python
+    title_en: QPython - Python on Android
+    preview: 介绍QPython,如何在手机和平板上写Python程序,在手机上用Python写出实用的脚本程序,随时随地写程序.
+    preview_en: Introduce QPython. How to write useful Python on phone and tablet.
+
+id_yanglin:
+  name: 杨林
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 杨林, 百度云系统工程师, 目前负责百度云的MongoDB/Redis等NoSQL系统的开发和运维, 在高性能网络服务和分布式存储系统方面有丰富经验.
+  topic: 
+    title: redis-mgr 介绍
+    title_en: Introduce redis-mgr
+    preview: 是一个用python开发的redis集群管理工具,用redis-mgr可以快速(10min)搭建一个由redis/twemproxy/redis-sentinel 构成的redis 集群.   功能包括 一键式部署, failover, 监控, 实例迁移, 模块升级等.  github.com/idning/redis-mgr
+    preview_en: redis-mgr is a cluster management tool. A redis cluster can be set up in 10 min with redis-mgr, consisting of redis/twemproxy/redis-sentinel. Features are quick deployment, failover, monitor, instance migrate, module update.  github.com/idning/redis-mgr
+
+id_wangwei:
+  name: 王为
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-wangwei.png?imageView2/2/h/80
+  intro: 经历丰富的实习生,从大一到大二在北京工业大学防灾减灾所做工业监控软件开发,大三在中科院计算所做 OpenStack 开发,大四(现)在UnitedStack 做虚拟网络与 OpenStack 开发. 活跃于 Buildbot,OpenStack 社区.
+    - 个人博客:http://mytrix.me/
+    - Github:https://github.com/MatheMatrix
+    - Launchpad主页:https://launchpad.net/~damon-devops
+
+id_kanglei:
+  name: 康雷
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-kanglei.png?imageView2/2/h/80
+  intro: 中国科学技术大学自动化专业硕士研究生,研究方向未来网络和多媒体计算,热爱python,用tornado框架做过一个分类兴趣网站,喜欢用python写脚本代替重复性劳动. 专注于python和开源硬件结合的领域.
+
+id_liuxiaoming:
+  name: 刘晓明
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-xiaoming.jpg?imageView2/2/h/80
+  intro: DeepGlint全栈工程师,guokr.com技术总监,tudou.com助理架构师
+  topic: 
+    title: Python与机器人
+    title_en: Python and Robot
+    preview: Python在机器人技术中的优势与应用
+    preview_en: The advantages and application of Python in robot field
+
+id_binux:
+  name: binux
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/binux.5449.png?imageView2/2/h/80
+  intro: for fun.
+  topic: 
+    title: https://github.com/binux/pyspider 爬虫框架介绍
+    title_en: https://github.com/binux/pyspider Introduction to Web cawler framework
+    preview: 两种无需编写代码的结构化数据抽取(http://blog.binux.me/2014/07/how-to-extract-data-from-web/ 中介绍的 data highlighter 和 自动模板生成与提取)演示
+    preview_en: Two demos about extract structural data without programming code.(data highlighter in http://blog.binux.me/2014/07/how-to-extract-data-from-web/  AND  generation and extraction via automatic template)
+
+id_likuan:
+  name: 李宽
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/li-kuan.png?imageView2/2/h/80
+  intro: 中科院微生物所,生物信息工程师
+  intro_en: Bioinformatics engineer, Institute of Microbiology, Chinese Academy of Sciences
+  topic:
+    title: 生物领域的大数据和Python
+    title_en: Python and big data in biology
+    preview: 简单介绍一下python在生物领域大数据分析中的应用.
+    preview_en: Introduce the application of Python in biology big data.
+
+id_liangjie:
+  name: 梁杰
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/liang-jie-head.png?imageView2/2/h/80
+  intro: 北京航空航天大学大四学生
+  intro_en: Senior student at Beihang University
+  topic: 
+    title: 如何参与开源项目
+    title_en: 如何参与开源项目
+    preview: 开源大家都听过,但是真正参与到开源项目中的程序员却少之又少. 在这个快速演讲中我会介绍如何参与开源项目,让每个程序员都能更快地得到提升.
+    preview_en: It is hard for most of us to take part in open source projects, although we have heard of them too many times. This lecture will introduce how to join one open source project and get yourself improved.
+
+id_quxiaolong:
+  name: 屈晓龙
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 北京信易云媒Python工程师
+  intro_en: Python engineer at Beijing Msgcopy
+  topic: 
+    title: ""
+    preview: 简单介绍如何使用Python+JavaScript+Html+Css搭建类似于PhoneGap的轻量级,定制化的混合应用框架.
+    preview_en: Construct an application framework like PhoneGap with Python+Javascript+Html+Css.
+
+id_zhengkun:
+  name: 郑堃
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 知道创宇程序员,客串项目经理. 擅长 Web 开发,从事的工作是 Web 安全相关产品的研发和管理. 信奉,现阶段成功的软件开发如果有所谓"银弹"的话,那只能是靠谱的团队(或者是说所谓的人件,湿件吧).
+  intro_en: Programmer and program manager of Knowsec, working on the R&D and management of the web security products
+  topic:
+    title: Python 在知道创宇的应用--- 软件构建实践分享
+    title_en: Application of Python at KNOWNSEC -- Sharing on Software Construction
+    preview: Python 都用在了哪些类型的开发上;代码管理的实践;单元测试的实践;code review 的实践;包管理/构建发布的实践;持续集成的实践;等等软件构件中涉及的大小主题. 部分内容已经分享到了:http://pm.readthedocs.org/
+    preview_en: What softwares are using Python; Code Management; Unit Test; Code Review; Module Management/Deploy; Continuous Integration and so on. Some have been shared on http://pm.readthedocs.org/
+id_linshuai:
+  name: 林帅
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: Python 爱好者,目前就职于 scrapy 创始人的公司, Seafile 项目核心开发者
+  intro_en: Python lover, working with the creator of scrapy.  Core developer of Seafile project.
+  topic:
+    title: "工作坊"
+    title_en: "Workshop"
+    preview: 现场教大家用 Scrapy 框架做网络爬虫,以及面向开发者的网络爬虫 PaaS - ScrapyCloud. 具体内容包括从最开始怎么写爬虫,到用一个 SAE 上的应用来展示爬虫获取的数据. 最后如果时间允许可以再简单介绍一下不用写代码的自动爬虫工具 Auto-Scraping.
+    preview_en: Make a web crawler with Scrapy. Introduce ScrapyCloud, a developer-oriented PaaS. From how to start programming a crawler, to display the collected data on SAE. Talking about Auto-Scraping.
+id_xutao:
+  name: 徐涛
+  name_en: Xu Tao(徐涛)
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
+  intro: 豆瓣Python 开发工程师.
+  intro_en: Python engineer at Douban
+  topic:
+    title: "How CODE works"
+    preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy. CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验.
+    preview_en: Introduce how douban.com manages codes using CODE, a copy of Github. CODE is developed by Python, the lecture will mainly focus on the implementation of CODE, and experience during the development process.
+id_gaochitao:
+  name: 高驰涛
+  name_en: Chitao Gao(高驰涛)
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-neeke.gao.png?imageView2/2/h/80
+  intro: "云智慧高级架构师,PHP开发组成员,Python,Go爱好者,专注于APM(应用性能管理seb)产品的架构与研发. "
+  intro_en: "Senior architect at Yunzhihui, PHP developer, Python and Go lover, focused on the architecture and R&D of APM (Application Performance Management) products "
+  topic:
+    title: "APM - Python Application Performance"
+    preview: "在互联网,大数据发展的今天,应用性能管理(APM)已经越来越成为研发与运维所关注的难点与痛点.此次着重面向开发者与运维人员,分享云智慧在APM产品中,怎样运用先进的SmartAgent技术处理应用性能管理,更快更全面地发展已有的或潜在的性能瓶颈."
+    preview_en: "In the Internet and big data, APM(Application Performance Management) is increasingly difficult to developers and operations engineer. Introduce how SmartAgent work that it has been faster and comprehensive solve performance bottlenecks in Cloudsmart APM production"
+#########################################
+#   魔都
+#########################################
+id_lifeilin:
+  name: 李飞林
+  name_en: felinx.lee
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-felinx_lee.jpg?imageView2/2/h/80
+  intro: 上海掌和信息科技有限公司CEO,飞龙博客博主( http://feilong.me ),国内最早的Tornado脑残粉.
+  topic: 
+    title: "NSQ&Redis等组合拳快速实现移动社交产品动态流"
+    title_en: "Rapidly implement a mobile dynamic product flow using NSQ & Redis etc.."
+    preview: "NSQ&Redis等组合拳快速实现移动社交产品动态流"
+    preview_en: "Rapidly implement a mobile dynamic product flow using NSQ & Redis etc.."
+
+id_huangdong:
+  name: 黄冬
+  name_en: HD
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-huangdong.jpg?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
+  intro: FreeBSD,Python社区发起人/魔豆路由器创始人/新浪,优酷土豆等多个核心系统平台和产品技术负责人
+  topic: 
+    title: Python in Modou
+    preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Python的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明."
+    preview_en: How Python works in the development of Modou Router. Key points of this lecture are the second and third network layers of Python, and remote function test.
+
+id_wangzhen:
+  name: 王震
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-wangzhen.jpg?imageView2/2/h/80
+  intro: python 爱好者 对各种新技术都有兴趣.  目前在上海marin software工作
+  topic: 
+    title: "why python is slow, python runtime compared with other languages"
+    preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
+    preview: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
+
+id_luozhicheng:
+  name: 罗志城
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 北京正点时空科技有限公司研发经理
+  intro_en: R&D manager, Beijing Zhengdian Shikong Technology Limited Company
+  topic:
+    title: "TBD"
+    preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
+    preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
+id_kj:
+  name: KJ
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/kj-foto.png?imageMogr2/crop/!200x200a50a20|imageView2/2/h/80
+  intro: GDG上海创始人, 齐书CEO
+  intro_en: Founder of GDG Shanghai, CEO of Qishu.co
+  topic: 
+    title: "用不好MySQL的Python工程师不是优秀的NoSQL专家"
+    title_en: "A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL"
+    speaker: "KJ"
+    preview: "用不好MySQL的Python工程师不是优秀的NoSQL专家"
+    preview_en: "A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL."
+
+id_adieu:
+  name: Adieu
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-adieu-pic.png?imageView2/2/h/80
+  intro: 2014年开始全职创业.
+  intro_en: Begin his full-time startup since 2014
+  topic: 
+    title: "Django应该怎么用?"
+    title_en: "The right way to use Django?"
+    preview: "看到国内用Django的同学越来越多,但是缺少必要的指导,想分享一下我用Django过程中积累的一些经验."
+    preview_en: "With the increasing number of Django users, I want to share my experience during Django development."
+
+id_xuzhixiang:
+  name: 许智翔(Shell909090)
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/Shell909090-lighting.png?imageView2/2/h/80
+  intro: 现任七牛工程师,python/c程序员
+  intro_en: Engineering of Qiniu, Python and C programmer
+  topic: 
+    title: "Python中的进程,线程,协程,同步,异步,回调. "
+    title_en: "Process, Thread, Coroutine, Synchronization, Asynchronization and Callback in Python"
+    preview: "Python中的进程,线程,协程,同步,异步,回调. "
+    preview_en: "Process, Thread, Coroutine, Synchronization, Asynchronization, Callback in Python"
+
+id_wangjianfeng:
+  name: 王剑峰
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/jeff-openerp_14_11_jeff.png?imageView2/2/h/80
+  intro: 致力于基于Python的OpenERP在中国的推广
+  intro_en: Devoting himself on the promotion of Python-based OpenERP in China
+  topic: 
+    title: OpenERP 再说
+    title_en: Review on OpenERP
+    preview:  "汇报这年 OpenERP 的发展"
+    preview_en: "Talking about the developement of OpenERP in this year"
+
+id_yejianye:
+  name: 叶剑烨
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ryan_500x500.jpg?imageView2/2/h/80
+  intro: 之前在Slide和Google任技术经理,目前是Glow公司的CTO,也是公司的创始人之一
+  intro_en: CTO and co-founder of Glow, former technical manager of Slide and Google
+  topic: 
+    title: "用Python搭建RPC framework"
+    title_en: "Construct RPC framework using Python"
+    speaker: "叶剑烨"
+    speaker_en: "叶剑烨 (Ye Jianye)"
+    preview: "可以和大家分享一下在Glow里我们是如何用Python编写各种Web Services,以及各个Services之间是如何通信的. "
+    preview_en: "How we implement a variety of Web Services with Python in Glow, and how Services communicate with each other."
+
+id_hujingchao:
+  name: 胡景超
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: https://avatars1.githubusercontent.com/u/478194?v=2&s=460
+  intro: "2009年开始用Python工作后一直被其生态圈惯坏到现在, 长期从事互联网(创业)相关的技术领域, 目前专注于数据分析,机器学习方向,就职于上海菜根科技有限公司. "
+  intro_en: Spoiled by python ecosystem since 2009, long time enthusiast in web related technologies, currently focus on "Machine Learning" and "Data Analysis", works for Shanghai Caigen Tech Inc.
+  topic: 
+    title: "Python机器学习实践"
+    title_en: "Practical Machine Learning in Python"
+    speaker: "胡景超"
+    speaker_en: "胡景超 (Jingchao Hu)"
+    preview: "Python机器学习实践"
+    preview_en: "Practical Machine Learning in Python"
+
+id_caowenjiong:
+  name: 曹文炯
+  name_en: Laurence
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-duitang.jpg?imageView2/2/h/80
+  intro: "堆糖网技术合伙人. 曾担任阿里巴巴平台架构师,盛大研究员. "
+  topic: 
+    title: "from python import data.process"
+    preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
+    preview_en: "Data processing with python and some open source libraries, as well as some open source python project, and how they are used in Duitang."
+
+id_maquanyi:
+  name: 马全一
+  city_zhuhai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ma-quan-yi_docker_7_11_meaglith_logo.png?imageView2/2/h/80
+  intro: Docker 中文社区创始人
+  intro_en: Founder of Docker Chinese community
+
+#########################################
+#   珠三角
+#########################################
+
+id_wanganyu:
+  name: 王安宇
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wang-an-yu-15_11_%E6%97%A0%E6%A0%87%E9%A2%98.png?imageView2/2/h/80
+  intro: 深圳矽递科技(SeeedStudio)运营总监&CIO; Python爱好者,Raspberry Pi玩家
+  intro_en: "COO & CIO of Shengzhen Seeed Studio, Python lover, Raspberry Pi player"
+  topic:
+    title: Maker 中的 Pythonic
+    title_en: Pythonic in Maker
+    speaker: 王安宇
+    speaker_en: 王安宇 (Wang Anyu)
+    preview: 移动互联网下智能硬件是一个绕不开的话题,开源硬件给移动互联网带来了很大的想象空间,也让更多人可以参与移动互联网---尤其是程序员. 针对目前开源硬件的现状,流行的平台模块和应用案例给大家做分享交流,希望给各路饥渴的程序员一些新的思路和启发
+    preview_en: Intelligent hardware is an inevitable topic in mobile network time, open source hardware has brought huge develop space for internet, and make it possible for a lot of people, especially programmers, to join the whole IT. Share the knowledge about popular platform module and application case, wish to help all come up with new ideas.
+
+id_jeff:
+  name: jeff
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/images/speakers/131123_jeff.png?imageView2/2/h/80
+  intro: 广州图锐信息科技创始人兼技术负责人,珠三角技术沙龙常务组委. 长年活跃在一线的python码农.
+  intro_en: Founder and tech leader of Guangzhou ToraySoft, organizer of  TechParty, Python coder
+  topic: 
+    title: Python web异步编程实践
+    title_en: Python web Asychronous Programming
+    preview: 主要讲述我们需要使用异步编程模型的场景,编程框架从tornado到gevent的迁移过程遇到的种种坑和填坑方法.
+    preview_en: Introducing the scenarios when we need asynchronous programming, tricks and methods during the migration from tornado to gevent.
+
+id_taowen:
+  name: 陶文
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 在腾讯游戏运营部,使用python做运营开发. 曾经用python搞过电子商城,营销平台,手机代理程序等各类型应用
+  intro_en: Operation developer at Tencent Game, having used python to build e-mall, markerting platform, mobile proxy app, etc
+  topic:
+    title: stackless python打造微内核的流程引擎
+    title_en: stackless python - creating a flow engine for microkernel
+    preview: 芯雲(bpm.py) 业务流程管理系统. 独特之处在于不需要学习新的流程定义语言. 如果你会写python代码,那么你在十分钟之内学会定义一个流程.甚至还支持多机并行执行,使用bpm.py做一个小的map/reduce分布式作业都是可能的!
+    preview_en: >
+      bpm.py (Business Process Management System (BPMS)). With it, you don't need to learn new flow control language, and you are able to define a flow in ten minutes with the knowledge of pure python. The system even support natively parallel work, it is possible to create a map/reduce flow with bmp.py!
+
+id_panjunyong:
+  name: 潘俊勇
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/panjunyong_13_11_image.png?imageView2/2/h/80
+  intro: Python老人,易度云办公 easydo.cn 创始人,前中国Zope/Plone社区推广者
+  intro_en: Python expert, founder of easydo.cn, former promoter of China Zope/Plone community
+  topic: 
+    title: 一切皆python的易度前端框架
+    title_en: A simple front end framework with pure python
+    speaker:  潘俊勇
+    speaker_en: 潘俊勇 (Pan Junyong)
+    preview: 前端技术变化非常快,前端知识快速陈旧,javascript语言很蛋疼,html也很蛋疼,多终端支持也很蛋疼. 易度自己构建的前端框架,一切皆Python,快速编写前端应用,无js,无html,无蛋疼,支持多终端.
+    preview_en: Techniques related to front end changes from time to time, javascript is hard to use, so is html. Besides, it is extremely hard to make your website support countless terminal. Now, use python, you can eaily create your powerful and supportive page.
+
+id_wuzhangjin:
+  name: 吴章金
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: MEIZU 工程师
+  intro_en: Engineer at MEIZU
+  topic: 
+    title: Python Practices for Android/Linux Development?
+    preview: 系统优化:数据渲染,形象化思维;oscilloscope~ 功耗,性能,温控等数据通过Python示波器的方式展示出来?自动化测试框架:提早发现问题,快速重现问题;基本框架以及核心实现为Python~;程控开关,Python + Shell 版关键片段;程控制电源,GPIB Python封装;串口控制,Python serial模块;内核可视化调试,"个性化Bug";基于Python serial写了串口终端,在接收到自己指定的字符后做加色处理~;
+    preview_en: System optimization - data rendering, imagical thinking; oscilloscope, power consumption, performance, temparature control and data visualization by python. Automatic test framework - find problems in advance, fast reproduce problems; Python + shell code snippets; program controlled switch and power and serial port, GPIB by python, python serial module; visualized kernel debugging; individual bug; color message received from serial port.
+
+id_huangyi:
+  name: 黄毅
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/images/speakers/huangyi_1.jpeg?imageView2/2/h/80
+  intro: 云悦科技技术合伙人,Python,Haskell爱好者,手游开发者.
+  intro_en: Technical co-founder of Yunyue Tech, Python & Haskell lover, mobile game developer
+  topic: 
+    title: keep simple things simple and high performant
+    preview: 分享cython开发实践,以及两个python库cprotobuf和credis的设计.
+    preview_en: Share the experience during developing cython. And the design of cprogobuf and credis.
+
+id_wengwei:
+  name: 翁伟(Wuvist)
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wuvist.jpghttp://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wuvist.jpg?imageMogr2/crop/!700x700a0a70|imageView2/2/h/80
+  intro: 80后创业者,今年沉迷于使用python生成Go源码
+  intro_en: Entrepreneurs, hooked on generating Go source code with python this year
+  topic: 
+    title: 使用Python实现"Go元编程
+    title_en: Python version of "Go Meta Programming"
+    preview: 讲述如何使用python对go语言进行预处理生成代码,实现"Go元编程";目前项目Go源码已经突破30W行,大半是由python"编译器"自动生成而来.
+    preview_en: Talking about how to use python to pre-process go language, to achieve "Go Meta Programming"; Currently, there are already 30w lines of source code of Go language, half of which are automatically generated by "Python Compiler"
+
+id_laiyonghao:
+  name: 赖勇浩
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/images/speakers/laiyonghao.png?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
+  intro: 从业 8 年多,曾从事客户端游戏,网页游戏的研发,最近一年构建,带领团队开发基于 Web 技术的互联网,电话,自助终端销售彩票管理系统;开发食品,药品溯源系统等. 也是珠三角技术沙龙的创办人和组委之一.
+  intro_en: Working on the client game, web page game, etc., founder and organizer of Tech Party
+
+id_longlimin:
+  name: 龙利民
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/zh-cmcm-llm.png?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
+  intro: 猎豹移动,工程师
+  intro_en: Engineer of Cheetah Mobile
+  topic: 
+    title: Luna 之高效 KV 库
+    title_en: Luna one efficient KV database
+    preview: 在大数据实时统计系统架构过程中,必然的遇到了海量任务队列的分布式储存问题;分享如何一步步,用合适的开源系统升级架构,到最后,基于开源产品,完成原创系统的体验.
+    preview_en: In the process of constructing a big data real time system, problems like massive task queue, distributed storage will come up along. Lecture will be focusing on how to base on appropriate open source system frameworks, to develop your own system.
+
+id_wenming:
+  name: 温铭
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/wenmin-16_11_psb.jpg?imageMogr2/crop/!500x500a40a80|imageView2/2/h/80
+  intro: 旧金山人,曾负责水银云查杀和反钓鱼的开发
+  intro_en: San Franciso developer, former leader of the development of Mecury cloud killing and anti-phishing
+  topic: 
+    title: python是否适合高性能web服务的开发?
+    title_en: python suitable for high performance and web service?
+    preview: "主要从异步,缓存等方面探讨."
+    preview_en: Share the experience during developing cython. And the design of cprogobuf and credis.
+
+id_mengfanliang:
+  name: 孟繁亮
+  city_zhuhai: 1
+  city: 珠海
+  city_en: Zhuhai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: docker.cn 核心开发人员. 一直从事云计算,大数据相关的开发和管理工作. 目前专注 Docker 技术和 Golang 语言的研究. 
+  topic: 
+    title: Docker Registry Build By Python
+    preview: 讨论在Docker 体系中 Python 的能力
+    preview_en: What Python is capable of in the Docker system
+
+#########################################
+#   苏州
+#########################################
+id_juzheng:
+  name: 巨震
+  city_suzhou: 1
+  city: 苏州
+  city_en: Suzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sz-Docker_Lance.png?imageView2/2/h/80
+  intro: 80后复古伪文艺程序员,好奇一切计算机相关的技术,热爱骑行,美食和中国传统文化,"Docker权威指南"合作译者,目前使用NodeJS进行服务器端的开发.
+
+#########################################
+#   杭州
+#########################################
+id_hepochen:
+  name: Hepo Chen
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/HepoChen.jpg?imageView2/2/h/80
+  intro: "FarBox的创始人,流浪在代码一线的产品经理."
+  intro_en: Co-founder and PM of Farbox.
+  topic: 
+    title: Python在FarBox的实际应用
+    preview: 待定
+    preview_en: TBD
+
+id_linhuchong:
+  name: 令狐虫
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://avatar-ludwig.qiniudn.com/ling-huchong.jpg
+  intro: "SFIT资深软件工程师,BT群核心成员, g4pcc发起人"
+  intro_en: "Senior software engineer of SFIT, core-member of BT group, founder-member of g4pcc"
+  topic: 
+    title: Gevent简介
+    preview: TBD
+
+id_lifeng:
+  name: 李枫
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/hz-lifeng.jpg?imageMogr2/crop/!400x400a40a60|imageView2/2/h/80
+  intro: "在手机相关研发领域已有近11年工作经验,先后在摩托罗拉,三星等IT企业工作,现就职于阿里巴巴."
+  intro_en: "Experienced in mobile development and related, worked for Moto, Samsung and other IT companies, now working at Alibaba"
+  topic: 
+    title: Python与LLVM
+    title_en: Python and LLVM
+    preview: 待定
+    preview_en: TBD
+
+id_shiyuanmin:
+  name: 施远敏
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://avatar-ludwig.qiniudn.com/shi-yuanmin.jpg
+  intro: 诺基亚通信的资深技术专家,软件研发教练
+  intro_en: Senior technology expert in Nokia Communication, Software development manager
+  topic: 
+    title: idiomatic python
+    preview: 待定
+    preview_en: TBD
