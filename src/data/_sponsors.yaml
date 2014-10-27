@@ -6,9 +6,7 @@
   level: partner
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/sf-logo-cmyk.png?imageView2/2/w/200
   link: http://segmentfault.com/
-  intro: "egmentFault 是中国领先的开发者社区。经过两年多年的发展，已经
-聚集了十多万开发者。我们的目标是为中文开发者提供一个最纯粹的
-技术交流平台，一起创造属于开发者的时代！"
+  intro: "egmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
 #########################################
 #   钻石级
 #########################################
@@ -126,7 +124,7 @@
   level: silver
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/vpncloud-200.png?imageView2/2/h/70
   link:  https://www.ytvpn.com/
-  intro: "云梯致力于提供专业的 VPN 服务，用我们的技术和热情，为大家打造快速、安全、高效的 VPN 接入及解决方案，满足自由访问互联网、网络传输加密、保护隐私等多种需求。成熟的技术、专业的管理以及真诚的服务，让所有人都能享受开放的互联网。云梯 VPN - 连接世界的梯子！"
+  intro: "云梯致力于提供专业的 VPN 服务,用我们的技术和热情,为大家打造快速,安全,高效的 VPN 接入及解决方案,满足自由访问互联网,网络传输加密,保护隐私等多种需求. 成熟的技术,专业的管理以及真诚的服务,让所有人都能享受开放的互联网. 云梯 VPN - 连接世界的梯子!"
 -
   level_silver: 1
   level: silver
