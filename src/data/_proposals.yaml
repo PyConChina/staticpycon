@@ -9,15 +9,21 @@
 #   帝都
 #########################################
 -
-  name: laike9m 
-  name_en: laike9m 
+  name: 董伟 
+  name_en: 董伟
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-laike9m.jpeg?imageView2/2/h/80
-  intro: 中科院计算所学生,热爱 Python/Django,致力于推广 Python(尤其是 Py3)的使用
-    - blog; http://laike9m.com
-    - github; https://github.com/laike9m
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-dongwei_touxiang.jpg?imageView2/2/h/80
+  intro: 迅达云成CTO,10年互联网从业经验. 此前在北京蓝汛(ChinaCache)任职,曾设计并主导了多个公司核心的运营项目,包括CDN内容缓存集群管理系统,CDN资源调度系统及计费系统等等. 有丰富的CDN系统管理及研发,运维经验. 目前在迅达云负责研发/运维管理及云服务在不同行业的解决方案实践,致力于打造一个开放式的,对研发,运维人员友好的云平台. 
+-
+  name: 曲池峰
+  name_en: chifeng
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: QPython项目创始人,曾任职于Zynga,新浪网等互联网公司
 -
   name: 陈剑(寒晨)
   name_en: chen1324
@@ -27,13 +33,31 @@
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
   intro: 知道创宇程序员,有5年左右的开发经验(主要python),擅长打杂和各类DIY,Google粉, FreeBSD粉,OpenWRT粉,业余单片机玩家. ,虚拟机重度依赖用户. @chen1324
 -
-  name: 曲池峰
-  name_en: chifeng
+  name: 郑堃
   city_beijing: 1
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: QPython项目创始人,曾任职于Zynga,新浪网等互联网公司
+  intro: 知道创宇程序员,客串项目经理. 擅长 Web 开发,从事的工作是 Web 安全相关产品的研发和管理. 信奉,现阶段成功的软件开发如果有所谓"银弹"的话,那只能是靠谱的团队(或者是说所谓的人件,湿件吧).
+  intro_en: Programmer and program manager of Knowsec, working on the R&D and management of the web security products
+-
+  name: 徐涛
+  name_en: Xu Tao(徐涛)
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
+  intro: 豆瓣Python 开发工程师.
+  intro_en: Python engineer at Douban
+-
+  name: 高驰涛
+  name_en: Chitao Gao(高驰涛)
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-neeke.gao.png?imageView2/2/h/80
+  intro: "云智慧高级架构师,PHP开发组成员,Python,Go爱好者,专注于APM(应用性能管理seb)产品的架构与研发. "
+  intro_en: "Senior architect at Yunzhihui, PHP developer, Python and Go lover, focused on the architecture and R&D of APM (Application Performance Management) products "
 -
   name: 杨林
   city_beijing: 1
@@ -97,14 +121,6 @@
   intro: 北京信易云媒Python工程师
   intro_en: Python engineer at Beijing Msgcopy
 -
-  name: 郑堃
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: 知道创宇程序员,客串项目经理. 擅长 Web 开发,从事的工作是 Web 安全相关产品的研发和管理. 信奉,现阶段成功的软件开发如果有所谓"银弹"的话,那只能是靠谱的团队(或者是说所谓的人件,湿件吧).
-  intro_en: Programmer and program manager of Knowsec, working on the R&D and management of the web security products
--
   name: 林帅
   city_beijing: 1
   city: 北京
@@ -113,23 +129,15 @@
   intro: Python 爱好者,目前就职于 scrapy 创始人的公司, Seafile 项目核心开发者
   intro_en: Python lover, working with the creator of scrapy.  Core developer of Seafile project.
 -
-  name: 徐涛
-  name_en: Xu Tao(徐涛)
+  name: laike9m 
+  name_en: laike9m 
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
-  intro: 豆瓣Python 开发工程师.
-  intro_en: Python engineer at Douban
--
-  name: 高驰涛
-  name_en: Chitao Gao(高驰涛)
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-neeke.gao.png?imageView2/2/h/80
-  intro: "云智慧高级架构师,PHP开发组成员,Python,Go爱好者,专注于APM(应用性能管理seb)产品的架构与研发. "
-  intro_en: "Senior architect at Yunzhihui, PHP developer, Python and Go lover, focused on the architecture and R&D of APM (Application Performance Management) products "
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-laike9m.jpeg?imageView2/2/h/80
+  intro: 中科院计算所学生,热爱 Python/Django,致力于推广 Python(尤其是 Py3)的使用
+    - blog; http://laike9m.com
+    - github; https://github.com/laike9m
 #########################################
 #   魔都
 #########################################
