@@ -6,6 +6,8 @@ deploy.py
 out/
 out
 .python-version
+_stuff/
+_darft/
 
 
 *.py[cod]
