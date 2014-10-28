@@ -1,0 +1,10 @@
+{% extends "base/_base.html" %}
+{% set page_title = message.page_title_beijing %}
+
+{% block content %}
+{% if agenda.beijing %}
+    {% set schedule = agenda.beijing %}
+    {% set schedule_title = page_title %}
+    {% include "base/_schedule.html" %}
+{% endif %}
+{% endblock %}

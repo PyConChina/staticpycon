@@ -22,7 +22,6 @@ data_contexts = {
     'en' : { 'lang' : 'en', 'lang_suffix' : '_en', 'lang_dir' : 'en' },
 }
 
-
 def _sp_printlog(msg):
     '''模板函数，在生成日志中输出消息 '''
     print(msg)
@@ -71,26 +70,15 @@ def load_data():
                 process_data(data_copy, context['lang_suffix'])
                 context[entryname] = data_copy
 
-def handle_page(renderer, template, **context):
+def render_page(renderer, template, **context):
     load_data()
-    template_name = template.name
     for lang, context in data_contexts.items():
-        if template_name == "agenda.html":
-            for city in context['site']['cities']:
-                filename = template_name.replace("agenda", city)
-                context['agenda_title'] = context['message']['page_title_' + city]
-                context['agenda_city'] = context['agenda'][city]
-                render_page(template, context, filename)
-        else:
-            render_page(template, context, template_name)
-        
-def render_page(template, context, filename):
-    outfile = join(SITE_DIR, context['lang_dir'], filename)
-    head = dirname(outfile)
-    if head and not file_exists(head):
-        makedirs(head)
-    print("Generating [%s] %s ... " % (context['lang'], outfile))
-    template.stream(context).dump(outfile, "utf-8")
+        outfile = join(SITE_DIR, context['lang_dir'], template.name)
+        head = dirname(outfile)
+        if head and not file_exists(head):
+            makedirs(head)
+        print("Generating [%s] %s ... " % (context['lang'], outfile))
+        template.stream(context).dump(outfile, "utf-8")
 
 def run(start_server=False):
     for lang, context in data_contexts.iteritems():
@@ -98,7 +86,7 @@ def run(start_server=False):
         context['selectspeakers'] = _sp_selectspeakers
     renderer = make_renderer(searchpath=SOURCE_DIR, staticpath=ASSET_DIR_REL,
         outpath=SITE_DIR, rules=[
-            ("[\w-]+\.html", handle_page)
+            ("[\w-]+\.html", render_page)
         ])
     def serve():
         from SimpleHTTPServer import SimpleHTTPRequestHandler

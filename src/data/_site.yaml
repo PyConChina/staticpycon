@@ -7,4 +7,3 @@ home_url: "./"
 home_url_en: "../en/"
 base_url: "."
 base_url_en: ".."
-cities: [ beijing, shanghai, zhuhai, suzhou, hangzhou ]
