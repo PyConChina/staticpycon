@@ -48,7 +48,7 @@ id_laike9m:
     - github; https://github.com/laike9m
   topic:
     title: "current.futures 研究"
-    preview: "current.futures 是我非常喜欢使用的一个并发模块，相对 multiprocessing，它提供了更为简洁的接口。希望能介绍这个模块的基本使用，并且深入源码探究它的实现。"
+    preview: "current.futures 是我非常喜欢使用的一个并发模块,相对 multiprocessing,它提供了更为简洁的接口. 希望能介绍这个模块的基本使用,并且深入源码探究它的实现. "
 
 id_chenjian:
   name: 陈剑(寒晨)
