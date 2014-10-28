@@ -18,7 +18,7 @@ echo "###::run@" `date +"%Y/%m/%d %H:%M:%S"` >> $LOGF
 echo "<<<   trigging crontab tasks"  >> $LOGF
 
 cd $RESPATH
-#pwd             >> $LOGF 2>&1
+#pwd            >> $LOGF 2>&1
 $PY deploy.py   >> $LOGF 2>&1
 
 echo "###::end@" `date +"%Y/%m/%d %H:%M:%S"` >> $LOGF

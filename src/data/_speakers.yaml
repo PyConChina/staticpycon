@@ -1,3 +1,10 @@
+####################################################################
+#    _______        __
+#   |_   _\ \      / /
+#     | |  \ \ /\ / /
+#     | |   \ V  V /
+#     |_|    \_/\_/
+####################################################################
 id_weizeren:
   name: 魏泽人
   city_global: 1
@@ -10,10 +17,16 @@ id_weizeren:
     title_en: 花蓮.py community story (hualien.python.org.tw)
     preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
-
-#########################################
+####################################################################
 #   帝都
-#########################################
+#    ____  _
+#   | __ )(_)
+#   |  _ \| |
+#   | |_) | |
+#   |____// |
+#       |__/
+#   
+####################################################################
 id_dongwei:
   name: 董伟
   city_beijing: 1
@@ -220,9 +233,14 @@ id_gaochitao:
     title: "APM - Python Application Performance"
     preview: "在互联网,大数据发展的今天,应用性能管理(APM)已经越来越成为研发与运维所关注的难点与痛点.此次着重面向开发者与运维人员,分享云智慧在APM产品中,怎样运用先进的SmartAgent技术处理应用性能管理,更快更全面地发展已有的或潜在的性能瓶颈."
     preview_en: "In the Internet and big data, APM(Application Performance Management) is increasingly difficult to developers and operations engineer. Introduce how SmartAgent work that it has been faster and comprehensive solve performance bottlenecks in Cloudsmart APM production"
-#########################################
+####################################################################
 #   魔都
-#########################################
+#    ____  _   _
+#   / ___|| | | |
+#   \___ \| |_| |
+#    ___) |  _  |
+#   |____/|_| |_|
+####################################################################
 id_lifeilin:
   name: 李飞林
   name_en: felinx.lee
@@ -385,10 +403,14 @@ id_maquanyi:
   intro: Docker 中文社区创始人
   intro_en: Founder of Docker Chinese community
 
-#########################################
+####################################################################
 #   珠三角
-#########################################
-
+#    ______   _
+#   |__  / | | |
+#     / /| |_| |
+#    / /_|  _  |
+#   /____|_| |_|
+####################################################################
 id_wanganyu:
   name: 王安宇
   city_zhuhai: 1
@@ -539,9 +561,14 @@ id_mengfanliang:
     preview: 讨论在Docker 体系中 Python 的能力
     preview_en: What Python is capable of in the Docker system
 
-#########################################
+####################################################################
 #   苏州
-#########################################
+#    ____ _____
+#   / ___|__  /
+#   \___ \ / /
+#    ___) / /_
+#   |____/____|
+####################################################################
 id_juzheng:
   name: 巨震
   city_suzhou: 1
@@ -550,9 +577,14 @@ id_juzheng:
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sz-Docker_Lance.png?imageView2/2/h/80
   intro: 80后复古伪文艺程序员,好奇一切计算机相关的技术,热爱骑行,美食和中国传统文化,"Docker权威指南"合作译者,目前使用NodeJS进行服务器端的开发.
 
-#########################################
+####################################################################
 #   杭州
-#########################################
+#    _   _ _____
+#   | | | |__  /
+#   | |_| | / /
+#   |  _  |/ /_
+#   |_| |_/____|
+####################################################################
 id_hepochen:
   name: Hepo Chen
   city_hangzhou: 1
