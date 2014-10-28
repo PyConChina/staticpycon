@@ -149,7 +149,7 @@ suzhou:
   venue_en: TBD
   traffic: 待定
   traffic_en: TBD
-  notices: ""
+  notices: "只有半天..."
   date: 2014-11-15 13:30~18:00
   noon:
     - time: "13:00"
