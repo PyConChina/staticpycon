@@ -4,6 +4,20 @@ PyCon China 2014 官网生成工具
 
 ## 使用
 
+```
+# 安装依赖
+pip install staticjinja
+# 下载源码
+git clone git@gitcafe.com:PyConChina/staticpycon.git
+cd staticpycon
+mkdir out # 首次使用可能需要创建out/目录
+# 编辑src/ 目录下的文件
+# 在out/下生成网页
+python bin/app.py -g
+# 也可以开启自动生成服务,监听到文件修改即时生成新的文件
+python bin/app.py
+```
+
 代码push到master后5分钟内会自动发布到[官网](http://cn.pycon.org).
 
 ---
@@ -11,7 +25,7 @@ PyCon China 2014 官网生成工具
 ## 翻译规则
 
 翻译是对`src/data/`下的yaml文件进行处理;
-对需要翻译的字段(如`name`),创建后缀`_en`的新字段(`name_en`),以译文作为字段的值. 举例(见`_proposals.yaml`):
+对需要翻译的字段(如`name`),创建后缀`_en`的新字段(`name_en`),以译文作为字段的值. 举例(见`_speakers.yaml`):
 
 ```
 -
