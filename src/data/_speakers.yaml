@@ -10,9 +10,19 @@ id_weizeren:
     title_en: 花蓮.py community story (hualien.python.org.tw)
     preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
+
 #########################################
 #   帝都
 #########################################
+id_dongwei:
+  name: 董伟
+  city_beijing: 1
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-dongwei_touxiang.jpg?imageView2/2/h/80
+  intro: "迅达云成CTO,10年互联网从业经验. 此前在北京蓝汛(ChinaCache)任职,曾设计并主导了多个公司核心的运营项目,包括CDN内容缓存集群管理系统,CDN资源调度系统及计费系统等等. 有丰富的CDN系统管理及研发,运维经验. 目前在迅达云负责研发/运维管理及云服务在不同行业的解决方案实践,致力于打造一个开放式的,对研发,运维人员友好的云平台."
+  topic:
+    title:  一起来设计云计算平台的任务调度系统
+    preview: "技术人擅长学习新技术,有好奇心,希望攻克技术难题. 那么想不想一起参与设计一次商业云平台的任务调度系统呢?如果你愿意,欢迎一起参与到本次的演讲中来. 我们将和现场所有的Pythoner一起从头完成一次商业云计算平台的任务调度系统的设计."
+
 id_laike9m:
   name: laike9m 
   name_en: laike9m 
@@ -23,6 +33,9 @@ id_laike9m:
   intro: 中科院计算所学生,热爱 Python/Django,致力于推广 Python(尤其是 Py3)的使用
     - blog; http://laike9m.com
     - github; https://github.com/laike9m
+  topic:
+    title: "current.futures 研究"
+    preview: "current.futures 是我非常喜欢使用的一个并发模块，相对 multiprocessing，它提供了更为简洁的接口。希望能介绍这个模块的基本使用，并且深入源码探究它的实现。"
 
 id_chenjian:
   name: 陈剑(寒晨)
@@ -33,8 +46,8 @@ id_chenjian:
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
   intro: 知道创宇程序员,有5年左右的开发经验(主要python),擅长打杂和各类DIY,Google粉, FreeBSD粉,OpenWRT粉,业余单片机玩家. ,虚拟机重度依赖用户. @chen1324
   topic:
-    title:   Python代码的多平台迁移
-    preview: 讲讲Python代码在多平台迁移时遇到的那些坑. 总结如何才能写出能够平滑进行多平台迁移的Python代码. 主要涉及硬编码,依赖导入,系统特性,发布方式等问题.
+    title: "Python代码的多平台迁移"
+    preview: "讲讲Python代码在多平台迁移时遇到的那些坑. 总结如何才能写出能够平滑进行多平台迁移的Python代码. 主要涉及硬编码,依赖导入,系统特性,发布方式等问题."
 
 id_quchifeng:
   name: 曲池峰
@@ -73,6 +86,9 @@ id_wangwei:
     - 个人博客:http://mytrix.me/
     - Github:https://github.com/MatheMatrix
     - Launchpad主页:https://launchpad.net/~damon-devops
+  topic:
+    title: OpenStack与分布式系统开发
+    preview: "讲一讲Python与分布式系统开发,云计算开发,OpenStack吧,说的比较宽泛"
 
 id_kanglei:
   name: 康雷
@@ -80,7 +96,10 @@ id_kanglei:
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-kanglei.png?imageView2/2/h/80
-  intro: 中国科学技术大学自动化专业硕士研究生,研究方向未来网络和多媒体计算,热爱python,用tornado框架做过一个分类兴趣网站,喜欢用python写脚本代替重复性劳动. 专注于python和开源硬件结合的领域.
+  intro: "中国科学技术大学自动化专业硕士研究生,研究方向未来网络和多媒体计算,热爱python,用tornado框架做过一个分类兴趣网站,喜欢用python写脚本代替重复性劳动. 专注于python和开源硬件结合的领域."
+  topic:
+    title: "python在开源硬件中大有可为"
+    preview: "通过python在raspberryPi中的应用(超声波自动避障小车,智能家居等皆为我自己做出的实际实验品,若条件不允许可提供视频供观众观看),阐述python在开源硬件中的应用以及未来的广阔前景."
 
 id_liuxiaoming:
   name: 刘晓明
@@ -171,7 +190,7 @@ id_linshuai:
   intro: Python 爱好者,目前就职于 scrapy 创始人的公司, Seafile 项目核心开发者
   intro_en: Python lover, working with the creator of scrapy.  Core developer of Seafile project.
   topic:
-    title: "工作坊"
+    title: "工作坊(专用教室进行)"
     title_en: "Workshop"
     preview: 现场教大家用 Scrapy 框架做网络爬虫,以及面向开发者的网络爬虫 PaaS - ScrapyCloud. 具体内容包括从最开始怎么写爬虫,到用一个 SAE 上的应用来展示爬虫获取的数据. 最后如果时间允许可以再简单介绍一下不用写代码的自动爬虫工具 Auto-Scraping.
     preview_en: Make a web crawler with Scrapy. Introduce ScrapyCloud, a developer-oriented PaaS. From how to start programming a crawler, to display the collected data on SAE. Talking about Auto-Scraping.
