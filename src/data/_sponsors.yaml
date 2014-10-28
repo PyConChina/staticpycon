@@ -6,7 +6,8 @@
   level: partner
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/sf-logo-cmyk.png?imageView2/2/w/200
   link: http://segmentfault.com/
-  intro: "egmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
+  intro: "SegmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
+  intro_en: "SegmentFault is China's leading developer community. After more than two years of development, SegmentFault is already have more than ten developer. SegmentFault's goal is to provide Chinese developers to one of the most pure technical exchange platform,  create belong to the age of developers together"
 #########################################
 #   钻石级
 #########################################
@@ -33,6 +34,7 @@
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/jiankongbao-logo.png?imageView2/2/w/210
   link: http://www.jiankongbao.com/
   intro: "云智慧(北京)科技有限公司成立于2009年,是国内领先的应用性能管理服务商. 基于大数据分析,为企业级用户提供全面,专业的端到端的应用性能管理(End To End Application Performance Management)解决方案. Cloudwise SaaS APM累计已为电子商务,移动互联网,IaaS云服务,在线游戏,教育医疗等行业的几十万用户提供了前瞻性的智慧性能管理服务,是新一代应用性能管理(APM)的领导者. "
+  intro_en: "CloudSmart (Beijing)  technology co., LTD founded in 2009 ,that is a leading domestic application performance management service providers. Based on big data analysis, for enterprise users to provide the solution of End To End Application Performance Management comprehensive. For electronic commerce, mobile Internet, cloud IaaS service, online game, education and  the medical industry users provided a forward-looking & wisdom application performance management" 
 #########################################
 #   黄金级
 #########################################
@@ -84,12 +86,14 @@
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/DeepGlint-logo.png?imageView2/2/w/120
   link: http://www.deepglint.com/
   intro: "深瞳消费者行为分析系统;在电商大行其道的今天,我们为传统零售商提供更精准的数据和更加客观的消费者行为分析,使得零售商能够为消费者提供更加精准高效的服务. 深瞳无人监控安防系统;当危险临近时,我们不再需要靠运气被中控室里的保安在几万路视频里正好看到,深瞳系统的 三维传感器将像机器人一样,实时的代替人'看'着每一个场景里的一举一动"
+  intro_en: "Deepglint customer behavior analysis system; Today electronic commerce is very popular, Deepglint provide traditional retailers with accurate data that is more objective behavior analysis, the data can make traditional retailers provide customer with more accurate and more efficient service."
 -
   level_gold: 1
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/knownsec_160.png
   link: http://www.knownsec.com
   intro: "北京知道创宇信息技术有限公司是国内最早提出网站安全云监测及云防御的高新企业,始终致力于为客户提供基于云技术支撑的下一代Web安全解决方案. 知道创宇总部设在北京,在香港,上海,广州,成都设有分公司,客户及合作伙伴来自中国,美国,日本,韩国等. 凭借强大的云安全技术与产品的高可用性,易管理性,合规性和业务连续性,以及动态保障关键Web数据资产安全的能力,帮助用户应对变化多端的互联网安全威胁,赢得了企业,政府与公共机构的青睐. 知道创宇安全实验室在零日安全威胁与云安全技术方面的研究得到了业内的广泛认同并享有极高知名度. "
+  intro_en: "Beijing knownsec information technology Co., Ltd (hereinafter referred to as knownsec) was founded in 2007, registered capital of￥14,205,882, is one of the earliest high-tech enterprises that proposed site cloud monitoring and cloud defense. Through years of development efforts, the ability of the company are highly recognized by the major Internet management institutions, many of the world's top five hundred enterprises. In 2011 the company and domestic well-known IT vendors Digital China Corp reached a strategic agreement and Digital China Corp invested in Knowsec as well. In 2012 the company obtained the domestic well-known Internet companies Shenzhen Tencent Inc's investment."
 -
   level_gold: 1
   level: gold
@@ -103,12 +107,14 @@
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/120
   link: http://www.ituring.com.cn
   intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销技术图书,是国内计算机图书著名的有影响力的出版单位之一,成立九年以来,图书累积销售500多万册,影响了上百万的读者. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内著名的专业的IT技术交流+阅读社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成长为国内知名科技电子书销售平台."
+  intro_en: "Turing Co., Ltd  persists in planning publishing high quality books of science and technology as the core business, launched a series of high quality best-selling technology books, it's one of China famous and influential computer books publisher and Professional technical & Reading community. Set up nine years, accumulative total sold more than 500 copies of books and have impress millions of readers. Turing Co., Ltd that provide first-class content is its responsibility. Rapid growth in recent years has been for domestic famous ebook sales platform of science and technology."
 -
   level_gold: 1
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/books-hz-logo_nowords.png?imageView2/2/h/90
   link: http://www.hzbook.com/About/About.html
   intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
+  intro_en: "HZ Book is a joint venture set up with China Machine Press and (US)WanGuo."
 #########################################
 #   白银级
 #########################################
@@ -125,12 +131,14 @@
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/vpncloud-200.png?imageView2/2/h/70
   link:  https://www.ytvpn.com/
   intro: "云梯致力于提供专业的 VPN 服务,用我们的技术和热情,为大家打造快速,安全,高效的 VPN 接入及解决方案,满足自由访问互联网,网络传输加密,保护隐私等多种需求. 成熟的技术,专业的管理以及真诚的服务,让所有人都能享受开放的互联网. 云梯 VPN - 连接世界的梯子!"
+  intro_en: "FastYT committed to providing professional VPN service. FastYT use our passion and technology to provide fast, security,efficient service for Chinese and help them to surf the Internet, encrypted the online data and privacy protection. FastYT will be the ladder of people to connect the world."
 -
   level_silver: 1
   level: silver
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/70
   link: http://www.broadview.com.cn
   intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."
+  intro_en: "Broadview is branch of Publishing House Of Electronics Industry."
 #########################################
 #   青铜级
 #########################################
