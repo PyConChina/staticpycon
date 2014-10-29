@@ -135,8 +135,8 @@ id_binux:
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/binux.5449.png?imageView2/2/h/80
   intro: for fun.
   topic: 
-    title: https://github.com/binux/pyspider 爬虫框架介绍
-    title_en: https://github.com/binux/pyspider Introduction to Web cawler framework
+    title: pyspider 爬虫框架介绍
+    title_en: Introduction to Web cawler framework: pyspider
     preview: 两种无需编写代码的结构化数据抽取(http://blog.binux.me/2014/07/how-to-extract-data-from-web/ 中介绍的 data highlighter 和 自动模板生成与提取)演示
     preview_en: Two demos about extract structural data without programming code.(data highlighter in http://blog.binux.me/2014/07/how-to-extract-data-from-web/  AND  generation and extraction via automatic template)
 
