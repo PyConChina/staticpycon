@@ -37,21 +37,21 @@ beijing:
       topic_en: Intermission
   lightening_talks:
     - { time: "~ 15:20", speaker: id_quchifeng }
-    - { time: "~ 15:30", speaker: id_binux }
-    - { time: "~ 15:40", speaker: id_chenjian }
-    - { time: "~ 15:50", speaker: id_likuan }
-    - { time: "~ 16:00", speaker: id_liangjie }
-    - time: "~ 16:10 "
+    - { time: "~ 15:30", speaker: id_chenjian }
+    - { time: "~ 15:40", speaker: id_likuan }
+    - { time: "~ 15:50", speaker: id_liangjie }
+    - time: "~ 16:00 "
       topic: 间歇
       topic_en: Intermission
-    - { time: "~ 16:20", speaker: id_quxiaolong }
-    - { time: "~ 16:30", speaker: id_yanglin }
-    - { time: "~ 16:40", speaker: id_liuxiaoming }
-    - { time: "~ 16:50", speaker: id_luozhicheng }
-    - { time: "~ 17:00", speaker: id_kanglei }
-    - time: "~ 17:10"
+    - { time: "~ 16:10", speaker: id_quxiaolong }
+    - { time: "~ 16:20", speaker: id_yanglin }
+    - { time: "~ 16:30", speaker: id_liuxiaoming }
+    - { time: "~ 16:40", speaker: id_luozhicheng }
+    - { time: "~ 16:50", speaker: id_kanglei }
+    - time: "~ 17:00"
       topic: 间歇
       topic_en: Intermission
+    - { time: "~ 17:10", speaker: id_binux }
     - time: "~ 18:10"
       topic: 闪电演讲,现场抢注,五分钟一节,能有8/9节
 ####################################################################
