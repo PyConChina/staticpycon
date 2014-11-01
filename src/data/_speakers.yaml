@@ -27,6 +27,15 @@ id_weizeren:
 #       |__/
 #   
 ####################################################################
+id_caibin:
+  name: 蔡斌 
+  city_beijing: 1
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-douban-caibin.jpg?imageView2/2/h/80
+  intro: "产品开发工程师 @ 豆瓣东西"
+  topic:
+    title:  产品开发在豆瓣 
+    preview: "通过讲述豆瓣东西的开发经历，介绍一下豆瓣工程师在一个产品开发过程中的工作方式"
+
 id_dongwei:
   name: 董伟
   city_beijing: 1
@@ -576,6 +585,29 @@ id_juzheng:
   city_en: Suzhou
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sz-Docker_Lance.png?imageView2/2/h/80
   intro: 80后复古伪文艺程序员,好奇一切计算机相关的技术,热爱骑行,美食和中国传统文化,"Docker权威指南"合作译者,目前使用NodeJS进行服务器端的开发.
+
+id_baoyongcheng:
+  name: 鲍永成
+  city_suzhou: 1
+  city: 苏州
+  city_en: Suzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sz-id_baoyongcheng.JPG?imageView2/2/h/80
+  intro: python爱好者，使用python开发过 土豆网CDN系统，土豆网视频转码系统，土豆网上线发包系统，swift存储系统，现在正在从事京东云计算 
+  topic: 
+    title: python之于云计算 
+    preview: ...
+
+id_laoqi:
+  name: 老齐 
+  city_suzhou: 1
+  city: 苏州
+  city_en: Suzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sz-laoqi.jpg?imageView2/2/h/80
+  intro: 一个用python的程序员。正在撰写python的学习教程。请看www.itdiffer.com
+  topic: 
+    title: python的一个好轮子——tornado 
+    preview: 介绍用于网站开发的tornado框架。
+
 
 ####################################################################
 #   杭州
