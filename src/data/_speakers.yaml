@@ -258,6 +258,7 @@ id_lifeilin:
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-felinx_lee.jpg?imageView2/2/h/80
   intro: 上海掌和信息科技有限公司CEO,飞龙博客博主( http://feilong.me ),国内最早的Tornado脑残粉.
+  intro_en: CEO of Shanghai Zhanghe Information Technology, Tornado fanboy. http://feilong.me
   topic: 
     title: "NSQ&Redis等组合拳快速实现移动社交产品动态流"
     title_en: "Rapidly implement a mobile dynamic product flow using NSQ & Redis etc.."
@@ -272,6 +273,7 @@ id_huangdong:
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-huangdong.jpg?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
   intro: FreeBSD,Python社区发起人/魔豆路由器创始人/新浪,优酷土豆等多个核心系统平台和产品技术负责人
+  intro: Promoter of FreeBSD & Python community, founder of Modou WiFi, former tecnical lead of many core systems and projects in Sina and Youku Todou Inc.
   topic: 
     title: Python in Modou
     preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Python的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明."
@@ -283,7 +285,8 @@ id_wangzhen:
   city: 上海
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-wangzhen.jpg?imageView2/2/h/80
-  intro: python 爱好者 对各种新技术都有兴趣.  目前在上海marin software工作
+  intro: Python 爱好者 对各种新技术都有兴趣.  目前在上海marin software工作
+  intro_en: Python lover, interested in various new technologies, now working at Marin Software Shanghai
   topic: 
     title: "why python is slow, python runtime compared with other languages"
     preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
@@ -337,7 +340,7 @@ id_xuzhixiang:
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/Shell909090-lighting.png?imageView2/2/h/80
   intro: 现任七牛工程师,python/c程序员
-  intro_en: Engineering of Qiniu, Python and C programmer
+  intro_en: Engineer of Qiniu, Python and C programmer
   topic: 
     title: "Python中的进程,线程,协程,同步,异步,回调. "
     title_en: "Process, Thread, Coroutine, Synchronization, Asynchronization and Callback in Python"
@@ -398,6 +401,7 @@ id_caowenjiong:
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sh-duitang.jpg?imageView2/2/h/80
   intro: "堆糖网技术合伙人. 曾担任阿里巴巴平台架构师,盛大研究员. "
+  intro_en: Technical partner at Duitang.com, former archetect at Alibaba and researcher at SNDA.
   topic: 
     title: "from python import data.process"
     preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
