@@ -5,6 +5,7 @@
 #     | |   \ V  V /
 #     |_|    \_/\_/
 ####################################################################
+
 id_weizeren:
   name: 魏泽人
   city_global: 1
@@ -17,6 +18,7 @@ id_weizeren:
     title_en: 花蓮.py community story (hualien.python.org.tw)
     preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
+
 ####################################################################
 #   帝都
 #    ____  _
@@ -27,6 +29,7 @@ id_weizeren:
 #       |__/
 #   
 ####################################################################
+
 id_caibin:
   name: 蔡斌 
   city_beijing: 1
@@ -52,7 +55,8 @@ id_laike9m:
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-laike9m.jpeg?imageView2/2/h/80
-  intro: 中科院计算所学生,热爱 Python/Django,致力于推广 Python(尤其是 Py3)的使用
+  intro: > 
+    中科院计算所学生,热爱 Python/Django,致力于推广 Python(尤其是 Py3)的使用
     - blog; http://laike9m.com
     - github; https://github.com/laike9m
   topic:
@@ -203,6 +207,7 @@ id_zhengkun:
     title_en: Application of Python at KNOWNSEC -- Sharing on Software Construction
     preview: Python 都用在了哪些类型的开发上;代码管理的实践;单元测试的实践;code review 的实践;包管理/构建发布的实践;持续集成的实践;等等软件构件中涉及的大小主题. 部分内容已经分享到了:http://pm.readthedocs.org/
     preview_en: What softwares are using Python; Code Management; Unit Test; Code Review; Module Management/Deploy; Continuous Integration and so on. Some have been shared on http://pm.readthedocs.org/
+
 id_linshuai:
   name: 林帅
   city_beijing: 1
@@ -216,6 +221,7 @@ id_linshuai:
     title_en: "Workshop"
     preview: 现场教大家用 Scrapy 框架做网络爬虫,以及面向开发者的网络爬虫 PaaS - ScrapyCloud. 具体内容包括从最开始怎么写爬虫,到用一个 SAE 上的应用来展示爬虫获取的数据. 最后如果时间允许可以再简单介绍一下不用写代码的自动爬虫工具 Auto-Scraping.
     preview_en: Make a web crawler with Scrapy. Introduce ScrapyCloud, a developer-oriented PaaS. From how to start programming a crawler, to display the collected data on SAE. Talking about Auto-Scraping.
+
 id_xutao:
   name: 徐涛
   name_en: Xu Tao(徐涛)
@@ -229,6 +235,7 @@ id_xutao:
     title: "How CODE works"
     preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy. CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验.
     preview_en: Introduce how douban.com manages codes using CODE, a copy of Github. CODE is developed by Python, the lecture will mainly focus on the implementation of CODE, and experience during the development process.
+
 id_gaochitao:
   name: 高驰涛
   name_en: Chitao Gao(高驰涛)
@@ -242,6 +249,7 @@ id_gaochitao:
     title: "APM - Python Application Performance"
     preview: "在互联网,大数据发展的今天,应用性能管理(APM)已经越来越成为研发与运维所关注的难点与痛点.此次着重面向开发者与运维人员,分享云智慧在APM产品中,怎样运用先进的SmartAgent技术处理应用性能管理,更快更全面地发展已有的或潜在的性能瓶颈."
     preview_en: "In the Internet and big data, APM(Application Performance Management) is increasingly difficult to developers and operations engineer. Introduce how SmartAgent work that it has been faster and comprehensive solve performance bottlenecks in Cloudsmart APM production"
+
 ####################################################################
 #   魔都
 #    ____  _   _
@@ -250,6 +258,7 @@ id_gaochitao:
 #    ___) |  _  |
 #   |____/|_| |_|
 ####################################################################
+
 id_lifeilin:
   name: 李飞林
   name_en: felinx.lee
@@ -290,7 +299,7 @@ id_wangzhen:
   topic: 
     title: "why python is slow, python runtime compared with other languages"
     preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
-    preview: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
+    preview_en: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
 
 id_luozhicheng:
   name: 罗志城
@@ -315,7 +324,6 @@ id_kj:
   topic: 
     title: "用不好MySQL的Python工程师不是优秀的NoSQL专家"
     title_en: "A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL"
-    speaker: "KJ"
     preview: "用不好MySQL的Python工程师不是优秀的NoSQL专家"
     preview_en: "A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL."
 
@@ -372,8 +380,6 @@ id_yejianye:
   topic: 
     title: "用Python搭建RPC framework"
     title_en: "Construct RPC framework using Python"
-    speaker: "叶剑烨"
-    speaker_en: "叶剑烨 (Ye Jianye)"
     preview: "可以和大家分享一下在Glow里我们是如何用Python编写各种Web Services,以及各个Services之间是如何通信的. "
     preview_en: "How we implement a variety of Web Services with Python in Glow, and how Services communicate with each other."
 
@@ -388,8 +394,6 @@ id_hujingchao:
   topic: 
     title: "Python机器学习实践"
     title_en: "Practical Machine Learning in Python"
-    speaker: "胡景超"
-    speaker_en: "胡景超 (Jingchao Hu)"
     preview: "Python机器学习实践"
     preview_en: "Practical Machine Learning in Python"
 
@@ -424,6 +428,7 @@ id_maquanyi:
 #    / /_|  _  |
 #   /____|_| |_|
 ####################################################################
+
 id_wanganyu:
   name: 王安宇
   city_zhuhai: 1
@@ -435,8 +440,6 @@ id_wanganyu:
   topic:
     title: Maker 中的 Pythonic
     title_en: Pythonic in Maker
-    speaker: 王安宇
-    speaker_en: 王安宇 (Wang Anyu)
     preview: 移动互联网下智能硬件是一个绕不开的话题,开源硬件给移动互联网带来了很大的想象空间,也让更多人可以参与移动互联网---尤其是程序员. 针对目前开源硬件的现状,流行的平台模块和应用案例给大家做分享交流,希望给各路饥渴的程序员一些新的思路和启发
     preview_en: Intelligent hardware is an inevitable topic in mobile network time, open source hardware has brought huge develop space for internet, and make it possible for a lot of people, especially programmers, to join the whole IT. Share the knowledge about popular platform module and application case, wish to help all come up with new ideas.
 
@@ -480,8 +483,6 @@ id_panjunyong:
   topic: 
     title: 一切皆python的易度前端框架
     title_en: A simple front end framework with pure python
-    speaker:  潘俊勇
-    speaker_en: 潘俊勇 (Pan Junyong)
     preview: 前端技术变化非常快,前端知识快速陈旧,javascript语言很蛋疼,html也很蛋疼,多终端支持也很蛋疼. 易度自己构建的前端框架,一切皆Python,快速编写前端应用,无js,无html,无蛋疼,支持多终端.
     preview_en: Techniques related to front end changes from time to time, javascript is hard to use, so is html. Besides, it is extremely hard to make your website support countless terminal. Now, use python, you can eaily create your powerful and supportive page.
 
@@ -582,6 +583,7 @@ id_mengfanliang:
 #    ___) / /_
 #   |____/____|
 ####################################################################
+
 id_juzheng:
   name: 巨震
   city_suzhou: 1
@@ -621,6 +623,7 @@ id_laoqi:
 #   |  _  |/ /_
 #   |_| |_/____|
 ####################################################################
+
 id_hepochen:
   name: Hepo Chen
   city_hangzhou: 1
