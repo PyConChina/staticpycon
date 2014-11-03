@@ -7,12 +7,12 @@
 #       |__/
 ####################################################################
 beijing:
-  address: 中国科学院中关村园区教学楼
+  address: 中国科学院计算机网络信息中心
   address_en: "Teaching Building at Zhongguancun Campus, CAS"
-  venue: S201教室
-  venue_en: Room S201
-  traffic: (北四环保福寺桥南恒兴大厦向西200米)
-  traffic_en: "(near Hengxing Building, Baofusi Bridge)"
+  venue: 中科院软件园2号楼 507会议室 (分会场:505)
+  venue_en: Room 507
+  traffic: (北京市海淀区中关村南四街4号)
+  traffic_en: "(...)"
   date: 2014-11-15 09:00~18:00
   notices: ...
   morning:
