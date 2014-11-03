@@ -8,6 +8,14 @@
   link: http://segmentfault.com/
   intro: "SegmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
   intro_en: "SegmentFault is China's leading developer community. After more than two years of development, SegmentFault is already have more than ten developer. SegmentFault's goal is to provide Chinese developers to one of the most pure technical exchange platform,  create belong to the age of developers together"
+-
+  level_partner: 1
+  level: partner
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/cstnet-logo.png?imageView2/2/w/200
+  link: http://www.cstnet.net.cn/overview.htm
+  intro: "中国科技网是中国科学院领导下的学术性,非盈利的科研计算机网络. 作为中国互联网事业的先行者,中国科技网(CSTNET)将一如既往地提供优质,高效的网络服务,为您开创全新的网络世界,与广大用户共享,共赢,共发展. "
+
+
 #########################################
 #   钻石级
 #########################################
@@ -115,6 +123,13 @@
   link: http://www.hzbook.com/About/About.html
   intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
   intro_en: "HZ Book is a joint venture set up with China Machine Press and (US)WanGuo."
+-
+  level_gold: 1
+  level: gold
+  logo: http://cn.pycon.org/static/images/sponsors/131129_pd_spark.png?imageView2/2/w/200
+  link: http://www.spsp.com.cn/
+  intro: 上海浦东软件园股份有限公司成立于1992年7月,由原信息产业部和上海市人民政府共同组建,承担"国家软件产业基地","国家软件出口基地"---上海浦东软件园园区规划建设,经营管理和产业发展的重要任务,是上海浦东软件园建设的主体. 注册资本3亿元人民币. 公司地处上海浦东张江高科技园区. 除负责园区开发建设外,公司着重于园区服务体系建设,进行产业投资和软件研发.
+
 #########################################
 #   白银级
 #########################################
@@ -128,14 +143,14 @@
 -
   level_silver: 1
   level: silver
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/vpncloud-200.png?imageView2/2/h/60
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/vpncloud-200.png?imageView2/2/h/50
   link:  https://www.ytvpn.com/
   intro: "云梯致力于提供专业的 VPN 服务,用我们的技术和热情,为大家打造快速,安全,高效的 VPN 接入及解决方案,满足自由访问互联网,网络传输加密,保护隐私等多种需求. 成熟的技术,专业的管理以及真诚的服务,让所有人都能享受开放的互联网. 云梯 VPN - 连接世界的梯子!"
   intro_en: "FastYT committed to providing professional VPN service. FastYT use our passion and technology to provide fast, security,efficient service for Chinese and help them to surf the Internet, encrypted the online data and privacy protection. FastYT will be the ladder of people to connect the world."
 -
   level_silver: 1
   level: silver
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/60
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/50
   link: http://www.broadview.com.cn
   intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."
   intro_en: "Broadview is branch of Publishing House Of Electronics Industry."
@@ -175,6 +190,6 @@
   level: bronze
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/JKXY_Logo_Final.png?imageView2/2/w/140
   link: http://www.jikexueyuan.com
-  intro: "极客学院是中国最大的IT职业在线教育平台,涵盖300多门市场最火的技术开发课程 ,上线至今已成功帮助 18w 移动开发者提升了自身的技术开发实力。极客学院已与微软、触控科技等多家大型互联网公司达成战略合作。创始团队出版过中国大陆第一本Android教材,做过中国最早的Android线下企业培训和学生培训;具有极为丰富的线上培训和线下培训实战经验。"
+  intro: "极客学院是中国最大的IT职业在线教育平台,涵盖300多门市场最火的技术开发课程 ,上线至今已成功帮助 18w 移动开发者提升了自身的技术开发实力. 极客学院已与微软,触控科技等多家大型互联网公司达成战略合作. 创始团队出版过中国大陆第一本Android教材,做过中国最早的Android线下企业培训和学生培训;具有极为丰富的线上培训和线下培训实战经验. "
   intro_en: "jikexueyuan is the biggest online education platform the IT profession of China, covers more than 300 of the most popular technology development course, up to now it has already helped 300,000 developer to improve themself development capability. jikexueyuan have reached a strategic cooperation with Microsoft & CHUKONG technology Co., & etc.. The founder team has been published the first teaching material of Android, and Organize the earliest offline Android training for enterprise & students, have a wealth of experience in online&offline training."
 
