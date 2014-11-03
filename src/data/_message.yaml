@@ -74,8 +74,8 @@ home_intro_en: >
   </ul>
 home_sponsors: 大会赞助 
 home_sponsors_en: Sponsors 
-home_sponsors_wanted: <code>募集ing...</code>
-home_sponsors_wanted_en: <code>Wanted...</code>
+home_sponsors_wanted: <code>将满!明天12:00关闭赞助入口.</code>
+home_sponsors_wanted_en: <code>Will close...</code>
 home_sponsors_hint: >
   <ul><li>赞助商权益说明书, 下载:
   <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">
