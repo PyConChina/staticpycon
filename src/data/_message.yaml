@@ -74,25 +74,10 @@ home_intro_en: >
   </ul>
 home_sponsors: 大会赞助 
 home_sponsors_en: Sponsors 
-home_sponsors_wanted: <code>将满!明天12:00关闭赞助入口.</code>
-home_sponsors_wanted_en: <code>Will close...</code>
+home_sponsors_wanted: <code>完满达成!</code>(为保证赞助商权益,进行充分公平的展示,今年不再接受赞助;-)
+home_sponsors_wanted_en: <code>Closed thanx for all!</code>
 home_sponsors_hint: >
-  <ul><li>赞助商权益说明书, 下载:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">
-  PyCon2014China-SponsorshipProposal-v140727.pdf</a></li>
-  <li>特别的,今年为个人赞助追加了特殊权益. 参考:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">
-  PyCon2014China-PersonSponsor-v140711.pdf</a></li>
-  </ul>
 home_sponsors_hint_en: >
-  <ul>
-  <li>Sponsorship Proposal, download:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">
-  PyCon2014China-SponsorshipProposal-v140727.pdf</a></li>
-  <li>We have added proposal for personal sponorship this year, download:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">
-  PyCon2014China-PersonSponsor-v140711.pdf</a></li>
-  </ul>
 #########################################
 # proposal
 #########################################
