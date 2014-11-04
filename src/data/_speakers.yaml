@@ -634,7 +634,7 @@ id_hepochen:
   intro_en: Co-founder and PM of Farbox.
   topic: 
     title: Python在FarBox的实际应用
-    preview: 待定
+    preview: 比如服务器的运维,自动部署,故障自测;分布式的Websocket服务;用户账户系统与微信扫码登录;自建云盘;Gevent在Web应用中的优化机制;超高效的服务端缓存系统等. 
     preview_en: TBD
 
 id_linhuchong:
@@ -647,7 +647,7 @@ id_linhuchong:
   intro_en: "Senior software engineer of SFIT, core-member of BT group, founder-member of g4pcc"
   topic: 
     title: Gevent简介
-    preview: TBD
+    preview: Gevent的工作原理,用途介绍,0.13版到1.0版的变化等. 
 
 id_lifeng:
   name: 李枫
@@ -660,7 +660,7 @@ id_lifeng:
   topic: 
     title: Python与LLVM
     title_en: Python and LLVM
-    preview: 待定
+    preview: 1) LLVM的Python绑定--llvmpy的架构与代码分析; 2) 基于LLVM的反汇编引擎Capstone的Python包装 
     preview_en: TBD
 
 id_shiyuanmin:
@@ -673,5 +673,5 @@ id_shiyuanmin:
   intro_en: Senior technology expert in Nokia Communication, Software development manager
   topic: 
     title: idiomatic python
-    preview: 待定
+    preview: 当你学了一段时间的Python,以为自己真正成为了一名pythonist,结果发现,你只是用到了python最最基本的语句,所写的python程序只能说没有语法错误,而称不上真正意义上的python编程,那么地道的Python编程又该如何呢. 
     preview_en: TBD
