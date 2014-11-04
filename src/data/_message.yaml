@@ -73,11 +73,7 @@ home_intro_en: >
   <li>Contact: <a href="mailto:support@pychina.org?subject=ask-PyCon2014China">support@pychina.org</a> </li> 
   </ul>
 home_sponsors: 大会赞助 
-home_sponsors_en: Sponsors 
-home_sponsors_wanted: <code>完满达成!</code>(为保证赞助商权益,进行充分公平的展示,今年不再接受赞助;-)
-home_sponsors_wanted_en: <code>Closed thanx for all!</code>
-home_sponsors_hint: >
-home_sponsors_hint_en: >
+home_sponsors_en: Sponsors
 #########################################
 # proposal
 #########################################

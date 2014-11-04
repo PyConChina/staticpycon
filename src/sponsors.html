@@ -14,9 +14,7 @@
     {% set gold_sponsors = sponsors | selectattr('level_gold') %}
     {% set silver_sponsors = sponsors | selectattr('level_silver') %}
     {% set bronze_sponsors = sponsors | selectattr('level_bronze') %}
-
     {% set partner_sponsors = sponsors | selectattr('level_partner') %}
-
     {% macro sponsors_list(some_sponsors, sponsors_level) %}
         <div class="">
             <h3>{{ sponsors_level }}</h3>
@@ -33,7 +31,6 @@
     {{ sponsors_list(gold_sponsors, message.sponsors_gold) }}
     {{ sponsors_list(silver_sponsors, message.sponsors_silver) }}
     {{ sponsors_list(bronze_sponsors, message.sponsors_bronze) }}
-
     {{ sponsors_list(partner_sponsors, message.sponsors_partner) }}
     </div>
 {% endif %}
