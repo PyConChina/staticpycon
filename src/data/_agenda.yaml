@@ -206,9 +206,9 @@ hangzhou:
     - time: "15:00 ~ 15:20"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:20 ~ 16:00", speaker: id_lifeng }
+    - { time: "15:20 ~ 16:00", speaker: id_linhuchong }
   lightening_talks:
-    - { time: "16:10 ~ 16:30", speaker: id_linhuchong}
+    - { time: "16:10 ~ 16:30", speaker: id_lifeng }
     - time: "~ 16:55" 
       topic: TBD
       topic_en: TBD
