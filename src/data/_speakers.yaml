@@ -591,6 +591,9 @@ id_juzheng:
   city_en: Suzhou
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/sz-Docker_Lance.png?imageView2/2/h/80
   intro: 80后复古伪文艺程序员,好奇一切计算机相关的技术,热爱骑行,美食和中国传统文化,"Docker权威指南"合作译者,目前使用NodeJS进行服务器端的开发.
+  topic: 
+    title: TBD 
+    preview: TBD
 
 id_baoyongcheng:
   name: 鲍永成

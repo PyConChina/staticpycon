@@ -158,21 +158,27 @@ zhuhai:
 suzhou:
   address: 待定
   address_en: TBD
-  venue: 待定
+  venue: 独墅湖图书馆
   venue_en: TBD
   traffic: 待定
   traffic_en: TBD
   notices: "只有半天..."
   date: 2014-11-15 13:30~18:00
   noon:
-    - time: "13:00"
+    - time: "13:00 ~ 13:30"
       topic: 签到
       topic_en: Check in
   afternoon:
-    - { time: "14:30~15:00", speaker: id_weizeren }
-    - { time: "15:00~", speaker: id_baoyongcheng }
-    - { time: "15:45~", speaker: id_laoqi }
-    - { time: "15:50~", speaker: id_juzheng }
+    - time: "13:30 ~ 14:30"
+      topic: GDG介绍
+      topic_en: GDG intro.
+    - { time: "14:30 ~ 15:00", speaker: id_weizeren }
+    - { time: "15:00 ~ ", speaker: id_juzheng }
+    - { time: "16:00 ~ ", speaker: id_laoqi }
+    - time: "17:00 ~ 17:30"
+      topic: 抽奖
+    - time: "17:30"
+      topic: 结束
 
 ####################################################################
 #   杭州
