@@ -19,45 +19,44 @@ beijing:
     - time: "09:00"
       topic: "签到 & 开场"
       topic_en: "Check-in"
-    - time: "09:30 ~ "
+    - time: "09:30"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "09:45 ~ 10:20", speaker: id_xutao }
-    - { time: "10:25 ~ 11:05", speaker: id_zhengkun }
-    - { time: "11:05 ~ 11:45", speaker: id_dongwei }
-    - { time: "11:45 ~ 12:15", speaker: id_gaochitao }
+    - { time: "09:45", speaker: id_xutao }
+    - { time: "10:25", speaker: id_zhengkun }
+    - { time: "11:05", speaker: id_dongwei }
+    - { time: "11:45", speaker: id_gaochitao }
   noon:
-    - time: "12:15 ~ 13:00"
+    - time: "12:15"
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
-    - { time: "13:10 ~ 13:50", speaker: id_wangwei }
-    - { time: "13:50 ~ 14:30", speaker: id_laike9m }
-    - { time: "14:30 ~ 15:00", speaker: id_weizeren }
-    - { time: "15:00 ~ 15:10", speaker: id_linshuai }
-    - time: "15:10 ~ "
+    - { time: "13:10", speaker: id_wangwei }
+    - { time: "13:50", speaker: id_laike9m }
+    - { time: "14:30", speaker: id_weizeren }
+    - { time: "15:00", speaker: id_linshuai }
+    - time: "15:10"
       topic: 茶歇
       topic_en: Intermission
   lightening_talks:
-    - { time: "15:20 ~ ", speaker: id_quchifeng }
-    - { time: "15:30 ~ ", speaker: id_chenjian }
-    - { time: "15:40 ~ ", speaker: id_likuan }
-    - { time: "15:50 ~ ", speaker: id_liangjie }
-    - time: "16:00 ~"
+    - { time: "15:20", speaker: id_quchifeng }
+    - { time: "15:30", speaker: id_chenjian }
+    - { time: "15:40", speaker: id_likuan }
+    - { time: "15:50", speaker: id_liangjie }
+    - time: "16:00"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "16:05 ~", speaker: id_quxiaolong }
-    - { time: "16:15 ~", speaker: id_yanglin }
-    - { time: "16:25 ~", speaker: id_liuxiaoming }
-    - { time: "16:35 ~", speaker: id_luozhicheng }
-    - time: "16:45 ~"
+    - { time: "16:05", speaker: id_quxiaolong }
+    - { time: "16:15", speaker: id_yanglin }
+    - { time: "16:25", speaker: id_liuxiaoming }
+    - { time: "16:35", speaker: id_luozhicheng }
+    - time: "16:45"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "16:50 ~", speaker: id_kanglei }
-    - { time: "17:00 ~", speaker: id_binux }
-    - { time: "17:10 ~", speaker: id_caibin }
-    - time: "~ 18:10"
-      topic: 闪电演讲,现场抢注,五分钟一节,能有8/9节
+    - { time: "16:50", speaker: id_kanglei }
+    - { time: "17:00", speaker: id_binux }
+    - { time: "17:10", speaker: id_caibin }
+
 ####################################################################
 #    ____  _   _
 #   / ___|| | | |
@@ -108,44 +107,44 @@ shanghai:
 ####################################################################
 zhuhai:
   address: 珠海吉大 景山路 莲山巷8号 金山软件大厦
-  address_en: Jinshan Software Building, No.8 Lianshan Road, Jingshan road, Xiangzhou, Zhuhai
+  address_en: "Jinshan Software Building, No.8 Lianshan Road, Jingshan road, Xiangzhou, Zhuhai"
   venue: 一层会议厅
   venue_en: Floor 1 Meet Hall
-  traffic: 珠海中天酒店对面,工商银行隔壁;4路,9路,K10路,13路,22路,23路,26路,99路 到水湾北下,即见!坐船,到九洲港下; 城铁到终点 拱北站下; TEXI 13元即达!
-  traffic_en: Line 4, 9, K10, 13, 22, 23, 26, 99 at North Shuiwan Station; By ship, Jiu Zhou Port; Subway, Gong Bei Station; Taxi, RMB 13
-  notices: Lightning Talking ~ 闪电演讲使用极限模式/ 中午报名,每节10分钟,不用幻灯,到点下台!
+  traffic: "珠海中天酒店对面,工商银行隔壁;4路,9路,K10路,13路,22路,23路,26路,99路 到水湾北下,即见!坐船,到九洲港下; 城铁到终点 拱北站下; TEXI 13元即达!"
+  traffic_en: "Line 4, 9, K10, 13, 22, 23, 26, 99 at North Shuiwan Station; By ship, Jiu Zhou Port; Subway, Gong Bei Station; Taxi, RMB 13"
+  notices: "Lightning Talking ~ 闪电演讲使用极限模式/ 中午报名,每节10分钟,不用幻灯,到点下台!"
   date: 2014-11-15 09:30~18:05
   morning:
-    - time: "09:30 ~ "
+    - time: "09:30"
       topic: 签到
       topic_en: "Check-in"
-    - time: "10:00 ~ "
+    - time: "10:00"
       topic: 暖场 (大妈)
       topic_en: "Starting"
-    - { time: "10:15 ~", speaker: id_wengwei }
-    - { time: "11:00 ~ ", speaker: id_huangyi }
+    - { time: "10:15", speaker: id_wengwei }
+    - { time: "11:00 ", speaker: id_huangyi }
   noon:
-    - time: "11:50 ~ 13:00"
+    - time: "11:50"
       topic: 午餐+合照
       topic_en: Lunch+Photo
   afternoon:
-    - { time: "13:00 ~", speaker: id_panjunyong }
-    - { time: "13:40 ~", speaker: id_wanganyu }
-    - { time: "13:55 ~", speaker: id_taowen }
-    - { time: "14:30 ~", speaker: id_weizeren }
-    - time: "15:00 ~ 15:05"
+    - { time: "13:00", speaker: id_panjunyong }
+    - { time: "13:40", speaker: id_wanganyu }
+    - { time: "13:55", speaker: id_taowen }
+    - { time: "14:30", speaker: id_weizeren }
+    - time: "15:00"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:05 ~", speaker: id_mengfanliang }
-    - { time: "15:45 ~", speaker: id_wenming }
-    - { time: "16:25 ~", speaker: id_wuzhangjin }
-    - { time: "17:05 ~", speaker: id_longlimin }
-    - time: "17:05 ~ 17:10"
+    - { time: "15:05", speaker: id_mengfanliang }
+    - { time: "15:45", speaker: id_wenming }
+    - { time: "16:25", speaker: id_wuzhangjin }
+    - { time: "17:05", speaker: id_longlimin }
+    - time: "17:05"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "17:10 ~", speaker: id_jeff }
+    - { time: "17:10", speaker: id_jeff }
   lightening_talks:
-    - time: "~ 18:10" 
+    - time: "18:10" 
       topic: 闪电演讲,现场抢注,五分钟一节,能有3~4节
       topic_en: TBD
 
@@ -157,7 +156,7 @@ zhuhai:
 ####################################################################
 suzhou:
   address: 江苏省苏州市仁爱路258号
-  address_en: 258 Ren'ai Rd, Wuzhong, Suzhou, Jiangsu, China, 215123
+  address_en: "258 Ren'ai Rd, Wuzhong, Suzhou, Jiangsu, China, 215123"
   venue: 独墅湖图书馆
   venue_en: Dushu Lake Library
   traffic: 独墅湖图书馆(110路北线; 110路南线; 146路; 156路; 176路; 178路; 快线2号)，中科大西(180路)
@@ -165,17 +164,17 @@ suzhou:
   notices: "欢迎参加！"
   date: 2014-11-15 13:00~17:00
   noon:
-    - time: "13:00 ~ 13:30"
+    - time: "13:00"
       topic: 签到
       topic_en: Check in
   afternoon:
-    - time: "13:30 ~ 14:30"
+    - time: "13:30"
       topic: GDG介绍
       topic_en: GDG intro.
-    - { time: "14:30 ~ 15:00", speaker: id_weizeren }
-    - { time: "15:00 ~ ", speaker: id_juzheng }
-    - { time: "16:00 ~ ", speaker: id_laoqi }
-    - time: "17:00 ~ 17:30"
+    - { time: "14:30", speaker: id_weizeren }
+    - { time: "15:00", speaker: id_juzheng }
+    - { time: "16:00", speaker: id_laoqi }
+    - time: "17:00"
       topic: 抽奖
     - time: "17:30"
       topic: 结束
@@ -193,31 +192,27 @@ hangzhou:
   address_en: 杭州市滨江区信诚路567号
   venue: 诺基亚通信杭州全球研发中心 苏黎世会议室
   venue_en: 诺基亚通信杭州全球研发中心 苏黎世会议室
-  traffic: 横街埠/ B支6,B支3路
+  traffic: >
+    横街埠/ B支6,B支3路
     - 江南大道环兴路口:294路(社区通勤高峰线),B支5路,352, 225(夜间线),113,315
     - 信诚路江南大道口:107路
   traffic_en: TBD
   notices: "出于综合考虑,杭州推迟一周专注组织本地 Pythoneer 的聚会"
   date: "2014-11-22 13:00~18:00"
   noon:
-    - time: "13:00 ~ 13:20"
+    - time: "13:00"
       topic: 签到
       topic_en: Check in
   afternoon:
-    - time: "13:20 ~ 13:30"
+    - time: "13:20"
       topic: PyCon大会及活动组织方介绍
       topic_en: PyCon大会及活动组织方介绍
     - { time: "13:30 ~ 14:10", speaker: id_shiyuanmin }
     - { time: "14:20 ~ 15:00", speaker: id_hepochen }
-    - time: "15:00 ~ 15:20"
+    - time: "15:00"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:20 ~ 16:00", speaker: id_linhuchong }
-  lightening_talks:
-    - { time: "16:10 ~ 16:30", speaker: id_lifeng }
-    - time: "~ 16:55" 
-      topic: TBD
-      topic_en: TBD
+    - { time: "15:20", speaker: id_linhuchong }
+    - { time: "16:10", speaker: id_lifeng }
     - time: "17:00" 
       topic: 合影结束
-      topic_en: 合影结束
