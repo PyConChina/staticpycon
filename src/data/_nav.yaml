@@ -1,11 +1,3 @@
-- title: 首页
-  title_en: HOME
-  url: "index.html"
-  url_en: "en/index.html"
-- title: 演讲提交
-  title_en: PROPOSALS
-  url: "proposals.html"
-  url_en: "en/proposals.html"
 - title: 日程
   title_en: SCHEDULE
   children:

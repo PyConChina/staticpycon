@@ -42,7 +42,7 @@ def put7niu():
 confirmed all OK this flow:
 
 - fixed some src/data/*.md 
-- python bin/gen.py
+- python bin/app.py -g
 - cd out
 - git ci -am "commit log some"
 - git pu
@@ -56,7 +56,7 @@ so the daily working just:
 #   deploy for gitcafe-pages
 #########################################
 def build():
-    local('python bin/gen.py')
+    local('python bin/app.py -g')
 
 def pub2cafe():
     build()

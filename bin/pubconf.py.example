@@ -1,8 +1,0 @@
-#!/usr/bin/env python
-#encoding:utf-8
-
-PUB_ACCESS_KEY = ""
-PUB_SECRET_KEY = ""
-PUB_BUCKET = "pyconcn"
-PUB_DOMAIN = "pyconcn.qiniudn.com"
-PUB_SITE_PREFIX = "2014/"

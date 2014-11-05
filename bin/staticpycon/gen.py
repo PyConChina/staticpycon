@@ -86,7 +86,23 @@ data_contexts = {
     'en' : { 'lang' : 'en', 'lang_suffix' : '_en', 'lang_dir' : 'en' },
 }
 
+
+def _sp_printlog(msg):
+    '''模板函数，在生成日志中输出消息 '''
+    print(msg)
+
+def _sp_selectspeakers(speakers, city):
+    '''模板函数，选择指定city的speakers'''
+    keyname = "city_" + city
+    return [ speaker for speaker_id, speaker in speakers.iteritems() \
+        if keyname in speaker]
+
 def process_data(data, suffix):
+    '''数据处理函数，用于实现翻译文本的自动替换
+
+    主要目的是把用suffix结尾的键对应的值覆盖无suffix结尾的键对应的值，
+    如把name_en（_en是suffix）的值写到name中。处理过程中使用了递归。
+    '''
     if isinstance(data, list):
         for v in data:
             process_data(v, suffix)
@@ -102,6 +118,7 @@ def process_data(data, suffix):
                     print(PROMPT_FMT_INVALID_ATTR % (kn, ))
 
 def load_data():
+    '''载入数据文件，保存了文件的mtime以减少不必要的读操作'''
     for filename in listdir(DATA_DIR):
         filepath = join(DATA_DIR, filename)
         filemtime = int(getmtime(filepath))
@@ -158,12 +175,15 @@ def gen(start_server=False):
     render_scss()
 
     # Pages
+    for lang, context in data_contexts.iteritems():
+        context['printlog'] = _sp_printlog
+        context['selectspeakers'] = _sp_selectspeakers
     renderer = make_renderer(searchpath=SOURCE_DIR, staticpath=ASSET_DIR_REL,
         outpath=SITE_DIR, rules=[
             ("[\w-]+\.html", render_page)
         ])
-    return renderer.run(use_reloader=start_server)
 
+    renderer.run(use_reloader=start_server)
 
 if __name__ == "__main__":
     colorama.init()

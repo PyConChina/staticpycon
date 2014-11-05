@@ -2,8 +2,8 @@
 {% set page_title = message.page_title_hangzhou %}
 
 {% block content %}
-{% if schedule_hangzhou %}
-    {% set schedule = schedule_hangzhou %}
+{% if agenda.hangzhou %}
+    {% set schedule = agenda.hangzhou %}
     {% set schedule_title = page_title %}
     {% include "base/_schedule.html" %}
 {% endif %}

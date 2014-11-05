@@ -1,4 +1,22 @@
 #########################################
+#   合作伙伴
+#########################################
+-
+  level_partner: 1
+  level: partner
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/sf-logo-cmyk.png?imageView2/2/w/200
+  link: http://segmentfault.com/
+  intro: "SegmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
+  intro_en: "SegmentFault is China's leading developer community. After more than two years of development, SegmentFault is already have more than ten developer. SegmentFault's goal is to provide Chinese developers to one of the most pure technical exchange platform,  create belong to the age of developers together"
+-
+  level_partner: 1
+  level: partner
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/cstnet-logo.png?imageView2/2/w/200
+  link: http://www.cstnet.net.cn/overview.htm
+  intro: "中国科技网是中国科学院领导下的学术性,非盈利的科研计算机网络. 中国科技网(CSTNET)已经成为中国互联网行业快速发展的一支重要力量,为广大用户提供互联网接入,小区宽带,科研数据中心(IDC),网络管理与安全服务,视频会议系统,邮件系统,桌面会议系统,会议服务平台,科研在线文档库,组织通讯录,实验室信息系统,科研主页,科信,中国科技网通行证等服务,以及网络前沿技术研发等,为国家科学技术的创新发展提供基础性的信息化支撑与保障. "
+
+
+#########################################
 #   钻石级
 #########################################
 -
@@ -18,6 +36,13 @@
   link: http://www.speedycloud.cn/
   intro: "SpeedyCloud是业界领先的云计算服务提供商迅达云成公司旗下品牌,专注于为企业提供互联网及企业IT相关基础设施云服务. 公司成员绝大多数来自于蓝汛,世纪互联等IT运维服务型上市企业, 利用最新的云计算及互联网技术帮助客户迅速扩展在线业务."
   intro_en: "SpeedyCloud is the IaaS brand owned by Beijing SpeedyCloud Technology Co., Ltd.,, who is one of the leaders in cloud industry.The company was setup in 2012, with the capital of 10 million RMB invested all by ourselves.Being the general solution provider,  our focus is to provide IaaS for Internet and enterprises companies. Most of the team came from public IT operating and service companies like ChinaCache, 21ViaNet, etc. We are helping our customers with the most cutting-edge cloud computing technologies to expand their online businesses. "
+-
+  level_platinum: 1
+  level: platinum
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/jiankongbao-logo.png?imageView2/2/w/210
+  link: http://www.jiankongbao.com/
+  intro: "云智慧(北京)科技有限公司成立于2009年,是国内领先的应用性能管理服务商. 基于大数据分析,为企业级用户提供全面,专业的端到端的应用性能管理(End To End Application Performance Management)解决方案. Cloudwise SaaS APM累计已为电子商务,移动互联网,IaaS云服务,在线游戏,教育医疗等行业的几十万用户提供了前瞻性的智慧性能管理服务,是新一代应用性能管理(APM)的领导者. "
+  intro_en: "CloudSmart (Beijing)  technology co., LTD founded in 2009 ,that is a leading domestic application performance management service providers. Based on big data analysis, for enterprise users to provide the solution of End To End Application Performance Management comprehensive. For electronic commerce, mobile Internet, cloud IaaS service, online game, education and  the medical industry users provided a forward-looking & wisdom application performance management" 
 #########################################
 #   黄金级
 #########################################
@@ -66,31 +91,69 @@
 -
   level_gold: 1
   level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/DeepGlint-logo.png?imageView2/2/w/120
+  link: http://www.deepglint.com/
+  intro: "深瞳消费者行为分析系统;在电商大行其道的今天,我们为传统零售商提供更精准的数据和更加客观的消费者行为分析,使得零售商能够为消费者提供更加精准高效的服务. 深瞳无人监控安防系统;当危险临近时,我们不再需要靠运气被中控室里的保安在几万路视频里正好看到,深瞳系统的 三维传感器将像机器人一样,实时的代替人'看'着每一个场景里的一举一动"
+  intro_en: "Deepglint customer behavior analysis system; Today electronic commerce is very popular, Deepglint provide traditional retailers with accurate data that is more objective behavior analysis, the data can make traditional retailers provide customer with more accurate and more efficient service."
+-
+  level_gold: 1
+  level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/knownsec_160.png
+  link: http://www.knownsec.com
+  intro: "北京知道创宇信息技术有限公司是国内最早提出网站安全云监测及云防御的高新企业,始终致力于为客户提供基于云技术支撑的下一代Web安全解决方案. 知道创宇总部设在北京,在香港,上海,广州,成都设有分公司,客户及合作伙伴来自中国,美国,日本,韩国等. 凭借强大的云安全技术与产品的高可用性,易管理性,合规性和业务连续性,以及动态保障关键Web数据资产安全的能力,帮助用户应对变化多端的互联网安全威胁,赢得了企业,政府与公共机构的青睐. 知道创宇安全实验室在零日安全威胁与云安全技术方面的研究得到了业内的广泛认同并享有极高知名度. "
+  intro_en: "Beijing knownsec information technology Co., Ltd (hereinafter referred to as knownsec) was founded in 2007, registered capital of￥14,205,882, is one of the earliest high-tech enterprises that proposed site cloud monitoring and cloud defense. Through years of development efforts, the ability of the company are highly recognized by the major Internet management institutions, many of the world's top five hundred enterprises. In 2011 the company and domestic well-known IT vendors Digital China Corp reached a strategic agreement and Digital China Corp invested in Knowsec as well. In 2012 the company obtained the domestic well-known Internet companies Shenzhen Tencent Inc's investment."
+-
+  level_gold: 1
+  level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/seeedstudio-2014-LOGO03.png?imageView2/2/w/240
+  link: http://www.seeed.cc/
+  intro: "深圳矽递科技有限公司(Seeed Studio)成立于2008年,全球前三大开源硬件制造商之一. 与全球两百多家知名业务伙伴一起,为全球超过两百万名科技创新者提供开源化,模块化的先进技术以及灵活,敏捷的小批量的工程制造服务帮助创意成长为与众不同的硬件产品,并加速其迭代推向市场. 作为推动全球创客文化的先锋角色,为了增进中外创客交流矽递还建立了深圳第一家创客空间-柴火创客空间,并将美国最大的创客嘉年华(Maker Faire)首次引入中国,通过三年努力做到全球七大之一. 矽递的愿景是让科技随手可得,让创意野蛮生长. 了解更多讯息,请访问www.seeed.cc"
+  intro_en: "Seeed Studio is an open hardware facilitation company based in Shenzhen, China. Benefiting from local manufacture power and convenient global logistic system, we integrate resources to serve new era of innovation. Seeed also works with global distributors and partners to push open hardware movement."
+-
+  level_gold: 1
+  level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/120
   link: http://www.ituring.com.cn
   intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销技术图书,是国内计算机图书著名的有影响力的出版单位之一,成立九年以来,图书累积销售500多万册,影响了上百万的读者. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内著名的专业的IT技术交流+阅读社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成长为国内知名科技电子书销售平台."
+  intro_en: "Turing Co., Ltd  persists in planning publishing high quality books of science and technology as the core business, launched a series of high quality best-selling technology books, it's one of China famous and influential computer books publisher and Professional technical & Reading community. Set up nine years, accumulative total sold more than 500 copies of books and have impress millions of readers. Turing Co., Ltd that provide first-class content is its responsibility. Rapid growth in recent years has been for domestic famous ebook sales platform of science and technology."
 -
   level_gold: 1
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/books-hz-logo_nowords.png?imageView2/2/h/90
   link: http://www.hzbook.com/About/About.html
   intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
+  intro_en: "HZ Book is a joint venture set up with China Machine Press and (US)WanGuo."
+-
+  level_gold: 1
+  level: gold
+  logo: http://cn.pycon.org/static/images/sponsors/131129_pd_spark.png?imageView2/2/w/200
+  link: http://www.spsp.com.cn/
+  intro: 上海浦东软件园股份有限公司成立于1992年7月,由原信息产业部和上海市人民政府共同组建,承担"国家软件产业基地","国家软件出口基地"---上海浦东软件园园区规划建设,经营管理和产业发展的重要任务,是上海浦东软件园建设的主体. 注册资本3亿元人民币. 公司地处上海浦东张江高科技园区. 除负责园区开发建设外,公司着重于园区服务体系建设,进行产业投资和软件研发.
+
 #########################################
 #   白银级
 #########################################
 -
   level_silver: 1
   level: silver
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/h/70
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/h/66
   link: https://coding.net/home.html
   intro: "Coding 是一个面向开发者的云端开发平台,目前提供代码托管,运行空间,质量控制,项目管理等功能. Coding 提供社会化协作功能,包含了社交元素,为开发者提供技术讨论和协作平台."
   intro_en: "Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform."
 -
   level_silver: 1
   level: silver
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/70
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/vpncloud-200.png?imageView2/2/h/50
+  link:  https://www.ytvpn.com/
+  intro: "云梯致力于提供专业的 VPN 服务,用我们的技术和热情,为大家打造快速,安全,高效的 VPN 接入及解决方案,满足自由访问互联网,网络传输加密,保护隐私等多种需求. 成熟的技术,专业的管理以及真诚的服务,让所有人都能享受开放的互联网. 云梯 VPN - 连接世界的梯子!"
+  intro_en: "FastYT committed to providing professional VPN service. FastYT use our passion and technology to provide fast, security,efficient service for Chinese and help them to surf the Internet, encrypted the online data and privacy protection. FastYT will be the ladder of people to connect the world."
+-
+  level_silver: 1
+  level: silver
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/50
   link: http://www.broadview.com.cn
   intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."
+  intro_en: "Broadview is branch of Publishing House Of Electronics Industry."
 #########################################
 #   青铜级
 #########################################
@@ -113,7 +176,7 @@
   level: bronze
   logo: http://lxneng.qiniudn.com/qisense-logo.png?imageView2/2/w/200
   link: http://www.qisense.com/
-  intro: "七感科技 (Qisense) 将复杂的数据简单化,旨在从海量数据中智能提炼重要信息. 我们利用高级数学理论和统计模型进行分析计算,通过数据可视化向用户推送及时的,有价值的,并且可执行的商业情报."
+  intro: "菜根科技(Qisense)处于中国数据分析,机器学习和数据可视化的前沿. 通过对先进的数学模型和尖端技术的研究与运用,我们从海量数据中收集并迅速提炼出具有商业价值的智能信息;母公司25年行业领先的经验帮助我们最好地辨识商业价值链中的特殊联系,使我们可以通过数据的整合,深入的分析以及深厚的领域知识帮助客户实现最大商业价值. 我们的产品适用于多种数据类型,并能够迅速将原始数据转化为有意义的信息. "
   intro_en: "Qisense can simplifying complex data , Aimed at intelligent extract important information from the huge amounts of data. We use advanced mathematical theory and statistical models for analysis and calculation, To the user through data visualization push timely and valuable, executable business intelligence."
 -
   level_bronze: 1
@@ -122,3 +185,23 @@
   link: http://www.ptpress.com.cn
   intro: "人民邮电出版社是工业和信息化部主管的大型专业出版社,成立于1953年10月1日. 2003年被中央确定为文化体制改革第一批试点单位. 60多年来,人民邮电出版社坚持 立足信息产业,面向现代社会,传播科学知识,服务科教兴国,为走中国特色新型工业化道路服务的出版宗旨,锐意改革探索,不断发展壮大,已成为集图书,期刊,音像电子出版物和网络出版于一体的,在国内外具有专业特色和品牌影响的综合性科技出版大社."
   intro_en: "The People's Posts and Telecommunications Press(Posts & Telecom Press)was by Ministry of Industry and Information Technology of the People's Republic of China management, Founded in October 1, 1953."
+-
+  level_bronze: 1
+  level: bronze
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/JKXY_Logo_Final.png?imageView2/2/w/140
+  link: http://www.jikexueyuan.com
+  intro: "极客学院是中国最大的IT职业在线教育平台,涵盖300多门市场最火的技术开发课程 ,上线至今已成功帮助 18w 移动开发者提升了自身的技术开发实力. 极客学院已与微软,触控科技等多家大型互联网公司达成战略合作. 创始团队出版过中国大陆第一本Android教材,做过中国最早的Android线下企业培训和学生培训;具有极为丰富的线上培训和线下培训实战经验. "
+  intro_en: "jikexueyuan is the biggest IT profession online education platform of China, covers more than 300 of the most popular technology development course, up to now it has already helped 300,000 developer to improve themself development capability. jikexueyuan have reached a strategic cooperation with Microsoft & CHUKONG technology Co., & etc.. The founder team has been published the first teaching material of Android, and Organize the earliest offline Android training for enterprise & students, have a wealth of experience in online&offline training."
+-
+  level_bronze: 1
+  level: bronze
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/bj-yue-pod-logo.jpg?imageView2/2/w/120
+  link: http://www.ruiking.com
+  intro: 北京锐和信科技有限公司成立于2013年,团队由来自腾讯和易车的几个技术大拿组成,专注于做智能产品. 公司以"锐意进取,和气生财,信用至上"为目标,希望通过我们的专业水平和不懈努力,做出用户需要的产品. 自成立以来,一直致力于悦POD 的开发设计,希望产品能给大家带来便利,让生活回归本质. 
+
+-
+  level_bronze: 1
+  level: bronze
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/ucloud-logo.png?imageView2/2/w/120
+  link: http://www.ucloud.cn
+  intro: UCloud是中国最为领先的IaaS(基础云计算)服务商,一直专注于云计算领域产品的研发与运营服务. 自成立以来,UCloud专注于服务中国互联网企业用户,推出了高IO云主机,缓存计算,SDN,混合云部署等创新性产品;目前已有数以万家企业级用户和创业团队将其核心业务部署并运营在UCloud云平台上. UCloud的客户遍及游戏,电商,移动互联网,PaaS,SaaS等多个行业,知名客户包括"刀塔传奇","学霸君","学而思","云智慧"以及"LeanCloud"等. 

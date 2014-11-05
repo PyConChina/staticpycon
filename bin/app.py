@@ -31,6 +31,8 @@ def run(start_server=False, sass_only=False):
 
 
 if __name__ == "__main__":
+    # 如果命令行参数含有-g则只生成网页，不启动自动生成服务
+    # 如果含有 --sass 则只编译样式
     sass_only = '--sass' in sys.argv
     start_server = not '-g' in sys.argv
 

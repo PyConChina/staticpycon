@@ -22,15 +22,15 @@ page_title_hangzhou_en: Schedule in Hangzhou
 #########################################
 # home
 #########################################
-home_title: PyCon2014China 来了!
+home_title: 中国PyCon 2014大会准备好了!
 home_title_en: PyCon2014China is Coming!
 home_intro: > 
-  世界 <a href="volunteers.html#pythoneer">Pythoneer</a> 的品牌盛会PyCon! 
-  由<a href="https://www.python.org/psf/about/">Python软件基金会</a>下的
-  <strong><a href="http://PyCon.org">PyCon.org</a></strong>授权中国举办
-  第四届 PyConChina 大会. 本次大会由CPyUG,GDG,TopGeek在
-  上海,北京,珠海,杭州,苏州同时举办.<ul>
-  <li><strong><a href="/proposals.html">主题/工作坊提交入口</a></strong></li>
+  <b>PyCon</b> 是全球 <a href="volunteers.html#pythoneer">Pythoneer</a> 最盛大的年度聚会,由 <a href="https://www.python.org/psf/about/">PSF(Python 基金会)</a>支持,致力于营造愉快的多元化的 Python 技术主题大会.
+  PyConChina 是由 <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG(华蠎用户组)</a>获得授权举办的 <b>中国PyCon</b> 年会.
+  迄今已是<b>第四届</b>, 继续由 CPyUG/TopGeek/GDG 协同,在 <b>北京/上海/珠海/苏州/杭州</b> 五城联办.
+  无论使用哪种,都可以/应该参加这场完全由社区组织的欢乐集会;-)
+  <ul>
+  <li><del>主题提交</del><strong>(已经集满,若有不满请直接联系大会)</strong></li>
   <li>门票策略: <ul>
   <li>0RMB    学生票, 含所有礼品/茶点/午餐 <sup>为支持学生,嘦有效学生证即可入场,但也要预订门票以便统计人数吼;-)</sup></li>
   <li>100RMB  普通票, 无发票, 待遇同学生票 <b>注意: 11月1日之前</b>购买为<b>50RMB</b></li>
@@ -73,26 +73,7 @@ home_intro_en: >
   <li>Contact: <a href="mailto:support@pychina.org?subject=ask-PyCon2014China">support@pychina.org</a> </li> 
   </ul>
 home_sponsors: 大会赞助 
-home_sponsors_en: Sponsors 
-home_sponsors_wanted: <code>募集ing...</code>
-home_sponsors_wanted_en: <code>Wanted...</code>
-home_sponsors_hint: >
-  <ul><li>赞助商权益说明书, 下载:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">
-  PyCon2014China-SponsorshipProposal-v140727.pdf</a></li>
-  <li>特别的,今年为个人赞助追加了特殊权益. 参考:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">
-  PyCon2014China-PersonSponsor-v140711.pdf</a></li>
-  </ul>
-home_sponsors_hint_en: >
-  <ul>
-  <li>Sponsorship Proposal, download:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-SponsorshipProposal-v140727.pdf">
-  PyCon2014China-SponsorshipProposal-v140727.pdf</a></li>
-  <li>We have added proposal for personal sponorship this year, download:
-  <a href="http://pyconcn.qiniudn.com/zoomquiet/res/PyCon2014China-PersonSponsor-v140711.pdf">
-  PyCon2014China-PersonSponsor-v140711.pdf</a></li>
-  </ul>
+home_sponsors_en: Sponsors
 #########################################
 # proposal
 #########################################
@@ -164,6 +145,8 @@ sponsors_silver: 白银
 sponsors_silver_en: Silver
 sponsors_bronze: 青铜
 sponsors_bronze_en: Bronze
+sponsors_partner: 合作伙伴
+sponsors_partner_en: Partner
 #########################################
 # volunteers
 #########################################
@@ -175,3 +158,5 @@ organizers: 组织者
 organizers_en: Coordinators
 technicians: 技术组
 technicians_en: Technical Volunteers
+conference: 会务组
+conference_en: Conference Volunteers
