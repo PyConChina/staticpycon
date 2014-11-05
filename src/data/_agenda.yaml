@@ -159,9 +159,9 @@ suzhou:
   address_en: "258 Ren'ai Rd, Wuzhong, Suzhou, Jiangsu, China, 215123"
   venue: 独墅湖图书馆
   venue_en: Dushu Lake Library
-  traffic: 独墅湖图书馆(110路北线; 110路南线; 146路; 156路; 176路; 178路; 快线2号)，中科大西(180路)
-  traffic_en: Dushu Lake Library (110 North Route; 110 South Route; 146; 156; 176; 178; Quick 2)，USTC West(180)
-  notices: "欢迎参加！"
+  traffic: 独墅湖图书馆(110路北线; 110路南线; 146路; 156路; 176路; 178路; 快线2号),中科大西(180路)
+  traffic_en: Dushu Lake Library (110 North Route; 110 South Route; 146; 156; 176; 178; Quick 2),USTC West(180)
+  notices: "欢迎参加!"
   date: 2014-11-15 13:00~17:00
   noon:
     - time: "13:00"

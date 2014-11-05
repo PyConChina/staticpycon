@@ -105,9 +105,9 @@
 -
   level_gold: 1
   level: gold
-  logo: http://cn.pycon.org/static/images/companies/Seeed.png?imageView2/2/w/180
-  link: http://www.seeedstudio.com.cn/
-  intro: "成立于2008年,是一家致力于促进开源硬件发展的服务型企业. 我们通过提供模块化的快速开发工具,使设计者能根据创意,简单快速地开发出产品原型. 此外,我们还通过提供从研发辅助,采购生产到渠道分销的一站式配套服务,帮助设计者实现从创意到产品的转换. 3年以来,我们不断加大技术和研发投入,努力优化供应链和销售渠道,使得企业的服务能力一直处于行业领先状态. "
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/seeedstudio-2014-LOGO03.png?imageView2/2/w/240
+  link: http://www.seeed.cc/
+  intro: "深圳矽递科技有限公司(Seeed Studio)成立于2008年,全球前三大开源硬件制造商之一. 与全球两百多家知名业务伙伴一起,为全球超过两百万名科技创新者提供开源化,模块化的先进技术以及灵活,敏捷的小批量的工程制造服务帮助创意成长为与众不同的硬件产品,并加速其迭代推向市场. 作为推动全球创客文化的先锋角色,为了增进中外创客交流矽递还建立了深圳第一家创客空间-柴火创客空间,并将美国最大的创客嘉年华(Maker Faire)首次引入中国,通过三年努力做到全球七大之一. 矽递的愿景是让科技随手可得,让创意野蛮生长. 了解更多讯息,请访问www.seeed.cc"
   intro_en: "Seeed Studio is an open hardware facilitation company based in Shenzhen, China. Benefiting from local manufacture power and convenient global logistic system, we integrate resources to serve new era of innovation. Seeed also works with global distributors and partners to push open hardware movement."
 -
   level_gold: 1
