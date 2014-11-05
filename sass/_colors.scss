@@ -1,0 +1,20 @@
+$python-blue: #52b0ff;  // Light Blue 300: #4fc3f7
+$python-yellow: #ffe052;  // Yellow 400: #ffee58
+
+// 文字颜色设定
+$text-base-color: #000;
+
+// 内容透明度层次, from Material Design
+$alpha-main: 0.87;
+$alpha-secondary: 0.54;
+$alpha-hint: 0.26;
+$alpha-divider: 0.12;
+
+$text-color: rgba($text-base-color, $alpha-main);
+$text-secondary-color: rgba($text-base-color, $alpha-secondary);
+
+$page-bg: #fafafa;
+$page-fg: $text-color;
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

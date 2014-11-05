@@ -1,0 +1,40 @@
+$body-font-size: 1em !default;
+$body-font-weight: 200 !default;
+$body-line-height: 1.5 !default;
+
+$helvetica-without-fallback: remove-last($helvetica);
+
+$sans-prefer-font-family-western: (
+  "Source Sans Pro"
+  ) !default;
+
+$sans-font-family-western: join(
+	$sans-prefer-font-family-western,
+	$helvetica-without-fallback,
+	'comma'
+	) !default;
+
+$sans-font-family-chinese: (
+	"Source Han Sans SC"
+	"WenQuanYi Micro Hei"
+	"Microsoft YaHei"
+	SimSun
+	) !default;
+
+$sans-font-family: join(
+  $sans-font-family-western,
+  $sans-font-family-chinese,
+  'comma'
+  ),
+  sans-serif !default;
+
+$body-font-family: $sans-font-family;
+
+// 全局设定
+body {
+  font: $body-font-weight $body-font-size $body-font-family;
+  line-height: $body-line-height;
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

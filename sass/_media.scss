@@ -1,0 +1,16 @@
+// RWD 布局断点
+$narrow-breakpoint: 960px;
+
+$narrow: new-breakpoint(max-width $narrow-breakpoint 4);
+
+$desktop: min-width $narrow-breakpoint + 1px;
+
+
+// grid 布局调试设置
+$visual-grid: true;
+$visual-grid-color: #000;
+$visual-grid-opacity: 0.05;
+$visual-grid-index: front;
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:
