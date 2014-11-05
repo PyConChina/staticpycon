@@ -1,7 +1,3 @@
-- title: 首页
-  title_en: HOME
-  url: "index.html"
-  url_en: "en/index.html"
 - title: 日程
   title_en: SCHEDULE
   children:
