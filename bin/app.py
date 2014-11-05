@@ -20,12 +20,18 @@ def serve():
     server.serve_forever()
 
 
-def run(start_server=False):
-    if start_server:
+def run(start_server=False, sass_only=False):
+    if not sass_only and start_server:
         thread.start_new_thread(serve, ())
 
-    gen.gen(start_server=start_server)
+    if sass_only:
+        gen.render_scss()
+    else:
+        gen.gen(start_server=start_server)
 
 
 if __name__ == "__main__":
-    run(start_server=(not "-g" in sys.argv))
+    sass_only = '--sass' in sys.argv
+    start_server = not '-g' in sys.argv
+
+    run(start_server=start_server, sass_only=sass_only)
