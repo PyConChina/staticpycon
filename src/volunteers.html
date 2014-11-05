@@ -7,6 +7,7 @@
     {# defination #}
     {% set organizer_volunteers = volunteers | selectattr("role_organizer") %}
     {% set technician_volunteers = volunteers | selectattr("role_technician") %}
+    {% set conference_volunteers = volunteers | selectattr("role_conference") %}
     {% macro volunteer_link(name, link) %}
         {% if link %}
         <p>{{ name }}:<a href="{{ link }}">{{ link }}</a></p>
@@ -39,6 +40,8 @@
     {{ volunteer_list(organizer_volunteers) }}
     <h2>{{ message.technicians }}</h2>
     {{ volunteer_list(technician_volunteers) }}
+    <h2>{{ message.conference }}</h2>
+    {{ volunteer_list(conference_volunteers) }}
 {% endif %}
 
 {% endblock %}
