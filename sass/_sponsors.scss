@@ -81,6 +81,12 @@
 
   // 不要被赞助等级标题挡住
   z-index: 200;
+
+  // 个别一些赞助商 logo 在深色背景表现不佳...
+  // 只好统一给一些框
+  padding: 0.25em;
+  background-color: #fff;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.25);
 }
 
 .sponsor-gold,
@@ -88,12 +94,30 @@
 .sponsor-bronze {
   max-height: 60px;
   max-width: 200px;
+}
 
-  // 个别一些赞助商 logo 在深色背景表现不佳...
-  // 只好统一给一些框
-  padding: 0.25em;
-  background-color: #fff;
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.25);
+.sponsor-diamond {
+  @extend .sponsor__img;
+}
+
+.sponsor-platinum {
+  @extend .sponsor__img;
+}
+
+.sponsor-gold {
+  @extend .sponsor__img;
+}
+
+.sponsor-silver {
+  @extend .sponsor__img;
+}
+
+.sponsor-bronze {
+  @extend .sponsor__img;
+}
+
+.sponsor-partner {
+  @extend .sponsor__img;
 }
 
 
