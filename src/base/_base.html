@@ -30,21 +30,17 @@
 
     <body>
         {% include "base/_nav.html" %}
-        <div class="container">
-            <div class="col-md-10 col-md-offset-1">
-                <div>{% block content %}{% endblock %}</div>
-                <div class="clearfix"></div>
-                <div>{% include "base/_disqus.html" %}</div>
-                <div class="clearfix"></div>
-                <div>{% include "base/_footer.html" %}</div>
-            </div>
-        </div>
+        {% block content %}{% endblock %}
+        <div class="page__disqus">{% include "base/_disqus.html" %}</div>
+        <div class="clearfix"></div>
+        <footer class="page__footer">{% include "base/_footer.html" %}</footer>
+
         <script src="{{ site.base_url }}/asset/js/jquery-1.10.2.min.js"></script>
         <script src="{{ site.base_url }}/asset/js/bootstrap-3.0.3.min.js"></script>
         <script src="{{ site.base_url }}/asset/js/prettify-1.0.min.js"></script>
         <script src="{{ site.base_url }}/asset/js/base.js"></script>
 
-{% include "base/_ga.html" %}</div>
+{% include "base/_ga.html" %}
 
     </body>
 </html>
