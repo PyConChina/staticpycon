@@ -1,0 +1,59 @@
+// 志愿者页面样式
+// 说明文字
+.volunteers__text {
+  @include outer-container;
+
+  padding: 1.5em 0;
+}
+
+
+// Pythoneer 释义文字
+.volunteers__pythoneer {
+  // 不能放在容器上, 会改变 $max-width (单位是 em) 的大小的
+  font-size: 125%;
+}
+
+
+// 列表
+.volunteers__list {
+  @include outer-container;
+
+  padding: 2em 0;
+}
+
+
+// 各种链接
+.volunteers__link {
+  display: block;
+
+  &:before {
+    margin-right: 0.5em;
+  }
+}
+
+.volunteers__link--github {
+  @extend .volunteers__link;
+
+  &:before {
+    @include fa-inplace($fa-var-github);
+  }
+}
+
+.volunteers__link--weibo {
+  @extend .volunteers__link;
+
+  &:before {
+    @include fa-inplace($fa-var-weibo);
+  }
+}
+
+.volunteers__link--blog {
+  @extend .volunteers__link;
+
+  &:before {
+    @include fa-inplace($fa-var-home);
+  }
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:
