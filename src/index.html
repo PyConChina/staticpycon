@@ -57,14 +57,14 @@
     <h3 class="mod-speakers__city__name">{{ city_name }}</h3>
     <div class="mod-speakers__content">
         {% for proposal in some_proposals %}
-            <div class="speaker">
-                <a href="javascript:;" class="speaker__avatar-link">
+            <div class="person">
+                <a href="javascript:;" class="person__avatar-link">
                     <img src="{{ proposal.avatar }}" alt="{{ proposal.name }}"
-                        class="speaker__avatar" />
+                        class="person__avatar" />
                 </a>
-                <div class="speaker__desc">
-                    <h4 class="speaker__name">{{ proposal.name }} </h4>
-                    <p class="speaker__intro">{{ proposal.intro }} </p>
+                <div class="person__desc">
+                    <h4 class="person__name">{{ proposal.name }} </h4>
+                    <p class="person__intro">{{ proposal.intro }} </p>
                 </div>
             </div>
         {% endfor %}
