@@ -1,0 +1,93 @@
+// 赞助模块样式
+// 模块
+.mod-sponsors__subsec {
+  @include subsection-container;
+}
+
+.mod-sponsors__subsec--diamond {
+  @extend .mod-sponsors__subsec;
+
+  background-color: $sponsor-diamond-bg;
+}
+
+.mod-sponsors__subsec--platinum {
+  @extend .mod-sponsors__subsec;
+
+  background-color: $sponsor-platinum-bg;
+}
+
+.mod-sponsors__subsec--gold {
+  @extend .mod-sponsors__subsec;
+
+  background-color: $sponsor-gold-bg;
+}
+
+.mod-sponsors__subsec--silver {
+  @extend .mod-sponsors__subsec;
+
+  background-color: $sponsor-silver-bg;
+}
+
+.mod-sponsors__subsec--bronze {
+  @extend .mod-sponsors__subsec;
+
+  background-color: $sponsor-bronze-bg;
+}
+
+.mod-sponsors__subsec--partner {
+  @extend .mod-sponsors__subsec;
+
+  background-color: $sponsor-partner-bg;
+}
+
+
+// 赞助等级标题
+.mod-sponsors__level {
+  @extend .title-subsection;
+}
+
+
+// 赞助链接容器
+.mod-sponsors__content {
+  // 居中排列 inline-block 的赞助 logo
+  text-align: center;
+
+  // 上下: 目的很明显
+  // 左右: 左侧需要给赞助等级的元素留出一些空白
+  padding: 2em 6em;
+}
+
+
+// 赞助链接
+.sponsor__link {
+  // 完美的居中~ (不光整体居中, 每一行里也垂直居中)
+  // 其实不用 flexbox 也能做到 :-P, 只是需要和容器元素配合罢了, 还会影响
+  // display 属性, 这里无所谓
+  display: inline-block;
+
+  margin: 0.5em 1em;
+
+  // 垂直居中
+  vertical-align: middle;
+}
+
+// 赞助图像
+.sponsor__img {
+  display: block;
+}
+
+.sponsor-gold,
+.sponsor-silver,
+.sponsor-bronze {
+  max-height: 60px;
+  max-width: 200px;
+
+  // 个别一些赞助商 logo 在深色背景表现不佳...
+  // 只好统一给一些框
+  padding: 0.25em;
+  background-color: #fff;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.25);
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

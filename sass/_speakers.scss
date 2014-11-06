@@ -1,0 +1,95 @@
+// 讲师模块样式
+// 讲师列表
+.mod-speakers__content {
+  @include outer-container;
+  @include clearfix;
+}
+
+// 各城市讲师容器
+.mod-speakers__city {
+  @include subsection-container;
+
+  padding: 2em 0;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// 城市名称小标题
+.mod-speakers__city__name {
+  @extend .title-subsection;
+
+  white-space: pre-wrap;
+
+  &:after {
+    content: '\A讲师';
+    font-weight: 200;
+  }
+}
+
+
+// media object
+.speaker {
+  @include clearfix;
+
+  background-color: $speaker-card-bg;
+  border: 1px solid $speaker-card-border-color;
+  box-shadow: 0 0.5em 1em $speaker-card-shadow-color;
+
+  margin-bottom: 2em;
+  padding: 1em;
+
+  @include media($desktop) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  @include media($narrow) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+}
+
+.speaker__name {
+  font-size: 125%;
+  font-weight: 600;
+}
+
+// 头像
+// 说是 link, 实际上还承担着固定尺寸容器的作用
+// TODO: 重构
+$avatar-size: 80px;
+.speaker__avatar-link {
+  float: left;
+  margin-right: 1em;
+
+  width: $avatar-size;
+  height: $avatar-size;
+
+  // 头像图片宽度撑不满容器的话, 也要居中显示
+  text-align: center;
+}
+
+.speaker__avatar {
+  display: inline-block;
+
+  max-width: $avatar-size;
+  max-height: $avatar-size;
+
+  border-radius: 0.5em;
+}
+
+// 介绍文字
+// .speaker__intro {
+  // color: $text-secondary-color;
+
+  // .speaker:hover > .speaker__desc > & {
+  //   color: inherit;
+  // }
+// }
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

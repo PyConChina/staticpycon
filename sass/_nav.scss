@@ -1,0 +1,50 @@
+// 导航
+.navbar-fixed-top {
+  width: 100%;
+
+  background-color: $nav-bg;
+  color: $nav-fg;
+}
+
+
+.navbar-nav {
+  whitespace: nowrap;
+
+  font-weight: 400;
+
+  > li {
+    display: inline-block;
+    padding: 0.5em 1em;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+.dropdown {
+  position: relative;
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  &.open > .dropdown-menu {
+    display: block;
+  }
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background: $nav-bg;
+
+  > li {
+    padding: 0.5em 0.5em;
+  }
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

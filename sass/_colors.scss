@@ -16,5 +16,29 @@ $text-secondary-color: rgba($text-base-color, $alpha-secondary);
 $page-bg: #fafafa;
 $page-fg: $text-color;
 
+$nav-bg: $python-blue;
+$nav-fg: #fff;
+
+$index-title-bg: rgba(#000, 0.25);
+$index-title-fg: $text-color;
+
+$section-title-bg: rgba(#000, 0.12);
+$section-title-fg: #212121;  // Grey 900
+
+
+// 赞助模块
+$sponsor-diamond-bg: #fff;
+$sponsor-platinum-bg: #fafafa;  // Grey 50
+$sponsor-gold-bg: #ffecb3;  // Amber 100
+$sponsor-silver-bg: #e0e0e0;  // Grey 300
+$sponsor-bronze-bg: #d7ccc8;  // Brown 100
+$sponsor-partner-bg: $page-bg;
+
+
+// 讲师模块
+$speaker-card-bg: #f5f5f5; // Grey 100
+$speaker-card-border-color: #e0e0e0;  // Grey 300
+$speaker-card-shadow-color: rgba(0, 0, 0, 0.125);
+
 
 // vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:
