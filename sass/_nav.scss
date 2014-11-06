@@ -25,6 +25,10 @@
 .dropdown {
   position: relative;
 
+  &:after {
+    @include fa-inplace($fa-var-caret-down);
+  }
+
   .dropdown-menu {
     display: none;
   }
