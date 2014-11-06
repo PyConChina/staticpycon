@@ -1,0 +1,110 @@
+// 日程页面
+// 布局
+.schedule__metadata,
+.schedule__table-container,
+.schedule__notices {
+  @include outer-container;
+
+  padding: 2em 0;
+}
+
+
+// 元数据
+.schedule__metadata__key,
+.schedule__metadata__value {
+  font-size: 125%;
+  line-height: 2;
+}
+
+.schedule__metadata__key {
+  text-align: right;
+
+  @include media($desktop) {
+    @include span-columns(2);
+    @include shift(2);
+  }
+
+  @include media($narrow) {
+    @include span-columns(2);
+  }
+}
+
+.schedule__metadata__value {
+  font-weight: normal;
+
+  border-bottom: 1px solid rgba(#000, $alpha-divider);
+
+  @include omega;
+
+  @include media($desktop) {
+    @include span-columns(6);
+  }
+
+  @include media($narrow) {
+    @include span-columns(10);
+  }
+}
+
+// 地址
+.schedule__metadata__value--address {
+  @extend .schedule__metadata__value;
+}
+
+// 会场
+.schedule__metadata__value--venue {
+  @extend .schedule__metadata__value;
+}
+
+// 交通
+.schedule__metadata__value--traffic {
+  @extend .schedule__metadata__value;
+}
+
+// 日期时间
+.schedule__metadata__value--date {
+  @extend .schedule__metadata__value;
+
+  // 原设计有强调, 照搬过来
+  font-weight: bold;
+}
+
+
+// 议程表格
+.schedule__session {
+  padding: 0.5em 0;
+
+  border-bottom: 1px solid rgba(#000, $alpha-secondary);
+
+  font-size: 125%;
+  text-align: center;
+}
+
+.schedule__topic {
+  > td {
+    padding: 0.5em 0;
+  }
+
+  border-bottom: 1px solid rgba(#000, $alpha-divider);
+}
+
+.schedule__topic__time {
+  @include row(table);
+  @include span-columns(1);
+
+  text-align: center;
+}
+
+.schedule__topic__title {
+  @include span-columns(3);
+
+  font-weight: bold;
+}
+
+.schedule__topic__speaker {
+  @include span-columns(2);
+
+  text-align: center;
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:
