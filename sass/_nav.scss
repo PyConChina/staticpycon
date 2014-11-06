@@ -1,11 +1,38 @@
 // 导航
+@mixin navbar-element($include-float: true) {
+  @if $include-float {
+    float: left;
+  }
+
+  padding: 0.5em 1em;
+  line-height: 2em;
+}
+
 .navbar-fixed-top {
+  @include clearfix;
+
   width: 100%;
 
   background-color: $nav-bg;
   color: $nav-fg;
 }
 
+.navbar-brand {
+  @include navbar-element;
+}
+
+.navbar-brand__inner {
+  // 不要影响父元素的 em-based 布局...
+  font-size: 1.5em;
+  line-height: 1;
+  vertical-align: baseline;  // 默认值; 为了可读性
+}
+
+.navbar-toggle {
+  @include media($desktop) {
+    display: none;
+  }
+}
 
 .navbar-nav {
   whitespace: nowrap;
@@ -13,21 +40,21 @@
   font-weight: 400;
 
   > li {
-    display: inline-block;
-    padding: 0.5em 1em;
+    float: left;
 
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.12);
+    > a {
+      @include navbar-element(false);
+      display: inline-block;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, $alpha-divider);
+      }
     }
   }
 }
 
 .dropdown {
   position: relative;
-
-  &:after {
-    @include fa-inplace($fa-var-caret-down);
-  }
 
   .dropdown-menu {
     display: none;
@@ -38,15 +65,35 @@
   }
 }
 
+.dropdown-toggle {
+  &:after {
+    @include fa-inplace($fa-var-caret-down);
+    padding-left: 0.2em;
+  }
+}
+
 .dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
 
-  background: $nav-bg;
+  min-width: 10em;
 
-  > li {
-    padding: 0.5em 0.5em;
+  background-color: #fafafa;
+  color: $text-color;
+  box-shadow: 0 0.5em 1em rgba(#000, $alpha-hint);
+
+  // 解决首页上奇怪的失去焦点问题
+  z-index: 1000;
+
+  > li > a {
+    display: block;
+
+    padding: 0.5em 1em;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, $alpha-divider);
+    }
   }
 }
 
