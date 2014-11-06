@@ -1,0 +1,158 @@
+// 首页主体内容
+// NOTE: 为了让小模块标题居中 *并且* 带上适当宽度的 border-bottom,
+// 只好在容器元素上玩一点花样了...
+.mod-title {
+  > .section__content {
+    text-align: center;
+  }
+}
+
+// 小模块标题
+.intro__title {
+  display: inline-block;
+
+  // 两边给一些富余的内边距用来撑开 border-bottom
+  padding: 0 1.5em 0.1em;
+
+  border-bottom: 1px solid rgba(#000, $alpha-divider);
+
+	font-size: 150%;
+	font-weight: 500;
+
+  // 标题居中
+	text-align: center;  // 其实是多余的, 写在这里纯粹为了 readability
+}
+
+// 已经失效的小模块标题
+.intro__title--disabled {
+  color: rgba(#000, $alpha-hint);
+  text-decoration: line-through;
+}
+
+
+// 小模块内容
+.intro__content {
+  padding: 1em 0 2em;
+
+  // 让内容部分恢复正常对齐
+  text-align: justify;
+}
+
+// 允许例外: 让内容 (提示信息) 也居中
+@mixin centered-intro-content {
+  > .intro__content {
+    text-align: center;
+  }
+}
+
+
+// 小模块布局
+.mod-intro__text,
+.mod-intro__topics,
+.mod-intro__contact {
+  @include span-columns(12);
+}
+
+.mod-intro__tickets,
+.mod-intro__apply {
+  @include media($desktop) {
+    @include span-columns(6);
+  }
+
+  @include media($narrow) {
+    @include span-columns(12);
+  }
+}
+
+.mod-intro__apply {
+  @include media($desktop) {
+    @include omega;
+  }
+}
+
+
+// 说明文字
+.mod-intro__text {
+  font-size: 125%;
+}
+
+
+// 主题提交
+.mod-intro__topics {
+  @include centered-intro-content;
+}
+
+
+// 门票策略
+.mod-intro__tickets {
+  // TODO: 我有罪, 不该写裸元素选择器... 谁来重构一把? 现在夜里 3 点不太有心情
+  // 去改 HTML...
+  > .intro__content > dl {
+    > dt,
+    > dd {
+      margin-bottom: 1em;
+    }
+
+    > dt {
+      @include media($desktop) {
+        @include span-columns(1 of 6);
+      }
+    }
+
+    > dd {
+      @include media($desktop) {
+        @include span-columns(5 of 6);
+        @include omega;
+      }
+    }
+  }
+}
+
+
+// 报名入口
+.mod-intro__apply {
+  @include centered-intro-content;
+}
+
+.intro__apply-links {
+  margin: 1em 0 0;
+}
+
+.intro__apply-link {
+  background-color: lighten($brand-success, 20);
+
+  padding: 0.5em;
+
+  &:hover {
+    background-color: $brand-success;
+    box-shadow: 0 0.5em 1em rgba(#000, $alpha-hint);
+  }
+
+  @include media($desktop) {
+    @include span-columns(2 of 6);
+    @include omega(3n);
+
+    margin-bottom: 1em;
+  }
+
+  @include media($narrow) {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+}
+
+
+// 联系大会
+.mod-intro__contact {
+  @include centered-intro-content;
+}
+
+// 大会邮箱链接
+.intro__text--contact {
+  font-family: $font-family-monospace;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:
