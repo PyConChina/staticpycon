@@ -1,0 +1,52 @@
+// 捐助者列表
+// 排序说明文字
+.mod-donators__orderby {
+  display: block;
+
+  color: $text-secondary-color;
+
+  margin: 2em 0 0;
+
+  text-align: center;
+}
+
+
+// 列表容器
+.mod-donators__container {
+  @include outer-container;
+
+  margin: 2em 0;
+}
+
+.mod-donators__list {
+  text-align: center;
+
+  @include media($desktop) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+}
+
+// 捐助者元素
+.mod-donators__person {
+  padding: 0.5em 0;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+  @include media($desktop) {
+    @include span-columns(2 of 10);
+    @include omega(5n);
+
+    &:hover {
+      box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  @include media($narrow) {
+    @include span-columns(2);
+    @include omega(6n);
+  }
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

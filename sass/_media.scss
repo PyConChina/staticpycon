@@ -1,7 +1,12 @@
 // RWD 布局断点
-$narrow-breakpoint: 960px;
+// 设计的正常桌面版体验太宽... 那就在 1366px 断掉好了
+// 这是在 Firefox 响应式设计视图试验的结果
+$narrow-breakpoint: 1366px;
 
 $narrow: new-breakpoint(max-width $narrow-breakpoint 4);
+
+// pyScss bug
+$narrow: max-width $narrow-breakpoint;
 
 $desktop: min-width $narrow-breakpoint + 1px;
 

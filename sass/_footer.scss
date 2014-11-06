@@ -1,0 +1,38 @@
+// footer 样式
+.page__footer {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: $python-blue;
+
+  // 给有能力的浏览器看象征着 Python 双色 logo 的 border 背景图案!
+  @include border-image(
+    linear-gradient(
+      to right,
+      $python-blue 0%,
+      $python-blue 50%,
+      $python-yellow 50%,
+      $python-yellow
+      )
+    3 0 0 0
+    );
+
+  color: rgba(#fff, 0.87);
+
+  // pyScss bug, 不能正确渲染
+  // 只好注释掉
+  // @include linear-gradient(
+  //   to bottom,
+  //   rgba(0, 0, 0, 0.12) 0%,
+  //   rgba(0, 0, 0, 0) 20%,
+  //   rgba(0, 0, 0, 0) 100%,
+  //   $fallback: #424242
+  //   );
+  background-color: #424242;
+
+  padding: 1em 0;
+
+  text-align: center;
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

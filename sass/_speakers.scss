@@ -9,12 +9,18 @@
 .mod-speakers__city {
   @include subsection-container;
 
-  padding: 2em 0;
+  @include media($desktop) {
+    padding: 2em 0;
 
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 
-  &:last-child {
-    border-bottom: none;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  @include media($narrow) {
+    padding: 1em 0 0;
   }
 }
 
@@ -25,7 +31,14 @@
   white-space: pre-wrap;
 
   &:after {
-    content: '\A讲师';
+    @include media($desktop) {
+      content: '\A讲师';
+    }
+
+    @include media($narrow) {
+      content: '讲师';
+    }
+
     font-weight: 200;
   }
 }
@@ -56,6 +69,8 @@
 .speaker__name {
   font-size: 125%;
   font-weight: 600;
+
+  margin-bottom: 0.5em;
 }
 
 // 头像

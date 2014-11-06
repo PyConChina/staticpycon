@@ -67,18 +67,37 @@ html {
 
 // 子标题
 .title-subsection {
-  position: absolute;
-  top: 0.5em;
-  left: 0;
-
-  font-size: 400%;
-  font-weight: 600;
   line-height: 1;
 
-  color: rgba(0, 0, 0, 0.12);
+  @include media($desktop) {
+    position: absolute;
+    top: 0.5em;
+    left: 0;
 
-  // @include transform(rotate(-15deg));
-  // @include transform-origin(25% 75%);
+    font-size: 400%;
+    font-weight: 600;
+
+    // alpha-hint 也显得太浓了...
+    color: rgba(#000, $alpha-divider);
+
+    // 显得略不严肃... 关掉
+    // @include transform(rotate(-15deg));
+    // @include transform-origin(25% 75%);
+  }
+
+  @include media($narrow) {
+    display: inline-block;
+    font-size: 150%;
+    font-weight: 500;
+    text-align: left;
+
+    color: $text-secondary-color;
+
+    margin: 0 0 1em;
+    padding: 0.5em 2em 0.1em 0.5em;
+
+    border-bottom: 1px solid rgba(#000, $alpha-divider);
+  }
 }
 
 @mixin subsection-container {

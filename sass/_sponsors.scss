@@ -44,6 +44,10 @@
 // 赞助等级标题
 .mod-sponsors__level {
   @extend .title-subsection;
+
+  // 虽然是半透明的, 也要防止挡住赞助商 logo 的可能性
+  // TODO: 重构 z-index 使其受统一管理?
+  z-index: 100;
 }
 
 
@@ -74,6 +78,9 @@
 // 赞助图像
 .sponsor__img {
   display: block;
+
+  // 不要被赞助等级标题挡住
+  z-index: 200;
 }
 
 .sponsor-gold,
