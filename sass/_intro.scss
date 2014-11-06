@@ -47,14 +47,14 @@
 
 
 // 小模块布局
-.mod-intro__text,
-.mod-intro__topics,
-.mod-intro__contact {
+.mod-intro__text {
   @include span-columns(12);
 }
 
 .mod-intro__tickets,
-.mod-intro__apply {
+.mod-intro__apply,
+.mod-intro__topics,
+.mod-intro__contact {
   @include media($desktop) {
     @include span-columns(6);
   }
@@ -64,7 +64,8 @@
   }
 }
 
-.mod-intro__apply {
+.mod-intro__apply,
+.mod-intro__contact {
   @include media($desktop) {
     @include omega;
   }
