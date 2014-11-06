@@ -45,6 +45,17 @@
   }
 }
 
+// 提示文字
+.intro__text--note {
+  font-weight: 400;
+
+  border-bottom: 1px dashed rgba(0, 0, 0, $alpha-hint);
+}
+
+.intro__text--note-disabled {
+  color: rgba(#000, $alpha-hint);
+}
+
 
 // 小模块布局
 .mod-intro__text {
