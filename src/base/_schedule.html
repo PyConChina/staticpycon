@@ -1,19 +1,17 @@
-
 {% macro speech_tr(speech) %}
-    <tr>
-    <td>{{ speech.time or "" }} </td>
+    <tr class="schedule__topic">
+    <td class="schedule__topic__time">{{ speech.time or "" }} </td>
     {% if speech.speaker %}
         {% set a_speaker = speakers[speech.speaker] %}
         {% if a_speaker and a_speaker.topic %}
-            <td style="width:30%;"><strong>{{ a_speaker.topic.title or "" }}
-                </strong></td>
-            <td style="width:5em;">{{ a_speaker.name or "" }} </td>
-            <td class="text-left">{{ a_speaker.topic.preview or "" }} </td>
+            <td class="schedule__topic__title">{{ a_speaker.topic.title or "" }}</td>
+            <td class="schedule__topic__speaker">{{ a_speaker.name or "" }} </td>
+            <td class="schedule__topic__preview">{{ a_speaker.topic.preview or "" }} </td>
         {% else %}
             {{- printlog("invalid speaker:" + speech.speaker) -}}
         {% endif %}
     {% else %}
-    <td colspan="3">{{ speech.topic or "" }} </td>
+    <td colspan="3" class="schedule__topic__event">{{ speech.topic or "" }} </td>
     {% endif %}
     </tr>
 {% endmacro %}
@@ -21,7 +19,7 @@
 {% macro speech_trs(speeches, a_title) %}
 {% if speeches %}
     <tr>
-        <td colspan="4" class="text-center success">{{ a_title }}</td>
+        <td colspan="4" class="schedule__session">{{ a_title }}</td>
     </tr>
     {% for speech in speeches %}
         {{ speech_tr(speech) }}
@@ -30,17 +28,20 @@
 {% endmacro %}
 
 {% if schedule %}
-    <h1>{{ schedule_title }}</h1>
-    <h2>{{ message.traffic }}</h2>
-    <div>
-        <p>{{ message.address }}: {{ schedule.address }}</p>
-        <p>{{ message.venue }}: {{ schedule.venue }}</p>
-        <p>{{ message.traffic }}: {{ schedule.traffic }}</p>
-        <p>{{ message.date }}: <b>{{ schedule.date }}</b></p>
-    </div>
-    <h2>{{ message.schedule }}</h2>
-    <div class="table-responsive">
-        <table class="table table-bordered text-center">
+    <h1 class="section__title--index">{{ schedule_title }}</h1>
+    <section class="page__module">
+    <h2 class="section__title">{{ message.traffic }}</h2>
+    <dl class="schedule__metadata">
+        <dt class="schedule__metadata__key">{{ message.address }}</dt><dd class="schedule__metadata__value--address">{{ schedule.address }}</dd>
+        <dt class="schedule__metadata__key">{{ message.venue }}</dt><dd class="schedule__metadata__value--venue">{{ schedule.venue }}</dd>
+        <dt class="schedule__metadata__key">{{ message.traffic }}</dt><dd class="schedule__metadata__value--traffic">{{ schedule.traffic }}</dd>
+        <dt class="schedule__metadata__key">{{ message.date }}</dt><dd class="schedule__metadata__value--date">{{ schedule.date }}</dd>
+    </dl>
+    </section>
+    <section class="page__module">
+    <h2 class="section__title">{{ message.schedule }}</h2>
+		<div class="schedule__table-container">
+        <table class="schedule__table">
             <tbody>
                 {{ speech_trs(schedule.morning, message.morning) }}
                 {{ speech_trs(schedule.noon, message.noon) }}
@@ -48,9 +49,10 @@
                 {{ speech_trs(schedule.lightening_talks, message.lighting_talks) }}
             </tbody>
         </table>
-    </div>
-    <h2>{{ message.notices }}</h2>
-    <div>
-        <p>{{ schedule.notices or "" }}</p>
-    </div>
+		</div>
+    </section>
+    <section class="page__module">
+    <h2 class="section__title">{{ message.notices }}</h2>
+    <div class="schedule__notices">{{ schedule.notices or "" }}</div>
+    </section>
 {% endif %}
