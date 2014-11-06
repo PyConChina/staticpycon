@@ -33,12 +33,6 @@ home_intro: >
   无论使用哪种,都可以/应该参加这场完全由社区组织的欢乐集会;-)
   </div>
   </section>
-  <section class="mod-intro__topics">
-  <h2 class="intro__title intro__title--disabled">主题提交</h2>
-  <div class="intro__content">
-  <em class="intro__text--note">(已经集满,若有不满请直接联系大会)</em>
-  </div>
-  </section>
   <section class="mod-intro__tickets">
   <h2 class="intro__title">门票策略</h2>
   <div class="intro__content">
@@ -66,6 +60,12 @@ home_intro: >
   </div>
   </div>
   </section>
+  <section class="mod-intro__topics">
+  <h2 class="intro__title intro__title--disabled">主题提交</h2>
+  <div class="intro__content">
+  <em class="intro__text--note">(已经集满,若有不满请直接联系大会)</em>
+  </div>
+  </section>
   <section class="mod-intro__contact">
   <h2 class="intro__title">联系大会</h2>
   <div class="intro__content">
@@ -85,12 +85,6 @@ home_intro_en: >
   </div>
   </section>
   <ul>
-  <section class="mod-intro__topics">
-  <h2 class="intro__title intro__title--disabled">Topic Submission</h2>
-  <div class="intro__content">
-  <em class="intro__text--note">Topic submission for PyCon China 2014 has ended.</em>
-  </div>
-  </section>
   <section class="mod-intro__tickets">
   <h2 class="intro__title">Tickets</h2>
   <div class="intro__content">
@@ -116,6 +110,12 @@ home_intro_en: >
   <a href="http://19wu.com/PyConSuzhou" class="intro__apply-link">Suzhou</a>
   <a href="https://gdgdocs.org/forms/d/1XW1pAjDncb_ww8PL9nhbfIP88MmWPTU7RUuGoNnvwwQ/viewform" class="intro__apply-link">Hangzhou</a>
   </div>
+  </div>
+  </section>
+  <section class="mod-intro__topics">
+  <h2 class="intro__title intro__title--disabled">Topic Submission</h2>
+  <div class="intro__content">
+  <em class="intro__text--note">Topic submission for PyCon China 2014 has ended.</em>
   </div>
   </section>
   <section class="mod-intro__contact">
