@@ -108,4 +108,17 @@ html {
 }
 
 
+// 一些 Bootstrap 残留
+.sr-only {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
 // vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

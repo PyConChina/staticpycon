@@ -11,6 +11,8 @@
 .navbar-fixed-top {
   @include clearfix;
 
+  position: relative;
+
   width: 100%;
 
   background-color: $nav-bg;
@@ -32,6 +34,37 @@
   @include media($desktop) {
     display: none;
   }
+
+  @include media($narrow) {
+    @include navbar-element(false);
+    float: right;
+
+    background-color: darken($nav-bg, 35);
+    border: none;
+
+    &:after {
+      @include fa-inplace($fa-var-bars);
+    }
+  }
+}
+
+.navbar-collapse {
+  @include media($narrow) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    background-color: $nav-bg;
+
+    &.collapse {
+      display: none;
+    }
+
+    &.in {
+      display: block;
+    }
+  }
 }
 
 .navbar-nav {
@@ -42,9 +75,21 @@
   > li {
     float: left;
 
+    @include media($narrow) {
+      clear: both;
+      width: 100%;
+    }
+
     > a {
       @include navbar-element(false);
-      display: inline-block;
+
+      @include media($desktop) {
+        display: inline-block;
+      }
+
+      @include media($narrow) {
+        display: block;
+      }
 
       &:hover {
         background-color: rgba(0, 0, 0, $alpha-divider);
@@ -73,15 +118,17 @@
 }
 
 .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
+  @include media($desktop) {
+    position: absolute;
+    top: 100%;
+    left: 0;
 
-  min-width: 10em;
+    min-width: 10em;
 
-  background-color: #fafafa;
-  color: $text-color;
-  box-shadow: 0 0.5em 1em rgba(#000, $alpha-hint);
+    background-color: #fafafa;
+    color: $text-color;
+    box-shadow: 0 0.5em 1em rgba(#000, $alpha-hint);
+  }
 
   // 解决首页上奇怪的失去焦点问题
   z-index: 1000;
@@ -90,6 +137,10 @@
     display: block;
 
     padding: 0.5em 1em;
+
+    @include media($narrow) {
+      padding-left: 2em;
+    }
 
     &:hover {
       background-color: rgba(0, 0, 0, $alpha-divider);
