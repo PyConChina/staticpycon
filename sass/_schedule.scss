@@ -25,23 +25,24 @@
   }
 
   @include media($narrow) {
-    @include span-columns(2);
+    @include span-columns(4);
   }
 }
 
 .schedule__metadata__value {
   font-weight: normal;
 
-  border-bottom: 1px solid rgba(#000, $alpha-divider);
-
-  @include omega;
 
   @include media($desktop) {
     @include span-columns(6);
+    @include omega;
+
+    border-bottom: 1px solid rgba(#000, $alpha-divider);
   }
 
   @include media($narrow) {
-    @include span-columns(10);
+    @include span-columns(8);
+    @include omega;
   }
 }
 
