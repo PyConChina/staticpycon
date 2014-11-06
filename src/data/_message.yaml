@@ -119,8 +119,8 @@ home_intro_en: >
   </div>
   </section>
   <section class="mod-intro__contact">
-  <div class="intro__content">
   <h2 class="intro__title">Contact us</h2>
+  <div class="intro__content">
   <a href="mailto:support@pychina.org?subject=ask-PyCon2014China" class="intro__text--contact">support@pychina.org</a>
   </div>
   </section>
