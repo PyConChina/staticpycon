@@ -24,7 +24,7 @@ page_title_hangzhou_en: Schedule in Hangzhou
 #########################################
 home_title: 中国PyCon 2014大会准备好了!
 home_title_en: PyCon2014China is Coming!
-home_intro: > 
+home_intro: >
   <section class="mod-intro__text">
   <div class="intro__content">
   <b>PyCon</b> 是全球 <a href="volunteers.html#pythoneer">Pythoneer</a> 最盛大的年度聚会,由 <a href="https://www.python.org/psf/about/">PSF(Python 基金会)</a>支持,致力于营造愉快的多元化的 Python 技术主题大会.
@@ -73,15 +73,15 @@ home_intro: >
   </div>
   </section>
 
-home_intro_en: > 
+home_intro_en: >
   <section class="mod-intro__text">
   <div class="intro__content">
-  PyCon, the party of world-wide <a href="volunteers.html#pythoneer">Pythoneer</a>!
+  PyCon, the party of world-wide <a href="volunteers.html#pythoneer">Pythoneers</a>!
   Authorized by <strong><a href="http://PyCon.org">PyCon.org</a></strong>
-  of <a href="https://www.python.org/psf/about/">Pyton Sofware Foundation</a>,
-  this is the fourth year of <code>PyConChina</code>.
-  It is organized by CPyUG/GDG/TopGeek,
-  and held simultaneously in <strong>Shanghai/Beijing/Zhuhai/Shenzhen</strong>!
+  of <a href="https://www.python.org/psf/about/">Python Software Foundation</a>,
+  this is the fourth year of <code>PyCon China</code>.
+  Organized by CPyUG/GDG/TopGeek, PyCon China will be held simultaneously in
+  <strong>Shanghai/Beijing/Zhuhai/Suzhou/Hangzhou</strong> this year!
   </div>
   </section>
   <ul>
@@ -102,10 +102,10 @@ home_intro_en: >
   <section class="mod-intro__apply">
   <h2 class="intro__title">Signing Up</h2>
   <div class="intro__content">
-  <em class="intro__text--note">(Suzhou/Hangshou events last for half a day, also both for free)</em>
+  <em class="intro__text--note">(Suzhou/Hangzhou events last for half a day, also both for free)</em>
   <div class="intro__apply-links">
   <a href="http://19wu.com/PyConShanghai" class="intro__apply-link">Shanghai</a>
-  <a href="http://19wu.com/PyConBeijing" class="intro__apply-link">Beijing></a>
+  <a href="http://19wu.com/PyConBeijing" class="intro__apply-link">Beijing</a>
   <a href="http://19wu.com/PyConZhuhai" class="intro__apply-link">Zhuhai</a>
   <a href="http://19wu.com/PyConSuzhou" class="intro__apply-link">Suzhou</a>
   <a href="https://gdgdocs.org/forms/d/1XW1pAjDncb_ww8PL9nhbfIP88MmWPTU7RUuGoNnvwwQ/viewform" class="intro__apply-link">Hangzhou</a>
@@ -125,7 +125,7 @@ home_intro_en: >
   </div>
   </section>
 
-home_sponsors: 大会赞助 
+home_sponsors: 大会赞助
 home_sponsors_en: Sponsors
 #########################################
 # proposal
@@ -182,9 +182,9 @@ sponsors_hint: >
   请与PyCon组委会(邮件:stingchen@topgeek.org)联系,
   赞助商在大会官网的首页及"赞助商"页面展示您的公司Logo及简介.
 sponsors_hint_en: >
-  Supports from sponors are necessary for the success of PyCon. 
-  If you or your organization is willing to help the Python 
-  community of China, please contact PyCon committee 
+  Supports from sponors are necessary for the success of PyCon.
+  If you or your organization is willing to help the Python
+  community of China, please contact PyCon committee
   (<a href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a>).
   We will show the logo and introduction of all sponsors on the home page
   of our official website
