@@ -30,6 +30,25 @@ $sans-font-family: join(
 
 $body-font-family: $sans-font-family;
 
+$font-family-monospace-western: (
+  'Source Code Pro',
+  'Inconsolata',
+  'DejaVu Sans Mono',
+  'Menlo',
+  'Monaco',
+  'Consolas',
+  'Courier New'
+  ) !default;
+
+$font-family-monospace-chinese: $sans-font-family-chinese !default;
+$font-family-monospace: join(
+  $font-family-monospace-western,
+  $font-family-monospace-chinese,
+  'comma'
+  ),
+  monospace !default;
+
+
 // 全局设定
 body {
   font: $body-font-weight $body-font-size $body-font-family;
