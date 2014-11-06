@@ -22,7 +22,7 @@
     {% set bronze_sponsors = sponsors | selectattr('level_bronze') %}
     {% set partner_sponsors = sponsors | selectattr('level_partner') %}
     {% macro simple_sponsors_list(some_sponsors, sponsor_level, sponsor_level_id) %}
-	<section class="mod-sponsors__subsec--{{ sponsor_level_id }}">
+    <section class="mod-sponsors__subsec--{{ sponsor_level_id }}">
         <h3 class="mod-sponsors__level">{{ sponsor_level }}</h3>
         <div class="mod-sponsors__content">
             {% for sponsor in some_sponsors %}
@@ -53,7 +53,7 @@
     {% set hangzhou_proposals = selectspeakers(speakers, 'hangzhou') %}
     {% set suzhou_proposals = selectspeakers(speakers, 'suzhou') %}
     {% macro proposal_list(some_proposals, city_name) -%}
-	<section class="mod-speakers__city">
+    <section class="mod-speakers__city">
     <h3 class="mod-speakers__city__name">{{ city_name }}</h3>
     <div class="mod-speakers__content">
         {% for proposal in some_proposals %}
@@ -69,7 +69,7 @@
             </div>
         {% endfor %}
     </div>
-	</section>
+    </section>
     {%- endmacro %}
     {# presentation #}
     <section class="page__module mod-speakers">
@@ -87,20 +87,14 @@
 <section class="page__module mod-donators">
 <h2 class="section__title">{{ message.donators }}</h2>
 <div class="section__content">
-<p>{{ message.donators_orderby }}</p>
+<span class="mod-donators__orderby">{{ message.donators_orderby }}</span>
 {% if donators %}
-    <div class="table-responsive">
-        <table class="table table-bordered">
-        <tbody>
-        {% for row in donators | batch(5, fill_with=' ') %}
-          <tr>
-          {% for donator in row %}
-            <td>{{ donator }}</td>
-          {% endfor %}
-          </tr>
+    <div class="mod-donators__container">
+    <ol class="mod-donators__list">
+        {% for donator in donators %}
+        <li class="mod-donators__person">{{ donator }}</li>
         {% endfor %}
-        </tbody>
-        </table>
+    </ol>
     </div>
 {% endif %}
 </div>

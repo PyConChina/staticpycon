@@ -18,21 +18,12 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-
-        <style>
-            div.col-md-9 h1:first-of-type {
-                text-align: center;
-                font-size: 60px;
-                font-weight: 300;
-            }
-        </style>
     </head>
 
     <body>
         {% include "base/_nav.html" %}
         {% block content %}{% endblock %}
         <div class="page__disqus">{% include "base/_disqus.html" %}</div>
-        <div class="clearfix"></div>
         <footer class="page__footer">{% include "base/_footer.html" %}</footer>
 
         <script src="{{ site.base_url }}/asset/js/jquery-1.10.2.min.js"></script>
