@@ -19,10 +19,10 @@ $page-fg: $text-color;
 $nav-bg: $python-blue;
 $nav-fg: #fff;
 
-$index-title-bg: rgba(#000, 0.25);
+$index-title-bg: $python-yellow;
 $index-title-fg: $text-color;
 
-$section-title-bg: rgba(#000, 0.12);
+$section-title-bg: rgba(#000, $alpha-divider);
 $section-title-fg: #212121;  // Grey 900
 
 
