@@ -21,17 +21,24 @@ pip install -r requirements.txt
 
 ## 代码部署
 
-```
-# 安装依赖
-pip install staticjinja
+```sh
 # 下载源码
 git clone git@gitcafe.com:PyConChina/staticpycon.git
+# 或者通过 HTTPS 下载:
+git clone https://gitcafe.com/PyConChina/staticpycon.git
+
 cd staticpycon
-mkdir out # 首次使用可能需要创建out/目录
-# 编辑src/ 目录下的文件
-# 在out/下生成网页
+# 然后按照上边的方法安装依赖关系
+
+# 构建:
+#
+# 首次构建会自动创建 out/ 目录
+# 编辑 src/ 目录下的文件
+# 会在 out/ 下生成网页
 python bin/app.py -g
-# 也可以开启自动生成服务,监听到文件修改即时生成新的文件, 在本地进行调试
+# 只编译 Sass:
+python bin/app.py --sass
+# 也可以开启自动生成服务, 监听到文件修改即时生成新的文件, 在本地进行调试
 python bin/app.py
 ```
 
