@@ -1,14 +1,27 @@
 // 导航
+$navbar-vertical-padding-desktop: 0.5em;
+$navbar-vertical-padding-narrow: 0.25em;
+
 @mixin navbar-element($include-float: true) {
   @if $include-float {
     float: left;
   }
 
-  padding: 0.5em 1em;
+  @include media($desktop) {
+    padding: $navbar-vertical-padding-desktop 1em;
+  }
+
+  @include media($narrow) {
+    // 节约一些纵向空间, 否则在极小屏幕的设备上有些菜单就点不到啦,
+    // 比如 480x320 情况下的 往届 -> 2013 选项...
+    // 虽然这些设备确实少见了, 但还是加上. 就不单独写 media query 了
+    padding: $navbar-vertical-padding-narrow 1em;
+  }
+
   line-height: 2em;
 }
 
-.navbar-fixed-top {
+.navbar {
   @include clearfix;
 
   position: relative;
@@ -17,16 +30,49 @@
 
   background-color: $nav-bg;
   color: $nav-fg;
+
+  // 解决首页上奇怪的失去焦点问题
+  z-index: 1000;
 }
+
+// 顶端固定导航
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+body {
+  @include media($desktop) {
+    padding-top: 2em + $navbar-vertical-padding-desktop * 2;
+  }
+
+  @include media($narrow) {
+    padding-top: 2em + $navbar-vertical-padding-narrow * 2;
+  }
+}
+
+// 导航内 "logo"
+$navbar-brand-font-size: 1.5em;
 
 .navbar-brand {
   @include navbar-element;
+
+  // 保持高度一致的 trick...
+  @include media($narrow) {
+    // font-size 要和 toggle button 设置成一样, 否则纵向高度会不一致
+    font-size: $navbar-brand-font-size;
+    line-height: 1;
+
+    // 左边不要留很大的空啦
+    padding-left: 0.5em;
+  }
 }
 
 .navbar-brand__inner {
   // 不要影响父元素的 em-based 布局...
-  font-size: 1.5em;
+  font-size: $navbar-brand-font-size;
   line-height: 1;
+
   vertical-align: baseline;  // 默认值; 为了可读性
 }
 
@@ -39,8 +85,22 @@
     @include navbar-element(false);
     float: right;
 
-    background-color: darken($nav-bg, 35);
+    &.collapsed {
+      background-color: darken($nav-bg, 35);
+    }
+
+    background-color: darken($nav-bg, 50);
+
     border: none;
+
+    // 长成正方形的样子
+    $navbar-toggle-size: $navbar-brand-font-size + 2 * $navbar-vertical-padding-narrow;
+    width: $navbar-toggle-size;
+    height: $navbar-toggle-size;
+
+    font-size: $navbar-brand-font-size;
+    line-height: 1;
+    text-align: center;
 
     &:after {
       @include fa-inplace($fa-var-bars);
@@ -57,12 +117,16 @@
 
     background-color: $nav-bg;
 
+    overflow: hidden;
+
+    @include transition(height 0.2s);
+
     &.collapse {
-      display: none;
+      height: 0;
     }
 
     &.in {
-      display: block;
+      height: auto;
     }
   }
 }
@@ -130,16 +194,15 @@
     box-shadow: 0 0.5em 1em rgba(#000, $alpha-hint);
   }
 
-  // 解决首页上奇怪的失去焦点问题
-  z-index: 1000;
-
   > li > a {
     display: block;
 
-    padding: 0.5em 1em;
+    @include media($desktop) {
+      padding: $navbar-vertical-padding-desktop 1em;
+    }
 
     @include media($narrow) {
-      padding-left: 2em;
+      padding: $navbar-vertical-padding-narrow 1em $navbar-vertical-padding-narrow 2em;
     }
 
     &:hover {
