@@ -10,7 +10,8 @@ import yaml, re, thread, sys
 from copy import deepcopy
 import glob
 
-from ._vendor import scss
+from . import _vendor
+import scss
 
 from .util import mkdirp
 
