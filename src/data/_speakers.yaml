@@ -496,7 +496,7 @@ id_wuzhangjin:
   intro_en: Engineer at MEIZU
   topic: 
     title: Python Practices for Android/Linux Development?
-    preview: 系统优化:数据渲染,形象化思维;oscilloscope~ 功耗,性能,温控等数据通过Python示波器的方式展示出来?自动化测试框架:提早发现问题,快速重现问题;基本框架以及核心实现为Python~;程控开关,Python + Shell 版关键片段;程控制电源,GPIB Python封装;串口控制,Python serial模块;内核可视化调试,"个性化Bug";基于Python serial写了串口终端,在接收到自己指定的字符后做加色处理~;
+    preview: 主要从实际应用Python方面分享,如何更好地优化工作效率,案例会涵盖数据渲染,数据着色,自动化以及系统优化等...
     preview_en: System optimization - data rendering, imagical thinking; oscilloscope, power consumption, performance, temparature control and data visualization by python. Automatic test framework - find problems in advance, fast reproduce problems; Python + shell code snippets; program controlled switch and power and serial port, GPIB by python, python serial module; visualized kernel debugging; individual bug; color message received from serial port.
 
 id_huangyi:
