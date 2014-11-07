@@ -1,0 +1,46 @@
+$python-blue: #52b0ff;  // Light Blue 300: #4fc3f7
+$python-yellow: #ffe052;  // Yellow 400: #ffee58
+
+// 文字颜色设定
+$text-base-color: #000;
+
+// 内容透明度层次, from Material Design
+$alpha-main: 0.87;
+$alpha-secondary: 0.54;
+$alpha-hint: 0.26;
+$alpha-divider: 0.12;
+
+$text-color: rgba($text-base-color, $alpha-main);
+$text-secondary-color: rgba($text-base-color, $alpha-secondary);
+
+$page-bg: #fafafa;
+$page-fg: $text-color;
+
+$nav-bg: $python-blue;
+$nav-fg: #fff;
+
+$index-title-bg: $python-yellow;
+$index-title-fg: $text-color;
+
+$section-title-bg: rgba(#000, $alpha-divider);
+$section-title-fg: #212121;  // Grey 900
+
+$brand-success: #8bc34a;  // Light Green 500
+
+
+// 赞助模块
+$sponsor-diamond-bg: #fff;
+$sponsor-platinum-bg: #fafafa;  // Grey 50
+$sponsor-gold-bg: #ffecb3;  // Amber 100
+$sponsor-silver-bg: #e0e0e0;  // Grey 300
+$sponsor-bronze-bg: #d7ccc8;  // Brown 100
+$sponsor-partner-bg: $page-bg;
+
+
+// 名片
+$person-card-bg: #f5f5f5; // Grey 100
+$person-card-border-color: #e0e0e0;  // Grey 300
+$person-card-shadow-color: rgba(0, 0, 0, 0.125);
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

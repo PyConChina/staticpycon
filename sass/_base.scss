@@ -1,0 +1,151 @@
+html {
+	background-color: $page-bg;
+	color: $page-fg;
+}
+
+.container {
+  @include outer-container;
+}
+
+
+// logo
+.pycon-logo {
+  display: block;
+  margin: 2.5em auto;
+}
+
+
+// 内容模块
+.page__module {
+  @include clearfix;
+
+  position: relative;  // 以防万一
+  width: 100%;
+}
+
+.section__content {
+  @include outer-container;
+
+  overflow: hidden;
+}
+
+// Disqus 模块属于内容性质, 限制宽度
+.page__disqus {
+  @include outer-container;
+}
+
+
+// 各种标题
+.title-common {
+  width: 100%;
+  text-align: center;
+}
+
+.section__title--index-common {
+  @extend .title-common;
+
+  color: $index-title-fg;
+
+  padding: 0.1em 0;
+
+  font-size: 250%;
+  font-weight: 700;
+}
+
+.section__title--index {
+  @extend .section__title--index-common;
+
+  background-color: $index-title-bg;
+}
+
+.section__title--subpage-header {
+  @extend .section__title--index-common;
+
+  // 无意间的发现: 没有 logo 分开 navbar 和页面标题的话, 会导致整个 header 的
+  // 配色酷似乌克兰的国旗...
+  // workaround possible political implications
+  &:before,
+  &:after {
+    color: $index-title-bg;
+  }
+
+  &:before {
+    content: '[';
+    padding-right: 0.5em;
+  }
+
+  &:after {
+    content: ']';
+    padding-left: 0.5em;
+  }
+}
+
+.section__title {
+  @extend .title-common;
+
+  background-color: $section-title-bg;
+  color: $section-title-fg;
+
+  padding: 0.1em 0;
+
+  font-size: 200%;
+  font-weight: 600;
+}
+
+// 子标题
+.title-subsection {
+  line-height: 1;
+
+  @include media($desktop) {
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+
+    font-size: 400%;
+    font-weight: 600;
+
+    // alpha-hint 也显得太浓了...
+    color: rgba(#000, $alpha-divider);
+
+    // 显得略不严肃... 关掉
+    // @include transform(rotate(-15deg));
+    // @include transform-origin(25% 75%);
+  }
+
+  @include media($narrow) {
+    display: inline-block;
+    font-size: 150%;
+    font-weight: 500;
+    text-align: left;
+
+    color: $text-secondary-color;
+
+    margin: 0 0 1em;
+    padding: 0.5em 2em 0.1em 0.5em;
+
+    border-bottom: 1px solid rgba(#000, $alpha-divider);
+  }
+}
+
+@mixin subsection-container {
+  position: relative;
+
+  // clip 掉旋转出容器的那部分标题
+  overflow: hidden;
+}
+
+
+// 一些 Bootstrap 残留
+.sr-only {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

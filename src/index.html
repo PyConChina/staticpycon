@@ -3,47 +3,49 @@
 
 {% block content %}
 
-<!-- infomation -->
-<p><img alt="" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"  class="center-block img-responsive"/></p>
-<h1 id="pycon2014china">{{ message.home_title }}</h1>
-<p>{{ message.home_intro }}</p>
+<!-- big title -->
+<section class="page__module mod-title">
+<img alt="Logo of PyCon China 2014" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"  class="center-block img-responsive pycon-logo"/>
+<h1 class="section__title--index">{{ message.home_title }}</h1>
+<div class="section__content">{{ message.home_intro }}</div>
+</section>
 
-<hr/>
 <!-- sponsors -->
-<h2>{{ message.home_sponsors }}</h2>
+<section class="page__module mod-sponsors">
+<h2 class="section__title">{{ message.home_sponsors }}</h2>
 {% if sponsors %}
-    {# defination #}
+    {# render logic #}
     {% set diamond_sponsors = sponsors | selectattr('level_diamond') %}
     {% set platinum_sponsors = sponsors | selectattr('level_platinum') %}
     {% set gold_sponsors = sponsors | selectattr('level_gold') %}
     {% set silver_sponsors = sponsors | selectattr('level_silver') %}
     {% set bronze_sponsors = sponsors | selectattr('level_bronze') %}
     {% set partner_sponsors = sponsors | selectattr('level_partner') %}
-    {% macro simple_sponsors_list(some_sponsors, sponsor_level) %}
-        <h3>{{ sponsor_level }}</h3>
-        <p>
+    {% macro simple_sponsors_list(some_sponsors, sponsor_level, sponsor_level_id) %}
+    <section class="mod-sponsors__subsec--{{ sponsor_level_id }}">
+        <h3 class="mod-sponsors__level">{{ sponsor_level }}</h3>
+        <div class="mod-sponsors__content">
             {% for sponsor in some_sponsors %}
-            <a href="{{ sponsor.link }}">
-                <img src="{{ sponsor.logo }}" alt="" class="sponsor-{{ sponsor.level }}"/>
+            <a href="{{ sponsor.link }}" class="sponsor__link">
+                <img src="{{ sponsor.logo }}" alt="" class="sponsor__img sponsor-{{ sponsor.level }}"/>
             </a>
             {% endfor %}
-        </p>
+        </div>
+    </section>
     {% endmacro %}
     {# presentation #}
-    <div class="clearfix"></div>
-    <div>
-    {{ simple_sponsors_list(diamond_sponsors, message.sponsors_diamond) }}
-    {{ simple_sponsors_list(platinum_sponsors, message.sponsors_platinum) }}
-    {{ simple_sponsors_list(gold_sponsors, message.sponsors_gold) }}
-    {{ simple_sponsors_list(silver_sponsors, message.sponsors_silver) }}
-    {{ simple_sponsors_list(bronze_sponsors, message.sponsors_bronze) }}
-    {{ simple_sponsors_list(partner_sponsors, message.sponsors_partner) }}
-    </div>
+    {{ simple_sponsors_list(diamond_sponsors, message.sponsors_diamond, 'diamond') }}
+    {{ simple_sponsors_list(platinum_sponsors, message.sponsors_platinum, 'platinum') }}
+    {{ simple_sponsors_list(gold_sponsors, message.sponsors_gold, 'gold') }}
+    {{ simple_sponsors_list(silver_sponsors, message.sponsors_silver, 'silver') }}
+    {{ simple_sponsors_list(bronze_sponsors, message.sponsors_bronze, 'bronze') }}
+    {{ simple_sponsors_list(partner_sponsors, message.sponsors_partner, 'partner') }}
 {% endif %}
+</section>
 
 <!-- proposals -->
 {% if speakers %}
-    {# defination #}
+    {# render logic #}
     {% set global_proposals = selectspeakers(speakers, 'global') %}
     {% set beijing_proposals = selectspeakers(speakers, 'beijing') %}
     {% set shanghai_proposals = selectspeakers(speakers, 'shanghai')%}
@@ -51,58 +53,51 @@
     {% set hangzhou_proposals = selectspeakers(speakers, 'hangzhou') %}
     {% set suzhou_proposals = selectspeakers(speakers, 'suzhou') %}
     {% macro proposal_list(some_proposals, city_name) -%}
-    <h3>{{ city_name }}</h3>
-    <div class="row">
+    <section class="mod-speakers__city">
+    <h3 class="mod-speakers__city__name">{{ city_name }}</h3>
+    <div class="mod-speakers__content">
         {% for proposal in some_proposals %}
-            <div class="col-xs-12 col-sm-6 media proposal">
-                <a href="javascript:;" class="pull-left">
+            <div class="person">
+                <a href="javascript:;" class="person__avatar-link">
                     <img src="{{ proposal.avatar }}" alt="{{ proposal.name }}"
-                        class="media-object img-rounded"/>
+                        class="person__avatar" />
                 </a>
-                <div class="media-body">
-                    <h4 class="media-heading">{{ proposal.name }} </h4>
-                    <p>{{ proposal.intro }} </p>
+                <div class="person__desc">
+                    <h4 class="person__name">{{ proposal.name }} </h4>
+                    <p class="person__intro">{{ proposal.intro }} </p>
                 </div>
             </div>
-            {% if loop.index is divisibleby(2) or loop.last %}
-                <div class="clearfix hidden-xs-block hidden-phone"></div>
-            {% endif %}
-        {% endfor%}
+        {% endfor %}
     </div>
+    </section>
     {%- endmacro %}
     {# presentation #}
-    <hr/>
-    <div class="clearfix"></div>
-    <div>
-    <h2>{{ message.speechmaker }}</h2>
+    <section class="page__module mod-speakers">
+    <h2 class="section__title">{{ message.speechmaker }}</h2>
     {{ proposal_list(global_proposals, message.global) }}
     {{ proposal_list(beijing_proposals, message.beijing) }}
     {{ proposal_list(shanghai_proposals, message.shanghai) }}
     {{ proposal_list(zhuhai_proposals, message.zhuhai) }}
     {{ proposal_list(hangzhou_proposals, message.hangzhou) }}
     {{ proposal_list(suzhou_proposals, message.suzhou) }}
-    </div>
-{% endif%}
+    </section>
+{% endif %}
 
 <!-- donators -->
-<hr/>
-<div class="clearfix"></div>
-<h2>{{ message.donators }}</h2>
-<p>{{ message.donators_orderby }}</p>
+<section class="page__module mod-donators">
+<h2 class="section__title">{{ message.donators }}</h2>
+<div class="section__content">
+<span class="mod-donators__orderby">{{ message.donators_orderby }}</span>
 {% if donators %}
-    <div class="table-responsive">
-        <table class="table table-bordered">
-        <tbody>
-        {% for row in donators | batch(5, fill_with=' ') %}
-          <tr>
-          {% for donator in row %}
-            <td>{{ donator }}</td>
-          {% endfor %}
-          </tr>
+    <div class="mod-donators__container">
+    <ol class="mod-donators__list">
+        {% for donator in donators %}
+        <li class="mod-donators__person">{{ donator }}</li>
         {% endfor %}
-        </tbody>
-        </table>
+    </ol>
     </div>
 {% endif %}
+</div>
+</section>
 
 {% endblock %}

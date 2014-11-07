@@ -21,7 +21,6 @@ dist
 build
 eggs
 parts
-bin
 var
 sdist
 develop-eggs
@@ -45,3 +44,10 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# virtualenvs
+venv-*/
+test/
+
+# don't ignore bin/ but do ignore bin/pubconf.py
+bin/pubconf.py

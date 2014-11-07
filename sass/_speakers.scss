@@ -1,0 +1,51 @@
+// 讲师模块样式
+// 讲师列表
+.mod-speakers__content {
+  @include outer-container;
+  @include clearfix;
+}
+
+// 各城市讲师容器
+.mod-speakers__city {
+  @include subsection-container;
+
+  @include media($desktop) {
+    padding: 2em 0;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  @include media($narrow) {
+    padding: 1em 0 0;
+  }
+}
+
+// 城市名称小标题
+.mod-speakers__city__name {
+  @extend .title-subsection;
+
+  white-space: pre-wrap;
+
+  &:after {
+    @include media($desktop) {
+      html[lang='cn'] & {
+        content: '\A讲师';
+      }
+    }
+
+    @include media($narrow) {
+      html[lang='cn'] & {
+        content: '讲师';
+      }
+    }
+
+    font-weight: 200;
+  }
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

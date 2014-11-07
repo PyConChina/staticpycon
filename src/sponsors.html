@@ -3,36 +3,37 @@
 
 {% block content %}
 
-<h1>{{ message.sponsors }}</h1>
-<p>{{ message.sponsors_hint }}</p>
+<h1 class="section__title--subpage-header">{{ message.sponsors }}</h1>
+<p class="sponsorpage__text">{{ message.sponsors_hint }}</p>
 
 {% if sponsors %}
-    <div class="row">
-    {# defination #}
+    {# render logic #}
     {% set diamond_sponsors = sponsors | selectattr('level_diamond') %}
     {% set platinum_sponsors = sponsors | selectattr('level_platinum') %}
     {% set gold_sponsors = sponsors | selectattr('level_gold') %}
     {% set silver_sponsors = sponsors | selectattr('level_silver') %}
     {% set bronze_sponsors = sponsors | selectattr('level_bronze') %}
     {% set partner_sponsors = sponsors | selectattr('level_partner') %}
-    {% macro sponsors_list(some_sponsors, sponsors_level) %}
-        <div class="">
-            <h3>{{ sponsors_level }}</h3>
+    {% macro sponsors_list(some_sponsors, sponsors_level, sponsors_level_id) %}
+        <section class="page__module">
+        <h2 class="sponsorpage__level sponsorpage__level--{{ sponsors_level_id }}">{{ sponsors_level }}</h2>
+        <div class="sponsorpage__list">
             {% for sponsor in some_sponsors %}
-            <a href="{{ sponsor.link }}">
-                <img src="{{ sponsor.logo }}" alt="" class="sponsor-{{ sponsor.level }} img-responsive"/>
+            <article class="sponsorpage__item">
+            <a href="{{ sponsor.link }}" class="sponsorpage__item__logo-link">
+                <img src="{{ sponsor.logo }}" alt="" class="sponsor-{{ sponsor.level }} sponsorpage__item__logo"/>
             </a>
-            <p>{{ sponsor.intro }}<p>
+            <p class="sponsorpage__item__desc">{{ sponsor.intro }}<p>
+            </article>
             {% endfor %}
         </div>
     {% endmacro %}
-    {{ sponsors_list(diamond_sponsors, message.sponsors_diamond) }}
-    {{ sponsors_list(platinum_sponsors, message.sponsors_platinum) }}
-    {{ sponsors_list(gold_sponsors, message.sponsors_gold) }}
-    {{ sponsors_list(silver_sponsors, message.sponsors_silver) }}
-    {{ sponsors_list(bronze_sponsors, message.sponsors_bronze) }}
-    {{ sponsors_list(partner_sponsors, message.sponsors_partner) }}
-    </div>
+    {{ sponsors_list(diamond_sponsors, message.sponsors_diamond, 'diamond') }}
+    {{ sponsors_list(platinum_sponsors, message.sponsors_platinum, 'platinum') }}
+    {{ sponsors_list(gold_sponsors, message.sponsors_gold, 'gold') }}
+    {{ sponsors_list(silver_sponsors, message.sponsors_silver, 'silver') }}
+    {{ sponsors_list(bronze_sponsors, message.sponsors_bronze, 'bronze') }}
+    {{ sponsors_list(partner_sponsors, message.sponsors_partner, 'partner') }}
 {% endif %}
 
 {% endblock %}

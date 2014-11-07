@@ -58,3 +58,11 @@
   intro: "魔都现役研究僧,关注分布式计算相关领域;本着实用主义使用Python."
   intro_en: "A graduate student in Shanghai, interested in distributed computing and related, Python pragmaticist."
   github: https://github.com/7c00
+-
+  name: "xen0n (王雪瑞)"
+  role: technician
+  avatar: https://avatars0.githubusercontent.com/u/1175567?v=2&s=80
+  role_technician: 1
+  intro: "开源开发者, 江南大学研究生. 在开源社区摸爬滚打多年, 对 Web 全栈开发略懂皮毛. 兴趣十分广泛, 不过目前技术方面的主要兴趣在 PyPy/Rust 等新兴技术上. 代码风格强迫症患者, Gentoo Linux 用户, vim 用户, 希望自己的作品能为周围的人们带来温暖和快乐."
+  intro_en: "Open-source developer, full-stack Web developer; currently pursuing a Master's degree in Jiangnan University. Actively participating in community ever since; interested in all kinds of things, but the current technological favorites are emerging technologies such as PyPy and Rust. Compulsive about code style. Gentoo Linux user, vim user. Hope my projects can bring warmth and happiness to the people around."
+  github: https://github.com/xen0n

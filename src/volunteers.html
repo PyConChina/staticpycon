@@ -4,44 +4,53 @@
 {% block content %}
 
 {% if volunteers %}
-    {# defination #}
+    {# render logic #}
     {% set organizer_volunteers = volunteers | selectattr("role_organizer") %}
     {% set technician_volunteers = volunteers | selectattr("role_technician") %}
     {% set conference_volunteers = volunteers | selectattr("role_conference") %}
     {% macro volunteer_link(name, link) %}
         {% if link %}
-        <p>{{ name }}:<a href="{{ link }}">{{ link }}</a></p>
+		<a href="{{ link }}" class="volunteers__link--{{ name }}">{{ link }}</a>
         {% endif %}
     {% endmacro %}
     {% macro volunteer_list(some_volunteers) %}
+        <div class="volunteers__list">
         {% for volunteer in some_volunteers %}
-            <div class="col-xs-12 col-sm-6 media volunteer">
-                <a href="javascript:;" class="pull-left">
+            <div class="person">
+                <a href="javascript:;" class="person__avatar-link">
                     <img src="{{ volunteer.avatar }}" alt="{{ volunteer.name }}"
-                        class="media-object img-rounded"/>
+                        class="person__avatar"/>
                 </a>
-                <div class="media-body">
-                    <h3 class="media-heading">{{ volunteer.name }} </h3>
-                    <p>{{ volunteer.intro }}</p>
+                <div class="person__desc">
+                    <h3 class="person__name">{{ volunteer.name }} </h3>
+                    <p class="person__intro">
+					{{ volunteer.intro }}
                     {{ volunteer_link("github", volunteer.github) }}
                     {{ volunteer_link("weibo", volunteer.weibo) }}
                     {{ volunteer_link("blog", volunteer.blog) }}
+					</p>
                 </div>
             </div>
-            {% if loop.index is divisibleby(2) or loop.last %}
-                <div class="clearfix hidden-xs-block"></div>
-            {% endif %}
         {% endfor %}
+        </div>
     {% endmacro %}
     {# presentation #}
-    <h1>{{ message.volunteers }}</h1>
-    <p>{{ message.pythoneer }}</p>
-    <h2>{{ message.organizers }}</h2>
+    <h1 class="section__title--subpage-header">{{ message.volunteers }}</h1>
+    <section class="volunteers__text">
+        <p class="volunteers__pythoneer">{{ message.pythoneer }}</p>
+    </section>
+    <section class="page__module">
+    <h2 class="section__title">{{ message.organizers }}</h2>
     {{ volunteer_list(organizer_volunteers) }}
-    <h2>{{ message.technicians }}</h2>
+    </section>
+    <section class="page__module">
+    <h2 class="section__title">{{ message.technicians }}</h2>
     {{ volunteer_list(technician_volunteers) }}
-    <h2>{{ message.conference }}</h2>
+    </section>
+    <section class="page__module">
+    <h2 class="section__title">{{ message.conference }}</h2>
     {{ volunteer_list(conference_volunteers) }}
+    </section>
 {% endif %}
 
 {% endblock %}

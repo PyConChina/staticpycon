@@ -1,0 +1,73 @@
+// 赞助页面样式
+// 布局
+.sponsorpage__text,
+.sponsorpage__list {
+  @include outer-container;
+
+  padding: 2em 0;
+}
+
+
+//  赞助等级标题
+.sponsorpage__level {
+  @extend .section__title;
+}
+
+.sponsorpage__level--diamond {
+  // 不够显眼
+  // background-color: $sponsor-diamond-bg;
+}
+
+.sponsorpage__level--platinum {
+  // 同上
+  // background-color: $sponsor-platinum-bg;
+}
+
+.sponsorpage__level--gold {
+  background-color: $sponsor-gold-bg;
+}
+
+.sponsorpage__level--silver {
+  background-color: $sponsor-silver-bg;
+}
+
+.sponsorpage__level--bronze {
+  background-color: $sponsor-bronze-bg;
+}
+
+.sponsorpage__level--partner {
+  // 同钻石, 白金
+  // background-color: $sponsor-partner-bg;
+}
+
+
+// 单篇赞助商资料
+.sponsorpage__item {
+  @include clearfix;
+
+  padding: 2em 0;
+}
+
+// logo 链接
+.sponsorpage__item__logo-link {
+  @include span-columns(3);
+
+  text-align: center;
+}
+
+// logo 图像
+.sponsorpage__item__logo {
+  display: inline-block;
+
+  max-width: 100%;
+}
+
+
+// 介绍文字
+.sponsorpage__item__desc {
+  @include span-columns(9);
+  @include omega;
+}
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

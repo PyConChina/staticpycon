@@ -1,0 +1,22 @@
+{
+  "name": "staticpycon",
+  "version": "0.0.0",
+  "authors": [
+    "PyConChina"
+  ],
+  "description": "Static site for PyCon China",
+  "main": "bin/app.py",
+  "keywords": [
+    "python",
+    "pycon"
+  ],
+  "license": "pending",
+  "homepage": "http://cn.pycon.org/",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "~4.2.0",
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0",
+    "normalize.css": "~3.0.2"
+  }
+}

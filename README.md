@@ -2,19 +2,43 @@
 
 PyCon China 2014 官网生成工具
 
-## 使用
 
+## 构建环境配置
+
+```sh
+virtualenv venv-foo  # 预先 .gitignore 了 venv-* 和 test 所以不用担心
+. ./venv-foo/bin/activate
+pip install -r requirements.txt
 ```
-# 安装依赖
-pip install staticjinja
+
+## 本地构建方法
+
+```sh
+# 会执行构建, 并在本地 8080 端口启动测试服务器
+# 请访问 http://127.0.0.1:8080 观看效果
+./bin/app.py
+```
+
+## 代码部署
+
+```sh
 # 下载源码
 git clone git@gitcafe.com:PyConChina/staticpycon.git
+# 或者通过 HTTPS 下载:
+git clone https://gitcafe.com/PyConChina/staticpycon.git
+
 cd staticpycon
-mkdir out # 首次使用可能需要创建out/目录
-# 编辑src/ 目录下的文件
-# 在out/下生成网页
+# 然后按照上边的方法安装依赖关系
+
+# 构建:
+#
+# 首次构建会自动创建 out/ 目录
+# 编辑 src/ 目录下的文件
+# 会在 out/ 下生成网页
 python bin/app.py -g
-# 也可以开启自动生成服务,监听到文件修改即时生成新的文件, 在本地进行调试
+# 只编译 Sass:
+python bin/app.py --sass
+# 也可以开启自动生成服务, 监听到文件修改即时生成新的文件, 在本地进行调试
 python bin/app.py
 ```
 
