@@ -1,5 +1,4 @@
 staticjinja>=0.3.0
 mkdocs>=0.9
-#pyScss>=1.3.2
-git+https://github.com/xen0n/pyScss.git@for-staticpycon
+#pyScss>=1.3.2 -- vendored; see bin/staticpycon/_vendor
 colorama>=0.3.2
