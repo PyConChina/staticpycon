@@ -1,13 +1,13 @@
 .hg/
 .hg
 .hgignore
+bin/hook-deploy-by-git.sh
 
 out/
 out
 .python-version
 _stuff/
 _darft/
-
 
 *.py[cod]
 
