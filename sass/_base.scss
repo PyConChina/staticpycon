@@ -41,16 +41,43 @@ html {
   text-align: center;
 }
 
-.section__title--index {
+.section__title--index-common {
   @extend .title-common;
 
-  background-color: $index-title-bg;
   color: $index-title-fg;
 
   padding: 0.1em 0;
 
   font-size: 250%;
   font-weight: 700;
+}
+
+.section__title--index {
+  @extend .section__title--index-common;
+
+  background-color: $index-title-bg;
+}
+
+.section__title--subpage-header {
+  @extend .section__title--index-common;
+
+  // 无意间的发现: 没有 logo 分开 navbar 和页面标题的话, 会导致整个 header 的
+  // 配色酷似乌克兰的国旗...
+  // workaround possible political implications
+  &:before,
+  &:after {
+    color: $index-title-bg;
+  }
+
+  &:before {
+    content: '[';
+    padding-right: 0.5em;
+  }
+
+  &:after {
+    content: ']';
+    padding-left: 0.5em;
+  }
 }
 
 .section__title {
