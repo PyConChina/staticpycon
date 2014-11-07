@@ -2,3 +2,13 @@ staticjinja>=0.3.0
 mkdocs>=0.9
 #pyScss>=1.3.2 -- vendored; see bin/staticpycon/_vendor
 colorama>=0.3.2
+
+# pyScss 依赖关系
+six
+
+# Python < 3.4:
+enum34
+pathlib
+
+# Python < 2.7:
+# ordereddict
