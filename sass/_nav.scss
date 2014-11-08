@@ -15,7 +15,12 @@ $navbar-vertical-padding-narrow: 0.25em;
     // 节约一些纵向空间, 否则在极小屏幕的设备上有些菜单就点不到啦,
     // 比如 480x320 情况下的 往届 -> 2013 选项...
     // 虽然这些设备确实少见了, 但还是加上. 就不单独写 media query 了
-    padding: $navbar-vertical-padding-narrow 1em;
+    //
+    // NOTE: 把 padding-right 取消了, 主要是为了 navbar-brand 的显示...
+    // 在一些极端的屏幕大小上 (320px 宽...) padding-right 会把 navbar-toggle
+    // 挤到下一行, 为了不让这些同学换手机 (myself included) 我们暂且就把
+    // padding-right 去掉. 反正在移动体验下任何导航元素的右侧都不可能出现其他东西...
+    padding: $navbar-vertical-padding-narrow 0 $navbar-vertical-padding-narrow 1em;
   }
 
   line-height: 2em;
