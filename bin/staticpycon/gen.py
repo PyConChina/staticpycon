@@ -145,7 +145,7 @@ def render_page(renderer, template, **context):
         print(PROMPT_FMT_HTML % (context['lang'], outfile))
         template.stream(context).dump(outfile, "utf-8")
 
-def render_scss():
+def render_scss(debug=False):
     # ensure output dir exists
     mkdirp(CSS_OUTPUT_DIR)
 
@@ -165,15 +165,15 @@ def render_scss():
         result = scss.compiler.compile_string(
             content,
             search_path=SCSS_IMPORT_PATH,
-            output_style='compressed',  # TODO: use expanded while debugging?
+            output_style='expanded' if debug else 'compressed',
         )
 
         with open(out_path, 'wb') as fp:
             fp.write(result.encode('utf-8'))
 
-def gen(start_server=False):
+def gen(start_server=False, debug=False):
     # Sass
-    render_scss()
+    render_scss(debug)
 
     # Pages
     for lang, context in data_contexts.iteritems():
@@ -186,6 +186,5 @@ def gen(start_server=False):
 
     renderer.run(use_reloader=start_server)
 
-if __name__ == "__main__":
-    colorama.init()
-    gen(start_server=(not "-g" in sys.argv))
+
+# vim:set ai et ts=4 sts=4 fenc=utf-8:
