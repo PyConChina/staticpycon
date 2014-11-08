@@ -108,9 +108,9 @@ id_wangwei:
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-wangwei.png?imageView2/2/h/80
-  intro: UnitedStack SDN网络架构师，OpenStack、Buildbot 社区活跃开发者，个人博客: http://mytrix.me
+  intro: "UnitedStack SDN网络架构师，OpenStack、Buildbot 社区活跃开发者，个人博客: http://mytrix.me"
   topic:
-    title: OpenStack 的软件架构
+    title: "OpenStack 的软件架构"
     preview: "以 OpenStack 的虚拟网络组件 Neutron 为例介绍 OpenStack 的软件架构，兼谈健壮、可伸缩、低耦合的分布式系统设计。"
 
 id_kanglei:
