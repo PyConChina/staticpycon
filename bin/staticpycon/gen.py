@@ -13,6 +13,7 @@ import glob
 from . import _vendor
 import scss
 
+from . import cachebuster
 from .util import mkdirp
 
 try:
@@ -176,9 +177,12 @@ def gen(start_server=False, debug=False):
     render_scss(debug)
 
     # Pages
+    cachebuster_qs = cachebuster.gen_cachebuster_qs()
     for lang, context in data_contexts.iteritems():
         context['printlog'] = _sp_printlog
         context['selectspeakers'] = _sp_selectspeakers
+        context['cachebuster_qs'] = cachebuster_qs
+
     renderer = make_renderer(searchpath=SOURCE_DIR, staticpath=ASSET_DIR_REL,
         outpath=SITE_DIR, rules=[
             ("[\w-]+\.html", render_page)
