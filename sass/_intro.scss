@@ -108,6 +108,25 @@
   }
 }
 
+// narrow: 只在左右两侧留白, 中间不要留, 所以 mobile 的 padding 策略不能直接应用
+@include media($narrow) {
+  .mod-intro__tickets,
+  .mod-intro__topics {
+    > .intro__content {
+      padding-left: 1em;
+    }
+  }
+
+  // 这样虽然会破坏报名入口链接的完美对齐, 不过总比一边有一边没有的 padding
+  // 来得合适... Practicality beats purity, eh?
+  .mod-intro__apply,
+  .mod-intro__contact {
+    > .intro__content {
+      padding-right: 1em;
+    }
+  }
+}
+
 
 // 说明文字
 .mod-intro__text {
