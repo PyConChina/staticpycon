@@ -7,11 +7,11 @@
         {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
         {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
         {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
-        <link rel="shortcut icon" href="{{ site.base_url }}/asset/img/favicon.ico">
+        <link rel="shortcut icon" href="{{ site.base_url }}/asset/img/favicon.ico{{ cachebuster_qs }}">
 
         <title>{{ page_title }} - PyCon China 2014</title>
 
-        <link href="{{ site.base_url }}/asset/css/app.css" rel="stylesheet">
+        <link href="{{ site.base_url }}/asset/css/app.css{{ cachebuster_qs }}" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -26,10 +26,10 @@
         <div class="page__disqus">{% include "base/_disqus.html" %}</div>
         <footer class="page__footer">{% include "base/_footer.html" %}</footer>
 
-        <script src="{{ site.base_url }}/asset/js/jquery-1.10.2.min.js"></script>
-        <script src="{{ site.base_url }}/asset/js/bootstrap-3.0.3.min.js"></script>
-        <script src="{{ site.base_url }}/asset/js/prettify-1.0.min.js"></script>
-        <script src="{{ site.base_url }}/asset/js/base.js"></script>
+        <script src="{{ site.base_url }}/asset/js/jquery-1.10.2.min.js{{ cachebuster_qs }}"></script>
+        <script src="{{ site.base_url }}/asset/js/bootstrap-3.0.3.min.js{{ cachebuster_qs }}"></script>
+        <script src="{{ site.base_url }}/asset/js/prettify-1.0.min.js{{ cachebuster_qs }}"></script>
+        <script src="{{ site.base_url }}/asset/js/base.js{{ cachebuster_qs }}"></script>
 
 {% include "base/_ga.html" %}
 
