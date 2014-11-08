@@ -12,6 +12,16 @@ html {
 .pycon-logo {
   display: block;
   margin: 2.5em auto;
+
+  // 屏幕很窄的情况下也不要溢出, 否则会造成水平滚动条的
+  // 这里对最大宽度的要求本质上并不是属于某一特定体验的, 所以不放在 media
+  // 块里面.
+  max-width: 100%;
+
+  @include media($mobile) {
+    // 跟内容部分一致的留白
+    padding: 0 1em;
+  }
 }
 
 
