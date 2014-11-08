@@ -96,7 +96,7 @@ html {
 .title-subsection {
   line-height: 1;
 
-  @include media($desktop) {
+  @include media($wide) {
     position: absolute;
     top: 0.5em;
     left: 0;
@@ -112,7 +112,7 @@ html {
     // @include transform-origin(25% 75%);
   }
 
-  @include media($narrow) {
+  @include media($non-wide) {
     display: inline-block;
     font-size: 150%;
     font-weight: 500;

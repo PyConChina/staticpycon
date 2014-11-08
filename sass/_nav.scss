@@ -7,11 +7,11 @@ $navbar-vertical-padding-narrow: 0.25em;
     float: left;
   }
 
-  @include media($desktop) {
+  @include media($non-mobile) {
     padding: $navbar-vertical-padding-desktop 1em;
   }
 
-  @include media($narrow) {
+  @include media($mobile) {
     // 节约一些纵向空间, 否则在极小屏幕的设备上有些菜单就点不到啦,
     // 比如 480x320 情况下的 往届 -> 2013 选项...
     // 虽然这些设备确实少见了, 但还是加上. 就不单独写 media query 了
@@ -42,11 +42,11 @@ $navbar-vertical-padding-narrow: 0.25em;
 }
 
 body {
-  @include media($desktop) {
+  @include media($non-mobile) {
     padding-top: 2em + $navbar-vertical-padding-desktop * 2;
   }
 
-  @include media($narrow) {
+  @include media($mobile) {
     padding-top: 2em + $navbar-vertical-padding-narrow * 2;
   }
 }
@@ -58,7 +58,7 @@ $navbar-brand-font-size: 1.5em;
   @include navbar-element;
 
   // 保持高度一致的 trick...
-  @include media($narrow) {
+  @include media($mobile) {
     // font-size 要和 toggle button 设置成一样, 否则纵向高度会不一致
     font-size: $navbar-brand-font-size;
     line-height: 1;
@@ -77,11 +77,11 @@ $navbar-brand-font-size: 1.5em;
 }
 
 .navbar-toggle {
-  @include media($desktop) {
+  @include media($non-mobile) {
     display: none;
   }
 
-  @include media($narrow) {
+  @include media($mobile) {
     @include navbar-element(false);
     float: right;
 
@@ -109,7 +109,7 @@ $navbar-brand-font-size: 1.5em;
 }
 
 .navbar-collapse {
-  @include media($narrow) {
+  @include media($mobile) {
     position: absolute;
     top: 100%;
     left: 0;
@@ -139,7 +139,7 @@ $navbar-brand-font-size: 1.5em;
   > li {
     float: left;
 
-    @include media($narrow) {
+    @include media($mobile) {
       clear: both;
       width: 100%;
     }
@@ -147,11 +147,11 @@ $navbar-brand-font-size: 1.5em;
     > a {
       @include navbar-element(false);
 
-      @include media($desktop) {
+      @include media($non-mobile) {
         display: inline-block;
       }
 
-      @include media($narrow) {
+      @include media($mobile) {
         display: block;
       }
 
@@ -182,7 +182,7 @@ $navbar-brand-font-size: 1.5em;
 }
 
 .dropdown-menu {
-  @include media($desktop) {
+  @include media($non-mobile) {
     position: absolute;
     top: 100%;
     left: 0;
@@ -197,11 +197,11 @@ $navbar-brand-font-size: 1.5em;
   > li > a {
     display: block;
 
-    @include media($desktop) {
+    @include media($non-mobile) {
       padding: $navbar-vertical-padding-desktop 1em;
     }
 
-    @include media($narrow) {
+    @include media($mobile) {
       padding: $navbar-vertical-padding-narrow 1em $navbar-vertical-padding-narrow 2em;
     }
 

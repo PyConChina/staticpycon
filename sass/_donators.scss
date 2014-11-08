@@ -21,9 +21,18 @@
 .mod-donators__list {
   text-align: center;
 
-  @include media($desktop) {
+  @include media($wide) {
     @include span-columns(10);
     @include shift(1);
+  }
+
+  @include media($narrow) {
+    @include span-columns(4);
+    @include shift(1);
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
   }
 }
 
@@ -33,7 +42,7 @@
 
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 
-  @include media($desktop) {
+  @include media($wide) {
     @include span-columns(2 of 10);
     @include omega(5n);
 
@@ -43,8 +52,13 @@
   }
 
   @include media($narrow) {
-    @include span-columns(2);
+    @include span-columns(1);
     @include omega(6n);
+  }
+
+  @include media($mobile) {
+    @include span-columns(1);
+    @include omega(4n);
   }
 }
 

@@ -2,21 +2,43 @@
 .person {
   @include clearfix;
 
-  background-color: $person-card-bg;
-  border: 1px solid $person-card-border-color;
-  box-shadow: 0 0.5em 1em $person-card-shadow-color;
+  // 名片外观
+  @include media($non-mobile) {
+    background-color: $person-card-bg;
 
-  margin-bottom: 2em;
-  padding: 1em;
+    border: 1px solid $person-card-border-color;
+    box-shadow: 0 0.5em 1em $person-card-shadow-color;
 
-  @include media($desktop) {
+    margin-bottom: 2em;
+    padding: 1em;
+  }
+
+  @include media($mobile) {
+    border-bottom: 1px solid $person-card-border-color;
+    padding: 1em;
+
+    &:hover {
+      background-color: $person-card-bg;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  // 布局
+  @include media($wide) {
     @include span-columns(6);
     @include omega(2n);
   }
 
   @include media($narrow) {
-    @include span-columns(6);
+    @include span-columns(3);
     @include omega(2n);
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
   }
 }
 
