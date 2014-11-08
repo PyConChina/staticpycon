@@ -36,6 +36,12 @@
 
   // 让内容部分恢复正常对齐
   text-align: justify;
+
+  // 在移动体验下也在两侧留白
+  @include media($mobile) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 // 允许例外: 让内容 (提示信息) 也居中
@@ -64,7 +70,9 @@
   }
 
   @include media($narrow) {
-    @include span-columns(6);
+    // 不要显得太挤
+    @include span-columns(4);
+    @include shift(1);
   }
 
   @include media($mobile) {
