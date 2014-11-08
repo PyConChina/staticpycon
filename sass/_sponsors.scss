@@ -56,9 +56,16 @@
   // 居中排列 inline-block 的赞助 logo
   text-align: center;
 
-  // 上下: 目的很明显
-  // 左右: 左侧需要给赞助等级的元素留出一些空白
-  padding: 2em 6em;
+  @include media($non-mobile) {
+    // 上下: 目的很明显
+    // 左右: 左侧需要给赞助等级的元素留出一些空白
+    padding: 2em 6em;
+  }
+
+  @include media($mobile) {
+    // 移动体验下左右是不需要留白的, 留了反而会在非常窄的屏幕下造成不对齐
+    padding: 2em 0;
+  }
 }
 
 

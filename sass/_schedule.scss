@@ -19,7 +19,7 @@
 .schedule__metadata__key {
   text-align: right;
 
-  @include media($desktop) {
+  @include media($wide) {
     @include span-columns(2);
     @include shift(2);
   }
@@ -33,7 +33,7 @@
   font-weight: normal;
 
 
-  @include media($desktop) {
+  @include media($wide) {
     @include span-columns(6);
     @include omega;
 

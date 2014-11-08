@@ -1,0 +1,10 @@
+// 由于 pyScss bug 断点定义必须出现在 Neat 引入之后: see _media.scss
+$narrow: new-breakpoint(min-width $mobile-breakpoint + 1px max-width $narrow-breakpoint 6);
+$mobile: new-breakpoint(max-width $mobile-breakpoint 4);
+$wide: min-width $narrow-breakpoint + 1px;
+
+$non-mobile: min-width $mobile-breakpoint + 1px;
+$non-wide: max-width $narrow-breakpoint;
+
+
+// vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:

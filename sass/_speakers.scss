@@ -9,7 +9,7 @@
 .mod-speakers__city {
   @include subsection-container;
 
-  @include media($desktop) {
+  @include media($wide) {
     padding: 2em 0;
 
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -19,7 +19,7 @@
     }
   }
 
-  @include media($narrow) {
+  @include media($non-wide) {
     padding: 1em 0 0;
   }
 }
@@ -31,13 +31,13 @@
   white-space: pre-wrap;
 
   &:after {
-    @include media($desktop) {
+    @include media($wide) {
       html[lang='cn'] & {
         content: '\A讲师';
       }
     }
 
-    @include media($narrow) {
+    @include media($non-wide) {
       html[lang='cn'] & {
         content: '讲师';
       }

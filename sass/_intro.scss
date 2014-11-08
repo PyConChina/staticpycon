@@ -36,6 +36,12 @@
 
   // 让内容部分恢复正常对齐
   text-align: justify;
+
+  // 在移动体验下也在两侧留白
+  @include media($mobile) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 // 允许例外: 让内容 (提示信息) 也居中
@@ -59,26 +65,65 @@
 
 // 小模块布局
 .mod-intro__text {
-  @include span-columns(12);
+  @include media($wide) {
+    @include span-columns(12);
+  }
+
+  @include media($narrow) {
+    // 不要显得太挤
+    @include span-columns(4);
+    @include shift(1);
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
+  }
 }
 
 .mod-intro__tickets,
 .mod-intro__apply,
 .mod-intro__topics,
 .mod-intro__contact {
-  @include media($desktop) {
+  @include media($wide) {
     @include span-columns(6);
   }
 
   @include media($narrow) {
-    @include span-columns(12);
+    @include span-columns(3);
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
   }
 }
 
 .mod-intro__apply,
 .mod-intro__contact {
-  @include media($desktop) {
+  @include media($wide) {
     @include omega;
+  }
+
+  @include media($narrow) {
+    @include omega;
+  }
+}
+
+// narrow: 只在左右两侧留白, 中间不要留, 所以 mobile 的 padding 策略不能直接应用
+@include media($narrow) {
+  .mod-intro__tickets,
+  .mod-intro__topics {
+    > .intro__content {
+      padding-left: 1em;
+    }
+  }
+
+  // 这样虽然会破坏报名入口链接的完美对齐, 不过总比一边有一边没有的 padding
+  // 来得合适... Practicality beats purity, eh?
+  .mod-intro__apply,
+  .mod-intro__contact {
+    > .intro__content {
+      padding-right: 1em;
+    }
   }
 }
 
@@ -106,14 +151,32 @@
     }
 
     > dt {
-      @include media($desktop) {
+      @include media($wide) {
         @include span-columns(1 of 6);
+      }
+
+      @include media($narrow) {
+        @include span-columns(1 of 3);
+      }
+
+      @include media($mobile) {
+        @include span-columns(1 of 4);
       }
     }
 
     > dd {
-      @include media($desktop) {
+      @include media($wide) {
         @include span-columns(5 of 6);
+        @include omega;
+      }
+
+      @include media($narrow) {
+        @include span-columns(2 of 3);
+        @include omega;
+      }
+
+      @include media($mobile) {
+        @include span-columns(3 of 4);
         @include omega;
       }
     }
@@ -133,6 +196,7 @@
 .intro__apply-link {
   background-color: lighten($brand-success, 20);
 
+  margin-bottom: 1em;
   padding: 0.5em;
 
   &:hover {
@@ -140,16 +204,19 @@
     box-shadow: 0 0.5em 1em rgba(#000, $alpha-hint);
   }
 
-  @include media($desktop) {
+  @include media($wide) {
     @include span-columns(2 of 6);
     @include omega(3n);
-
-    margin-bottom: 1em;
   }
 
   @include media($narrow) {
-    @include span-columns(4);
+    @include span-columns(1 of 3);
     @include omega(3n);
+  }
+
+  @include media($mobile) {
+    @include span-columns(2);
+    @include omega(2n);
   }
 }
 

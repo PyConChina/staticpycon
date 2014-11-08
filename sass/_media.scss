@@ -2,14 +2,11 @@
 // 设计的正常桌面版体验太宽... 那就在 1366px 断掉好了
 // 这是在 Firefox 响应式设计视图试验的结果
 $narrow-breakpoint: 1366px;
+$mobile-breakpoint: 768px;
 
-$narrow: new-breakpoint(max-width $narrow-breakpoint 4);
-
-// pyScss bug
-$narrow: max-width $narrow-breakpoint;
-
-$desktop: min-width $narrow-breakpoint + 1px;
-
+// 实际上 pyScss 的 @function 实现完全坏掉了 (必须先定义才能用), 所以
+// 不可能支持 visual grid... 而且断点定义必须出现在 Neat 之后. 嘛...
+// 那部分代码放到 _media-late.scss 了
 
 // grid 布局调试设置
 $visual-grid: false;
