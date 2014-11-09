@@ -169,8 +169,8 @@ suzhou:
       topic_en: Check in
   afternoon:
     - time: "13:30"
-      topic: GDG介绍
-      topic_en: GDG intro.
+      topic: 谷歌开发者社区最新动态
+      topic_en: Google Developer Groups Update
     - { time: "14:30", speaker: id_weizeren }
     - { time: "15:00", speaker: id_juzheng }
     - { time: "16:00", speaker: id_laoqi }
