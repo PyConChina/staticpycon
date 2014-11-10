@@ -375,10 +375,10 @@ id_yejianye:
   intro: 之前在Slide和Google任技术经理,目前是Glow公司的CTO,也是公司的创始人之一
   intro_en: CTO and co-founder of Glow, former technical manager of Slide and Google
   topic:
-    title: "用Python搭建RPC framework"
+    title: "为何Python适合初创公司？"
     title_en: "Construct RPC framework using Python"
-    preview: "可以和大家分享一下在Glow里我们是如何用Python编写各种Web Services,以及各个Services之间是如何通信的. "
-    preview_en: "How we implement a variety of Web Services with Python in Glow, and how Services communicate with each other."
+    preview: "我先前在Slide与Glow两家创业公司工作，两家公司都以Python为主力语言。结合自己的经验，谈谈Python在初创公司中使用的优势。 "
+    preview_en: "我先前在Slide与Glow两家创业公司工作，两家公司都以Python为主力语言。结合自己的经验，谈谈Python在初创公司中使用的优势。"
 
 id_hujingchao:
   name: 胡景超
