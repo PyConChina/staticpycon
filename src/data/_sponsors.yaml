@@ -150,6 +150,12 @@
 -
   level_silver: 1
   level: silver
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/UnitedStack-h-logo.png?imageView2/2/h/50
+  link:  https://www.ustack.com/
+  intro: "UnitedStack,中国最专业的OpenStack云服务公司;UnitedStack始终坚持产品和技术为主导的工程师文化, 核心产品基于自主开发的全球最好用高性能OpenStack云服务平台UOS. UOS集中了弹性计算,分布式块存储和软件定义网络(SDN)等IaaS核心技术和能力,为客户提供安全,可靠与隔离的基础设施云环境. "
+-
+  level_silver: 1
+  level: silver
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/broadview-logo.png?imageView2/2/h/50
   link: http://www.broadview.com.cn
   intro: "电子工业出版社计算机图书出版分社优势整合了电子社旗下三大公司---博文视点,易飞思,华信卓越的计算机图书出版的精锐力量,合并了各自运营的计算机图书出版业务,强调计算机图书出版业核心竞争力,力求为我们的读者提供更多,更好,更专业的计算机图书出版物,力求为我们的作者提供服务更优质,增值更快的出版服务平台,力求为我国的IT业发展贡献自己的力量."

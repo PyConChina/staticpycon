@@ -108,10 +108,10 @@ id_wangwei:
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-wangwei.png?imageView2/2/h/80
-  intro: "UnitedStack SDN网络架构师，OpenStack、Buildbot 社区活跃开发者，个人博客: http://mytrix.me"
+  intro: "UnitedStack SDN网络架构师,OpenStack,Buildbot 社区活跃开发者,个人博客: http://mytrix.me"
   topic:
     title: "OpenStack 的软件架构"
-    preview: "以 OpenStack 的虚拟网络组件 Neutron 为例介绍 OpenStack 的软件架构，兼谈健壮、可伸缩、低耦合的分布式系统设计。"
+    preview: "以 OpenStack 的虚拟网络组件 Neutron 为例介绍 OpenStack 的软件架构,兼谈健壮,可伸缩,低耦合的分布式系统设计. "
 
 id_kanglei:
   name: 康雷
@@ -375,10 +375,10 @@ id_yejianye:
   intro: 之前在Slide和Google任技术经理,目前是Glow公司的CTO,也是公司的创始人之一
   intro_en: CTO and co-founder of Glow, former technical manager of Slide and Google
   topic:
-    title: "为何Python适合初创公司？"
+    title: "为何Python适合初创公司?"
     title_en: "Construct RPC framework using Python"
-    preview: "我先前在Slide与Glow两家创业公司工作，两家公司都以Python为主力语言。结合自己的经验，谈谈Python在初创公司中使用的优势。 "
-    preview_en: "我先前在Slide与Glow两家创业公司工作，两家公司都以Python为主力语言。结合自己的经验，谈谈Python在初创公司中使用的优势。"
+    preview: "我先前在Slide与Glow两家创业公司工作,两家公司都以Python为主力语言. 结合自己的经验,谈谈Python在初创公司中使用的优势.  "
+    preview_en: "我先前在Slide与Glow两家创业公司工作,两家公司都以Python为主力语言. 结合自己的经验,谈谈Python在初创公司中使用的优势. "
 
 id_hujingchao:
   name: 胡景超
