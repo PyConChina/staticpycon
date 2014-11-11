@@ -18,8 +18,8 @@
 
 {% macro speech_trs(speeches, a_title) %}
 {% if speeches %}
-    <tr>
-        <td colspan="4" class="schedule__session">{{ a_title }}</td>
+    <tr class="schedule__session">
+        <td colspan="4" class="schedule__session__name">{{ a_title }}</td>
     </tr>
     {% for speech in speeches %}
         {{ speech_tr(speech) }}
