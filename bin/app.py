@@ -11,6 +11,7 @@ from SimpleHTTPServer import SimpleHTTPRequestHandler
 from SocketServer import TCPServer
 
 from staticpycon import gen
+from staticpycon import util
 
 
 def serve():
@@ -37,5 +38,7 @@ if __name__ == "__main__":
     sass_only = '--sass' in sys.argv
     debug = '-d' in sys.argv
     start_server = not '-g' in sys.argv
+
+    util.setup_logging()
 
     run(start_server=start_server, sass_only=sass_only, debug=debug)
