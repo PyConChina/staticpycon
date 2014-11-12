@@ -4,8 +4,10 @@
   // 为了让每一行的名片高度统一, Flexbox 搞起
   // oldIE 是什么, 可以吃吗?
   @include media($non-mobile) {
-    @include display(flex);
-    @include flex-wrap(wrap);
+    .browser-modern & {
+      @include display(flex);
+      @include flex-wrap(wrap);
+    }
   }
 }
 
@@ -40,18 +42,32 @@
 
   // 布局
   @include media($wide) {
-    @include flex(0 0 flex-grid(6));
+    .browser-modern & {
+      @include flex(0 0 flex-grid(6));
 
-    &:nth-child(2n) {
-      margin-left: flex-gutter();
+      &:nth-child(2n) {
+        margin-left: flex-gutter();
+      }
+    }
+
+    .browser-ie & {
+      @include span-columns(6);
+      @include omega(2n);
     }
   }
 
   @include media($narrow) {
-    @include flex(0 0 flex-grid(3, 6));
+    .browser-modern & {
+      @include flex(0 0 flex-grid(3, 6));
 
-    &:nth-child(2n) {
-      margin-left: flex-gutter(6);
+      &:nth-child(2n) {
+        margin-left: flex-gutter(6);
+      }
+    }
+
+    .browser-ie & {
+      @include span-columns(6);
+      @include omega(2n);
     }
   }
 
