@@ -91,10 +91,10 @@ $navbar-brand-font-size: 1.5em;
     float: right;
 
     &.collapsed {
-      background-color: darken($nav-bg, 35);
+      background-color: darken($nav-bg, 15);
     }
 
-    background-color: darken($nav-bg, 50);
+    background-color: darken($nav-bg, 25);
 
     border: none;
 
