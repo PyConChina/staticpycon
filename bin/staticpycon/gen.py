@@ -15,23 +15,7 @@ import scss
 
 from . import cachebuster
 from .util import mkdirp
-
-try:
-    import colorama
-except ImportError:
-    # just stub out ANSI control codes
-    class colorama(object):
-        class Style(object):
-            DIM = RESET_ALL = ''
-
-        class Fore(object):
-            BLACK = RED = GREEN = YELLOW = BLUE = MAGENTA = CYAN = WHITE = ''
-            RESET = ''
-
-        @staticmethod
-        def init():
-            pass
-
+from ._colorama_compat import colorama
 
 PROJECT_DIR = dirname(dirname(realpath(dirname(__file__))))
 BOWER_DEP_DIR = join(PROJECT_DIR, "bower_components")
