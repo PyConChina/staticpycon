@@ -231,6 +231,12 @@
   font-family: $font-family-monospace;
   font-weight: bold;
   font-size: 200%;
+
+  @include media($mobile) {
+    // 320px 宽的设备下右边居然会 clip 掉... 难以置信
+    // 算了
+    font-size: 150%;
+  }
 }
 
 
