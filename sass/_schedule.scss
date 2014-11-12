@@ -25,13 +25,16 @@
   }
 
   @include media($narrow) {
-    @include span-columns(4);
+    @include span-columns(2);
+  }
+
+  @include media($mobile) {
+    @include span-columns(1);
   }
 }
 
 .schedule__metadata__value {
   font-weight: normal;
-
 
   @include media($wide) {
     @include span-columns(6);
@@ -41,7 +44,12 @@
   }
 
   @include media($narrow) {
-    @include span-columns(8);
+    @include span-columns(4);
+    @include omega;
+  }
+
+  @include media($mobile) {
+    @include span-columns(3);
     @include omega;
   }
 }
@@ -93,23 +101,68 @@
   }
 }
 
-.schedule__topic__time {
-  @include row(table);
-  @include span-columns(1);
+@include media($non-mobile) {
+  .schedule__topic__time {
+    @include row(table);
+    @include span-columns(1);
 
-  text-align: center;
+    text-align: center;
+  }
+
+  .schedule__topic__title {
+    @include span-columns(3);
+
+    font-weight: bold;
+  }
+
+  .schedule__topic__speaker {
+    @include span-columns(2);
+    @include reset-display;
+
+    text-align: center;
+  }
 }
 
-.schedule__topic__title {
-  @include span-columns(3);
+@include media($mobile) {
+  .schedule__table,
+  .schedule__session,
+  .schedule__session__name,
+  .schedule__topic,
+  .schedule__topic__event,
+  .schedule__topic__time,
+  .schedule__topic__title,
+  .schedule__topic__speaker,
+  .schedule__topic__preview {
+    display: block;
+  }
 
-  font-weight: bold;
-}
+  .schedule__topic {
+    @include clearfix;
 
-.schedule__topic__speaker {
-  @include span-columns(2);
+    padding: 0 1em;
+  }
 
-  text-align: center;
+  .schedule__topic__time,
+  .schedule__topic__speaker,
+  .schedule__topic__title,
+  .schedule__topic__event {
+    text-align: center;
+  }
+
+  .schedule__topic__time,
+  .schedule__topic__title {
+    @include span-columns(4);
+
+    font-weight: bold;
+  }
+
+  .schedule__topic__speaker {
+    @include span-columns(4);
+  }
+
+  .schedule__topic__preview {
+    @include span-columns(4);
+  }
 }
 
 
