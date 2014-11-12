@@ -29,6 +29,16 @@ id_weizeren:
 #       |__/
 #
 ####################################################################
+id_luozhicheng:
+  name: 罗志城
+  city_beijing: 1
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 北京正点时空科技有限公司研发经理
+  intro_en: R&D manager, Beijing Zhengdian Shikong Technology Limited Company
+  topic:
+    title: "TBD"
+    preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
+    preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
 
 id_caibin:
   name: 蔡斌
@@ -298,18 +308,6 @@ id_wangzhen:
     preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
     preview_en: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
 
-id_luozhicheng:
-  name: 罗志城
-  city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: 北京正点时空科技有限公司研发经理
-  intro_en: R&D manager, Beijing Zhengdian Shikong Technology Limited Company
-  topic:
-    title: "TBD"
-    preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
-    preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
 id_kj:
   name: KJ
   city_shanghai: 1
