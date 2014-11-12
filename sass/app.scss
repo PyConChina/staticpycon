@@ -6,9 +6,14 @@
 @import 'neat';
 @import 'media-late';
 
+// 在项目里暂时不要用 variables 和 mixins 两个名字命名样式文件, 会跟 fa
+// 冲突的. 我们不引入整个 fa, 而仅仅使用它的上述组件, 可以大幅缩小 CSS 体积,
+// 而上游没有用单独的目录存放不同模块, 代价即是必须在我们这一侧避免的名字冲突.
+@import 'variables';
+
 @import 'normalize';
 @import 'reset';
-@import 'font-awesome';
+// @import 'font-awesome';
 
 @import 'helpers/fontawesome-mixin';
 
