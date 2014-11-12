@@ -1,3 +1,17 @@
+/* test for IE */
+var isIE = function() {
+    var ua = navigator.userAgent;
+
+    // yeah, even IE11 is not modern enough by our standard.
+    // anyone dare disagree? why not put up some flexboxes first...
+    return /MSIE/.test(ua) || /Trident/.test(ua);
+};
+
+$(document).ready(function() {
+    if (isIE()) {
+        $('html').removeClass('browser-modern').addClass('browser-ie');
+    }
+});
 
 /* Prettyify */
 $( document ).ready(function() {
