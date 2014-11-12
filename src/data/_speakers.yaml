@@ -282,7 +282,7 @@ id_huangdong:
   intro: Promoter of FreeBSD & Python community, founder of Modou WiFi, former tecnical lead of many core systems and projects in Sina and Youku Todou Inc.
   topic:
     title: Python in Modou
-    preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Python的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明."
+    preview: "魔豆路由器是第一台带有触摸屏的智能路由器,以简单操作,功能强大在各智能路由器产品中独树一帜. 今年魔豆路由器又推出了路由器应用商店,通过路由器应用框架使得开发者及其方便的开发路由器上的应用,特别是应用可以快捷的打通路由器触摸屏,手机和浏览器三屏. 魔豆每周两个开发版,每月一个稳定版的发布,将互联网的速度带到了智能硬件行业. 老黄将会从自己二十余年的技术理解讲起,给大家阐述魔豆路由器是如何做到这样的快速而高效的持续改进. "
     preview_en: How Python works in the development of Modou Router. Key points of this lecture are the second and third network layers of Python, and remote function test.
 
 id_wangzhen:
