@@ -103,21 +103,25 @@
 
 @include media($non-mobile) {
   .schedule__topic__time {
-    @include row(table);
-    @include span-columns(1);
+    @include display-context(table) {
+      @include span-columns(1);
+    }
 
     text-align: center;
   }
 
   .schedule__topic__title {
-    @include span-columns(3);
+    @include display-context(table) {
+      @include span-columns(3);
+    }
 
     font-weight: bold;
   }
 
   .schedule__topic__speaker {
-    @include span-columns(2);
-    @include reset-display;
+    @include display-context(table) {
+      @include span-columns(2);
+    }
 
     text-align: center;
   }
