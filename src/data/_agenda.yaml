@@ -135,18 +135,19 @@ zhuhai:
     - time: "15:00"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:05", speaker: id_mengfanliang }
-    - { time: "15:45", speaker: id_wenming }
-    - { time: "16:25", speaker: id_wuzhangjin }
-    - { time: "17:05", speaker: id_longlimin }
+    - { time: "15:10", speaker: id_mengfanliang }
+    - { time: "15:50", speaker: id_wenming }
+    - { time: "16:30", speaker: id_longlimin }
     - time: "17:05"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "17:10", speaker: id_jeff }
+    - { time: "17:15", speaker: id_jeff }
   lightening_talks:
-    - time: "18:10" 
+    - time: "17:55" 
       topic: 闪电演讲,现场抢注,五分钟一节,能有3~4节
       topic_en: TBD
+  cancel_talks:
+    - { time: "--:--", speaker: id_wuzhangjin }
 
 ####################################################################
 #   / ___|__  /

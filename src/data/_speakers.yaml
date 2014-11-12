@@ -29,6 +29,16 @@ id_weizeren:
 #       |__/
 #
 ####################################################################
+id_luozhicheng:
+  name: 罗志城
+  city_beijing: 1
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 北京正点时空科技有限公司研发经理
+  intro_en: R&D manager, Beijing Zhengdian Shikong Technology Limited Company
+  topic:
+    title: "TBD"
+    preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
+    preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
 
 id_caibin:
   name: 蔡斌
@@ -282,7 +292,7 @@ id_huangdong:
   intro: Promoter of FreeBSD & Python community, founder of Modou WiFi, former tecnical lead of many core systems and projects in Sina and Youku Todou Inc.
   topic:
     title: Python in Modou
-    preview: "Python在魔豆路由器的开发过程中起到了哪些作用,特别会针对Python的二层,三层网络以及网络层的单元测试,远程功能测试进行细致的说明."
+    preview: "魔豆路由器是第一台带有触摸屏的智能路由器,以简单操作,功能强大在各智能路由器产品中独树一帜. 今年魔豆路由器又推出了路由器应用商店,通过路由器应用框架使得开发者及其方便的开发路由器上的应用,特别是应用可以快捷的打通路由器触摸屏,手机和浏览器三屏. 魔豆每周两个开发版,每月一个稳定版的发布,将互联网的速度带到了智能硬件行业. 老黄将会从自己二十余年的技术理解讲起,给大家阐述魔豆路由器是如何做到这样的快速而高效的持续改进. "
     preview_en: How Python works in the development of Modou Router. Key points of this lecture are the second and third network layers of Python, and remote function test.
 
 id_wangzhen:
@@ -298,18 +308,6 @@ id_wangzhen:
     preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
     preview_en: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
 
-id_luozhicheng:
-  name: 罗志城
-  city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: 北京正点时空科技有限公司研发经理
-  intro_en: R&D manager, Beijing Zhengdian Shikong Technology Limited Company
-  topic:
-    title: "TBD"
-    preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
-    preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
 id_kj:
   name: KJ
   city_shanghai: 1
