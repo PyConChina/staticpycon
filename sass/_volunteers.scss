@@ -17,6 +17,7 @@
 // 列表
 .volunteers__list {
   @include outer-container;
+  @include person-container;
 
   padding: 2em 0;
 }

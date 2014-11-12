@@ -2,6 +2,7 @@
 // 讲师列表
 .mod-speakers__content {
   @include outer-container;
+  @include person-container;
   @include clearfix;
 }
 
