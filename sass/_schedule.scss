@@ -172,4 +172,24 @@
 }
 
 
+// 注意事项
+.schedule__notices {
+  // 如果没有的话至少也表示一下
+  &:empty:after {
+    display: block;
+
+    color: rgba(#000, $alpha-hint);
+    text-align: center;
+
+    html[lang="cn"] & {
+      content: '无注意事项';
+    }
+
+    html[lang="en"] & {
+      content: 'n/a';
+    }
+  }
+}
+
+
 // vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8:
