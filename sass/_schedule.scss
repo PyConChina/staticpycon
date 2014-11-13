@@ -80,12 +80,18 @@
 
 // 议程表格
 .schedule__session {
-  padding: 0.5em 0;
-
   border-bottom: 1px solid rgba(#000, $alpha-secondary);
 
   font-size: 125%;
   text-align: center;
+}
+
+.schedule__session__name {
+  padding: 2em 0 0;
+
+  .schedule__session:first-child > & {
+    padding-top: 0;
+  }
 }
 
 .schedule__topic {
