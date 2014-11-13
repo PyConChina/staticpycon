@@ -29,6 +29,16 @@ id_weizeren:
 #       |__/
 #
 ####################################################################
+
+id_xianjianjun:
+  name: 谢建军
+  city_beijing: 1
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-xianjianjun.png?imageView2/2/h/80
+  intro: 中国科技网工程师，主要参与Web应用开发，负责软件设计。
+  topic:
+    title: "走进中国科技网"
+    preview: "主要内容是科技网的网络接入情况、科研服务及软件开源情况的介绍."
+
 id_luozhicheng:
   name: 罗志城
   city_beijing: 1
