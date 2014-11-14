@@ -69,6 +69,15 @@
   @extend .schedule__metadata__value;
 }
 
+// 地图链接
+.schedule__metadata__maplink {
+  display: inline-block;
+
+  color: #f60;  // 手机上随手给的, 待优化
+
+  margin: 0 0 0 1em;
+}
+
 // 日期时间
 .schedule__metadata__value--date {
   @extend .schedule__metadata__value;
