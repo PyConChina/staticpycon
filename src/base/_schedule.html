@@ -33,7 +33,7 @@
     <h2 class="section__title">{{ message.traffic }}</h2>
     <dl class="schedule__metadata">
         <dt class="schedule__metadata__key">{{ message.address }}</dt><dd class="schedule__metadata__value--address">{{ schedule.address }}</dd>
-        <dt class="schedule__metadata__key">{{ message.venue }}</dt><dd class="schedule__metadata__value--venue">{{ schedule.venue }}</dd>
+	<dt class="schedule__metadata__key">{{ message.venue }}</dt><dd class="schedule__metadata__value--venue">{{ schedule.venue }}{% if schedule.maplink %}<a href="{{ schedule.maplink }}" class="schedule__metadata__maplink">(地图)</a>{% endif %}</dd>
         <dt class="schedule__metadata__key">{{ message.traffic }}</dt><dd class="schedule__metadata__value--traffic">{{ schedule.traffic }}</dd>
         <dt class="schedule__metadata__key">{{ message.date }}</dt><dd class="schedule__metadata__value--date">{{ schedule.date }}</dd>
     </dl>
