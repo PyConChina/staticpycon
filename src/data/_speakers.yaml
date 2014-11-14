@@ -39,6 +39,15 @@ id_xianjianjun:
     title: "走进中国科技网"
     preview: "主要内容是科技网的网络接入情况,科研服务及软件开源情况的介绍."
 
+id_bjdujun:
+  name: 杜军
+  city_beijing: 1
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 悦Pod CTO
+  topic:
+    title: "Python 在智能硬件领域的尝试"
+    preview: "悦Pod 后台内容聚合分析部分采用了Nginx + Tornado + Flask 的结构,完美完成任务的同时极大的节省了团队资源;另外在悦Pod前期原型测试的时候,悦Pod 团队采用 Python + RaspBerry 的方式快速验证想法,功能成熟之后迅速切换到生产模式,非常方便. 总而言之,Python在悦Pod 从模型验证阶段一直到正式量产支持都提供了接近完美的支持,强烈推荐在智能硬件方面有想法的团队使用!人生苦短,我用Python!#插播广告,悦Pod致力于智能音箱领域的推广和普及,目标是加速互联网音频内容流动,作为互联网内容的出口,悦Pod提供7x24小时待机,让像水电的使用一样方便,悦Pod就是音频内容的水龙头,电灯开关. "
+
 id_luozhicheng:
   name: 罗志城
   city_beijing: 1

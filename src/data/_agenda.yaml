@@ -54,7 +54,7 @@ beijing:
     - time: "16:45"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "16:50", speaker: id_kanglei }
+    - { time: "16:50", speaker: id_bjdujun }
     - { time: "17:00", speaker: id_binux }
     - { time: "17:10", speaker: id_caibin }
 
