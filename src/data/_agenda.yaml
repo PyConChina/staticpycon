@@ -113,7 +113,7 @@ zhuhai:
   venue_en: Floor 1 Meet Hall
   traffic: "珠海中天酒店对面,工商银行隔壁;4路,9路,K10路,13路,22路,23路,26路,99路 到水湾北下,即见!坐船,到九洲港下; 城铁到终点 拱北站下; TEXI 13元即达!"
   traffic_en: "Line 4, 9, K10, 13, 22, 23, 26, 99 at North Shuiwan Station; By ship, Jiu Zhou Port; Subway, Gong Bei Station; Taxi, RMB 13"
-  notices: "Lightning Talking ~ 闪电演讲使用极限模式/ 中午报名,每节10分钟,不用幻灯,到点下台! <a href='https://www.youtube.com/watch?v=ZEZQjnoG2hw'>Google hangouts + Leap Motion</a>為了 PyCon2014China 的遠距演講, 做的 Google Hangouts 的互動簡報系統. 用到 Hangouts API, Leap Motion API, OpenCV 的 Camera Calibration.  另外也玩了一下 v4l2loopback , macam . 不過最後選 hangouts api.  簡報原本是用 Reveal.js 做的,用 Python 及 Spynner 來轉換. "
+  notices: "Lightning Talking ~ 闪电演讲使用极限模式/ 中午报名,每节10分钟,不用幻灯,到点下台! <hr/>>>><a href='http://youtu.be/ZEZQjnoG2hw'>Google hangouts + Leap Motion</a>; 為了 PyCon2014China 的遠距演講, 做的 Google Hangouts 的互動簡報系統. 用到 Hangouts API, Leap Motion API, OpenCV 的 Camera Calibration.  另外也玩了一下 v4l2loopback , macam . 不過最後選 hangouts api.  簡報原本是用 Reveal.js 做的,用 Python 及 Spynner 來轉換. "
   date: 2014-11-15 09:30~18:05
   morning:
     - time: "09:30"
