@@ -361,7 +361,7 @@ id_xuzhixiang:
   city: 上海
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/Shell909090-lighting.png?imageView2/2/h/80
-  intro: 现任七牛工程师,python/c程序员
+  intro: 现任七牛工程师,python/c程序员 <a href="https://github.com/shell909090/slides/">@Shell909090</a>
   intro_en: Engineer of Qiniu, Python and C programmer
   topic:
     title: "Python中的进程,线程,协程,同步,异步,回调. "
