@@ -42,7 +42,7 @@ id_xianjianjun:
 id_bjdujun:
   name: 杜军
   city_beijing: 1
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/bj-dujun.jpg?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-dujun.jpg?imageView2/2/h/80
   intro: 悦Pod CTO
   topic:
     title: "Python 在智能硬件领域的尝试"
