@@ -123,30 +123,36 @@ zhuhai:
       topic: 暖场 (大妈)
       topic_en: "Starting"
     - { time: "10:15", speaker: id_wengwei }
-    - { time: "11:00 ", speaker: id_huangyi }
+    - { time: "11:00 ", speaker: id_panjunyong }
   noon:
     - time: "11:50"
       topic: 午餐+合照
       topic_en: Lunch+Photo
   afternoon:
-    - { time: "13:00", speaker: id_panjunyong }
-    - { time: "13:40", speaker: id_wanganyu }
-    - { time: "13:55", speaker: id_taowen }
+    - { time: "13:00", speaker: id_taowen }
+    - { time: "13:40", speaker: id_huangyi }
     - { time: "14:30", speaker: id_weizeren }
     - time: "15:00"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:10", speaker: id_mengfanliang }
-    - { time: "15:50", speaker: id_wenming }
-    - { time: "16:30", speaker: id_longlimin }
+    - { time: "15:10", speaker: id_wanganyu }
+    - { time: "15:50", speaker: id_mengfanliang }
+    - time: "16:00"
+      topic: 茶歇
+      topic_en: Intermission
+    - { time: "16:30", speaker: id_wenming }
+    - { time: "17:00", speaker: id_longlimin }
     - time: "17:05"
       topic: 茶歇
       topic_en: Intermission
     - { time: "17:15", speaker: id_jeff }
   lightening_talks:
-    - time: "17:55" 
-      topic: 闪电演讲,现场抢注,五分钟一节,能有3~4节
-      topic_en: TBD
+    - time: "18:00" 
+      topic: 闪电演讲1; 优雅的异步 ~ OpenStack
+    - time: "18:05" 
+      topic: 闪电演讲2; 标准库故事+爬虫
+    - time: "18:10" 
+      topic: 闪电演讲3; QPython+GSoC 介绍
   cancel_talks:
     - { time: "--:--", speaker: id_wuzhangjin }
 
