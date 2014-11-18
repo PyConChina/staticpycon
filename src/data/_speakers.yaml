@@ -434,6 +434,17 @@ id_maquanyi:
   intro: Docker 中文社区创始人
   intro_en: Founder of Docker Chinese community
 
+id_pengjunhao:
+  name: 彭峻浩
+  name: Rudi
+  city_shanghai: 1
+  city: 上海
+  avatar: http://pyconcn.qiniudn.com/coyote/images/Rudi.png?imageView2/2/h/80
+  intro: "Seargetable 創辦人，前廣達電腦集團及 LargitData 軟體工程師， PyCon APAC 2015 committee for Sponsors, Public Relations and Programs。喜歡衝浪!"
+  topic:
+    title: "Introduction to PyCon APAC 2015 : back to __future__ II"
+    preview: "藉由探究 Python 的未來及台灣業界特有“超級活絡”的社群生態，告訴您為什麼 PyCon APAC 2015 為期一週的 summit ，是您能無時無刻與國際級講者交流，求職，及企業曝光的絕佳平台。"
+
 ####################################################################
 #   珠三角
 #    ______   _

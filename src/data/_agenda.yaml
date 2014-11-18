@@ -96,7 +96,8 @@ shanghai:
     - { time: "16:40", speaker: id_huangdong }
   lightening_talks:
     - { time: "17:20", speaker: id_lifeilin }
-    - { time: "17:50", speaker: id_wangjianfeng }
+    - { time: "17:30", speaker: id_wangjianfeng }
+    - { time: "17:40", speaker: id_pengjunhao }
 
 ####################################################################
 #   珠三角
