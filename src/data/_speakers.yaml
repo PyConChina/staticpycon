@@ -34,7 +34,7 @@ id_xianjianjun:
   name: 谢建军
   city_beijing: 1
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-xianjianjun.png?imageView2/2/h/80
-  intro: 中国科技网工程师,主要参与Web应用开发,负责软件设计. 
+  intro: 中国科技网工程师,主要参与Web应用开发,负责软件设计.
   topic:
     title: "走进中国科技网"
     preview: "主要内容是科技网的网络接入情况,科研服务及软件开源情况的介绍."
@@ -424,15 +424,6 @@ id_caowenjiong:
     title: "from python import data.process"
     preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
     preview_en: "Data processing with python and some open source libraries, as well as some open source python project, and how they are used in Duitang."
-
-id_maquanyi:
-  name: 马全一
-  city_zhuhai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/ma-quan-yi_docker_7_11_meaglith_logo.png?imageView2/2/h/80
-  intro: Docker 中文社区创始人
-  intro_en: Founder of Docker Chinese community
 
 id_pengjunhao:
   name: 彭峻浩
