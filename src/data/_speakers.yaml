@@ -314,6 +314,7 @@ id_huangdong:
   intro: Promoter of FreeBSD & Python community, founder of Modou WiFi, former tecnical lead of many core systems and projects in Sina and Youku Todou Inc.
   topic:
     title: Python in Modou
+    video: http://boolan.com/lecture/1000001051
     preview: "魔豆路由器是第一台带有触摸屏的智能路由器,以简单操作,功能强大在各智能路由器产品中独树一帜. 今年魔豆路由器又推出了路由器应用商店,通过路由器应用框架使得开发者及其方便的开发路由器上的应用,特别是应用可以快捷的打通路由器触摸屏,手机和浏览器三屏. 魔豆每周两个开发版,每月一个稳定版的发布,将互联网的速度带到了智能硬件行业. 老黄将会从自己二十余年的技术理解讲起,给大家阐述魔豆路由器是如何做到这样的快速而高效的持续改进. "
     preview_en: How Python works in the development of Modou Router. Key points of this lecture are the second and third network layers of Python, and remote function test.
 
@@ -327,6 +328,7 @@ id_wangzhen:
   intro_en: Python lover, interested in various new technologies, now working at Marin Software Shanghai
   topic:
     title: "why python is slow, python runtime compared with other languages"
+    video: http://boolan.com/lecture/1000001049
     preview: "为什么我们会觉得Python的运行时效率是个问题,那么和其他的语言相比python 的运行时究竟有何不同呢? 如果说python得执行效率较低的话低在什么地方? python的效率问题应该如何对待"
     preview_en: "Why we regard the Python runtime efficency as a problem? Comparing with other languages, how Python behaves differently? When does Python run slowly? How to treat Python low-efficiency problem?"
 
@@ -341,6 +343,7 @@ id_kj:
   topic:
     title: "用不好MySQL的Python工程师不是优秀的NoSQL专家"
     title_en: "A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL"
+    video: http://boolan.com/lecture/1000001043
     preview: "用不好MySQL的Python工程师不是优秀的NoSQL专家"
     preview_en: "A Pythoner who cannot use MySQL proficiently can never become an expert on NoSQL."
 
@@ -355,6 +358,7 @@ id_adieu:
   topic:
     title: "Django应该怎么用?"
     title_en: "The right way to use Django?"
+    video: http://boolan.com/lecture/1000001047
     preview: "看到国内用Django的同学越来越多,但是缺少必要的指导,想分享一下我用Django过程中积累的一些经验."
     preview_en: "With the increasing number of Django users, I want to share my experience during Django development."
 
@@ -369,9 +373,11 @@ id_xuzhixiang:
   topic:
     title: "Python中的进程,线程,协程,同步,异步,回调. "
     title_en: "Process, Thread, Coroutine, Synchronization, Asynchronization and Callback in Python"
+    slide: https://github.com/shell909090/slides/
+    video: http://boolan.com/lecture/1000001045
     preview: "Python中的进程,线程,协程,同步,异步,回调. "
     preview_en: "Process, Thread, Coroutine, Synchronization, Asynchronization, Callback in Python"
-    slide: https://github.com/shell909090/slides/
+
 
 id_wangjianfeng:
   name: 王剑峰
@@ -384,6 +390,7 @@ id_wangjianfeng:
   topic:
     title: OpenERP 再说
     title_en: Review on OpenERP
+    video: http://boolan.com/lecture/1000001046
     preview:  "汇报这年 OpenERP 的发展"
     preview_en: "Talking about the developement of OpenERP in this year"
 
@@ -398,6 +405,7 @@ id_yejianye:
   topic:
     title: "为何Python适合初创公司?"
     title_en: "Construct RPC framework using Python"
+    video: http://boolan.com/lecture/1000001046
     preview: "我先前在Slide与Glow两家创业公司工作,两家公司都以Python为主力语言. 结合自己的经验,谈谈Python在初创公司中使用的优势.  "
     preview_en: "我先前在Slide与Glow两家创业公司工作,两家公司都以Python为主力语言. 结合自己的经验,谈谈Python在初创公司中使用的优势. "
 
@@ -412,6 +420,7 @@ id_hujingchao:
   topic:
     title: "Python机器学习实践"
     title_en: "Practical Machine Learning in Python"
+    video: http://boolan.com/lecture/1000001048
     preview: "Python机器学习实践"
     preview_en: "Practical Machine Learning in Python"
 
@@ -427,6 +436,7 @@ id_caowenjiong:
   topic:
     title: "from python import data.process"
     preview: "简单介绍如何使用python代码及开源库来做数据处理,也介绍了一些支持python的开源数据方案,以及它们在堆糖的应用情况. "
+    video: http://boolan.com/lecture/1000001050
     preview_en: "Data processing with python and some open source libraries, as well as some open source python project, and how they are used in Duitang."
 
 id_pengjunhao:
