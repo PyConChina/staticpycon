@@ -14,7 +14,7 @@ id_weizeren:
   intro: 东华应数副教授 PyCon APAC 2014 议程负责人 花莲.py 负责人 ; Open Source Projects xnes/JavaScript SNES Emulator, translatePDF /pdf 简体繁体转换, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker  ; Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
   intro_en: Associate Professor of Applied Mathematics, Donghua University ; PyCon APAC 2014 Agenda responsible person; founder of Hualien.py ; Open Source Projects xnes /JavaScript SNES Emulator, translatePDF /pdf Traditional and Simplified Chineses, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker;  Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
   topic:
-    title: 花蓮.py 社区体验
+    title: 花蓮.py 社区体验 ;<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/hualienpy/pyconcn_zhs.html">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm3-tw-hualienpy.MP3">录音</a>/<a href="http://youtu.be/ZEZQjnoG2hw">视频</a>
     title_en: 花蓮.py community story (hualien.python.org.tw)
     preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.<br/>+ <a href='http://youtu.be/ZEZQjnoG2hw'>视频</a>
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.

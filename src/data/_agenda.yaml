@@ -127,7 +127,7 @@ zhuhai:
     - { time: "11:00 ", speaker: id_panjunyong }
   noon:
     - time: "11:50"
-      topic: 午餐+合照
+      topic: <img src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6598.JPG?imageView2/2/w/520"/> (ー`´ー) <img src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6675.JPG?imageView2/2/h/150"/>
       topic_en: Lunch+Photo
   afternoon:
     - { time: "13:00", speaker: id_taowen }
