@@ -22,8 +22,8 @@ page_title_hangzhou_en: Schedule in Hangzhou
 #########################################
 # home
 #########################################
-home_title: 中国PyCon 2014大会准备好了!
-home_title_en: PyCon2014China is Coming!
+home_title: 中国PyCon 2014大会,好了!
+home_title_en: PyCon2014China is Doing!
 home_intro: >
   <section class="mod-intro__text">
   <div class="intro__content">
@@ -151,7 +151,7 @@ afternoon: 下午
 afternoon_en: Afternoon
 lighting_talks: 闪电演讲
 lighting_talks_en: Lighting Talks
-cancel_talks: 临时取消
+cancel_talks: 协商取消
 cancel_talks_en: Canceled Talks
 notices: 注意
 notices_en: Notices

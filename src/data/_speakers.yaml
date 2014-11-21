@@ -14,9 +14,9 @@ id_weizeren:
   intro: 东华应数副教授 PyCon APAC 2014 议程负责人 花莲.py 负责人 ; Open Source Projects xnes/JavaScript SNES Emulator, translatePDF /pdf 简体繁体转换, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker  ; Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
   intro_en: Associate Professor of Applied Mathematics, Donghua University ; PyCon APAC 2014 Agenda responsible person; founder of Hualien.py ; Open Source Projects xnes /JavaScript SNES Emulator, translatePDF /pdf Traditional and Simplified Chineses, ck101fs, ASUSWebStorage FS, snes9x-3d, Mental Poker;  Past Projects WebKitGtkKindleDXG, 梦入神蛋, XA+CV, ZBochs, KindleChewing, JavaScript PCSX emulator, 坏狗不道德搜寻...
   topic:
-    title: 花蓮.py 社区体验 ;<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/hualienpy/pyconcn_zhs.html">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm3-tw-hualienpy.MP3">录音</a>/<a href="http://youtu.be/ZEZQjnoG2hw">视频</a>
+    title: 花蓮.py 社区体验 <br/><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/hualienpy/pyconcn_zhs.html">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm3-tw-hualienpy.MP3">录音</a>/<a href="http://youtu.be/ZEZQjnoG2hw">视频</a>
     title_en: 花蓮.py community story (hualien.python.org.tw)
-    preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.<br/>+ <a href='http://youtu.be/ZEZQjnoG2hw'>视频</a>
+    preview: 我的开源体验,如何在没有人用 Python 的偏乡,建立 Python 社区的一些小小经验.  这三四年参与开源社区活动,并尝试将从社区学到的经验,回馈到地方.
     preview_en: (online from TW) How did build Python community in partial Township without Python user? These three or four years to participate in the open source community, and try to learn from the experience of the community, to contribute to the place.
 
 ####################################################################
@@ -431,10 +431,10 @@ id_pengjunhao:
   city_shanghai: 1
   city: 上海
   avatar: http://pyconcn.qiniudn.com/coyote/images/Rudi.png?imageView2/2/h/80
-  intro: "Seargetable 創辦人，前廣達電腦集團及 LargitData 軟體工程師， PyCon APAC 2015 committee for Sponsors, Public Relations and Programs。喜歡衝浪!"
+  intro: "Seargetable 創辦人,前廣達電腦集團及 LargitData 軟體工程師, PyCon APAC 2015 committee for Sponsors, Public Relations and Programs. 喜歡衝浪!"
   topic:
     title: "Introduction to PyCon APAC 2015 : back to __future__ II"
-    preview: "藉由探究 Python 的未來及台灣業界特有“超級活絡”的社群生態，告訴您為什麼 PyCon APAC 2015 為期一週的 summit ，是您能無時無刻與國際級講者交流，求職，及企業曝光的絕佳平台。"
+    preview: "藉由探究 Python 的未來及台灣業界特有 `超級活絡` 的社群生態,告訴您為什麼 PyCon APAC 2015 為期一週的 summit ,是您能無時無刻與國際級講者交流,求職,及企業曝光的絕佳平台. "
 
 ####################################################################
 #   珠三角
@@ -454,7 +454,7 @@ id_wanganyu:
   intro: 深圳矽递科技(SeeedStudio)运营总监&CIO; Python爱好者,Raspberry Pi玩家
   intro_en: "COO & CIO of Shengzhen Seeed Studio, Python lover, Raspberry Pi player"
   topic:
-    title: 软硬结合 For Pythoneer
+    title: 软硬结合 For Pythoneer <br/> <a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-Seeed-intro.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm4-seedstudio.MP3">录音</a>
     title_en: Hardware and software combination for Pythoneer
     preview: 移动互联网下智能硬件是一个绕不开的话题,开源硬件给移动互联网带来了很大的想象空间,也让更多人可以参与移动互联网---尤其是程序员. 针对目前开源硬件的现状,流行的平台模块和应用案例给大家做分享交流,希望给各路饥渴的程序员一些新的思路和启发
     preview_en: Intelligent hardware is an inevitable topic in mobile network time, open source hardware has brought huge develop space for internet, and make it possible for a lot of people, especially programmers, to join the whole IT. Share the knowledge about popular platform module and application case, wish to help all come up with new ideas.
@@ -468,7 +468,7 @@ id_jeff:
   intro: 广州图锐信息科技创始人兼技术负责人,珠三角技术沙龙常务组委. 长年活跃在一线的python码农.
   intro_en: Founder and tech leader of Guangzhou ToraySoft, organizer of  TechParty, Python coder
   topic:
-    title: Python web异步编程实践
+    title: Python web异步编程实践 <br/> <a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-async%20web%20program%20by%20jeff.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm8-jeff.MP3">录音</a>
     title_en: Python web Asychronous Programming
     preview: 主要讲述我们需要使用异步编程模型的场景,编程框架从tornado到gevent的迁移过程遇到的种种坑和填坑方法.
     preview_en: Introducing the scenarios when we need asynchronous programming, tricks and methods during the migration from tornado to gevent.
@@ -482,7 +482,7 @@ id_taowen:
   intro: 在腾讯游戏运营部,使用python做运营开发. 曾经用python搞过电子商城,营销平台,手机代理程序等各类型应用
   intro_en: Operation developer at Tencent Game, having used python to build e-mall, markerting platform, mobile proxy app, etc
   topic:
-    title: stackless python打造微内核的流程引擎
+    title: stackless py 打造微内核的流程引擎<br/> <a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-bpm.py-intro.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm1-bpm.py.MP3">录音</a>
     title_en: stackless python - creating a flow engine for microkernel
     preview: 芯雲(bpm.py) 业务流程管理系统. 独特之处在于不需要学习新的流程定义语言. 如果你会写python代码,那么你在十分钟之内学会定义一个流程.甚至还支持多机并行执行,使用bpm.py做一个小的map/reduce分布式作业都是可能的!
     preview_en: >
@@ -497,7 +497,7 @@ id_panjunyong:
   intro: Python老人,易度云办公 easydo.cn 创始人,前中国Zope/Plone社区推广者
   intro_en: Python expert, founder of easydo.cn, former promoter of China Zope/Plone community
   topic:
-    title: 一切皆python的易度前端框架
+    title: 一切皆python的易度前端框架 <br/><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-easy-front-end-by-Python.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-am2-frontend.MP3">录音</a>
     title_en: A simple front end framework with pure python
     preview: 前端技术变化非常快,前端知识快速陈旧,javascript语言很蛋疼,html也很蛋疼,多终端支持也很蛋疼. 易度自己构建的前端框架,一切皆Python,快速编写前端应用,无js,无html,无蛋疼,支持多终端.
     preview_en: Techniques related to front end changes from time to time, javascript is hard to use, so is html. Besides, it is extremely hard to make your website support countless terminal. Now, use python, you can eaily create your powerful and supportive page.
@@ -524,7 +524,7 @@ id_huangyi:
   intro: 云悦科技技术合伙人,Python,Haskell爱好者,手游开发者.
   intro_en: Technical co-founder of Yunyue Tech, Python & Haskell lover, mobile game developer
   topic:
-    title: keep simple things simple and high performant
+    title: keep simple things simple and high performant <br/> <a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/cython-intro/cython-intro.html">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm2-cython.MP3">录音</a>
     preview: 分享cython开发实践,以及两个python库cprotobuf和credis的设计.
     preview_en: Share the experience during developing cython. And the design of cprogobuf and credis.
 
@@ -537,7 +537,7 @@ id_wengwei:
   intro: 80后创业者,今年沉迷于使用python生成Go源码
   intro_en: Entrepreneurs, hooked on generating Go source code with python this year
   topic:
-    title: 使用Python实现 "Go元编程"
+    title: 使用Python实现 "Go元编程" <br/><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-meta-programming.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-am1-Wuvist.MP3">录音</a>
     title_en: Using Python for "Meta Programming in Go"
     preview: 讲述如何使用python对go语言进行预处理生成代码,实现 "Go元编程";目前项目Go源码已经突破30W行,大半是由python"编译器"自动生成而来.
     preview_en: Talk experience of using use python for pre-processing of golang, and achieve "Meta Programming Go". There are about 300K lines of golang code in the actual golang project, most of the golang code are generated by by "Python Compiler".
@@ -550,6 +550,9 @@ id_laiyonghao:
   avatar: http://pyconcn.qiniudn.com/images/speakers/laiyonghao.png?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
   intro: 从业 8 年多,曾从事客户端游戏,网页游戏的研发,最近一年构建,带领团队开发基于 Web 技术的互联网,电话,自助终端销售彩票管理系统;开发食品,药品溯源系统等. 也是珠三角技术沙龙的创办人和组委之一.
   intro_en: Working on the client game, web page game, etc., founder and organizer of Tech Party
+  topic:
+    title: 改变语法,做更适合自己的Python!
+    preview: Pythonic 的打造自己工程的 SDL ,当然的,基于 Python 的工具箱
 
 id_longlimin:
   name: 龙利民
@@ -560,7 +563,7 @@ id_longlimin:
   intro: 猎豹移动,工程师
   intro_en: Engineer of Cheetah Mobile
   topic:
-    title: Luna 之高效 KV 库
+    title: Luna 之高效 KV 库 <br/><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-Luna-hq-KV-lib.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm7-luna.MP3">录音</a>
     title_en: Luna one efficient KV database
     preview: 在大数据实时统计系统架构过程中,必然的遇到了海量任务队列的分布式储存问题;分享如何一步步,用合适的开源系统升级架构,到最后,基于开源产品,完成原创系统的体验.
     preview_en: In the process of constructing a big data real time system, problems like massive task queue, distributed storage will come up along. Lecture will be focusing on how to base on appropriate open source system frameworks, to develop your own system.
@@ -574,7 +577,7 @@ id_wenming:
   intro: 旧金山人,曾负责水银云查杀和反钓鱼的开发
   intro_en: San Franciso developer, former leader of the development of Mecury cloud killing and anti-phishing
   topic:
-    title: python是否适合高性能web服务的开发?
+    title: python是否适合高性能web服务的开发? <br/><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-high%20performance%20web.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm6-pyhq.MP3">录音</a>
     title_en: python suitable for high performance and web service?
     preview: "主要从异步,缓存等方面探讨."
     preview_en: Share the experience during developing cython. And the design of cprogobuf and credis.
@@ -587,7 +590,7 @@ id_mengfanliang:
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
   intro: docker.cn 核心开发人员. 一直从事云计算,大数据相关的开发和管理工作. 目前专注 Docker 技术和 Golang 语言的研究.
   topic:
-    title: Docker Registry Build By Python
+    title: Docker Registry Build By Python <br/><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-DockerRegistry.pdf">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm5-docker.MP3">录音</a>
     preview: 讨论在Docker 体系中 Python 的能力
     preview_en: What Python is capable of in the Docker system
 

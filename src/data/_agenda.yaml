@@ -114,14 +114,14 @@ zhuhai:
   venue_en: Floor 1 Meet Hall
   traffic: "珠海中天酒店对面,工商银行隔壁;4路,9路,K10路,13路,22路,23路,26路,99路 到水湾北下,即见!坐船,到九洲港下; 城铁到终点 拱北站下; TEXI 13元即达!"
   traffic_en: "Line 4, 9, K10, 13, 22, 23, 26, 99 at North Shuiwan Station; By ship, Jiu Zhou Port; Subway, Gong Bei Station; Taxi, RMB 13"
-  notices: <a href="http://blog.zhgdg.org/2013-12/et16-pycon-zh/">PyCon2013China 珠海场小结</a> 发布,包含更多资料
+  notices: <a href="http://blog.zhgdg.org/2013-12/et16-pycon-zh/">PyCon2013China 珠海场小结</a> 已经发布,包含更多大会资料/吐糟...
   date: 2014-11-15 09:30~18:05
   morning:
     - time: "09:30"
       topic: 签到
       topic_en: "Check-in"
     - time: "10:00"
-      topic: 暖场 (大妈)
+      topic: 暖场 (大妈); <a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-0-zq-start.MP3">录音</a>
       topic_en: "Starting"
     - { time: "10:15", speaker: id_wengwei }
     - { time: "11:00 ", speaker: id_panjunyong }
@@ -149,13 +149,14 @@ zhuhai:
     - { time: "17:15", speaker: id_jeff }
   lightening_talks:
     - time: "18:00" 
-      topic: 闪电演讲1; 优雅的异步 ~ OpenStack
+      topic: 闪电演讲1/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pmltalk-1.MP3">录音</a>; 优雅的异步 ~ OpenStack
     - time: "18:05" 
-      topic: 闪电演讲2; 标准库故事+爬虫
+      topic: 闪电演讲2/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pmltalk-2.MP3">录音</a>; 标准库故事+爬虫
     - time: "18:10" 
-      topic: 闪电演讲3; QPython+GSoC 介绍
+      topic: 闪电演讲3/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pmltalk-3-zq.MP3">录音</a>; QPython+GSoC 介绍
   cancel_talks:
-    - { time: "--:--", speaker: id_wuzhangjin }
+    - { time: "(ー`´ー)", speaker: id_wuzhangjin }
+    - { time: "(ー`´ー)", speaker: id_laiyonghao }
 
 ####################################################################
 #   / ___|__  /
