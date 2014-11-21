@@ -5,8 +5,6 @@ page_title_index: 首页
 page_title_index_en: HOME
 page_title_beijing: 北京日程
 page_title_beijing_en: Schedule in Beijing
-page_title_proposals: 演讲提交
-page_title_proposals_en: Proposals
 page_title_shanghai: 上海日程
 page_title_shanghai_en: Schedule in Shanghai
 page_title_sponsors: 赞助
@@ -23,113 +21,9 @@ page_title_hangzhou_en: Schedule in Hangzhou
 # home
 #########################################
 home_title: 中国PyCon 2014大会,好了!
-home_title_en: PyCon2014China is Doing!
-home_intro: >
-  <section class="mod-intro__text">
-  <div class="intro__content">
-  <b>PyCon</b> 是全球 <a href="volunteers.html#pythoneer">Pythoneer</a> 最盛大的年度聚会,由 <a href="https://www.python.org/psf/about/">PSF(Python 基金会)</a>支持,致力于营造愉快的多元化的 Python 技术主题大会.
-  PyConChina 是由 <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG(华蠎用户组)</a>获得授权举办的 <b>中国PyCon</b> 年会.
-  迄今已是<b>第四届</b>, 继续由 CPyUG/TopGeek/GDG 协同,在 <b>北京/上海/珠海/苏州/杭州</b> 五城联办.
-  无论使用哪种,都可以/应该参加这场完全由社区组织的欢乐集会;-)
-  </div>
-  </section>
-  <section class="mod-intro__tickets">
-  <h2 class="intro__title">门票策略</h2>
-  <div class="intro__content">
-  <dl>
-  <dt>0RMB</dt>
-  <dd>学生票, 含所有礼品/茶点/午餐. <em class="intro__text--note">为支持学生,嘦有效学生证即可入场,但也要预订门票以便统计人数吼;-)</em></dd>
-  <dt>100RMB</dt>
-  <dd>普通票, 无发票, 待遇同学生票. <em class="intro__text--note-disabled">注意: 11月1日之前购买为50RMB</em></dd>
-  <dt>200RMB</dt>
-  <dd>企业票, 有发票, 待遇同普通票.</dd>
-  </dl>
-  <em class="intro__text--note">另: 蠎人赞助行者和企业票持有者, 有前排特座 ;-)</em>
-  </div>
-  </section>
-  <section class="mod-intro__apply">
-  <h2 class="intro__title">报名入口</h2>
-  <div class="intro__content">
-  <em class="intro__text--note">(苏/杭 只有半天,全部免费)</em>
-  <div class="intro__apply-links">
-  <a href="http://19wu.com/PyConShanghai" class="intro__apply-link">上海入口</a>
-  <a href="http://19wu.com/PyConBeijing" class="intro__apply-link">北京入口</a>
-  <a href="http://19wu.com/PyConZhuhai" class="intro__apply-link">珠海入口</a>
-  <a href="http://19wu.com/PyConSuzhou" class="intro__apply-link">苏州入口</a>
-  <a href="https://gdgdocs.org/forms/d/1XW1pAjDncb_ww8PL9nhbfIP88MmWPTU7RUuGoNnvwwQ/viewform" class="intro__apply-link">杭州入口</a>
-  </div>
-  </div>
-  </section>
-  <section class="mod-intro__topics">
-  <h2 class="intro__title intro__title--disabled">主题提交</h2>
-  <div class="intro__content">
-  <em class="intro__text--note">(已经集满,若有不满请直接联系大会)</em>
-  </div>
-  </section>
-  <section class="mod-intro__contact">
-  <h2 class="intro__title">联系大会</h2>
-  <div class="intro__content">
-  <a href="mailto:support@pychina.org?subject=ask-PyCon2014China" class="intro__text--contact">support@pychina.org</a>
-  </div>
-  </section>
-
-home_intro_en: >
-  <section class="mod-intro__text">
-  <div class="intro__content">
-  PyCon, the party of world-wide <a href="volunteers.html#pythoneer">Pythoneers</a>!
-  Authorized by <strong><a href="http://PyCon.org">PyCon.org</a></strong>
-  of <a href="https://www.python.org/psf/about/">Python Software Foundation</a>,
-  this is the fourth year of <code>PyCon China</code>.
-  Organized by CPyUG/GDG/TopGeek, PyCon China will be held simultaneously in
-  <strong>Shanghai/Beijing/Zhuhai/Suzhou/Hangzhou</strong> this year!
-  </div>
-  </section>
-  <ul>
-  <section class="mod-intro__tickets">
-  <h2 class="intro__title">Tickets</h2>
-  <div class="intro__content">
-  <dl>
-  <dt>0RMB</dt>
-  <dd>Students ticket. Attend the meeting for free with your student ID card. All gifts and lunch covered. <em class="intro__text--note">Note: You still need to sign up via the provided link, so that we can send the entrance code to you.</em></dd>
-  <dt>100RMB</dt>
-  <dd>Normal ticket. All gifts and lunch included. <em class="intro__text--note-disabled">(50% off before Nov. 1st)</em></dd>
-  <dt>200RMB</dt>
-  <dd>Enterprise ticket. Invoice included, otherwise same as Normal ticket.</dd>
-  </dl>
-  <em class="intro__text--note">Donators and Enterprise-level attenders additionally have access to reserved seats ;-)</em>
-  </div>
-  </section>
-  <section class="mod-intro__apply">
-  <h2 class="intro__title">Signing Up</h2>
-  <div class="intro__content">
-  <em class="intro__text--note">(Suzhou/Hangzhou events last for half a day, also both for free)</em>
-  <div class="intro__apply-links">
-  <a href="http://19wu.com/PyConShanghai" class="intro__apply-link">Shanghai</a>
-  <a href="http://19wu.com/PyConBeijing" class="intro__apply-link">Beijing</a>
-  <a href="http://19wu.com/PyConZhuhai" class="intro__apply-link">Zhuhai</a>
-  <a href="http://19wu.com/PyConSuzhou" class="intro__apply-link">Suzhou</a>
-  <a href="https://gdgdocs.org/forms/d/1XW1pAjDncb_ww8PL9nhbfIP88MmWPTU7RUuGoNnvwwQ/viewform" class="intro__apply-link">Hangzhou</a>
-  </div>
-  </div>
-  </section>
-  <section class="mod-intro__topics">
-  <h2 class="intro__title intro__title--disabled">Topic Submission</h2>
-  <div class="intro__content">
-  <em class="intro__text--note">Topic submission for PyCon China 2014 has ended.</em>
-  </div>
-  </section>
-  <section class="mod-intro__contact">
-  <h2 class="intro__title">Contact us</h2>
-  <div class="intro__content">
-  <a href="mailto:support@pychina.org?subject=ask-PyCon2014China" class="intro__text--contact">support@pychina.org</a>
-  </div>
-  </section>
-
+home_title_en: PyCon2014China is READY!
 home_sponsors: 大会赞助
 home_sponsors_en: Sponsors
-#########################################
-# proposal
-#########################################
 #########################################
 # schedule
 #########################################
