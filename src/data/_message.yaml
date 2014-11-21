@@ -133,6 +133,12 @@ home_sponsors_en: Sponsors
 #########################################
 # schedule
 #########################################
+slide: 讲义
+slide_en: slide
+audio: 录音
+audio_en: audio
+video: 录像
+video_en: video
 schedule: 议程
 schedule_en: Schedule
 address: 地址
