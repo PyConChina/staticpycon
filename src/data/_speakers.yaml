@@ -41,6 +41,7 @@ id_xianjianjun:
   topic:
     title: "走进中国科技网"
     preview: "主要内容是科技网的网络接入情况,科研服务及软件开源情况的介绍."
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj17-cstnet.net.pdf
 
 id_bjdujun:
   name: 杜军
@@ -50,17 +51,7 @@ id_bjdujun:
   topic:
     title: "Python 在智能硬件领域的尝试"
     preview: "悦Pod 后台内容聚合分析部分采用了Nginx + Tornado + Flask 的结构,完美完成任务的同时极大的节省了团队资源;另外在悦Pod前期原型测试的时候,悦Pod 团队采用 Python + RaspBerry 的方式快速验证想法,功能成熟之后迅速切换到生产模式,非常方便. 总而言之,Python在悦Pod 从模型验证阶段一直到正式量产支持都提供了接近完美的支持,强烈推荐在智能硬件方面有想法的团队使用!人生苦短,我用Python!#插播广告,悦Pod致力于智能音箱领域的推广和普及,目标是加速互联网音频内容流动,作为互联网内容的出口,悦Pod提供7x24小时待机,让像水电的使用一样方便,悦Pod就是音频内容的水龙头,电灯开关. "
-
-id_luozhicheng:
-  name: 罗志城
-  city_beijing: 1
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: 北京正点时空科技有限公司研发经理
-  intro_en: R&D manager, Beijing Zhengdian Shikong Technology Limited Company
-  topic:
-    title: "TBD"
-    preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
-    preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj16-Py-yuepod.pdf
 
 id_caibin:
   name: 蔡斌
@@ -70,6 +61,7 @@ id_caibin:
   topic:
     title:  产品开发在豆瓣
     preview: "通过讲述豆瓣东西的开发经历,介绍一下豆瓣工程师在一个产品开发过程中的工作方式"
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj14-by-VeryCB_douban-product.pdf
 
 id_dongwei:
   name: 董伟
@@ -79,6 +71,7 @@ id_dongwei:
   topic:
     title:  一起来设计云计算平台的任务调度系统
     preview: "技术人擅长学习新技术,有好奇心,希望攻克技术难题. 那么想不想一起参与设计一次商业云平台的任务调度系统呢?如果你愿意,欢迎一起参与到本次的演讲中来. 我们将和现场所有的Pythoner一起从头完成一次商业云计算平台的任务调度系统的设计."
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj03-speedycloud.pdf
 
 id_laike9m:
   name: laike9m
@@ -94,6 +87,7 @@ id_laike9m:
   topic:
     title: "current.futures 研究"
     preview: "current.futures 是我非常喜欢使用的一个并发模块,相对 multiprocessing,它提供了更为简洁的接口. 希望能介绍这个模块的基本使用,并且深入源码探究它的实现. "
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj06-by-laike9m_current.futures.pdf
 
 id_chenjian:
   name: 陈剑(寒晨)
@@ -106,6 +100,7 @@ id_chenjian:
   topic:
     title: "Python代码的多平台迁移"
     preview: "讲讲Python代码在多平台迁移时遇到的那些坑. 总结如何才能写出能够平滑进行多平台迁移的Python代码. 主要涉及硬编码,依赖导入,系统特性,发布方式等问题."
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj02-knownsec_multi-platform-python-tips/multi-platform-python-tips.html
 
 id_quchifeng:
   name: 曲池峰
@@ -120,19 +115,7 @@ id_quchifeng:
     title_en: QPython - Python on Android
     preview: 介绍QPython,如何在手机和平板上写Python程序,在手机上用Python写出实用的脚本程序,随时随地写程序.
     preview_en: Introduce QPython. How to write useful Python on phone and tablet.
-
-id_yanglin:
-  name: 杨林
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: 杨林, 百度云系统工程师, 目前负责百度云的MongoDB/Redis等NoSQL系统的开发和运维, 在高性能网络服务和分布式存储系统方面有丰富经验.
-  topic:
-    title: redis-mgr 介绍
-    title_en: Introduce redis-mgr
-    preview: 是一个用python开发的redis集群管理工具,用redis-mgr可以快速(10min)搭建一个由redis/twemproxy/redis-sentinel 构成的redis 集群.   功能包括 一键式部署, failover, 监控, 实例迁移, 模块升级等.  github.com/idning/redis-mgr
-    preview_en: redis-mgr is a cluster management tool. A redis cluster can be set up in 10 min with redis-mgr, consisting of redis/twemproxy/redis-sentinel. Features are quick deployment, failover, monitor, instance migrate, module update.  github.com/idning/redis-mgr
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj08-by-chifeng_QPython-intro.pdf
 
 id_wangwei:
   name: 王为
@@ -144,17 +127,8 @@ id_wangwei:
   topic:
     title: "OpenStack 的软件架构"
     preview: "以 OpenStack 的虚拟网络组件 Neutron 为例介绍 OpenStack 的软件架构,兼谈健壮,可伸缩,低耦合的分布式系统设计. "
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj05-by-WangWei_OpenStack.pdf
 
-id_kanglei:
-  name: 康雷
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-kanglei.png?imageView2/2/h/80
-  intro: "中国科学技术大学自动化专业硕士研究生,研究方向未来网络和多媒体计算,热爱python,用tornado框架做过一个分类兴趣网站,喜欢用python写脚本代替重复性劳动. 专注于python和开源硬件结合的领域."
-  topic:
-    title: "python在开源硬件中大有可为"
-    preview: "通过python在raspberryPi中的应用(超声波自动避障小车,智能家居等皆为我自己做出的实际实验品,若条件不允许可提供视频供观众观看),阐述python在开源硬件中的应用以及未来的广阔前景."
 
 id_liuxiaoming:
   name: 刘晓明
@@ -168,6 +142,7 @@ id_liuxiaoming:
     title_en: Python and Robot
     preview: Python在机器人技术中的优势与应用
     preview_en: The advantages and application of Python in robot field
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj12-by-gashero_Py-robot.pdf
 
 id_binux:
   name: binux
@@ -181,47 +156,9 @@ id_binux:
     title_en: Introduction to Web cawler framework - pyspider
     preview: 两种无需编写代码的结构化数据抽取(http://blog.binux.me/2014/07/how-to-extract-data-from-web/ 中介绍的 data highlighter 和 自动模板生成与提取)演示
     preview_en: Two demos about extract structural data without programming code.(data highlighter in http://blog.binux.me/2014/07/how-to-extract-data-from-web/  AND  generation and extraction via automatic template)
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj13-by-binux_pyspider-intro.pdf
 
-id_likuan:
-  name: 李宽
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/li-kuan.png?imageView2/2/h/80
-  intro: 中科院微生物所,生物信息工程师
-  intro_en: Bioinformatics engineer, Institute of Microbiology, Chinese Academy of Sciences
-  topic:
-    title: 生物领域的大数据和Python
-    title_en: Python and big data in biology
-    preview: 简单介绍一下python在生物领域大数据分析中的应用.
-    preview_en: Introduce the application of Python in biology big data.
 
-id_liangjie:
-  name: 梁杰
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/liang-jie-head.png?imageView2/2/h/80
-  intro: 北京航空航天大学大四学生
-  intro_en: Senior student at Beihang University
-  topic:
-    title: 如何参与开源项目
-    title_en: 如何参与开源项目
-    preview: 开源大家都听过,但是真正参与到开源项目中的程序员却少之又少. 在这个快速演讲中我会介绍如何参与开源项目,让每个程序员都能更快地得到提升.
-    preview_en: It is hard for most of us to take part in open source projects, although we have heard of them too many times. This lecture will introduce how to join one open source project and get yourself improved.
-
-id_quxiaolong:
-  name: 屈晓龙
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: 北京信易云媒Python工程师
-  intro_en: Python engineer at Beijing Msgcopy
-  topic:
-    title: ""
-    preview: 简单介绍如何使用Python+JavaScript+Html+Css搭建类似于PhoneGap的轻量级,定制化的混合应用框架.
-    preview_en: Construct an application framework like PhoneGap with Python+Javascript+Html+Css.
 
 id_zhengkun:
   name: 郑堃
@@ -236,6 +173,7 @@ id_zhengkun:
     title_en: Application of Python at KNOWNSEC -- Sharing on Software Construction
     preview: Python 都用在了哪些类型的开发上;代码管理的实践;单元测试的实践;code review 的实践;包管理/构建发布的实践;持续集成的实践;等等软件构件中涉及的大小主题. 部分内容已经分享到了:http://pm.readthedocs.org/
     preview_en: What softwares are using Python; Code Management; Unit Test; Code Review; Module Management/Deploy; Continuous Integration and so on. Some have been shared on http://pm.readthedocs.org/
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj09-knownsec_multi-platform-python-tips.html
 
 id_linshuai:
   name: 林帅
@@ -250,6 +188,7 @@ id_linshuai:
     title_en: "Workshop"
     preview: 现场教大家用 Scrapy 框架做网络爬虫,以及面向开发者的网络爬虫 PaaS - ScrapyCloud. 具体内容包括从最开始怎么写爬虫,到用一个 SAE 上的应用来展示爬虫获取的数据. 最后如果时间允许可以再简单介绍一下不用写代码的自动爬虫工具 Auto-Scraping.
     preview_en: Make a web crawler with Scrapy. Introduce ScrapyCloud, a developer-oriented PaaS. From how to start programming a crawler, to display the collected data on SAE. Talking about Auto-Scraping.
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj00-Scrapy.pdf
 
 id_xutao:
   name: 徐涛
@@ -264,6 +203,7 @@ id_xutao:
     title: "How CODE works"
     preview: 介绍豆瓣的 CODE 的内部机制,一个 GitHub 的 Copy. CODE 是基于 Python 的应用,介绍一下具体的技术实现,与开发过程的一些经验.
     preview_en: Introduce how douban.com manages codes using CODE, a copy of Github. CODE is developed by Python, the lecture will mainly focus on the implementation of CODE, and experience during the development process.
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj01-douban_How-CODE-works.pdf
 
 id_gaochitao:
   name: 高驰涛
@@ -278,6 +218,84 @@ id_gaochitao:
     title: "APM - Python Application Performance"
     preview: "在互联网,大数据发展的今天,应用性能管理(APM)已经越来越成为研发与运维所关注的难点与痛点.此次着重面向开发者与运维人员,分享云智慧在APM产品中,怎样运用先进的SmartAgent技术处理应用性能管理,更快更全面地发展已有的或潜在的性能瓶颈."
     preview_en: "In the Internet and big data, APM(Application Performance Management) is increasingly difficult to developers and operations engineer. Introduce how SmartAgent work that it has been faster and comprehensive solve performance bottlenecks in Cloudsmart APM production"
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj04-cloudwise-APM.pdf
+
+
+id_liangjie:
+  name: 梁杰
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/liang-jie-head.png?imageView2/2/h/80
+  intro: 北京航空航天大学大四学生
+  intro_en: Senior student at Beihang University
+  topic:
+    title: 如何参与开源项目
+    title_en: 如何参与开源项目
+    preview: 开源大家都听过,但是真正参与到开源项目中的程序员却少之又少. 在这个快速演讲中我会介绍如何参与开源项目,让每个程序员都能更快地得到提升.
+    preview_en: It is hard for most of us to take part in open source projects, although we have heard of them too many times. This lecture will introduce how to join one open source project and get yourself improved.
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations_bj/pycon2014bj10-by-numbbbbb_how2enjoy-oss.pdf
+
+id_quxiaolong:
+  name: 屈晓龙
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 北京信易云媒Python工程师
+  intro_en: Python engineer at Beijing Msgcopy
+  topic:
+    title: ""
+    preview: 简单介绍如何使用Python+JavaScript+Html+Css搭建类似于PhoneGap的轻量级,定制化的混合应用框架.
+    preview_en: Construct an application framework like PhoneGap with Python+Javascript+Html+Css.
+id_likuan:
+  name: 李宽
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/li-kuan.png?imageView2/2/h/80
+  intro: 中科院微生物所,生物信息工程师
+  intro_en: Bioinformatics engineer, Institute of Microbiology, Chinese Academy of Sciences
+  topic:
+    title: 生物领域的大数据和Python
+    title_en: Python and big data in biology
+    preview: 简单介绍一下python在生物领域大数据分析中的应用.
+    preview_en: Introduce the application of Python in biology big data.
+id_kanglei:
+  name: 康雷
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/bj-kanglei.png?imageView2/2/h/80
+  intro: "中国科学技术大学自动化专业硕士研究生,研究方向未来网络和多媒体计算,热爱python,用tornado框架做过一个分类兴趣网站,喜欢用python写脚本代替重复性劳动. 专注于python和开源硬件结合的领域."
+  topic:
+    title: "python在开源硬件中大有可为"
+    preview: "通过python在raspberryPi中的应用(超声波自动避障小车,智能家居等皆为我自己做出的实际实验品,若条件不允许可提供视频供观众观看),阐述python在开源硬件中的应用以及未来的广阔前景."
+id_yanglin:
+  name: 杨林
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 杨林, 百度云系统工程师, 目前负责百度云的MongoDB/Redis等NoSQL系统的开发和运维, 在高性能网络服务和分布式存储系统方面有丰富经验.
+  topic:
+    title: redis-mgr 介绍
+    title_en: Introduce redis-mgr
+    preview: 是一个用python开发的redis集群管理工具,用redis-mgr可以快速(10min)搭建一个由redis/twemproxy/redis-sentinel 构成的redis 集群.   功能包括 一键式部署, failover, 监控, 实例迁移, 模块升级等.  github.com/idning/redis-mgr
+    preview_en: redis-mgr is a cluster management tool. A redis cluster can be set up in 10 min with redis-mgr, consisting of redis/twemproxy/redis-sentinel. Features are quick deployment, failover, monitor, instance migrate, module update.  github.com/idning/redis-mgr
+
+id_luozhicheng:
+  name: 罗志城
+  city_beijing: 1
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 北京正点时空科技有限公司研发经理
+  intro_en: R&D manager, Beijing Zhengdian Shikong Technology Limited Company
+  topic:
+    title: "TBD"
+    preview: "如何使用Python快速搭建移动app的用户行为数据收集统计平台以及该平台面对不断增加的用户量如何提升的平台稳定性,可扩展性的实践经验."
+    preview_en: "How to setup a mobile app statistics collection platform using Python. And how to improve the platform in order to make it scalable and stable, to meet the increasing customers."
+
+
 
 ####################################################################
 #   魔都
