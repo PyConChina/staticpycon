@@ -204,7 +204,7 @@ hangzhou:
     - 江南大道环兴路口:294路(社区通勤高峰线),B支5路,352, 225(夜间线),113,315
     - 信诚路江南大道口:107路
   traffic_en: TBD
-  notices: "出于综合考虑,杭州推迟一周专注组织本地 Pythoneer 的聚会"
+  notices: "<a href="http://www.hzgdg.org/events/python">杭州Python 活动 总结</a>"
   date: "2014-11-22 13:00~18:00"
   noon:
     - time: "13:00"
