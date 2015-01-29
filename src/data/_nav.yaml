@@ -41,6 +41,9 @@
   - title: '2013'
     url: "http://cn.pycon.org/2013"
     url_external: 1
+  - title: '2014'
+    url: "http://cn.pycon.org/2014"
+    url_external: 1
 - title: EN
   title_en: 中文
   url: "en/index.html"
