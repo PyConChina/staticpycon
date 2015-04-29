@@ -2,6 +2,13 @@
 
 PyCon China 2014 官网生成工具
 
+## 2015 官网发布
+
+- 分支: https://gitcafe.com/PyConChina/staticpycon/tree/2015
+- 发布: http://pyconcn.qiniudn.com/2015/
+- 代理: http://cn.pycon.org/
+
+
 
 ## 构建环境配置
 
