@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Dndx (Datong Sun)" />
+<title>PyCon China 2012</title>
+<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/layout.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/static/js/ie9-js.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../static/js/jquery.min.js"></script>
+<script type="text/javascript" src="../static/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../static/js/layout.js"></script>
+
+
+<script type="text/javascript">
+    LANG = "en"
+</script>
+<link rel="stylesheet" type="text/css" href="../static/css/schedule.css" />
+<script>
+$(function(){
+    $.get('../'+ 2012 +'/speakers', function(data){
+        var $tds = $("tr td:nth-child(3)");
+        $tds.each(function(i, e){
+            var speaker;
+            var fullname = $(e).text();
+            for (var i=0; i<data.length; i++){
+                if (data[i].fullname.indexOf(fullname) != -1){
+                    speaker = data[i];
+                    $(e).popover({
+                        title: fullname, 
+                        content: function(){
+                            var tip = ""
+                            if (speaker.avatar){
+                                tip += '<img src="/static/images/speakers/' + speaker.avatar + '" alt="' + speaker.fullname + '" />';
+                            }else{
+                                tip += '<img src="../static/images/speakers/nopic.gif" alt="' + speaker.fullname + '" />';
+                            }
+                            if (speaker.company){
+                                tip += "<strong>Organization:</strong>" + speaker.company + '<br />';
+                            }
+                            if (speaker.position){
+                                tip += "<strong>Position:</strong>" + speaker.position + '<br />';
+                            }
+                            tip += "<strong>Introduction:</strong>" + speaker.desc;
+                            tip += '<div style="clear:both; "></div>';
+                            return tip;
+                        },
+                        html: true
+                    });
+                }
+            }
+        });
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" style="background:url(../static/images/logo_s.png) no-repeat; padding-left:45px;" class="brand" href="../2012/">PyCon China 2012</a>
+          <div class="nav-collapse">
+            
+            <ul class="nav">
+              
+  <li><a href="about.html"><span>About</span></a></li><li><a href="schedulebj.html"><span>Beijing</span></a></li><li class="active"><a href="schedulesh.html"><span>Shanghai</span></a></li><li><a href="http://www.douban.com/event/17299206/"><span>编程马拉松</span></a></li><li><a href="registration.html"><span>报名</span></a></li><li><a href="volunteer.html"><span>志愿</span></a></li><li><a href="sponsors.html"><span>赞助</span></a></li><li><a href="http://weibo.com/pyconcn"><span>Microblogging</span></a></li><li><a href="../2013/"><span>2013</span></a></li><li><a href="../2011/"><span>2011</span></a></li>
+
+            </ul>
+            
+            <ul class="nav pull-right">
+                <li class="dropdown">
+                    <a href="schedulesh.html#" class="dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="cn">简体中文</a></li>
+                        <li class="divider"></li>
+                        <li><a class="en">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid" id="main_container">
+    <!--[if lt IE 7]><div style=" clear: both; height: 59px; padding:0 0 0 15px; position: relative;"> <a target="_blank" href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.cn/img/banner/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+    
+
+    
+    <div class="container">
+    
+    <h2 class="ribbon flat">Agenda of Shanghai</h2>
+    
+        
+<table class="table table-striped table-bordered">
+    <caption>2012年10月20日(星期六)</caption>
+    <colgroup>
+        <col width="100px"></col>
+        <col width="300px"></col>
+        <col width="100px"></col>
+        <col width="*"></col>
+    </colgroup>
+    <tbody>
+        <tr>
+            <th>Time</th>
+            <th>Topic</th>
+            <th>Speaker</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        
+        
+            <tr class="break">
+                <td>08:30 - 09:15</td>
+                <td colspan="3">Sign</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>09:15 - 09:30</td>
+                <td>开场
+                    
+                </td>
+                <td>组织者 &amp; 赞助商</td>
+                
+                    <td>包括来自赞助商 Google、主办方 GDG、TopGeek、CPyUG 的代表进行组织介绍。</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>09:30 - 09:35</td>
+                <td>大会致辞《Python 继续令世界精彩》
+                    
+                </td>
+                <td>Chen Shixin</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>09:35 - 10:00</td>
+                <td>Video 联播《世界各国 Python 高手的演讲》
+                    
+                </td>
+                <td>各国 Pythoner</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>10:00 - 10:50</td>
+                <td>《Python 产品构建与发布指南》
+                    
+                    <a href="static/ppt/PYTHON%E4%BA%A7%E5%93%81%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97.pdf">下载PPT </a>
+                    
+                </td>
+                <td>Shen Wei</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            <tr class="break">
+                <td>10:50 - 11:05</td>
+                <td colspan="3">Coffee Break</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>11:05 - 11:50</td>
+                <td>《让程序运行更快》
+                    
+                    <a href="static/ppt/%E8%AE%A9%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%9B%B4%E5%BF%AB.pdf">下载PPT </a>
+                    
+                </td>
+                <td>李小红</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>11:50 - 12:00</td>
+                <td>黑客马拉松介绍
+                    
+                    <a href="static/ppt/InnoSpace-Hackathon.ppt">下载PPT </a>
+                    
+                </td>
+                <td>俞振华</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            <tr class="break">
+                <td>12:00 - 12:45</td>
+                <td colspan="3">lunch</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>12:45 - 13:00</td>
+                <td>Pearson API介绍
+                    
+                </td>
+                <td>李凡</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>13:00 - 13:45</td>
+                <td>《OpenERP 即将推出的第 7 版的功能和新的编程框架介绍》
+                    
+                    <a href="static/ppt/OpenERP%20%E5%8D%B3%E5%B0%86%E6%8E%A8%E5%87%BA%E7%9A%84%E7%AC%AC%207%20%E7%89%88%E7%9A%84%E5%8A%9F%E8%83%BD%E5%92%8C%E6%96%B0%E7%9A%84%E7%BC%96%E7%A8%8B%E6%A1%86%E6%9E%B6%E4%BB%8B%E7%BB%8D.pdf">下载PPT </a>
+                    
+                </td>
+                <td>Eric Caudal</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>13:55 - 14:40</td>
+                <td>《元编程在 Redis ORM 中的应用》
+                    
+                    <a href="static/ppt/shell909090-meta-class.html">下载PPT </a>
+                    
+                </td>
+                <td>许智翔</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>14:50 - 15:05</td>
+                <td>《用 Tornado 开发 RESTful API 应用》
+                    
+                    <a href="static/ppt/%E7%94%A8Tornado%E5%BC%80%E5%8F%91RESTful%20API%E8%BF%90%E7%94%A8.pdf">下载PPT </a>
+                    
+                </td>
+                <td>李飞林</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>15:05 - 15:20</td>
+                <td>《阿里云之移动开发者上云》（快速演讲）
+                    
+                    <a href="static/ppt/%E9%98%BF%E9%87%8C%E4%BA%91%E8%AE%A1%E7%AE%97%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E4%B8%8E%E4%BA%A7%E5%93%81v3.pptx">下载PPT </a>
+                    
+                </td>
+                <td>刘飞</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            <tr class="break">
+                <td>15:20 - 15:40</td>
+                <td colspan="3">Coffee Break</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>15:40 - 15:45</td>
+                <td>《Python如何帮助「逆转三国」获得成功》
+                    
+                    <a href="static/ppt/Pycon-Onclick%E7%9A%84%E6%88%90%E5%8A%9F%E4%B9%8B%E9%91%B0.ppt">下载PPT </a>
+                    
+                </td>
+                <td>车蕙怡</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>15:45 - 16:00</td>
+                <td>《网页游戏的跨界开发》
+                    
+                    <a href="static/ppt/%E7%BD%91%E9%A1%B5%E6%B8%B8%E6%88%8F%E7%9A%84%E8%B7%A8%E7%95%8C%E5%BC%80%E5%8F%91.pptx">下载PPT </a>
+                    
+                </td>
+                <td>董诣</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>16:00 - 17:00</td>
+                <td>《实战游戏客户端》
+                    
+                    <a href="static/ppt/PythonClient.pptx">下载PPT </a>
+                    
+                </td>
+                <td>Lin Wei</td>
+                
+                    <td>林伟将给大家分享他们把 Python 应用在游戏开发中的各种技术关键点。</td>
+                
+            </tr>
+        
+    
+        
+        
+            <tr class="break">
+                <td>17:00 - 18:00</td>
+                <td colspan="3">问答</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr class="break">
+                
+            
+                <td>18:30 - 21:00</td>
+                <td>把酒话英雄
+                    
+                </td>
+                <td>Python 爱好者与嘉宾们晚宴</td>
+                
+                    <td>Python 参会者们与嘉宾们在晚餐桌上继续深度沟通和交流。完全开发，全互动沟通。注意，这个晚宴人人都可报名参加，但是需要支付自己的餐费（即AA制）。</td>
+                
+            </tr>
+        
+    
+    </tbody>  
+</table>
+
+    
+        
+<table class="table table-striped table-bordered">
+    <caption>2012年10月21日(星期日)</caption>
+    <colgroup>
+        <col width="100px"></col>
+        <col width="300px"></col>
+        <col width="100px"></col>
+        <col width="*"></col>
+    </colgroup>
+    <tbody>
+        <tr>
+            <th>Time</th>
+            <th>Topic</th>
+            <th>Speaker</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        
+        
+            <tr class="break">
+                <td>08:30 - 09:20</td>
+                <td colspan="3">Sign</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>09:20 - 09:30</td>
+                <td>Schedule Introduction
+                    
+                </td>
+                <td>预告当日活动</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>09:30 - 10:12</td>
+                <td>《网游开发中的 Python 组件》
+                    
+                    <a href="static/ppt/%E9%A1%B5%E6%B8%B8%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%20Python%20%E7%BB%84%E4%BB%B6%E4%B8%8E%E6%A8%A1%E5%BC%8F.ppt">下载PPT </a>
+                    
+                </td>
+                <td>Lai Yonghao</td>
+                
+                    <td>介绍在网站开发和运维中用到的各种 Python 工具和相关插件。</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>10:23 - 11:05</td>
+                <td>《自动化即时战斗游戏解决方案》
+                    
+                    <a href="static/ppt/%E8%87%AA%E5%8A%A8%E5%8D%B3%E6%97%B6%E5%88%B6%E6%88%98%E6%96%97%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.pptx">下载PPT </a>
+                    
+                </td>
+                <td>Wang Jian</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>11:15 - 12:00</td>
+                <td>《ZTQ：基于Redis的任务队列实现》
+                    
+                    <a href="static/ppt/ZTQ%EF%BC%9A%E5%9F%BA%E4%BA%8ERedis%E7%9A%84%E4%BB%BB%E5%8A%A1%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0.pptx">下载PPT </a>
+                    
+                </td>
+                <td>Pan Junyong</td>
+                
+                    <td>ZTQ是一个基于Redis的开源异步任务队列系统。此主题将涵盖队列用途、ZTQ使用、开发实现等内容。</td>
+                
+            </tr>
+        
+    
+        
+        
+            <tr class="break">
+                <td>12:00 - 13:00</td>
+                <td colspan="3">lunch</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>13:00 - 13:45</td>
+                <td>《人人可以化半小时开发一个全功能 OpenERP 模块》
+                    
+                </td>
+                <td>Tony Gu</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>13:55 - 14:40</td>
+                <td>《Pyramid Web Framework for Advanced Web Applications》
+                    
+                    <a href="static/ppt/Introduction-to-the-Pyramid-Web-Framework.ppt">下载PPT </a>
+                    
+                </td>
+                <td>黄峥峼</td>
+                
+                    <td>Google查一下Python Web框架，常常会搜到 Django。Django 是个很棒，很容易用的框架。可是大家有没有听过 Python 其他的 Web 框架呢？其中一个比较特别的是Pyramid。在中国，Pyramid 比较少人用。这个演讲将会介绍一些 Pyramid 特有的功能如：Traversal, Events, Subscriber, Scaffolds 还有一些额外好用的包如：Webassets, Gunicorn.  整体会介绍从开发到部署的过程。希望听了我的演讲后可以考虑用用看Pyramid这个框架。</td>
+                
+            </tr>
+        
+    
+        
+        
+            <tr class="break">
+                <td>14:40 - 14:55</td>
+                <td colspan="3">Coffee Break</td>
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>14:55 - 15:10</td>
+                <td>《Python in Gentoo Linux》(Lightning talk)
+                    
+                </td>
+                <td>Patrick Lauer</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>15:10 - 15:25</td>
+                <td>《使用 Python 和 Django 建设维护学校门户》（快速演讲）
+                    
+                </td>
+                <td>于夏桥</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>15:25 - 15:40</td>
+                <td>《Python 在 Linux 运维中的应用》（快速演讲）
+                    
+                </td>
+                <td>吴晗</td>
+                
+                    <td>介绍如何使用 Python 做 Linux 系统管理（一些实用工具的介绍），RPM 包管理，运维系统开发，系统监控，日志分析以及文档等方面的内容。ppt: http://wuhan88.bitbucket.org/#1</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>15:40 - 15:55</td>
+                <td>《用 Python 替换 C 代码》（快速演讲）
+                    
+                </td>
+                <td>Adieu</td>
+                
+                    <td>ppt: http://adieu.github.com/pycon-2012-slides/</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>15:55 - 16:10</td>
+                <td>《NOSQL 和 MySQL 在 Django 上的混合使用》（快速演讲）
+                    
+                </td>
+                <td>黄昶</td>
+                
+                    <td>&nbsp;</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>16:10 - 16:25</td>
+                <td>《用myTestCase模块来做python的UT》（快速演讲）
+                    
+                    <a href="static/ppt/%E7%94%A8myTestCase%E5%81%9APython%E7%9A%84UT.ppt">下载PPT </a>
+                    
+                </td>
+                <td>陈钢</td>
+                
+                    <td>一个Python的UT框架，基于pyunit增加了stub和mock，以及对打印的检查功能。</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>16:25 - 16:40</td>
+                <td>《基于nova的自动扩展和负载均衡》（快速演讲）
+                    
+                    <a href="static/ppt/%E5%9F%BA%E4%BA%8ENova%E7%9A%84%E8%87%AA%E5%8A%A8%E6%89%A9%E5%B1%95%E5%92%8C%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1.pdf">下载PPT </a>
+                    
+                </td>
+                <td>刘明华</td>
+                
+                    <td>在对nova虚拟机监控的基础上，使用报警触发，实现自动扩展。并使用负载均衡设备，在OSI四层或者七层上对多个虚拟机实例，实现自动负载均衡配置。</td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>16:40 - 16:55</td>
+                <td>用Python实现《微事儿》
+                    
+                    <a href="static/ppt/%E7%A7%8D%E4%BC%9F%E4%BA%AE%20wei-shir.pdf">下载PPT </a>
+                    
+                </td>
+                <td>种伟亮</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            
+                <tr>
+            
+                <td>16:55 - 17:10</td>
+                <td>用Python判断影评是赞或踩
+                    
+                    <a href="static/ppt/pycon2012c.pptx">下载PPT </a>
+                    
+                </td>
+                <td>Eric Chio</td>
+                
+                    <td></td>
+                
+            </tr>
+        
+    
+        
+        
+            <tr class="break">
+                <td>17:10 - 18:00</td>
+                <td colspan="3">快速演讲环节，穿插抽奖等互动活动</td>
+            </tr>
+        
+    
+    </tbody>  
+</table>
+
+    
+    
+    <h2 class="ribbon flat">抽奖活动</h2>
+    
+    <a href="static/lucky/index.html" class="btn btn-primary btn-large">抽奖进入</a>
+    
+
+    </div>
+    
+    <div class="container">
+        <div id="footer">
+            PyConChina2013<br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+        </div><!--END footer-->
+    </div>
+    </div><!--END container-->
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-26284394-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+</body>
+</html>

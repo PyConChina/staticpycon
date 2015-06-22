@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PyCon China 2013</title>
+        <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../static/css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="../static/css/layout_2013.css" />
+        <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+        
+<script type="text/javascript">
+    LANG = "en"
+</script>
+<link rel="stylesheet" type="text/css" href="../static/css/schedule.css" />
+<script>
+$(function(){
+    $.get('../'+ 2013 +'/speakers', function(data){
+        var $tds = $("tr td:nth-child(3)");
+        $tds.each(function(i, e){
+            var speaker;
+            var fullname = $(e).text();
+            for (var i=0; i<data.length; i++){
+                if (data[i].fullname.indexOf(fullname) != -1){
+                    speaker = data[i];
+                    $(e).popover({
+                        title: fullname, 
+                        content: function(){
+                            var tip = ""
+                            if (speaker.avatar){
+                                tip += '<img src="/static/images/speakers/' + speaker.avatar + '" alt="' + speaker.fullname + '" />';
+                            }else{
+                                tip += '<img src="../static/images/speakers/nopic.gif" alt="' + speaker.fullname + '" />';
+                            }
+                            if (speaker.company){
+                                tip += "<strong>Organization:</strong>" + speaker.company + '<br />';
+                            }
+                            if (speaker.position){
+                                tip += "<strong>Position:</strong>" + speaker.position + '<br />';
+                            }
+                            tip += "<strong>Introduction:</strong>" + speaker.desc;
+                            tip += '<div style="clear:both; "></div>';
+                            return tip;
+                        },
+                        html: true
+                    });
+                }
+            }
+        });
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+    </head>
+    <body>
+        
+
+        
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="background:url(../static/images/logo_s.png) no-repeat; padding-left:45px;" href="../2013/">PyCon China 2013</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                    <ul class="nav navbar-nav">
+                        
+  <li class="active"><a href="shanghai.html"><span>Shanghai</span></a></li><li><a href="zhuhai.html"><span>珠海日程</span></a></li><li><a href="beijing.html"><span>Beijing</span></a></li><li><a href="hangzhou.html"><span>杭州日程</span></a></li><li><a href="registration.html"><span>报名</span></a></li><li><a href="volunteer.html"><span>志愿</span></a></li><li><a href="sponsors.html"><span>赞助</span></a></li>
+
+                        <li><a href="http://weibo.com/pyconcn" target="_blank"><span>官方微博</span></a></li>
+                        <li class="dropdown">
+                            <a href="shanghai.html#" class="dropdown-toggle" data-toggle="dropdown">往年大会 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../2012/">PyConChina 2012</a></li>
+                                <li><a href="../2011/">PyConChina 2011</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    
+
+
+    
+    <div class="container">
+        
+	<h2 class="section-title">PyConChina_上海</h2>
+	<h4>时间: <small>2013年12月08日 09:00 ~ 17:00</small></h4>
+	<h4>地点: <small>浦东新区博云路2号浦软大厦</small></h4>
+	
+    <h2 class="section-title">Schedule</h2>
+    
+        
+<table class="table table-striped table-bordered table-hover">
+    <caption>2013年12月08日(星期日)</caption>
+    <colgroup>
+          <col class="col-xs-2">
+          <col class="col-xs-2">
+          <col class="col-xs-6">
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Speaker</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        
+        
+            <tr>
+                <td>08:30 - 09:15</td>
+                <td colspan="2">Sign</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>09:15 - 09:30</td>
+                <td colspan="2">开场包括来自赞助商 Google、主办方 GDG、TopGeek、CPyUG 的代表进行组织介绍。</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>09:30 - 09:35</td>
+                <td>Chen Shixin</td>
+                <td>大会致辞
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>09:35 - 10:00</td>
+                <td>各国 Pythoner</td>
+                <td>Video 联播《世界各国 Python 高手的演讲》
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>10:00 - 10:45</td>
+                <td>Hung Qiangning</td>
+                <td>DAE系统的设计(主题演讲)
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>10:50 - 11:35</td>
+                <td>叶剑烨</td>
+                <td>Celery分布式设计(主题演讲)
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>11:50 - 13:00</td>
+                <td colspan="2">午餐!</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>13:00 - 13:30</td>
+                <td>Hsiaoming Yang & KJ</td>
+                <td>Python 社区产品的更新
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>13:35 - 14:10</td>
+                <td>Yusei Tahara</td>
+                <td>没有文件系统的Python
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>14:15 - 14:45</td>
+                <td>袁昕</td>
+                <td>编程教室的一些故事
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>14:50 - 15:25</td>
+                <td>郑柯</td>
+                <td>用python开发的公共云架构
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>15:30 - 16:05</td>
+                <td>吕召刚, 段华杰</td>
+                <td>如何在2天内快速开发一个校园招聘系统
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>16:10 - 16:45</td>
+                <td>曹文炯</td>
+                <td>小清新的文艺复兴 --Python与堆糖的工业化实践
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>16:50 - 17:20</td>
+                <td>Adieu</td>
+                <td>用docker+buildbot+git来实现持续集成以及服务部署的经验
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>17:25 - 18:00</td>
+                <td>Hsiaoming Yang</td>
+                <td>Me & Open Source
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>18:00 - 18:10</td>
+                <td colspan="2">休息/抽奖</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>13:00 - 13:00</td>
+                <td colspan="2">CodeLab分会场</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>13:00 - 14:50</td>
+                <td>王剑峰</td>
+                <td>如何在自己的机器上运行OpenERP(Codelab)
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>15:00 - 16:50</td>
+                <td>杜玉杰</td>
+                <td>如何在自己的机器上运行OpenStack(Codelab)
+                    
+                </td>
+            </tr>
+        
+    
+    </tbody>  
+</table>
+
+    
+
+    <h2 class="section-title">会后资源分享</h2>
+    <h4><a class="label label-info" href="static/ppt/2013/PyConChina2013.Shanghai.PPT.zip">PyConChina2013.Shanghai.PPT 下载</a></h4>
+
+    </div>
+    
+
+    <footer>
+        <div class="container">
+            <p>
+                <b>PyCon China 2013</b><br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+            </p>
+        </div>
+    </footer>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-26284394-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>

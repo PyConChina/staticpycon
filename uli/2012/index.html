@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Dndx (Datong Sun)" />
+<title>PyCon China 2012</title>
+<base href=".." />
+<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="static/css/layout.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/static/js/ie9-js.js"></script>
+<![endif]-->
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="static/js/layout.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="static/css/index.css" />
+<script type="text/javascript" src="static/js/QTransform.js"></script>
+<script type="text/javascript">
+    LANG = "en"
+</script>
+<script type="text/javascript" src="static/js/index.js"></script>
+<script>
+function load_person(year){
+    $.get(''+year+'/speakers', function(data){
+        var $imgs = $(".speakers img");
+        $imgs.each(function(i, e){
+            var speaker;
+            var fullname = $(e).attr('alt');
+            for (var i=0; i<data.length; i++){
+                if (data[i].fullname == fullname){
+                    speaker = data[i];
+                    break;
+                }
+            }
+            var html = "";
+            if (speaker.nickname){
+                html += '<h4>' + speaker.nickname + '(' + fullname + ')</h4>';
+            }else{
+                html += '<h4>' + fullname + '</h4>';
+            }
+            html += "<strong>"+"Subject:"+"</strong>" + speaker.speech + '<br />';
+            if (speaker.company){
+                html += "<strong>"+"Organization:"+"</strong>" + speaker.company + '<br />';
+            }
+            if (speaker.position){
+                html += "<strong>"+"Position:"+"</strong>" + speaker.position + '<br />';
+            }
+            html += "<strong>"+"Introduction:"+"</strong>" + speaker.desc;
+            html += '<div style="clear:both; "></div>'
+            $(html).insertAfter(e)
+        })
+    }, 'json')
+}
+
+$(function(){
+    load_person(2012);
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" style="background:url(static/images/logo_s.png) no-repeat; padding-left:45px;" class="brand" href="2012/">PyCon China 2012</a>
+          <div class="nav-collapse">
+            
+            <ul class="nav">
+              
+  <li><a href="2012/about.html"><span>About</span></a></li><li><a href="2012/schedulebj.html"><span>Beijing</span></a></li><li><a href="2012/schedulesh.html"><span>Shanghai</span></a></li><li><a href="http://www.douban.com/event/17299206/"><span>编程马拉松</span></a></li><li><a href="2012/registration.html"><span>报名</span></a></li><li><a href="2012/volunteer.html"><span>志愿</span></a></li><li><a href="2012/sponsors.html"><span>赞助</span></a></li><li><a href="http://weibo.com/pyconcn"><span>Microblogging</span></a></li><li><a href="2013/"><span>2013</span></a></li><li><a href="2011/"><span>2011</span></a></li>
+
+            </ul>
+            
+            <ul class="nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="cn">简体中文</a></li>
+                        <li class="divider"></li>
+                        <li><a class="en">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid" id="main_container">
+    <!--[if lt IE 7]><div style=" clear: both; height: 59px; padding:0 0 0 15px; position: relative;"> <a target="_blank" href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.cn/img/banner/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+    
+
+    
+
+
+
+
+
+<style>
+#main_container {padding:0;margin-top:35px;}
+.background {background-color:#d1e5ee;maring:0;padding-top:20px;padding-bottom:60px;overflow: hidden;}
+.table td {vertical-align:middle;}
+</style>
+<div class="container-fluid background">
+    <div class="container">
+        <div id="content" class="row">
+            <div class="hero-content" id="first-hero">
+                <div class="row show-grid">
+                    <div class="span4 left">
+                        <img src="static/images/PyConChina2012.png" alt="PyCon China 2011 Logo" />
+                    </div>
+                    <div class="span8 right" style="text-align:right;">
+                        <h1 style="border:none; padding-bottom:0;">PyCon China 2012</h1><h1>Is Here!</h1>
+                        <p>Oct. 20, 2012 9:00 ~ 18:00 </p>
+                        <p>Beijing, China </p>
+                        <p>+ Shanghai, China</p>
+                        <p>Same Time, Dual City!</p>
+                        <p style="text-align:right;"><a class="btn btn-primary btn-large" href="2012/registration.html">Register Now! &raquo;</a></p>
+                    </div>
+                </div><!--END grid-->
+            </div><!--END hero-content-->
+
+            <div class="hero-content" id="third-hero">
+                <div class="row show-grid">
+                    <div class="span4 left" style="text-align:center;">
+                        <img src="static/images/heroes/guido.jpg" width="250" alt="Guido van Rossum" />
+                        <br />
+                        <strong>Guido van Rossum</strong>
+                    </div>
+                    <div class="span8 right" style="text-align:right">
+                        <p><strong>Christmas, 1989: </strong>Python was invented by<br/> Guido van Rossum.</p>
+                        <img src="static/images/heroes/Python-old.png" width="150" alt="Python old Logo" />
+                        <p><strong>January, 1994: </strong>Python 1.0 Released.</p>
+                        <p><strong>September 5, 2000: </strong>Python 1.6 Released.</p>
+                        <p><strong>October 16, 2000: </strong>Python 2.0 Released.</p>
+                        <img src="static/images/heroes/Python-new.gif" width="150" alt="Python new Logo" />
+                        <p><strong>December 3, 2008: </strong>Python 3.0 Released.</p>
+                        <p><strong>September 9, 2012: </strong>Python 3.3rc2 Released.</p>
+                        <p>......</p>
+                    </div>
+                </div><!--END grid-->
+            </div><!--END hero-content-->
+
+            <div class="hero-content" id="forth-hero">
+                <div class="row show-grid">
+                    <div class="span4 left" style="text-align:center;">
+                        <h1 style="border:none; margin-left:10px;">Follow US on</h1>
+                        <img style="margin-top:50px;" src="http://img.t.sinajs.cn/t4/style/images/staticlogo/download/Brand_Group/PNG/Cn_En_Group/Sina_Weibo_Logo_RGB_C_E.png" width="250" alt="Sina Weibo Logo" />
+                    </div>
+                    <div class="span6 right" style="text-align:right;">
+                        <iframe width="350" height="310" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=350&amp;height=310&amp;fansRow=2&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=0&amp;uid=2464646734&amp;verifier=aad42972"></iframe>
+                    </div>
+                </div><!--END grid-->
+            </div><!--END hero-content-->
+
+
+            <!--NEW hero insert here-->
+        </div><!--END content--><div class="row show-grid" id="hero-selector">
+            <div class="span1" id="first">1</div>
+            <div class="span1" id="third">2</div>
+            <div class="span1" id="forth">3</div>
+        </div>
+    </div>
+ <!-- END row-->
+</div><!-- END hero-unit-->
+
+<div class="container">
+    <div class="row">
+
+    <h2 class="ribbon flat">Sponsors</h2>
+        
+        
+    <table class="table">
+        
+        
+            <tr>
+                
+                    <td><a target="_blank" href="http://www.google.com/"><img src="static/images/sponsors/google.png" alt="Google" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.tudou.com/"><img src="static/images/sponsors/tudou.png" alt="土豆" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.kic.net.cn/"><img src="static/images/sponsors/chuangzhitiandi.jpg" alt="创智天地" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.ijinshan.com/"><img src="static/images/sponsors/jinshan.gif" alt="Kingsoft network" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://sae.sina.com.cn/"><img src="static/images/sponsors/sae.jpg" alt="SAE" width="150" style="max-height:80px;"/></a></td>
+                
+            </tr><!--END grid-->
+        
+            <tr>
+                
+                    <td><a target="_blank" href="http://www.douban.com/"><img src="static/images/sponsors/douban.gif" alt="douban" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.grandcloud.cn/"><img src="static/images/sponsors/grandcloud.png" alt="盛大云" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://openshift.redhat.com"><img src="static/images/sponsors/openshift.jpg" alt="OpenShift" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://3gland.com/"><img src="static/images/sponsors/3gland-logo.png" alt="三技科技" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://aliyun.com/"><img src="static/images/sponsors/aliyun.png" alt="阿里云" width="150" style="max-height:80px;"/></a></td>
+                
+            </tr><!--END grid-->
+        
+            <tr>
+                
+                    <td><a target="_blank" href="http://everydo.com/"><img src="static/images/sponsors/yidu.gif" alt="易度云办公" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.shterm.com/"><img src="static/images/sponsors/qizhi-logo.png" alt="齐治科技" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.openerp.net.cn/"><img src="static/images/sponsors/elico.jpg" alt="上海寰享网络科技" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://newsnsgame.com/"><img src="static/images/sponsors/oneclick.jpg" alt="玩客" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.admaster.com.cn"><img src="static/images/sponsors/admaster.jpg" alt="Admaster" width="150" style="max-height:80px;"/></a></td>
+                
+            </tr><!--END grid-->
+        
+            <tr>
+                
+                    <td><a target="_blank" href="http://www.ituring.com.cn"><img src="static/images/sponsors/turingbook.gif" alt="图灵社区" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.broadview.com.cn/"><img src="static/images/sponsors/broadview.png" alt="博文视点" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.emay.cn/"><img src="static/images/sponsors/emay.jpg" alt="亿美软通" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://99cloud.net/"><img src="static/images/sponsors/99cloud.jpg" alt="九州云" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://zhihu.com/"><img src="static/images/sponsors/zhihu.png" alt="知乎" width="150" style="max-height:80px;"/></a></td>
+                
+            </tr><!--END grid-->
+        
+            <tr>
+                
+                    <td><a target="_blank" href="http://www.liubao.com/"><img src="static/images/sponsors/liubao_2012.jpg" alt="遛宝网" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.chinaskycloud.com/"><img src="static/images/sponsors/chinaskycloud.png" alt="天云科技" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.activenetwork.com/"><img src="static/images/sponsors/activenetwork.png" alt="活跃网络" width="150" style="max-height:80px;"/></a></td>
+                
+            </tr><!--END grid-->
+        
+    </table>
+
+        
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <h2 style="margin-top:10px; display:inline-block; border:none;">honoured guests of Beijing</h2><small>&nbsp;&nbsp;<a href="2012/schedulebj.html"> &raquo;</a></small>
+            </div>
+            <div class="span6">
+                <h2 style="margin-top:10px; display:inline-block; border:none;">honoured guests of Shanghai</h2><small>&nbsp;&nbsp;<a href="2012/schedulesh.html"> &raquo;</a></small>
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/zhouqi.jpg" alt="Zoom.Quiet" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/chenshixin.jpg" alt="Chen Shixin" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/lulinqing.jpg" alt="Lu Linqing" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/shenwai.jpg" alt="Shen Wei" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/sunyi.jpg" alt="孙毅" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/panjunyong.jpg" alt="Pan Junyong" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/huicheng.jpg" alt="程辉" />
+            </div>
+             <div class="span6">
+                <img src="static/images/speakers/linwei.jpg" alt="Lin Wei" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+
+            <div class="span6">
+                <img src="static/images/speakers/sae_chenhui_h200.png" alt="陈峰" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/eric_caudal.jpg" alt="Eric Caudal" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/yangkun.jpg" alt="杨昆" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/laiyonghao.jpg" alt="Lai Yonghao" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/zenqinsheng-200px.jpg" alt="曾庆生" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/wangjian.jpg" alt="Wang Jian" />
+            </div>
+        </div><!--END row-->
+
+
+
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/ludanfeng.png" alt="Lu Danfeng" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/xuzhixiang.jpg" alt="许智翔" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/liyinghui.jpg" alt="Li Yinghui" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/markhuang.jpg" alt="黄峥峼" />
+            </div>
+        </div><!--END row-->
+
+        
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/zhouhui.jpg" alt="周辉" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/feilong.jpg" alt="李飞林" />
+            </div>
+        </div><!--END row-->
+
+        
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/wangjie.jpg" alt="王捷" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/dongyi.jpg" alt="董诣" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/tongxiaojun.jpg" alt="童小军" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/yuxiaqiao.jpg" alt="于夏桥" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/snda-liuhaifeng-200x200.jpg" alt="刘海丰" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/wuhan.jpg" alt="吴晗" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/zsp.jpg" alt="张沈鹏" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/liufei.jpg" alt="刘飞" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/bjgdg_ge.jpg" alt="葛涵涛" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/alan_huang.jpg" alt="黄昶" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/liuyuanliang.png" alt="刘远亮" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/tony_gu.jpg" alt="Tony Gu" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                <img src="static/images/speakers/wangli.png" alt="王力" />
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/chehuiyi.jpg" alt="车蕙怡" />
+            </div>
+        </div><!--END row-->
+        
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                &nbsp;
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/chengang.jpg" alt="陈钢" />
+            </div>
+        </div><!--END row-->
+
+        <div class="row show-grid underhero speakers">
+            <div class="span6">
+                &nbsp;
+            </div>
+            <div class="span6">
+                <img src="static/images/speakers/liuminghua.jpg" alt="刘明华" />
+            </div>
+        </div><!--END row-->
+        
+    <h2 class="ribbon flat">Media Support</h2>
+        
+        
+    <table class="table">
+        
+        
+            <tr>
+                
+                    <td><a target="_blank" href="http://www.infoq.com/"><img src="static/images/sponsors/infoq.gif" alt="InfoQ" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.csdn.net/"><img src="static/images/sponsors/csdn.gif" alt="CSDN" width="150" style="max-height:80px;"/></a></td>
+                
+                    <td><a target="_blank" href="http://www.51cto.com/"><img src="static/images/sponsors/51cto.png" alt="51CTO.COM" width="150" style="max-height:80px;"/></a></td>
+                
+            </tr><!--END grid-->
+        
+    </table>
+
+        
+    <h2 class="ribbon flat">社区团体</h2>
+        <div class="row show-grid underhero">
+            <div class="span4"><a target="_blank" href="http://python.cn/"><img src="static/images/sponsors/CPyUG.png" alt="China Python User Group" width="100" height="60" /></a></div>
+
+            <div class="span4"><a target="_blank" href="http://python.cn/"><img src="static/images/sponsors/beijing_pug.png" alt="Beijing Python User Group" width="100" height="60" /></a></div>
+            
+            <div class="span4"><a target="_blank" href="http://python.cn/"><img src="static/images/sponsors/changsanjiao_pug.png" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
+        </div><!--END grid-->
+        
+        <div class="row show-grid underhero">
+            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="static/images/sponsors/Bejing_GDG_Logo_w200.jpg" alt="GDG Beijing" width="150" /></a></div>
+            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="static/images/sponsors/GDGGuangZhou.jpg" alt="GDG GuangZhou" width="150" /></a></div>
+
+            <div class="span2"><a target="_blank" href="http://python.cn/"><img src="static/images/sponsors/GDGShanghai.jpg" alt="GDG Shanghai" width="150" /></a></div>
+
+            <div class="span2"><a target="_blank" href="http://www.hz-gdg.org/"><img src="static/images/sponsors/HZGDG.jpg" alt="Hangzhou GDG" width="150" /></a></div>
+
+            <div class="span2"><a target="_blank" href="http://weibo.com/xagdg"><img src="static/images/sponsors/xian_gdg_logo.jpg" alt="Xian GDG" width="150" /></a></div>
+            <div class="span2"><a target="_blank" href="#"><img src="static/images/sponsors/hefei_gdg_logo.jpg" alt="Hefei GDG" width="150" /></a></div>
+        </div><!--END grid-->
+
+    <h2 class="ribbon flat">企业VIP门票赞助</h2>
+        <div class="row show-grid underhero">
+            <div class="span3"><img src="static/images/companies/ebay.gif" width="150px" title="亿贝软件工程(上海)有限公司" width="150" /></div>
+            <div class="span3"><img src="static/images/companies/shineit.png" width="150px" title="上海先安科技 （Shine IT）" width="150" /></div>
+            <div class="span3"><img src="static/images/companies/xiaomi.png" width="150px" title="小米" width="150" /></div>
+            <div class="span3"><img src="static/images/companies/weizoom.gif" width="150px" title="北京微众文化传媒有限公司" width="150" /></div>
+        </div>
+        <div class="row show-grid underhero">
+            <div class="span3"><img src="static/images/speakers/index.png" width="150px" height="50px" title="雪球" width="150" /></div>
+            <div class="span3"><span></span></div>
+        </div>
+    <h2 class="ribbon flat">个人VIP门票赞助</h2>
+        <div class="row show-grid underhero">
+            <ul class="unstyled persons clearfix">
+                
+                    <li><b title="">郭理靖</b></li>
+                
+                    <li><b title="">李迎辉</b></li>
+                
+            </ul>
+        </div>
+   
+    <h2 class="ribbon flat">Python热心蟒人</h2>
+        <div class="row show-grid underhero">
+            <ul class="unstyled persons clearfix">
+                
+                    <li><span>胡鹏飞</span></li>
+                
+                    <li><span>姚钢强</span></li>
+                
+                    <li><span>李力</span></li>
+                
+                    <li><span>璩金毅</span></li>
+                
+                    <li><span>童小军</span></li>
+                
+                    <li><span>Liang Sun</span></li>
+                
+                    <li><span>林刚</span></li>
+                
+                    <li><span>王振</span></li>
+                
+                    <li><span>张寅</span></li>
+                
+                    <li><span>王振振</span></li>
+                
+                    <li><span>郭勇</span></li>
+                
+                    <li><span>祝小振</span></li>
+                
+                    <li><span>王升优</span></li>
+                
+                    <li><span>陈镇铖</span></li>
+                
+                    <li><span>伍彬</span></li>
+                
+                    <li><span>Zoom.Quiet</span></li>
+                
+                    <li><span>王鑫</span></li>
+                
+                    <li><span>支晓勇</span></li>
+                
+                    <li><span>沈崴</span></li>
+                
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="span4">
+              <h2>Schedule</h2>
+              <ol>
+                  <li>编程马拉松</li>
+                  <li class="has_sub_schedule">主题演讲（北京）&darr;
+                      <ul class="sub_schedule">
+                          <li>Introduce organizers and sponsors</li>
+                          <li>大会致辞 Zoom.Quiet 更加欢乐的一年</li>
+                          <li>Video speeches from the Pythoners in the world.</li>
+                          <li>《OpenShift - Develop and scale apps in the cloud 》- Lu Linqing</li>
+                          <li>《SAE 对Python 的深入支持及应用》  丛磊</li>
+                          <li>《Python 在互联网广告监测分析中的应用》 陆丹峰</li>
+                          <li>《社会化问答网站中的Python应用》 杨昆</li>
+                          <li>《Python配合Hadoop 快速搭建开放型大数据仓库分析平台》   童小军</li>
+                          <li>《视觉效果制作行业的工业语言——Python》 周辉</li>
+                          <li>《豆瓣从开发到发布过程中的持续集成/发布工程实践》   孙毅</li>
+                          <li>快速演讲：《知识引擎的设计》  刘远亮</li>
+                          <li>快速演讲：《国外 Py 社区的组织以及技术发展特点》  Alex Dong</li>
+                          <li>快速演讲：《廉价硬件和Python构建远程交流机器人开发计划》 骆逸</li>
+                          <li>快速演讲：《又一年, UliPad+UliWeb 发展紀事儿》 Limodou</li>
+                          <li>快速演讲：《Python小团队不妨知道的技术》 王捷</li>
+                          <li>快速演讲：《灵活的IDC业务中如何进行Python应用部属》  王娇</li>
+                      </ul>
+                  </li>
+                  
+                  <li class="has_sub_schedule">主题演讲（上海）&darr;
+                      <ul class="sub_schedule">
+                          <li>Introduce organizers and sponsors</li>
+                          <li>大会致辞 《Python继续令世界精彩》    陈世欣</li>
+                          <li>Video speeches from the Pythoners in the world.</li>
+                          <li>"Build &amp; Release Manual for Python product" Shen Wei</li>
+                          <li>《实战游戏客户端》   林伟</li>
+                          <li>《演进或革命 - 选型和架构的实践经验谈》   潘俊勇</li>
+                          <li>《Python@土豆 （主题待定）》  黄冬</li>
+                          <li>《网游开发中的 Python 组件》  赖勇浩</li>
+                          <li>《自动化即时战斗游戏解决方案》 王健</li>
+                          <li>"Everyone can develop a full-featured module of OpenERP in half an hour" Wang Jianfeng</li>
+                          <li>the application of meta programming in redis orm - Xu Zhixiang</li>
+                          <li>Pyramid Web Framework for Advanced Web Applications》    黄峥峼</li>
+                          <li>《用Tornado开发RESTful API应用》   飞龙非龙</li>
+                          <li>快速演讲：《网页游戏的跨界开发》    董诣</li>
+                          <li>快速演讲：《python在linux运维中的应用》   吴晗</li>
+
+                      </ul>
+                  </li>
+                  <li>Dinner - Pythoners and speakers.</li>
+                      
+                
+              </ol>
+              <p><a class="btn" href="2012/schedulebj.html">Beijing &raquo;</a>
+              <a class="btn" href="2012/schedulesh.html">Shanghai &raquo;</a>
+              </p>
+            </div>
+            <div class="span4">
+              <h2>About PyCon</h2>
+               <p>PyCon.Org is an international community for the Python programming language holds several conferences each year. </p>
+              <p><a class="btn" href="2012/about.html">more details &raquo;</a></p>
+           </div>
+            <div class="span4">
+
+              <h2>Recent News</h2>
+              <ol>
+                  <li>PyCon China 2012 Will also webcast on Internet:<a href="http://live.topgeek.org" target="_blank">http://live.topgeek.org</a></li>
+                  <li>PyCon China 2012 official website on-line</li>
+                  <li>PyCon China Weibo <a href="http://weibo.com/pyconcn" target="_blank">@PyConCN</a> on line</li>
+              </ol>
+            </div>
+          </div>
+    </div>
+</div>
+
+    <div class="container">
+        <div id="footer">
+            PyConChina2013<br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+        </div><!--END footer-->
+    </div>
+    </div><!--END container-->
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-26284394-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PyCon China 2013</title>
+        <base href=".." />
+        <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="static/css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="static/css/layout_2013.css" />
+        <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+        
+<link rel="stylesheet" type="text/css" href="static/css/index.css" />
+<script type="text/javascript" src="static/js/QTransform.js"></script>
+<script type="text/javascript">
+    LANG = "en"
+</script>
+<script type="text/javascript" src="static/js/index.js"></script>
+<script>
+function load_person(year){
+	$.get(''+year+'/speakers', function(data){
+		var $imgs = $(".speakers img");
+		$imgs.each(function(i, e){
+			var speaker;
+			var fullname = $(e).attr('alt');
+			for (var i=0; i<data.length; i++){
+				if (data[i].fullname == fullname){
+					speaker = data[i];
+					break;
+				}
+			}
+			var html = "";
+			if (speaker.nickname){
+				html += '<h4>' + speaker.nickname + '(' + fullname + ')</h4>';
+			}else{
+				html += '<h4>' + fullname + '</h4>';
+			}
+			html += "<strong>"+"Subject:"+"</strong>" + speaker.speech + '<br />';
+			if (speaker.company){
+				html += "<strong>"+"Organization:"+"</strong>" + speaker.company + '<br />';
+			}
+			if (speaker.position){
+				html += "<strong>"+"Position:"+"</strong>" + speaker.position + '<br />';
+			}
+			html += "<strong>"+"Introduction:"+"</strong>" + speaker.desc;
+			html += '<div style="clear:both; "></div>'
+			$(html).insertAfter(e)
+		})
+	}, 'json')
+}
+
+$(function(){
+    load_person(2013);
+});
+</script>
+
+    </head>
+    <body>
+        
+
+        
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="background:url(static/images/logo_s.png) no-repeat; padding-left:45px;" href="2013/">PyCon China 2013</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                    <ul class="nav navbar-nav">
+                        
+  <li><a href="2013/shanghai.html"><span>Shanghai</span></a></li><li><a href="2013/zhuhai.html"><span>珠海日程</span></a></li><li><a href="2013/beijing.html"><span>Beijing</span></a></li><li><a href="2013/hangzhou.html"><span>杭州日程</span></a></li><li><a href="2013/registration.html"><span>报名</span></a></li><li><a href="2013/volunteer.html"><span>志愿</span></a></li><li><a href="2013/sponsors.html"><span>赞助</span></a></li>
+
+                        <li><a href="http://weibo.com/pyconcn" target="_blank"><span>官方微博</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">往年大会 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="2012/">PyConChina 2012</a></li>
+                                <li><a href="2011/">PyConChina 2011</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    
+
+
+    
+
+
+
+
+
+<style>
+#main_container {padding:0;margin-top:35px;}
+.background {background-color:#d1e5ee;maring:0;padding-top:20px;padding-bottom:60px;overflow: hidden;}
+.table td {vertical-align:middle;}
+</style>
+<div class="jumbotron">
+      <div class="container">
+        <img src="static/images/PyCon2013CHIna_logo_w200.png" alt="PyCon China 2013" />
+        <h1>PyCon China 2013</h1>
+        <p>世界Pythonista 的品牌盛会PyCon! 由Python软件基金会下的PyCon.org授权中国办第三届PyCon China大会。本次大会由TopGeek、CPyUG、GDG在上海、北京、珠海、杭州同时举办。
+        
+      </div>
+</div>
+<div class="container">
+
+    <h2 class="section-title">Sponsors</h2>
+        
+    
+    
+        
+        
+        <div class="row">
+            
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.google.com/"><img src="static/images/sponsors/google.png" alt="Google" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.ijinshan.com/"><img src="static/images/sponsors/jinshan.gif" alt="Kingsoft network" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.speedycloud.cn/"><img src="static/images/companies/SC.png" alt="迅达云成" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.ituring.com.cn"><img src="static/images/sponsors/turingbook.gif" alt="图灵社区" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+            <!--END grid-->
+            </div>
+        
+        <div class="row">
+            
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.broadview.com.cn/"><img src="static/images/sponsors/broadview.png" alt="博文视点" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.seeedstudio.com"><img src="static/images/companies/Seeed.png" alt="矽递科技" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+            <!--END grid-->
+            </div>
+        
+
+
+    <h2 class="section-title">合作伙伴</h2>
+        
+    
+    
+        
+        
+        <div class="row">
+            
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="https://blog-ossclub.rhcloud.com/"><img src="static/images/sponsors/ossclub.gif" alt="中科院开源协会" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.spsp.com.cn/"><img src="static/images/sponsors/131129_pd_spark.png" alt="浦东软件园" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+            <!--END grid-->
+            </div>
+        
+
+
+    <h2 class="section-title">各地嘉宾</h2>
+    
+    <h3 class="section-title">上海</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/chenshixin_2013.png" alt="Chen Shixin" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/hongqiangning.jpg" alt="Hung Qiangning" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/RyanYe.jpg" alt="叶剑烨" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131130_sh_yuanxin.png" alt="袁昕" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/lvshaogang.png" alt="吕召刚" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/duanhuajie.png" alt="段华杰" />
+        </div>
+    </div><!--END row-->
+
+    
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/ben-duyujie.jpg" alt="杜玉杰" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/wangjianfeng.jpg" alt="Wang Jianfeng" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/caowenjiong.jpg" alt="曹文炯" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131205_sh_KJ_1.jpg" alt="KJ" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131205_sh_yusei.png" alt="Yusei TAHARA" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/Hsiaoming.jpg" alt="Hsiaoming Yang" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/adieu.png" alt="Adieu" />
+        </div>
+    </div><!--END row-->
+
+
+
+
+
+
+
+
+
+    <h3 class="section-title">珠海</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/zhouqi.jpg" alt="Zoom.Quiet" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/laiyonghao.png" alt="Lai Yonghao" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/panjy2013.jpg" alt="Pan Junyong" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131111_lilu.png" alt="李路" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131125_wangjian.jpg" alt="Wang Jian" />
+        </div>
+            <div class="col-lg-6">
+            <img src="static/images/speakers/131123_jeff.png" alt="揭光发" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/huangyi_1.jpeg" alt="黄毅" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131126_martinliu.jpg" alt="刘宇" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131126_wengwei_sg.png" alt="翁伟" />
+        </div>
+
+    </div><!--END row-->
+
+
+
+
+
+
+
+    <h3 class="section-title">北京</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/liyinghui.jpg" alt="Li Yinghui" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/hongqiangning.jpg" alt="Hung Qiangning" />
+        </div>
+    </div><!--END row-->
+    
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131130_bj_plt.png" alt="潘凌涛" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131130_bj_lh.png" alt="梁瀚" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/luyan.jpg" alt="陆研" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/zouyipeng.jpg" alt="邹义鹏" />
+        </div>
+    </div><!--END row-->
+
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131204_bj_huangkun.png" alt="黄昆" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131130_bj_lyd.png" alt="卢亿雷" />
+        </div>
+    </div><!--END row-->
+    
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131204_bj_xuebinlei.png" alt="薛斌雷" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/131212_bj_liyulai.png" alt="李雨来" />
+        </div>
+
+    </div><!--END row-->
+    
+
+
+
+
+
+
+    <h3 class="section-title">杭州</h3>
+    <div class="row underhero speakers">
+        <div class="col-lg-6">
+            <img src="static/images/speakers/HepoChen.jpg" alt="HepoChen" />
+        </div>
+        <div class="col-lg-6">
+            <img src="static/images/speakers/quxingyong.jpg" alt="屈兴永" />
+        </div>
+    </div>
+
+    <h2 class="section-title">Media Support</h2>        
+        
+    
+        
+        
+        <div class="row">
+            
+                
+                <div class="col-xs-6 col-lg-3">
+                    <a target="_blank" href="http://www.infoq.com/"><img src="static/images/sponsors/infoq.gif" alt="InfoQ" width="150" style="max-height:80px;"/></a>
+                    </div>
+                
+            <!--END grid-->
+            </div>
+        
+
+
+    <h2 class="section-title">蠎人赞助</h2>
+        <div class="row show-grid underhero">
+            <ul class="unstyled persons clearfix">
+
+                    <li><b title="胡萝卜92">张江阁</b></li>
+                
+                    <li><b title="googlgoogle">王升优</b></li>
+                
+                    <li><b title="wolfg">郭勇</b></li>
+                
+                    <li><b title="tuds">tuds</b></li>
+                
+                    <li><b title="小朋光年">詹青朋</b></li>
+                
+                    <li><b title="zurak">韩晓磊</b></li>
+                
+            </ul>
+        </div>
+    
+    <h2 class="section-title">社区团体</h2>
+        <div class="row underhero">
+            <div class="col-xs-6 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img src="static/images/sponsors/CPyUG.png" alt="China Python User Group" width="100" height="60" /></a></div>
+
+            <div class="col-xs-6 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img src="static/images/sponsors/beijing_pug.png" alt="Beijing Python User Group" width="100" height="60" /></a></div>
+            
+            <div class="col-xs-6 col-lg-4"><a target="_blank" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img src="static/images/sponsors/changsanjiao_pug.png" alt="Changsan Jiao Python User Group" width="150"  /></a></div>
+        </div><!--END grid-->
+        
+        <div class="row underhero">
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://weibo.com/shgdg"><img src="static/images/sponsors/GDGShanghai.jpg" alt="GDG Shanghai" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="https://plus.google.com/u/0/113382777332300419074/about"><img src="static/images/sponsors/ZH_GDG_Logo_b_h80.png" alt="GDG Zhuhai" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://weibo.com/gtug"><img src="static/images/sponsors/Bejing_GDG_Logo_w200.jpg" alt="GDG Beijing" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://www.hzgdg.org"><img src="static/images/sponsors/HZGDG.jpg" alt="Hangzhou GDG" width="150" /></a></div>
+
+            <div class="col-xs-6 col-lg-2"><a target="_blank" href="http://topgeek.org/"><img src="static/images/sponsors/topgeek.gif" alt="Topgeek.org" width="150" /></a></div>
+
+        </div><!--END grid-->
+
+        <div class="row">
+            <div class="col-lg-4">
+              <h3 class="section-title">Schedule</h2>
+              <p>
+                <a class="btn" href="2013/shanghai.html">Shanghai &raquo;</a><br/>
+                <a class="btn" href="2013/zhuhai.html">珠海日程 &raquo;</a><br/>
+                <a class="btn" href="2013/beijing.html">Beijing &raquo;</a><br/>
+                <a class="btn" href="2013/hangzhou.html">杭州日程 &raquo;</a><br/>
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="section-title">About PyCon</h2>
+               <p>PyCon.Org is an international community for the Python programming language holds several conferences each year. </p>
+              <p><a class="btn" href="2013/about.html">more details &raquo;</a></p>
+           </div>
+            <div class="col-lg-4">
+
+              <h3 class="section-title">Recent News</h2>
+              <ol>
+                  <li>PyCon China 2013 official website on-line</li>
+                  <li>PyCon China Weibo <a href="http://weibo.com/pyconcn" target="_blank">@PyConCN</a> on line</li>
+              </ol>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+    <footer>
+        <div class="container">
+            <p>
+                <b>PyCon China 2013</b><br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+            </p>
+        </div>
+    </footer>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-26284394-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>

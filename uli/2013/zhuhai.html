@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PyCon China 2013</title>
+        <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../static/css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="../static/css/layout_2013.css" />
+        <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+        
+<script type="text/javascript">
+    LANG = "en"
+</script>
+<link rel="stylesheet" type="text/css" href="../static/css/schedule.css" />
+<script>
+$(function(){
+    $.get('../'+ 2013 +'/speakers', function(data){
+        var $tds = $("tr td:nth-child(3)");
+        $tds.each(function(i, e){
+            var speaker;
+            var fullname = $(e).text();
+            for (var i=0; i<data.length; i++){
+                if (data[i].fullname.indexOf(fullname) != -1){
+                    speaker = data[i];
+                    $(e).popover({
+                        title: fullname, 
+                        content: function(){
+                            var tip = ""
+                            if (speaker.avatar){
+                                tip += '<img src="/static/images/speakers/' + speaker.avatar + '" alt="' + speaker.fullname + '" />';
+                            }else{
+                                tip += '<img src="../static/images/speakers/nopic.gif" alt="' + speaker.fullname + '" />';
+                            }
+                            if (speaker.company){
+                                tip += "<strong>Organization:</strong>" + speaker.company + '<br />';
+                            }
+                            if (speaker.position){
+                                tip += "<strong>Position:</strong>" + speaker.position + '<br />';
+                            }
+                            tip += "<strong>Introduction:</strong>" + speaker.desc;
+                            tip += '<div style="clear:both; "></div>';
+                            return tip;
+                        },
+                        html: true
+                    });
+                }
+            }
+        });
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+    </head>
+    <body>
+        
+
+        
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="background:url(../static/images/logo_s.png) no-repeat; padding-left:45px;" href="../2013/">PyCon China 2013</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                    <ul class="nav navbar-nav">
+                        
+  <li><a href="shanghai.html"><span>Shanghai</span></a></li><li class="active"><a href="zhuhai.html"><span>珠海日程</span></a></li><li><a href="beijing.html"><span>Beijing</span></a></li><li><a href="hangzhou.html"><span>杭州日程</span></a></li><li><a href="registration.html"><span>报名</span></a></li><li><a href="volunteer.html"><span>志愿</span></a></li><li><a href="sponsors.html"><span>赞助</span></a></li>
+
+                        <li><a href="http://weibo.com/pyconcn" target="_blank"><span>官方微博</span></a></li>
+                        <li class="dropdown">
+                            <a href="zhuhai.html#" class="dropdown-toggle" data-toggle="dropdown">往年大会 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../2012/">PyConChina 2012</a></li>
+                                <li><a href="../2011/">PyConChina 2011</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    
+
+
+    
+    <div class="container">
+        
+	<h2 class="section-title">PyConChina_珠海</h2>
+	<h4>时间: <small>2013年12月08日 9:30 ~ 17:30</small>
+        地点: <small>金山软件大厦</small>
+
+    <h2 class="section-title">实际日程</h2>
+
+    
+        
+<table class="table table-striped table-bordered table-hover">
+    <caption>2013年12月8日(星期日)</caption>
+    <colgroup>
+          <col class="col-xs-2">
+          <col class="col-xs-2">
+          <col class="col-xs-6">
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Speaker</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        
+        
+            <tr>
+                <td>09:30 - 10:00</td>
+                <td colspan="2">Sign</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 10:17</td>
+                <td><a href="http://zoomquiet.org">Zoom.Quiet</a></td>
+                <td><a href="http://zoomquiet.org/res/s5/131111-pycon-zh/">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_01_start.MP3">录音</a>: 赞助商Google;主办方GDG/TopGeek/CPyUG...组织介绍
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 10:55</td>
+                <td>Pythonista 短片联播</td>
+                <td><a href="http://v.youku.com/v_show/id_XNjQ1OTMzODQw.html">HRYR:用Python搭建信号采集分析系统</a>(<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/HRYR_pyconchina.zip">demo.zip</a>); <a href="http://v.youku.com/v_show/id_XNjQ1OTM3MDk2.html">EKR:Leo</a>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 11:27</td>
+                <td>Lai Yonghao</td>
+                <td><a href="https://speakerdeck.com/zoomquiet/pycon2013china-zhuhai-laiyonghao">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_02_lyh_py_model.MP3">录音</a>:论 Python 与设计模式
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 12:00</td>
+                <td>Pan Junyong</td>
+                <td><a href="https://speakerdeck.com/zoomquiet/pycon2013china-zhuhai-panjunyong">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_03_pjy_old_refactory.MP3">录音</a>:我经历的软件重构
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>视频</td>
+                <td>(youtube)时长~ 2:17:17</td>
+                <td><a href="https://www.youtube.com/watch?v=kKkLIGM0-fc">PyCon2013China_Zhuhai_am</a>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 14:00</td>
+                <td>午餐+Jeff乐队助兴!</td>
+                <td>录音<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_04_othersday1.MP3">1</a>,<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_05_othersday2.MP3">2</a>,<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_06_othersday3.MP3">3</a>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 14:10</td>
+                <td><a href="http://zoomquiet.org">Zoom.Quiet</a></td>
+                <td><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_07_jluzh.MP3">录音</a>: 现场互动
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 14:54</td>
+                <td>李路</td>
+                <td><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/Artisan_and_Artist/artist.html">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_08_artist.MP3">录音</a>: Artisan & Artist
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 15:37</td>
+                <td>Jeff</td>
+                <td><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/Jeff_pyconf2013/pyconf2013/">幻灯</a>: 移动应用中的python技术架构
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 16:11</td>
+                <td>Wang Jian</td>
+                <td><a href="https://speakerdeck.com/zoomquiet/pycon2013china-zhuhai-wangjian">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_09_wangjian.MP3">录音</a>: 用Python架设大型多人在线游戏服务端
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 16:17</td>
+                <td colspan="2">休息/抽奖</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 16:47</td>
+                <td>Martin</td>
+                <td><a href="https://speakerdeck.com/zoomquiet/pycon2013china-zhuhai-tedx">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_10_tedx.MP3">录音</a>: 从TED/TEDx社区的繁荣看独特的用户体验设计
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 17:21</td>
+                <td>黄毅</td>
+                <td><a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/python-optim-pycon2013/python-optim.html">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_11_cpython.MP3">录音</a>: Python性能优化实践
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>视频</td>
+                <td>(youtube)时长~ 3:19:45</td>
+                <td><a href="https://www.youtube.com/watch?v=yVmkEdHvTDM">PyCon2013China_Zhuhai_pm</a>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 17:29</td>
+                <td colspan="2">休息/抽奖</td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 17:57</td>
+                <td>wuvist</td>
+                <td><a href="https://speakerdeck.com/zoomquiet/pycon2013china-zhuhai-wuvist-1">幻灯</a>/<a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_12_wuvist.MP3">录音</a>: 论使用Python开发推荐引擎的优越性
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>~ 18:05</td>
+                <td>结束 抽奖</td>
+                <td>为一枚:<a href="http://knewone.com/things/fitbit-force">knewone-Fitbit Force</a>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>视频</td>
+                <td>(youtube)时长~ 29:56</td>
+                <td><a href="https://www.youtube.com/watch?v=_1Yt9N7VX0g">PyCon2013China_Zhuhai_ex</a>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>19:00 - 21:00</td>
+                <td>华蠎晚餐</td>
+                <td>限额20名,同嘉宾深入沟通的好机会! 不过非讲师需要支付自己的餐费.
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>PS:</td>
+                <td> </td>
+                <td>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>被挤没了的演讲</td>
+                <td><a href="http://zoomquiet.org">Zoom.Quiet</a></td>
+                <td>11.23GDG珠海HOA.5 上的:<a href="http://zoomquiet.org/res/s5/131101-leo-china/">幻灯</a>;<a href="http://zoomq.qiniudn.com/ZHGDG/131123-hoa5/131123_6_leo.MP3">录音</a>
+                    
+                </td>
+            </tr>
+        
+    
+        
+        
+            <tr>
+                <td>无责任报道</td>
+                <td><a href="http://zoomquiet.org">Zoom.Quiet</a></td>
+                <td><a href="http://zhgdg.gitcafe.com/2013-12/et16-pycon-zh/">PyCon2013China 珠海场小结</a>
+                    
+                </td>
+            </tr>
+        
+    
+    </tbody>  
+</table>
+
+    
+
+<a href="http://zhgdg.gitcafe.com/2013-12/et16-pycon-zh/">
+    <img src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/PyCon2013ZH_mm.png"/>
+</a>
+
+    </div>
+    
+
+    <footer>
+        <div class="container">
+            <p>
+                <b>PyCon China 2013</b><br/>Site built by <a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a> using <a href="https://github.com/limodou/uliweb">UliWeb</a>, <a href="http://www.jquery.com/">jQuery</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://www.nginx.org/">Nginx</a>&amp;<a href="http://gunicorn.org/">gunicorn</a> as Web Server.<br/>Website CDN provider: <a href="http://www.qiniu.com/">七牛云存储</a> <br/><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+            </p>
+        </div>
+    </footer>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-26284394-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>
