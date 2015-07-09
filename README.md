@@ -1,7 +1,6 @@
 # staticpycon
 
-PyCon China 2014 官网生成工具
-
+PyCon China 官网生成工具
 
 ## 构建环境配置
 
@@ -23,9 +22,9 @@ pip install -r requirements.txt
 
 ```sh
 # 下载源码
-git clone git@gitcafe.com:PyConChina/staticpycon.git
+git clone git@github.com:PyConChina/staticpycon.git
 # 或者通过 HTTPS 下载:
-git clone https://gitcafe.com/PyConChina/staticpycon.git
+git clone https://github.com/PyConChina/staticpycon.git
 
 cd staticpycon
 # 然后按照上边的方法安装依赖关系
@@ -73,7 +72,7 @@ python bin/app.py
 
 ## Changelog
 
-见[提交历史](https://gitcafe.com/PyConChina/staticpycon/commits/master). 
+见[提交历史](https://github.com/PyConChina/staticpycon/commits/master).
 
 # 整个儿的故事:
 
@@ -149,9 +148,9 @@ python bin/app.py
 怎么办?
 
 ### staticPyCon 工具
-大家都说要有新的静态化工具, 然后就有了: [PyConChina/staticpycon](https://gitcafe.com/PyConChina/staticpycon)
+大家都说要有新的静态化工具, 然后就有了: [PyConChina/staticpycon](https://github.com/PyConChina/staticpycon)
 
-- [Todd Gao](https://gitcafe.com/toddgao) 用了一夜完成的工具
+- [Todd Gao](https://github.com/7c00) 用了一夜完成的工具
 - 复用了 MkDocs 的样式,基于 `staticjinja` 完成编译工具, 统一使用 `ymal` 为数据格式
 
 一切看起来可行,但是:
