@@ -3,6 +3,8 @@
 #########################################
 page_title_index: 首页
 page_title_index_en: HOME
+page_title_proposals: 主题
+page_title_proposals_en: Proposals
 page_title_beijing: 北京日程
 page_title_beijing_en: Schedule in Beijing
 page_title_shanghai: 上海日程
@@ -11,6 +13,8 @@ page_title_sponsors: 赞助
 page_title_sponsors_en: Sponsors
 page_title_volunteers: 志愿
 page_title_volunteers_en: Volunteers
+page_title_guangzhou: 广州日程
+page_title_guangzhou_en: Schedule in GuangZhou
 page_title_zhuhai: 珠海日程
 page_title_zhuhai_en: Schedule in Zhuhai
 page_title_suzhou: 苏州日程
@@ -65,6 +69,8 @@ beijing: 北京
 beijing_en: Beijing
 shanghai: 上海
 shanghai_en: Shanghai
+guangzhou: 广州
+guangzhou_en: GuangZhou
 zhuhai: 珠海
 zhuhai_en: Zhuhai
 hangzhou: 杭州
