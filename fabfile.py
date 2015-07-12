@@ -22,8 +22,8 @@ if os.path.exists(local_settings):
 def put7niu():
     local('cd {qiniu_path} && '
             'pwd && '
-            'python gen4idx.py ./ footer-7niu.html 2014 && '
-            '{qiniu} -skipsym {qiniu_conf}&& '
+            'python gen4idx.py ./ footer-7niu.html zoomquiet && '
+            '{qiniu} {qiniu_conf}&& '
             'pwd '.format(**env)
           )
 
