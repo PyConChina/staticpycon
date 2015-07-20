@@ -9,6 +9,7 @@ from staticjinja import make_renderer
 import yaml, re, thread, sys
 from copy import deepcopy
 import glob
+import json
 
 from . import _vendor
 import scss
@@ -93,23 +94,39 @@ def process_data(data, suffix):
         for v in data:
             process_data(v, suffix)
     elif isinstance(data, dict):
-        for k, v in data.iteritems():
+        for k, v in data.items():
             if isinstance(v, list) or isinstance(v, dict):
                 process_data(v, suffix)
             if k.endswith(suffix):
                 kn = k[:-len(suffix)]
                 if kn in data:
                     data[kn] = v
+                    del data[k]
                 else:
                     print(PROMPT_FMT_INVALID_ATTR % (kn, ))
+            elif k.endswith('_en') or k.endswith('_cn'): # HARDCODE
+                del data[k]
+
+def write_json():
+    for lang, context in data_contexts.items():
+        outfile = join(SITE_DIR, context['lang_dir'], "pycon.json")
+        mkdirp(dirname(outfile))
+        with file(outfile, "w") as fp:
+            output_context = deepcopy(context)
+            # TODO better way to clean context
+            del output_context['printlog']
+            del output_context['selectspeakers']
+            json.dump(output_context, fp, indent=2, sort_keys=True)
 
 def load_data():
     '''载入数据文件，保存了文件的mtime以减少不必要的读操作'''
+    data_modified = False
     for filename in listdir(DATA_DIR):
         filepath = join(DATA_DIR, filename)
         filemtime = int(getmtime(filepath))
         if filepath in data_mtimes and filemtime == data_mtimes[filepath]:
             continue # skip unmodified file
+        data_modified = True
         match = data_pattern.match(filename)
         if match:
             data_mtimes[filepath] = filemtime
@@ -119,14 +136,14 @@ def load_data():
                 data_copy = deepcopy(data)
                 process_data(data_copy, context['lang_suffix'])
                 context[entryname] = data_copy
+    if data_modified:
+        write_json()
 
 def render_page(renderer, template, **context):
     load_data()
     for lang, context in data_contexts.items():
         outfile = join(SITE_DIR, context['lang_dir'], template.name)
-        head = dirname(outfile)
-        if head and not file_exists(head):
-            makedirs(head)
+        mkdirp(dirname(outfile))
         print(PROMPT_FMT_HTML % (context['lang'], outfile))
         template.stream(context).dump(outfile, "utf-8")
 
