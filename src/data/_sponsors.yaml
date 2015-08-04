@@ -36,11 +36,22 @@
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/books-hz-logo_nowords.png?imageView2/2/h/90
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/books-hz-logo_nowords.png?imageView2/2/h/90
   link: http://www.hzbook.com/About/About.html
   intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
   intro_en: "HZ Book is a joint venture set up with China Machine Press and (US)WanGuo."
 
 #########################################
 #   白银级
+#########################################
+-
+  level_silver: 1
+  level: silver
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/120
+  link: http://www.ituring.com.cn
+  intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务，推出了一系列高质量的畅销科技图书，是国内计算机图书市场最有影响力的出版单位之一。图灵社区以为读者提供一流的内容为己任，拥有众多资深技术爱好者用户，是国内最专业的IT技术“交流+阅读”社区之一。图灵社区经过不断升级改造和尝试实践，已迅速成为国内知名科技电子书出版销售平台。"
+  intro_en: "Turing Co., Ltd  persists in planning publishing high quality books of science and technology as the core business, launched a series of high quality best-selling technology books, it's one of China famous and influential computer books publisher and Professional technical & Reading community. Set up nine years, accumulative total sold more than 500 copies of books and have impress millions of readers. Turing Co., Ltd that provide first-class content is its responsibility. Rapid growth in recent years has been for domestic famous ebook sales platform of science and technology."
+
+#########################################
+#   青铜级
 #########################################
