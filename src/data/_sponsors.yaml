@@ -62,3 +62,10 @@
 #########################################
 #   青铜级
 #########################################
+
+-
+  level_bronze: 1
+  level: bronze
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/qichang_w2048.png?imageView2/2/w/120
+  link: http://gzqichang.com
+  intro: "广州齐昌网络科技有限公司，专注于技术咨询和开发外包业务，承接基于Web技术的开发业务外包,包括基于浏览器/服务器模式的应用软件、电子商务和电子政务系统研发，承接基于iOS、Android的软件开发业务外包，承接基于 Linux的系统软件开发外包。齐昌网络由赖勇浩于2014年底创办，赖勇浩也是多届的PyCon分享讲师，在Python相关技术上有深入研究，除技术博客有近250万浏览量外还合著有《编写高质量代码：改善Python程序的91个建议》一书。"
