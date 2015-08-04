@@ -4,14 +4,14 @@
 -
   level_partner: 1
   level: partner
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/sf-logo-cmyk.png?imageView2/2/w/200
+  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff14/logo/sf-logo-cmyk.png?imageView2/2/w/200
   link: http://segmentfault.com/
   intro: "SegmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
   intro_en: "SegmentFault is China's leading developer community. After more than two years of development, SegmentFault is already have more than ten developer. SegmentFault's goal is to provide Chinese developers to one of the most pure technical exchange platform,  create belong to the age of developers together"
 -
   level_partner: 1
   level: partner
-  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/cstnet-logo.png?imageView2/2/w/200
+  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff14/logo/cstnet-logo.png?imageView2/2/w/200
   link: http://www.cstnet.net.cn/overview.htm
   intro: "中国科技网是中国科学院领导下的学术性,非盈利的科研计算机网络. 中国科技网(CSTNET)已经成为中国互联网行业快速发展的一支重要力量,为广大用户提供互联网接入,小区宽带,科研数据中心(IDC),网络管理与安全服务,视频会议系统,邮件系统,桌面会议系统,会议服务平台,科研在线文档库,组织通讯录,实验室信息系统,科研主页,科信,中国科技网通行证等服务,以及网络前沿技术研发等,为国家科学技术的创新发展提供基础性的信息化支撑与保障. "
 
@@ -26,6 +26,13 @@
 #########################################
 #   黄金级
 #########################################
+-
+  level_gold: 1
+  level: gold
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/h/66
+  link: https://coding.net/home.html
+  intro: "Coding 是一个软件开发平台—— 提供快速的软件开发环境，包括 Web IDE、代码托管、项目协作、部署演示等，同时还有Coding 悬赏平台，帮助软件项目的需求方快速找到合适的开发者完成项目开发工作，也帮助开发者能够找到合适的项目将自己的能力变成财富."
+  intro_en: "Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform."
 
 #########################################
 #   白银级

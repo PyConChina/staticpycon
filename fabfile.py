@@ -2,6 +2,10 @@ from fabric.api import *
 import fabric.contrib.project as project
 import os
 
+local_settings = os.path.expanduser(
+    os.path.join(os.path.dirname(__file__), 'local_settings.py'))
+if os.path.exists(local_settings):
+    execfile(local_settings)
 # Local path configuration (can be absolute or relative to fabfile)
 #########################################
 #   deploy for 7niu CDN
@@ -10,22 +14,6 @@ import os
 env.deploy_path = 'out'
 DEPLOY_PATH = env.deploy_path
 
-env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
-env.qiniu_conf = '../7niu-pycon.json'
-env.qiniu_path = '../7niu.pyconcn'
-
-local_settings = os.path.expanduser(
-    os.path.join(os.path.dirname(__file__), 'local_settings.py'))
-if os.path.exists(local_settings):
-    execfile(local_settings)
-
-def put7niu():
-    local('cd {qiniu_path} && '
-            'pwd && '
-            'python gen4idx.py ./ footer-7niu.html zoomquiet && '
-            '{qiniu} {qiniu_conf}&& '
-            'pwd '.format(**env)
-          )
 
 #   141013 ZQ appended new actions for pub. through gitcafe-pages
 '''depend on:
@@ -33,6 +21,17 @@ def put7niu():
 1. re-link staticpycon/out -> ../7niu.pyconcn/2014/
 2. editor ../7niu.pyconcn/2014/.git/config appended like
 ...
+
+env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
+env.qiniu_conf = '../7niu-pycon.json'
+env.qiniu_path = '../7niu.pyconcn'
+def put7niu():
+    local('cd {qiniu_path} && '
+            'pwd && '
+            'python gen4idx.py ./ footer-7niu.html zoomquiet && '
+            '{qiniu} {qiniu_conf}&& '
+            'pwd '.format(**env)
+          )
 
 [branch "gitcafe-pages"]
     remote = cafe
@@ -58,6 +57,15 @@ so the daily working just:
 def build():
     local('python bin/app.py -g')
 
+def pub2hub():
+    build()
+    local('cd {deploy_path} && '
+            'git status && '
+            'git add . && '
+            'git commit -am \'upgraded from local. by StaticPyCon\' && '
+            'git push'.format(**env)
+          )
+'''
 def pub2cafe():
     build()
     local('cd {deploy_path} && '
@@ -66,7 +74,7 @@ def pub2cafe():
             'git commit -am \'upgraded from local. by StaticPyCon\' && '
             'git push origin gitcafe-pages'.format(**env)
           )
-
+'''
 # Remote server configuration
 #   deploy for upstream pycon-statics hosts
 #env.roledefs = {
@@ -90,7 +98,7 @@ def pub2cafe():
 #env.roledefs = {
 #        'smirror': ['gw2obp']
 #    }
-env.static_site = '/opt/www/staticpycon'
+#env.static_site = '/opt/www/staticpycon'
 
 #@roles('smirror')
 #def sync4upstream():
