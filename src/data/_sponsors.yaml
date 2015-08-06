@@ -11,7 +11,7 @@
 -
   level_partner: 1
   level: partner
-  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff14/logo/cstnet-logo.png?imageView2/2/h/160
+  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff14/logo/cstnet-logo.png?imageView2/2/w/200
   link: http://www.cstnet.net.cn/overview.htm
   intro: "中国科技网是中国科学院领导下的学术性,非盈利的科研计算机网络. 中国科技网(CSTNET)已经成为中国互联网行业快速发展的一支重要力量,为广大用户提供互联网接入,小区宽带,科研数据中心(IDC),网络管理与安全服务,视频会议系统,邮件系统,桌面会议系统,会议服务平台,科研在线文档库,组织通讯录,实验室信息系统,科研主页,科信,中国科技网通行证等服务,以及网络前沿技术研发等,为国家科学技术的创新发展提供基础性的信息化支撑与保障. "
 
@@ -25,7 +25,7 @@
 -
   level_platinum: 1
   level: platinum
-  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/seeedstudio-2014-LOGO03.png?imageView2/2/w/280
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/seeedstudio-2014-LOGO03.png?imageView2/2/h/160
   link: http://www.speedycloud.cn/
   intro: "SpeedyCloud是业界领先的云计算服务提供商迅达云成公司旗下品牌,专注于为企业提供互联网及企业IT相关基础设施云服务. 公司成员绝大多数来自于蓝汛,世纪互联等IT运维服务型上市企业, 利用最新的云计算及互联网技术帮助客户迅速扩展在线业务."
   intro_en: "SpeedyCloud is the IaaS brand owned by Beijing SpeedyCloud Technology Co., Ltd.,, who is one of the leaders in cloud industry.The company was setup in 2012, with the capital of 10 million RMB invested all by ourselves.Being the general solution provider,  our focus is to provide IaaS for Internet and enterprises companies. Most of the team came from public IT operating and service companies like ChinaCache, 21ViaNet, etc. We are helping our customers with the most cutting-edge cloud computing technologies to expand their online businesses. "
@@ -36,14 +36,14 @@
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/h/66
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/h/62
   link: https://coding.net/home.html
   intro: "Coding 是一个软件开发平台--- 提供快速的软件开发环境,包括 Web IDE,代码托管,项目协作,部署演示等,同时还有Coding 悬赏平台,帮助软件项目的需求方快速找到合适的开发者完成项目开发工作,也帮助开发者能够找到合适的项目将自己的能力变成财富."
   intro_en: "Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform."
 -
   level_gold: 1
   level: gold
-  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/books-hz-logo_nowords.png?imageView2/2/h/90
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/hzbook-word-logo_h.png?imageView2/2/h/90
   link: http://www.hzbook.com/About/About.html
   intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
   intro_en: "HZ Book is a joint venture set up with China Machine Press and (US)WanGuo."
