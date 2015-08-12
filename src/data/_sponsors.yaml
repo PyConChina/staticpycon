@@ -18,6 +18,13 @@
 #########################################
 #   钻石级
 #########################################
+-
+  level_diamond: 1
+  level: diamond
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/jiankongbao-logo.png?imageView2/2/w/210
+  link: http://www.jiankongbao.com/
+  intro: "云智慧(北京)科技有限公司成立于2009年,是国内领先的应用性能管理服务商. 基于大数据分析,为企业级用户提供全面,专业的端到端的应用性能管理(End To End Application Performance Management)解决方案. Cloudwise SaaS APM累计已为电子商务,移动互联网,IaaS云服务,在线游戏,教育医疗等行业的几十万用户提供了前瞻性的智慧性能管理服务,是新一代应用性能管理(APM)的领导者. "
+  intro_en: "CloudSmart (Beijing)  technology co., LTD founded in 2009 ,that is a leading domestic application performance management service providers. Based on big data analysis, for enterprise users to provide the solution of End To End Application Performance Management comprehensive. For electronic commerce, mobile Internet, cloud IaaS service, online game, education and  the medical industry users provided a forward-looking & wisdom application performance management" 
 
 #########################################
 #   白金级
@@ -25,7 +32,7 @@
 -
   level_platinum: 1
   level: platinum
-  logo: http://www.speedycloud.cn/statics/images/logo.png
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/SpeedyCloud-logo.png?imageView2/2/h/90
   link: http://www.speedycloud.cn/
   intro: "SpeedyCloud是业界领先的云计算服务提供商迅达云成公司旗下品牌,专注于为企业提供互联网及企业IT相关基础设施云服务. 公司成员绝大多数来自于蓝汛,世纪互联等IT运维服务型上市企业, 利用最新的云计算及互联网技术帮助客户迅速扩展在线业务."
   intro_en: "SpeedyCloud is the IaaS brand owned by Beijing SpeedyCloud Technology Co., Ltd.,, who is one of the leaders in cloud industry.The company was setup in 2012, with the capital of 10 million RMB invested all by ourselves.Being the general solution provider,  our focus is to provide IaaS for Internet and enterprises companies. Most of the team came from public IT operating and service companies like ChinaCache, 21ViaNet, etc. We are helping our customers with the most cutting-edge cloud computing technologies to expand their online businesses. "
