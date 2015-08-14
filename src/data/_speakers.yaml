@@ -9,41 +9,6 @@ id_alexdong:
     slide: #
 
 ####################################################################
-#   帝都
-#    ____  _
-#   | __ )(_)
-#   |  _ \| |
-#   | |_) | |
-#   |____// |
-#       |__/
-#
-####################################################################
-id_yankaibj:
-  name: 颜开
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/DaoCloud-yankai.JPG?imageView2/2/h/80
-  intro:  DaoCloud 联合创始人，首席架构师;圈内著名极客，在大学各类编程比赛中获奖无数，人称“开叔”。曾任职于 EMC 中国研究院，中国第一个 Cloud Foundry 云平台的构建者，在云平台、分布式系统和移动应用开发方面颇有建树。其撰写的相关技术博客拥有很高的人气，并受邀在 CSDN 等专业杂志及网站发表。加入 EMC 之前，颜开曾在盛大游戏负责游戏计算平台的开发及运维，并在当年主导了游戏平台的 Hadoop 大数据分析平台的构建。颜开于 2010 年在南京大学获得计算机专业本科学位。
-  intro_en: Pythoneer...
-  topic:
-    title: "解决依赖陷阱，从virtualenv到Docker"
-    title_en: "from virtualenv to Docker"
-    preview: Python依赖陷阱是给令人头疼的问题
-        描述依赖陷阱造成的问题
-        用virtualenv是现有的方案。 可以解决的一些问题，但是却会造成另一些问题
-        还有其他的解决依赖陷阱的方案 对比
-        可以使用Docker来解决
-        如何用Docker解决依赖陷阱
-        Docker的机制是什么，为什么能解决问题
-        Docker可以给Python带来的其他附加值。部署更方便，集成第三方更容易。CPython，Pypy，Jpython的使用更容易
-    preview_en: ...
-    slide: #
-
-
-
-
-####################################################################
 #   魔都
 #    ____  _   _
 #   / ___|| | | |
@@ -87,6 +52,106 @@ id_shenweish:
     preview_en: ...
     slide: #
 
+id_xuzhou:
+  name: 徐洲
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 现任职于Demonware，自动化工程师，致力于 infrastructure 的自动化管理，软件的持续集成和发布。
+  intro_en: Pythoneer...
+  topic:
+    title: "TheConsortium: 基于状态的数据中心自动化管理工具"
+    title_en: "?"
+    preview: TheConsortium 是一个构建于 tornado, etcd 和 arangodb之上的数据中心管理和配置工具。基于 Consortium 的 plugin 系统，它可以与数据中心的各种后端，比如数据库，交换机，负载均衡器，puppet 交互，从而提供一个统一的入口来管理数据中心的各个组件。
+    preview_en: ...
+    slide: #
+
+id_dinglaiqiangsh:
+  name: 丁来强
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  从业十年, Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的Tech Lead, 负责大数据平台相关的ETL和数据可视化相关的工作. 技术兴趣广泛. 擅长C++/Python与JS.
+  intro_en: Pythoneer...
+  topic:
+    title: "使用Python进行高效大数据分析处理与可视化"
+    title_en: "?"
+    preview: 大数据处理中;70%左右的时间我们在做处理准备(加载/抽取/清洗/转换/分组/ 合并等); 进行商务分析的过程中(以及之后);又会花相当多的时间做数据可视化的工作. 这个主题介绍了如何使用Python选择高效的数据处理分析与可视化.内容结合一个实际例子覆盖了如何使用Pandas进行高效数据ETL; Pandas的最新特性(Query/ 去GIL等); BokeH如何进行高效数据可视化; Blaze与Spark结合进行更大规模的分布式数据处理等.
+    preview_en: ...
+    slide: #
+
+id_wangliqi:
+  name: 王立奇
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  上海仪酷智能科技有限公司产品经理，VIRobotics创始人。在机器人应用开发、Linux、Python、NI图形化软件开发方面有着丰富的经验。
+  intro_en: Pythoneer...
+  topic:
+    title: "图形化python—快速构建机器人系统"
+    title_en: "?"
+    preview: 1.发布公司旗舰软件产品：Python机器人NAO基于NI LabVIEW的开发包。
+        2.介绍利用LabVIEW调用Python模块，并开发机器人应用程序的方法。
+        3.介绍利用VIRobotics软件产品将NI LabVIEW与Python交叉编译的方式。
+        4.介绍利用开发包添加Python模块的方式。
+    preview_en: ...
+    slide: #
+
+id_chenhaibo:
+  name: 陈海波
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 在Python与桌面软件编程上，有比较多的涉猎
+  intro_en: Pythoneer...
+  topic:
+    title: "Python&GUI"
+    title_en: "?"
+    preview: 国内貌似对于Python&GUI上能直接看到的资料，基本停留于Hello World的阶段，没有梳理过，但内容应该会有下面这些：
+        Why GUI
+        基本技术路线的选择
+        不同平台上的编译、打包软件
+        界面怎么绘制？
+        ...
+        GUI赋予的想象力
+        如何开始你的第一个桌面软件？
+    preview_en: ...
+    slide: #
+
+id_xiaokai:
+  name: 肖凯
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  1号店商务智能部数据挖掘工程师;喜欢折腾点数据，喜欢用不同的工具和方法来折腾数据，当然也包括python;
+  intro_en: Pythoneer...
+  topic:
+    title: "python中的数据工具箱"
+    title_en: "?"
+    preview: 介绍近年来python社区涌现的一些数据分析工具，包括numpy/scipy/pandas/sklearn/theano等等。还会介绍这些工具箱在数据分析工作流程中的位置，以及和其它类似工具的比较。
+    preview_en: ...
+    slide: #
+
+
+id_nonesh:
+  name: TBD
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  ??
+  intro_en: Pythoneer...
+  topic:
+    title: "?"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
 
 ####################################################################
 #   广州
@@ -114,6 +179,69 @@ id_shenweigz:
     slide: #
 
 
+id_zuozhenjie:
+  name: 卓振杰
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  ottozhuo，腾讯微信运营开发工程师
+  intro_en: Pythoneer...
+  topic:
+    title: "柔性数据接口的设计与实现"
+    title_en: "?"
+    preview: 微信 CMDB 是运维的基础核心系统，管理运营所需的所有元数据和配置。因此，对于运营建设而言，管理配置信息的 CMDB 系统，提供一个高效易用、敏捷开发的接口，用以支撑各运营系统的接入和建设、是整体效率的保证。在此讨论和分享一个业务数据接口系统的开发、设计实现以及业务维护上的经验。
+    preview_en: ...
+    slide: #
+
+
+id_JokerQyou:
+  name: 邱文武
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniucdn.com/stuff15/id/gz_JokerQyou.png?imageView2/2/h/80
+  intro:  在 易开发 被誉为多栖全栈开发工程师，根据开发需要游走于系统后端、多平台桌面、web前端，负责公司 消息系统前后端 以及 端服务的开发，业余爱好折腾开源软件。
+  intro_en: Pythoneer...
+  topic:
+    title: "使用MQTT打造类Slack的实时消息服务"
+    title_en: "?"
+    preview: 已成为标准的MQTT提供了QoS的消息代理服务，解决了实时系统高并发的问题。易开发的消息服务利用了MQTT、Socket.io、ElasticeSearch等技术，实现单聊、私聊、通知、扩展服务等功能，并提供桌面提醒功能，即将和微信企业号整合。主题将在MQTT服务器选型、服务端产品架构、插件编写、客户端架构、多端聊天状态同步等多方面进行介绍。
+    preview_en: ...
+    slide: #
+
+
+id_river:
+  name: River
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  QPython 创始人
+  intro_en: Pythoneer...
+  topic:
+    title: "app. 再也不痛苦了"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
+
+
+id_nonegz:
+  name: TBD
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  ??
+  intro_en: Pythoneer...
+  topic:
+    title: "?"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
+
 ####################################################################
 #   珠三角
 #    ______   _
@@ -125,32 +253,161 @@ id_shenweigz:
 
 
 
+####################################################################
+#   帝都
+#    ____  _
+#   | __ )(_)
+#   |  _ \| |
+#   | |_) | |
+#   |____// |
+#       |__/
+#
+####################################################################
+id_yankaibj:
+  name: 颜开
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/DaoCloud-yankai.JPG?imageView2/2/h/80
+  intro:  DaoCloud 联合创始人，首席架构师;圈内著名极客，在大学各类编程比赛中获奖无数，人称“开叔”。曾任职于 EMC 中国研究院，中国第一个 Cloud Foundry 云平台的构建者，在云平台、分布式系统和移动应用开发方面颇有建树。其撰写的相关技术博客拥有很高的人气，并受邀在 CSDN 等专业杂志及网站发表。加入 EMC 之前，颜开曾在盛大游戏负责游戏计算平台的开发及运维，并在当年主导了游戏平台的 Hadoop 大数据分析平台的构建。颜开于 2010 年在南京大学获得计算机专业本科学位。
+  intro_en: Pythoneer...
+  topic:
+    title: "解决依赖陷阱，从virtualenv到Docker"
+    title_en: "from virtualenv to Docker"
+    preview: Python依赖陷阱是给令人头疼的问题
+        描述依赖陷阱造成的问题
+        用virtualenv是现有的方案。 可以解决的一些问题，但是却会造成另一些问题
+        还有其他的解决依赖陷阱的方案 对比
+        可以使用Docker来解决
+        如何用Docker解决依赖陷阱
+        Docker的机制是什么，为什么能解决问题
+        Docker可以给Python带来的其他附加值。部署更方便，集成第三方更容易。CPython，Pypy，Jpython的使用更容易
+    preview_en: ...
+    slide: #
 
-####################################################################
-#   苏州
-#    ____ _____
-#   / ___|__  /
-#   \___ \ / /
-#    ___) / /_
-#   |____/____|
-####################################################################
 
+id_linpan:
+  name: 林攀
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  瑞兴信达（北京）科技有限公司，工程师，数据处理
+  intro_en: Pythoneer...
+  topic:
+    title: "python 让更多的人爱上编程语言"
+    title_en: "?"
+    preview: 如何让孩子爱上编程，python是众多语言首选！Python作为动态语言更适合初学编程者。Python可以让初学者把精力集中在编程对象和思维方法上，而不用去担心语法、类型等等外在因素。而Python清晰简洁的语法也使得它调试起来比Java简单的多。至于哪个更“优雅”纯属个人喜好，但对于初学编程的人Python更直观应该没什么异议。
+    preview_en: ...
+    slide: #
 
-####################################################################
-#   杭州
-#    _   _ _____
-#   | | | |__  /
-#   | |_| | / /
-#   |  _  |/ /_
-#   |_| |_/____|
-####################################################################
+id_wangzhili:
+  name: 王志利
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  刚入行的python 爱好者，爱运行，哎新奇事物，现在比较蓝海讯通公司任python支持。
+  intro_en: Pythoneer...
+  topic:
+    title: "如何提高研发效率"
+    title_en: "?"
+    preview: 编写一个较大型的程序，写好后，运行很缓慢，这时候不可能再一行行其找原因，毕竟代码那么多，那这种情况下如何快速定位到问题，解决问题；还有如果已经上生产的项目，这时候由于某种原因运行缓慢，那肯定不能ctrl+c 吧，程序还要继续运行，但是都不能确定是运维的问题还是开发的问题，这下找原因困难重重，怎么解决，还要这时候环境复杂，也许代码之间，总体影响最大的也许是多个原因，而影响最大的单个原因应该最先被解决，这什么怎么发现这一点;
+    preview_en: ...
+    slide: #
 
-####################################################################
-#    _______        __
-#   |_   _\ \      / /
-#     | |  \ \ /\ / /
-#     | |   \ V  V /
-#     |_|    \_/\_/
-####################################################################
+id_dujun:
+  name: 杜军
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  北京锐和信首席后台扫地僧
+  intro_en: Pythoneer...
+  topic:
+    title: "Python 与 智能硬件"
+    title_en: "?"
+    preview: 我们用 python 写了 lapsule 的大部分逻辑，包括 sso/api/portal 以及与node.js的融合， lapsule 是一个专注于智能音箱垂直领域的云端服务，包括内容整合，设备OTA 升级支持，数据统计，数据分析，移动端研发支持等整体解决方案，我们为用户提供硬件核心模块，云端内容服务，app定制，驻厂工程师支持，交钥匙方案
+    preview_en: ...
+    slide: #
+
+id_huangjin:
+  name: 黄鑫
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  FreeWheel资深devops一枚，做得最多的是监控和部署发布。Pythonist，目前正在从Golang挖墙脚，有点痴迷。
+  intro_en: Pythoneer...
+  topic:
+    title: "基于Fabric的自动化实践"
+    title_en: "?"
+    preview: 讲解Fabric在企业自动化中的具体应用。常规任务的自动化，与Shell的交互以及其实现原理，基于SSH的安全通信。作为部署解决方案的实现，与多个代码源、Jenkins、代理前端交互实现一体化部署，执行完操作后基本检测，生成报表并提供结构化数据用于事后分析。
+    preview_en: ...
+    slide: #
+
+id_dinglaiqiang:
+  name: 丁来强
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  从业十年;Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的Tech Lead/ 负责大数据平台相关的ETL和数据可视化相关的工作. 技术兴趣广泛. 擅长C++/Python与JS.
+  intro_en: Pythoneer...
+  topic:
+    title: "使用Python进行高并发函数式编程"
+    title_en: "?"
+    preview: 本主题涵盖函数式编程在Python的关键点实现; 覆盖Python核心语法(function/ lambda/ generator/ iterator/ decorator等)和相关标准库(functools/ operators/ itertools)外; 主要通过一个实例介绍如何使用多个高阶函数与库(multipledispatch/ pyrsistent/ fn/ PyToolz/ more-itertools等)进行多并发的函数式编程.
+    preview_en: ...
+    slide: #
+
+id_liaoxinxi:
+  name: 廖新喜
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  绿盟科技安全研究员，致力于代码审计，安全开发，网名：xxlegend
+  intro_en: Pythoneer...
+  topic:
+    title: "python安全编码"
+    title_en: "?"
+    preview: 主要讲python的安全编码，包括xss，httpresponse直接返回导致的xss，
+        命令注入（哪些接口会导致命令注入，如何正确的封装一个过滤命令注入）
+        ，sql注入的场景，
+        代码执行的场景（eval，pickle.loads），以及如何避免，eval的错误封装导致的安全问题，github一搜一堆堆的。文件操作，像任意文件读取，下载等，文件上传，xxe漏洞的场景，在python中的体现。最后会谈到自动化审计注入漏洞
+    preview_en: ...
+    slide: #
+
+id_sezhanyong:
+  name: 余占勇
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  新浪乐居;热爱互联网，高级网络安全工程师，php python go lua 研发工程师　伪全栈工程师
+  intro_en: Pythoneer...
+  topic:
+    title: "python与抓包"
+    title_en: "?"
+    preview: 利用python网络抓包，传统的抓包如利用tcpdump wireshark 不方便做实时分析，在socket包处理上，不能修改封包内容，还有现在针对移动端的抓包也仅限于抓取http包，在像移动游戏之类用到长连接的socket包，是不能方便抓取到的。利用python，可轻松实现如上功能
+    preview_en: ...
+    slide: #
+
+id_none:
+  name: TBD
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  ??
+  intro_en: Pythoneer...
+  topic:
+    title: "?"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
+
 
 
