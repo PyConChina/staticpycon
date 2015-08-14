@@ -14,7 +14,31 @@ if os.path.exists(local_settings):
 env.deploy_path = 'out'
 DEPLOY_PATH = env.deploy_path
 
+def build():
+    local('python bin/app.py -g')
 
+def pub2hub():
+    build()
+    local('cd {deploy_path} && '
+            'git status && '
+            'git add . && '
+            'git commit -am \'upgraded from local. by StaticPyCon\' && '
+            'git push'.format(**env)
+          )
+
+#########################################
+#   deploy for gitcafe-pages
+#########################################
+'''
+def pub2cafe():
+    build()
+    local('cd {deploy_path} && '
+            'git status && '
+            'git add . && '
+            'git commit -am \'upgraded from local. by StaticPyCon\' && '
+            'git push origin gitcafe-pages'.format(**env)
+          )
+'''
 #   141013 ZQ appended new actions for pub. through gitcafe-pages
 '''depend on:
 0. ACL for https://gitcafe.com/PyConChina/PyConChina
@@ -50,30 +74,6 @@ so the daily working just:
 
     $ fab pub2cafe
 
-'''
-#########################################
-#   deploy for gitcafe-pages
-#########################################
-def build():
-    local('python bin/app.py -g')
-
-def pub2hub():
-    build()
-    local('cd {deploy_path} && '
-            'git status && '
-            'git add . && '
-            'git commit -am \'upgraded from local. by StaticPyCon\' && '
-            'git push'.format(**env)
-          )
-'''
-def pub2cafe():
-    build()
-    local('cd {deploy_path} && '
-            'git status && '
-            'git add . && '
-            'git commit -am \'upgraded from local. by StaticPyCon\' && '
-            'git push origin gitcafe-pages'.format(**env)
-          )
 '''
 # Remote server configuration
 #   deploy for upstream pycon-statics hosts
