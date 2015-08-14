@@ -1,3 +1,13 @@
+id_alexdong:
+  name: Alex Dong
+  city_global: 1
+  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/g_alexdong.jpg?imageView2/2/h/80
+  intro: 对角巷创始人; 好看簿创始人之一; 微软2004年评出的全球56个架构师MVP中唯一的中国人. 他对历史和艺术有浓厚的兴趣; 相信结构的力量. 在不工作的时候;他喜欢品南方绿茶;听各式音乐;看历史/经济/科幻/技术书籍; 曾经是半职业游泳运动员的他更喜欢绕着玉渊潭跑上15公里;出一身汗; 他还喜欢打篮球;中投自认还不赖.
+  topic:
+    title: "TBD"
+    preview: "TBD"
+    slide: #
+
 ####################################################################
 #   帝都
 #    ____  _
@@ -8,6 +18,28 @@
 #       |__/
 #
 ####################################################################
+id_yankaibj:
+  name: 颜开
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/DaoCloud-yankai.JPG?imageView2/2/h/80
+  intro:  DaoCloud 联合创始人，首席架构师;圈内著名极客，在大学各类编程比赛中获奖无数，人称“开叔”。曾任职于 EMC 中国研究院，中国第一个 Cloud Foundry 云平台的构建者，在云平台、分布式系统和移动应用开发方面颇有建树。其撰写的相关技术博客拥有很高的人气，并受邀在 CSDN 等专业杂志及网站发表。加入 EMC 之前，颜开曾在盛大游戏负责游戏计算平台的开发及运维，并在当年主导了游戏平台的 Hadoop 大数据分析平台的构建。颜开于 2010 年在南京大学获得计算机专业本科学位。
+  intro_en: Pythoneer...
+  topic:
+    title: "解决依赖陷阱，从virtualenv到Docker"
+    title_en: "from virtualenv to Docker"
+    preview: Python依赖陷阱是给令人头疼的问题
+        描述依赖陷阱造成的问题
+        用virtualenv是现有的方案。 可以解决的一些问题，但是却会造成另一些问题
+        还有其他的解决依赖陷阱的方案 对比
+        可以使用Docker来解决
+        如何用Docker解决依赖陷阱
+        Docker的机制是什么，为什么能解决问题
+        Docker可以给Python带来的其他附加值。部署更方便，集成第三方更容易。CPython，Pypy，Jpython的使用更容易
+    preview_en: ...
+    slide: #
+
 
 
 
@@ -19,7 +51,41 @@
 #    ___) |  _  |
 #   |____/|_| |_|
 ####################################################################
+id_yankaish:
+  name: 颜开
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/DaoCloud-yankai.JPG?imageView2/2/h/80
+  intro:  DaoCloud 联合创始人，首席架构师;圈内著名极客!
+  intro_en: Pythoneer...
+  topic:
+    title: "用Python构建DaoCloud"
+    title_en: "base Python build DaoCloud"
+    preview: DaoCloud是什么，为什么使用Python来构建
+        DaoCloud的Python技术堆栈。如何使用各种Python技术
+            API
+            Celery
+            Docker Client
+            Docker Compose
+        Python 帮助DaoCloud快速迭代
+    preview_en: ...
+    slide: #
 
+id_shenweish:
+  name: 沈崴
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniucdn.com/2012/static/images/speakers/shenwai.jpg?imageView2/2/h/80
+  intro:  资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。
+  intro_en: A senior python developer
+  topic:
+    title: "说点儿有趣儿的事儿"
+    title_en: "TDB"
+    preview: TDB
+    preview_en: ...
+    slide: #
 
 
 ####################################################################
@@ -31,6 +97,21 @@
 #    \____/____|
 #   
 ####################################################################
+
+id_shenweigz:
+  name: 沈崴
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniucdn.com/2012/static/images/speakers/shenwai.jpg?imageView2/2/h/80
+  intro:  资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。
+  intro_en: A senior python developer
+  topic:
+    title: "再说点儿有趣儿的事儿"
+    title_en: "TDB"
+    preview: TDB
+    preview_en: ...
+    slide: #
 
 
 ####################################################################

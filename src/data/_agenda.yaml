@@ -7,17 +7,53 @@
 #       |__/
 ####################################################################
 beijing:
-  address: TBD
+  address: 77剧场
+  address_en: "TBD"
   venue: TBD
-  traffic: TBD
-  maplink: 
-  date: 2015-09-17 09:00~18:00
+  venue_en: TBD
+  traffic: (...)
+  traffic_en: "(...)"
+  maplink: '...'
+  date: 2015-09-19 09:00~18:00
   notices: ...
   morning:
+    - time: "09:00"
+      topic: "签到 & 开场"
+      topic_en: "Check-in"
+    - time: "09:30"
+      topic: "开场"
+      topic_en: "Opening"
+    - { time: "09:45", speaker: id_xutao }
+    - { time: "10:25", speaker: id_zhengkun }
+    - { time: "11:05", speaker: id_dongwei }
+    - { time: "11:45", speaker: id_gaochitao }
   noon:
+    - time: "12:15"
+      topic: 午餐+合照
+      topic_en: Lunch + Photo
   afternoon:
+    - { time: "13:10", speaker: id_wangwei }
+    - { time: "13:50", speaker: id_laike9m }
+    - { time: "14:30", speaker: id_weizeren }
+    - { time: "15:00", speaker: id_linshuai }
+    - time: "15:10"
+      topic: 茶歇
+      topic_en: Intermission
   lightening_talks:
+    - { time: "15:20", speaker: id_quchifeng }
+    - { time: "15:30", speaker: id_chenjian }
+    - { time: "15:40", speaker: id_quxiaolong }
+    - { time: "15:50", speaker: id_liuxiaoming }
+    - { time: "16:00", speaker: id_bjdujun }
+    - { time: "16:10", speaker: id_binux }
+    - { time: "16:20", speaker: id_caibin }
+    - { time: "16:30", speaker: id_xianjianjun }
+    - { time: "16:40", speaker: id_liangjie }
   cancel_talks:
+    - { time: "(ー`´ー)", speaker: id_yanglin }
+    - { time: "(ー`´ー)", speaker: id_luozhicheng }
+    - { time: "(ー`´ー)", speaker: id_kanglei }
+    - { time: "(ー`´ー)", speaker: id_likuan }
 
 ####################################################################
 #    ____  _   _
@@ -67,55 +103,3 @@ guangzhou:
 #    / /_|  _  |
 #   /____|_| |_|
 ####################################################################
-zhuhai:
-  address: TBD
-  venue: TBD
-  traffic: TBD
-  notices: (￣▽￣)
-  date: 2015-09-17 09:30~18:05
-  morning:
-  noon:
-  afternoon:
-  lightening_talks:
-  cancel_talks:
-
-####################################################################
-#   / ___|__  /
-#   \___ \ / /
-#    ___) / /_
-#   |____/____|
-####################################################################
-suzhou:
-  address: TBD
-  venue: TBD
-  traffic: TBD
-  notices: "欢迎参加!"
-  date: 2015-09-17 13:00~17:00
-  noon:
-    - time: "13:00"
-      topic: TBD
-      topic_en: Check in
-  afternoon:
-
-####################################################################
-#   杭州
-#    _   _ _____
-#   | | | |__  /
-#   | |_| | / /
-#   |  _  |/ /_
-#   |_| |_/____|
-####################################################################
-hangzhou:
-  address: TBD
-  venue: TBD
-  traffic: TBD
-  traffic_en: TBD
-  notices: ...
-  date: "2015-09-17 13:00~18:00"
-  noon:
-    - time: "13:00"
-      topic: TBD
-      topic_en: Check in
-  afternoon:
-    - time: "13:20"
-      topic: TBD
