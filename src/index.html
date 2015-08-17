@@ -57,10 +57,8 @@
     {# render logic #}
     {% set global_proposals = selectspeakers(speakers, 'global') %}
     {% set beijing_proposals = selectspeakers(speakers, 'beijing') %}
-    {% set shanghai_proposals = selectspeakers(speakers, 'shanghai')%}
-    {% set zhuhai_proposals = selectspeakers(speakers, 'zhuhai') %}
-    {% set hangzhou_proposals = selectspeakers(speakers, 'hangzhou') %}
-    {% set suzhou_proposals = selectspeakers(speakers, 'suzhou') %}
+    {% set shanghai_proposals = selectspeakers(speakers, 'shanghai') %}
+    {% set guangzhou_proposals = selectspeakers(speakers, 'guangzhou') %}
     {% macro proposal_list(some_proposals, city_name) -%}
     <section class="mod-speakers__city">
     <h3 class="mod-speakers__city__name">{{ city_name }}</h3>
