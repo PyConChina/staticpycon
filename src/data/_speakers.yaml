@@ -137,6 +137,48 @@ id_xiaokai:
     preview_en: ...
     slide: #
 
+id_shell909090:
+  name: 许智翔(shell909090)
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/Shell909090-lighting.png?imageView2/2/h/80?imageView2/2/h/80
+  intro:  现任七牛工程师,python/c程序员 @Shell909090
+  intro_en: Pythoneer...
+  topic:
+    title: "一种远程执行代码的方法"
+    title_en: "?"
+    preview: 10分钟的小演讲，介绍一种将任何代码扔去远程执行的小技巧。
+    preview_en: ...
+    slide: #
+id_liepin1sh:
+  name: TBD
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  阳曙光（高级工程师）&苏铖（技术副总监）
+  intro_en: Pythoneer...
+  topic:
+    title: "用Python实现Hadoop任务调度管理"
+    title_en: "?"
+    preview: 如何解决大数据任务的依赖、定时、失败重试问题？三大开源调度系统oozie、azkaban、luigi各有所长。但是它们主要面向开发人员，使用门槛较高。针对数据分析场景，我们用python开发了一套可视化、轻量级、易用的大数据任务管理系统，让分析师也能够轻松提交和管理任务，玩转大数据。
+    preview_en: ...
+    slide: #
+id_liepin2sh:
+  name: TBD
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  石晶（高级经理）& 单艺 （首席数据官）
+  intro_en: Pythoneer...
+  topic:
+    title: "基于猎聘大数据的Python工程师职业发展研究"
+    title_en: "?"
+    preview: 以猎聘网最新、最全的中高端人才和企业招聘数据为基础，结合大数据时代的统计和数据挖掘方法，对Python人才在不同行业市场的供需关系、收入水平进行精准描述，全方位刻画从业者的收入水平、教育背景、求职意愿，准确揭示市场的热点和未来趋势，深刻解读Python人才职业发展的内在规律。
+    preview_en: ...
+    slide: #
 
 id_nonesh:
   name: TBD
@@ -194,7 +236,6 @@ id_zuozhenjie:
     preview_en: ...
     slide: #
 
-
 id_JokerQyou:
   name: 邱文武
   city_guangzhou: 1
@@ -210,7 +251,6 @@ id_JokerQyou:
     preview_en: ...
     slide: #
 
-
 id_river:
   name: River
   city_guangzhou: 1
@@ -220,9 +260,43 @@ id_river:
   intro:  QPython 创始人
   intro_en: Pythoneer...
   topic:
-    title: "app. 再也不痛苦了"
+    title: "用 QPy 开发 Android app."
     title_en: "?"
     preview: ...
+    preview_en: ...
+    slide: #
+
+id_nonegz:
+  name: 赖勇浩
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/images/speakers/laiyonghao.png?imageMogr2/crop/!200x200a40a10|imageView2/2/h/80
+  intro: 从业10年，创立广州齐昌网络科技有限公司，任总经理，主营技术咨询与开发外包。曾在网易（广州）等公司从事端游、页游的开发超过7年，熟悉网游前后端技术，近几年工作重心已转移到 Web 相关领域。对Python和C++编程语言有较多积累，熟悉它们的混合编程，长期坚持撰写技术博客，已积累了超过250万的浏览量，并合著有《编写高质量代码：改善Python程序的91个建议》一书。
+  intro_en: Pythoneer...
+  topic:
+    title: "用Cython封装C++代码为Python模块的一点经验"
+    title_en: "?"
+    preview: 1、Cython是什么，有什么用？
+        2、与类似技术相比，Cython的优势是什么？
+        3、封装C++代码与封装C代码相比难在哪里？
+        4、封装C++代码的最佳实践是什么？
+        5、以上问题，在这里可以找到答案。
+    preview_en: ...
+    slide: #
+
+id_nonegz:
+  name: Jeff
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  厚建广州创始人兼副总;珠三角技术沙龙常务组委. 长年活跃在一线的python码农.
+  intro_en: Pythoneer...
+  topic:
+    title: "基于Tornado打造通用长链接代理服务器"
+    title_en: "?"
+    preview: 长链接实时消息编程的门槛不低，长链接代理服务器可以有效地降低开发者开发实时应用的准入门槛，包括客户端及服务端，在服务端，开发者甚至可以使用HTTP的方式来实现业务逻辑的接入。本主题介绍如何使用Tornado实现一个分布式可扩展的长链接代理服务器。
     preview_en: ...
     slide: #
 
@@ -391,6 +465,77 @@ id_sezhanyong:
     title: "python与抓包"
     title_en: "?"
     preview: 利用python网络抓包，传统的抓包如利用tcpdump wireshark 不方便做实时分析，在socket包处理上，不能修改封包内容，还有现在针对移动端的抓包也仅限于抓取http包，在像移动游戏之类用到长连接的socket包，是不能方便抓取到的。利用python，可轻松实现如上功能
+    preview_en: ...
+    slide: #
+
+id_wuke:
+  name: 吴柯
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/coding_wuke.jpg?imageView2/2/h/80
+  intro:  Coding.net 技术顾问;Linux 拥趸，云计算的追随者。曾任职于HP软件部咨询顾问，负责HP监控，自动化工具及私有云解决方案咨询和落地。在云平台，自动化运维、web应用开发和项目管理方面颇有建树。目前在 Coding.net 主要负责撰写各类技术文档和定制技术方案，管理和推动相关的技术落地，包括监控、开发环境和容器化部署。
+  intro_en: Pythoneer...
+  topic:
+    title: "基于 flask 的 WebIDE"
+    title_en: "..."
+    preview: flask 作为轻量级的 python web 开发框架已经很流行了，有什么样的优缺点呢。纯在线开发的是一个比较新鲜的概念，目前轻量级开发的问题。Coding 的 WebIDE 工具介绍;使用 webide 来编写一个轻量的 web 程序是什么样的体验。开发完成后如何结合现有的部署工具完成部署访问。Coding 和第三方部署工具提供的部署选择。
+    preview_en: ...
+    slide: #
+id_liepin2bj:
+  name: TBD
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  石晶（高级经理）& 单艺 （首席数据官）
+  intro_en: Pythoneer...
+  topic:
+    title: "基于猎聘大数据的Python工程师职业发展研究"
+    title_en: "?"
+    preview: 以猎聘网最新、最全的中高端人才和企业招聘数据为基础，结合大数据时代的统计和数据挖掘方法，对Python人才在不同行业市场的供需关系、收入水平进行精准描述，全方位刻画从业者的收入水平、教育背景、求职意愿，准确揭示市场的热点和未来趋势，深刻解读Python人才职业发展的内在规律。
+    preview_en: ...
+    slide: #
+
+id_none:
+  name: 郑堃
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  就职于知道创宇，程序员+项目经理。从事的工作是安全相关产品的研发和管理。信奉软件开发中如果有所谓”银弹”的话，那能是靠谱的团队。
+  intro_en: Pythoneer...
+  topic:
+    title: "Python 项目中常见的单元测试场景"
+    title_en: "?"
+    preview: 在做 Python 项目的时候，碰到过的需要做单元测试的各种场景以及示例代码演示，比如：
+        1、演示用的 Hello World 级别的例子；
+        2、用 Django 等 Web 框架自带的测试框架为例
+        3、经常会碰到的网络请求模拟、需要文件读写模拟、数据库（比如：MySQL、MongoDB 等）各种需要预置条件的
+        4、其它能总结出来的 Mock 或 Fake 的处理
+        5、肯能还有一些经常用到的、需要的、常用的工具或类库等等
+    preview_en: ...
+    slide: #
+id_none:
+  name: 衷文闻
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  拉拉公园后端工程师。做过JAVA、JS项目，目前做Python后端。
+  intro_en: Pythoneer...
+  topic:
+    title: "Python在移动社交平台中的应用"
+    title_en: "?"
+    preview: 介绍以下内容：
+          1、移动社交平台及其架构介绍（简介）
+          1）平台的主要架构（全球化的考虑）
+          2）各部分功能简介（使用到了哪些组件）
+
+          2、Python及其类库在平台中的应用（主要介绍，大家一起交流）
+          1）Python的使用（Python的优缺点、Python的适用性）
+          2）相关类库的使用（PIL等）
+          3）使用过程的心得交流
     preview_en: ...
     slide: #
 

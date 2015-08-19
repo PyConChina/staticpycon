@@ -8,6 +8,8 @@
 
 {% if sponsors %}
     {# render logic #}
+    {% set customization_sponsors = sponsors | selectattr('level_customization') %}
+
     {% set diamond_sponsors = sponsors | selectattr('level_diamond') %}
     {% set platinum_sponsors = sponsors | selectattr('level_platinum') %}
     {% set gold_sponsors = sponsors | selectattr('level_gold') %}
@@ -28,6 +30,8 @@
             {% endfor %}
         </div>
     {% endmacro %}
+    {{ sponsors_list(customization_sponsors, message.sponsors_customization, 'customization') }}
+
     {{ sponsors_list(diamond_sponsors, message.sponsors_diamond, 'diamond') }}
     {{ sponsors_list(platinum_sponsors, message.sponsors_platinum, 'platinum') }}
     {{ sponsors_list(gold_sponsors, message.sponsors_gold, 'gold') }}

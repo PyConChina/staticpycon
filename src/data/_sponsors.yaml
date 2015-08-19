@@ -16,6 +16,17 @@
   intro: "中国科技网是中国科学院领导下的学术性,非盈利的科研计算机网络. 中国科技网(CSTNET)已经成为中国互联网行业快速发展的一支重要力量,为广大用户提供互联网接入,小区宽带,科研数据中心(IDC),网络管理与安全服务,视频会议系统,邮件系统,桌面会议系统,会议服务平台,科研在线文档库,组织通讯录,实验室信息系统,科研主页,科信,中国科技网通行证等服务,以及网络前沿技术研发等,为国家科学技术的创新发展提供基础性的信息化支撑与保障. "
 
 #########################################
+#   超级定制:独家招聘合作伙伴
+#########################################
+
+-
+  level_customization: 1
+  level: customization
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/liepin.png?imageView2/2/w/210
+  link: http://www.liepin.com/
+  intro: "猎聘网（www.liepin.com），隶属于万仕道（北京）管理咨询有限公司，于2011年正式上线，是国内唯一真正实现企业、猎头和职业经理人三方互动的职业发展平台。猎聘网始终专注于打造以经理人个人用户体验为核心的职业发展平台，全面颠覆传统网络招聘以企业为核心的广告发布平台。截至2015年6月，猎聘网拥有超过2000万的注册会员，已服务超过39万家优质企业。目前，有超过20万名猎头在猎聘网平台上寻找核心岗位的候选人。猎聘网的业务遍及中国北京、上海、广州、深圳、天津、大连、杭州、南京、武汉、厦门、成都、青岛、重庆、郑州等十余个城市。 "
+
+#########################################
 #   钻石级
 #########################################
 -
@@ -36,6 +47,34 @@
   link: http://www.speedycloud.cn/
   intro: "SpeedyCloud是业界领先的云计算服务提供商迅达云成公司旗下品牌,专注于为企业提供互联网及企业IT相关基础设施云服务. 公司成员绝大多数来自于蓝汛,世纪互联等IT运维服务型上市企业, 利用最新的云计算及互联网技术帮助客户迅速扩展在线业务."
   intro_en: "SpeedyCloud is the IaaS brand owned by Beijing SpeedyCloud Technology Co., Ltd.,, who is one of the leaders in cloud industry.The company was setup in 2012, with the capital of 10 million RMB invested all by ourselves.Being the general solution provider,  our focus is to provide IaaS for Internet and enterprises companies. Most of the team came from public IT operating and service companies like ChinaCache, 21ViaNet, etc. We are helping our customers with the most cutting-edge cloud computing technologies to expand their online businesses. "
+-
+  level_platinum: 1
+  level: platinum
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/meituan.png?imageView2/2/h/80
+  link: http://mos.meituan.com/
+  intro: "美团云是美团推出的公有云平台，致力于为千万用户提供最稳定、可靠、高效的基础设施云服务以及大数据解决方案。2013年5月，美团云正式对外开放计算资源。此后，美团云依靠强大的技术团队，不断优化产品，注重用户体验、提供最优的底层架构以及稳定的网络服务。目前已服务众多企业级用户，行业覆盖O2O生活服务提供商、在线教育、知名电商、互联网金融、游戏、智能硬件、新媒体、汽车等。"
+  intro_en: "..."
+-
+  level_platinum: 1
+  level: platinum
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/qiniu-logo.png?imageView2/2/w/200
+  link: http://www.qiniu.com/
+  intro: "七牛云存储由国内存储行业的领军人物之一许式伟于2011年创立,致力于提供最适合开发者的数据在线托管,传输加速以及云端处理的服务."
+  intro_en: "qiniu cloud storage by domestic industry one of the leading Xu Shiwei was founded in 2011, Committed to providing the most suitable for developers of online hosting, transmission speed, and the cloud data processing services."
+-
+  level_platinum: 1
+  level: platinum
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/daocloud_long-green.png?imageView2/2/w/200
+  link: http://www.daocloud.io/
+  intro: "DaoCloud是业界领先的企业级容器云平台和解决方案提供商，致力于以Docker为代表的容器技术，为企业打造面向下一代互联网应用的交付和运维平台，帮助客户实现云端持续创新。DaoCloud采用混合云模式，以云端SaaS化容器管理平台，对接各类主机资源，构建跨云跨网的容器主机资源池，提供全流程标准化的应用持续集成、镜像构建、发布管理和容器运维服务。DaoCloud在开发运维联动、渐进式混合云构建、大规模高并发集群、微服务架构设计、分布式应用运维等场景拥有丰富经验和成功案例。DaoCloud总部位于中国上海，并在北京设有分支机构。"
+  intro_en: "..."
+-
+  level_platinum: 10
+  level: platinum
+  logo: http://w.qhimg.com/images/v2/site/360/about/logo.png
+  link: http://www.360.cn
+  intro: "奇虎360科技有限公司（美国纽约证券交易所NYSE:QIHU，以下简称360）是中国领先的互联网和手机安全产品及服务供应商。据第三方统计，按照用户数量计算，360是中国前三大互联网公司之一。"
+  intro_en: "..."
 
 #########################################
 #   黄金级
@@ -43,10 +82,25 @@
 -
   level_gold: 1
   level: gold
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/alicloud.png?imageView2/2/h/62
+  link: http://www.aliyun.com/
+  intro: "阿里云致力于打造公共、开放的云计算服务平台。我们将借助技术的创新，不断提升计算能力与规模效益，将云计算变成真正意义上的公共服务。与此同时，我们将通过aliyun.com，用互联网的方式使得大家可以便捷的按需获取阿里云的云计算产品与服务。"
+  intro_en: "Aliyun, the cloud computing business of Alibaba Group Holding Limited was established in September 2009. It develops highly scalable platforms for cloud computing and data management and provides a comprehensive suite of cloud computing services to support the participants of Alibaba Group's online and mobile commerce ecosystem, including sellers, and other third-party customers and businesses. "
+-
+  level_gold: 1
+  level: gold
   logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/h/62
   link: https://coding.net/home.html
   intro: "Coding 是一个软件开发平台--- 提供快速的软件开发环境,包括 Web IDE,代码托管,项目协作,部署演示等,同时还有Coding 悬赏平台,帮助软件项目的需求方快速找到合适的开发者完成项目开发工作,也帮助开发者能够找到合适的项目将自己的能力变成财富."
   intro_en: "Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform."
+-
+  level_gold: 1
+  level: gold
+  logo: http://www2.res.meizu.com/zh_cn/images/common/logo.jpg
+  link: http://www.meizu.com
+  intro: "魅族公司成立于2003年。创始人从小沉迷电子热爱科技，魅族就是电子梦想和共赢理念的结晶。从创立以来的一次次飞跃不仅是魅族人热爱追求的结果，更是梦想力量的体现。魅族因梦想而立。热爱而极致，专注和长久的追求，必将带来商业产品无与伦比的梦想之作。魅族的一切将超越常规，超乎想象。"
+  intro_en: "..."
+
 -
   level_gold: 1
   level: gold
@@ -76,3 +130,9 @@
   logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/qichang_w2048.png?imageView2/2/w/120
   link: http://gzqichang.com
   intro: "广州齐昌网络科技有限公司,专注于技术咨询和开发外包业务,承接基于Web技术的开发业务外包,包括基于浏览器/服务器模式的应用软件,电子商务和电子政务系统研发,承接基于iOS,Android的软件开发业务外包,承接基于 Linux的系统软件开发外包. 齐昌网络由赖勇浩于2014年底创办,赖勇浩也是多届的PyCon分享讲师,在Python相关技术上有深入研究,除技术博客有近250万浏览量外还合著有<<编写高质量代码:改善Python程序的91个建议>>一书. "
+-
+  level_bronze: 1
+  level: bronze
+  logo: http://download.zopen.cn/themes/docs/img/logo.gif
+  link: http://edodocs.com
+  intro: "广州润普网络科技有限公司致力于提供更好的企业在线工作环境。一方面，我们希望能让创业者减少创业风险，让创业不那么难，进而为整体提升中国经济做贡献； 另一方面，我们希望能让工作更高效、更容易、更轻松，改善员工办公软环境。广州润普网络科技有限公司近期的愿景，是成为国内文档管理专业供应商，将文档管理这一款产品做到极致。 长期来说，希望建立全面的互联网工作平台，整体解决企业的办公需求。 "
