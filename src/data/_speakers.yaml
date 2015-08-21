@@ -142,7 +142,7 @@ id_shell909090:
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/Shell909090-lighting.png?imageView2/2/h/80?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/Shell909090-lighting.png?imageView2/2/h/80
   intro:  现任七牛工程师,python/c程序员 @Shell909090
   intro_en: Pythoneer...
   topic:
@@ -151,7 +151,8 @@ id_shell909090:
     preview: 10分钟的小演讲，介绍一种将任何代码扔去远程执行的小技巧。
     preview_en: ...
     slide: #
-id_liepin1sh:
+
+id_liepin0sh:
   name: TBD
   city_shanghai: 1
   city: 上海
@@ -165,7 +166,7 @@ id_liepin1sh:
     preview: 如何解决大数据任务的依赖、定时、失败重试问题？三大开源调度系统oozie、azkaban、luigi各有所长。但是它们主要面向开发人员，使用门槛较高。针对数据分析场景，我们用python开发了一套可视化、轻量级、易用的大数据任务管理系统，让分析师也能够轻松提交和管理任务，玩转大数据。
     preview_en: ...
     slide: #
-id_liepin2sh:
+id_liepin1sh:
   name: TBD
   city_shanghai: 1
   city: 上海
@@ -179,6 +180,22 @@ id_liepin2sh:
     preview: 以猎聘网最新、最全的中高端人才和企业招聘数据为基础，结合大数据时代的统计和数据挖掘方法，对Python人才在不同行业市场的供需关系、收入水平进行精准描述，全方位刻画从业者的收入水平、教育背景、求职意愿，准确揭示市场的热点和未来趋势，深刻解读Python人才职业发展的内在规律。
     preview_en: ...
     slide: #
+
+id_jiankongbaosh:
+  name: 高驰涛(Neeke)
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/jiankongbao_neeke.jpg?imageView2/2/h/80
+  intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
+  intro_en: Pythoneer...
+  topic:
+    title: "TBD"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
+
 
 id_nonesh:
   name: TBD
@@ -226,7 +243,7 @@ id_zuozhenjie:
   city_guangzhou: 1
   city: 广州
   city_en: Guangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_zuozhenjie.png?imageView2/2/h/80
   intro:  ottozhuo，腾讯微信运营开发工程师
   intro_en: Pythoneer...
   topic:
@@ -241,7 +258,7 @@ id_JokerQyou:
   city_guangzhou: 1
   city: 广州
   city_en: Guangzhou
-  avatar: http://pyconcn.qiniucdn.com/stuff15/id/gz_JokerQyou.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/gz_JokerQyou.png?imageView2/2/h/80
   intro:  在 易开发 被誉为多栖全栈开发工程师，根据开发需要游走于系统后端、多平台桌面、web前端，负责公司 消息系统前后端 以及 端服务的开发，业余爱好折腾开源软件。
   intro_en: Pythoneer...
   topic:
@@ -256,17 +273,20 @@ id_river:
   city_guangzhou: 1
   city: 广州
   city_en: Guangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  QPython 创始人
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/bj_river4.png?imageView2/2/h/80
+  intro:  QPython作者， 目前与朋友合伙创业做企业协作应用，前Zynga任高级系统研发工程师，前绿盟科技产品经理，前新浪邮件系统开发工程师。我喜欢历史，旅行，电影。微信号/river4
   intro_en: Pythoneer...
   topic:
-    title: "用 QPy 开发 Android app."
+    title: "用 QPython 极速开发 安卓 App"
     title_en: "?"
-    preview: ...
+    preview: 以开发 PyConChina2015 为例子，介绍如何用 QPython 开发并导出为 安卓 APK;
+        安卓 WebApp 的设计思路
+        QPython 的简介及 WebApp 模式
+        QPython 微信号/qpython
     preview_en: ...
     slide: #
 
-id_nonegz:
+id_laiyonghaogz:
   name: 赖勇浩
   city_guangzhou: 1
   city: 广州
@@ -285,7 +305,7 @@ id_nonegz:
     preview_en: ...
     slide: #
 
-id_nonegz:
+id_jeffgz:
   name: Jeff
   city_guangzhou: 1
   city: 广州
@@ -365,7 +385,7 @@ id_linpan:
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_linpan.png?imageView2/2/h/80
   intro:  瑞兴信达（北京）科技有限公司，工程师，数据处理
   intro_en: Pythoneer...
   topic:
@@ -429,9 +449,10 @@ id_dinglaiqiang:
   intro:  从业十年;Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的Tech Lead/ 负责大数据平台相关的ETL和数据可视化相关的工作. 技术兴趣广泛. 擅长C++/Python与JS.
   intro_en: Pythoneer...
   topic:
-    title: "使用Python进行高并发函数式编程"
-    title_en: "?"
-    preview: 本主题涵盖函数式编程在Python的关键点实现; 覆盖Python核心语法(function/ lambda/ generator/ iterator/ decorator等)和相关标准库(functools/ operators/ itertools)外; 主要通过一个实例介绍如何使用多个高阶函数与库(multipledispatch/ pyrsistent/ fn/ PyToolz/ more-itertools等)进行多并发的函数式编程.
+    title: "使用Python进行高效函数式编程"
+    title_en: "Effective python functional programming: techniques, tools and practices"
+    preview: 不同于面向对象编程的函数式编程以其低副作用, 高模块复用性与易并发性获得极大关注与发展(e.g. Scala, Hashell, Erlang等). Python并不是纯粹的函数式编程语言, 但是提供了极其强大的语言特性使得进行函数式编程的可能 
+      本主题涵盖函数式编程的各种重要特性在Python的关键点实现, 覆盖Python核心语法(function, lambda, generator, iterator, decorator等)和相关标准库(functools, operators, itertools)外, 涉及到函数式编程的核心思想, 技术(pure function, persistent data, high order function, currying, TCO, trampoline, overloading, pattern matching, laziness streaming等), 工具(multipledispatch, pyrsistent, fn, PyToolz, ipython cluster, python-parallel, 等)以及并发相关的编程, 进行有效的函数式编程. 
     preview_en: ...
     slide: #
 
@@ -453,12 +474,12 @@ id_liaoxinxi:
     preview_en: ...
     slide: #
 
-id_sezhanyong:
+id_yuzhanyong:
   name: 余占勇
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_yuzhanyong.png?imageView2/2/h/80
   intro:  新浪乐居;热爱互联网，高级网络安全工程师，php python go lua 研发工程师　伪全栈工程师
   intro_en: Pythoneer...
   topic:
@@ -477,11 +498,12 @@ id_wuke:
   intro:  Coding.net 技术顾问;Linux 拥趸，云计算的追随者。曾任职于HP软件部咨询顾问，负责HP监控，自动化工具及私有云解决方案咨询和落地。在云平台，自动化运维、web应用开发和项目管理方面颇有建树。目前在 Coding.net 主要负责撰写各类技术文档和定制技术方案，管理和推动相关的技术落地，包括监控、开发环境和容器化部署。
   intro_en: Pythoneer...
   topic:
-    title: "基于 flask 的 WebIDE"
+    title: "用在线的方式完成 Flask 开发"
     title_en: "..."
     preview: flask 作为轻量级的 python web 开发框架已经很流行了，有什么样的优缺点呢。纯在线开发的是一个比较新鲜的概念，目前轻量级开发的问题。Coding 的 WebIDE 工具介绍;使用 webide 来编写一个轻量的 web 程序是什么样的体验。开发完成后如何结合现有的部署工具完成部署访问。Coding 和第三方部署工具提供的部署选择。
     preview_en: ...
     slide: #
+
 id_liepin2bj:
   name: TBD
   city_beijing: 1
@@ -497,7 +519,7 @@ id_liepin2bj:
     preview_en: ...
     slide: #
 
-id_none:
+id_zhengfang:
   name: 郑堃
   city_beijing: 1
   city: 北京
@@ -516,7 +538,8 @@ id_none:
         5、肯能还有一些经常用到的、需要的、常用的工具或类库等等
     preview_en: ...
     slide: #
-id_none:
+
+id_zhongww:
   name: 衷文闻
   city_beijing: 1
   city: 北京
@@ -536,6 +559,39 @@ id_none:
           1）Python的使用（Python的优缺点、Python的适用性）
           2）相关类库的使用（PIL等）
           3）使用过程的心得交流
+    preview_en: ...
+    slide: #
+
+id_jiankongbaobj:
+  name: 高驰涛(Neeke)
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/jiankongbao_neeke.jpg?imageView2/2/h/80
+  intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
+  intro_en: Pythoneer...
+  topic:
+    title: "TBD"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
+
+id_chifeng:
+  name: 曲池峰
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/bj_chifeng.jpg?imageView2/2/h/80
+  intro:  QPython项目创始人之一，目前在做企业协作应用，多年的互联网从业经验。
+  intro_en: Pythoneer...
+  topic:
+    title: "用 QPython 极速开发 安卓 App"
+    title_en: "?"
+    preview: 以开发 PyConChina2015 为例子，介绍如何用 QPython 开发并导出为 安卓 APK;
+        安卓 WebApp 的设计思路
+        QPython 的简介及 WebApp 模式
+        QPython 微信号/qpython
     preview_en: ...
     slide: #
 

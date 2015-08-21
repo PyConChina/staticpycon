@@ -71,9 +71,9 @@
 -
   level_platinum: 10
   level: platinum
-  logo: http://w.qhimg.com/images/v2/site/360/about/logo.png
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/360_logo.png?imageView2/2/h/70
   link: http://www.360.cn
-  intro: "奇虎360科技有限公司（美国纽约证券交易所NYSE:QIHU，以下简称360）是中国领先的互联网和手机安全产品及服务供应商。据第三方统计，按照用户数量计算，360是中国前三大互联网公司之一。"
+  intro: "360企业安全集团隶属于全球最大的互联网安全公司奇虎360，是面向政府和企业提供新一代安全产品和安全服务的综合型集团公司。360企业安全集团整合了360在安全领域的技术、人才、产品、数据和服务能力，以“保护大数据时代的安全”为使命，以“数据驱动安全”为技术思想，以大数据搜集分析为支撑，推出了集杀毒、终端管理、虚拟化、准入、主机安全为一体的新一代终端安全管理系统360天擎，基于威胁情报对未知威胁进行分析、发现和回溯的新一代未知威胁感知系统360天眼，确保移动终端上企业数据和应用安全的新一代移动终端安全管理系统360天机，以及守卫企业无线网络边界的新一代无线安全防御系统360天巡等多个企业级用户急需的创新型安全产品以及安全服务，已经为包括多个中央部委和央企在内的超过百万家企业级客户提供全面的安全保护！"
   intro_en: "..."
 
 #########################################
@@ -115,6 +115,13 @@
 -
   level_silver: 1
   level: silver
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/ganguoio_h.png?imageView2/2/w/120
+  link: http://www.ganguo.io
+  intro: "我们是珠三角地区最知名的实力移动外包团队，团队成员多年从事相关工作，拥有丰富的开发运营经验，能够为您的项目提高最高效率的开发和最高质量的维护，我们丰富的经验，源源不断的创意以及领先行业的见识，都为您的项目打下最坚实的基础。    公司主营业务为APP产品研发，微信端服务账号的应用与研发，大数据分析等与移动互联相关的业务。我们的客户涵盖了信息技术、汽车、消费品、房地产、互联网、金融、文化娱乐等行业的领导品牌。 "
+  intro_en: "Ganguo Mobile is the most well-known development team in Pearl River Delta. With years of experience in mobile application and web development; our specialists offer cost-effective mobile solution and maintenance program. The integration of our experience; creativity and vision has helped us to deliver concrete product with great satisfaction to our clients.  Our main business are mobile app development (iOS / Android); development and implementation of Wechat services account; big data analysis and other mobile related territory. We have been working with leading brands in information technology/ automobile/ consumer product/ real estate/ Internet/ finance/ and entertainment business."
+-
+  level_silver: 1
+  level: silver
   logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/turingbook-Logo.jpg?imageView2/2/w/120
   link: http://www.ituring.com.cn
   intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销科技图书,是国内计算机图书市场最有影响力的出版单位之一. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内最专业的IT技术'交流+阅读'社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成为国内知名科技电子书出版销售平台. "
@@ -133,6 +140,6 @@
 -
   level_bronze: 1
   level: bronze
-  logo: http://download.zopen.cn/themes/docs/img/logo.gif
-  link: http://edodocs.com
-  intro: "广州润普网络科技有限公司致力于提供更好的企业在线工作环境。一方面，我们希望能让创业者减少创业风险，让创业不那么难，进而为整体提升中国经济做贡献； 另一方面，我们希望能让工作更高效、更容易、更轻松，改善员工办公软环境。广州润普网络科技有限公司近期的愿景，是成为国内文档管理专业供应商，将文档管理这一款产品做到极致。 长期来说，希望建立全面的互联网工作平台，整体解决企业的办公需求。 "
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/easydo_logo.png?imageView2/2/w/60
+  link: http://easydo.cn
+  intro: "易开发，是一家为开发者提供企业应用快速开发平台的公司。目前专注于微信企业号的快速（无码）定制开发方案。在当前互联网+浪潮中，我们帮助企业多快好省地迈向互联网化和信息化。我们在丰厚企业信息化基础设施之上，提供了创新的、人性化开发工具，极大地降低开发者门槛，提升开发效率，降低了项目开发和维护成本。"
