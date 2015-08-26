@@ -6,15 +6,15 @@
 #   |____/|_| |_|
 ####################################################################
 shanghai:
-  address: 浦软会议厅
-  address_en: "TBD"
-  venue: TBD
-  venue_en: TBD
-  traffic: (...)
-  traffic_en: "(...)"
-  maplink: '...'
+  address: 上海市浦东新区博云路2号
+  address_en: "No.2 Boyun Road, Pudong, Shanghai"
+  venue: 浦软大厦会议厅
+  venue_en: "Meeting Hall at SPSP Building"
+  traffic: 地铁2号线金科路站
+  traffic_en: "Jinke Road Station at Metro Line 2"
+  maplink: 'http://j.map.baidu.com/ltIw5'
   date: 2015-09-12 09:00~18:00
-  notices: ...
+  notices: ""
   morning:
     - time: "09:00"
       topic: "签到 & 开场"
@@ -45,7 +45,7 @@ shanghai:
     - { time: "17:30", speaker: id_xiaokai }
     - { time: "17:40", speaker: id_chenhaibo }
   cancel_talks:
-    - { time: "(ー`´ー)", speaker: id_nonesh }
+    # - { time: "(ー`´ー)", speaker: id_nonesh }
 
 
 ####################################################################
@@ -93,7 +93,7 @@ guangzhou:
   lightening_talks:
     - { time: "17:30", speaker: id_nonegz }
   cancel_talks:
-    - { time: "(ー`´ー)", speaker: id_nonegz }
+    # - { time: "(ー`´ー)", speaker: id_nonegz }
 
 ####################################################################
 #    ____  _
@@ -104,15 +104,15 @@ guangzhou:
 #       |__/
 ####################################################################
 beijing:
-  address: 77剧场
-  address_en: "TBD"
-  venue: TBD
-  venue_en: TBD
-  traffic: (...)
-  traffic_en: "(...)"
-  maplink: '...'
+  address: "北京市东城区美术馆后街77号"
+  address_en: "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing"
+  venue: 77剧场
+  venue_en: '77 Hall'
+  traffic: "公交108，104，127路大佛寺站"
+  traffic_en: "DAFOSI Stop on Bus 108, 104, 127"
+  maplink: 'http://j.map.baidu.com/QifN0'
   date: 2015-09-19 09:00~18:00
-  notices: ...
+  notices: ""
   morning:
     - time: "09:00"
       topic: "签到 & 开场"
@@ -145,7 +145,7 @@ beijing:
     - { time: "18:10", speaker: id_yuzhanyong }
 
   cancel_talks:
-    - { time: "(ー`´ー)", speaker: id_none }
+    # - { time: "(ー`´ー)", speaker: id_none }
 
 
 ####################################################################
