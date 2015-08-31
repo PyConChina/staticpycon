@@ -194,13 +194,13 @@
 }
 
 .intro__apply-link {
-  background-color: lighten($brand-success, 20);
+  background-color: #52b0ff;
 
   margin-bottom: 1em;
   padding: 0.5em;
 
   &:hover {
-    background-color: $brand-success;
+    background-color: #ffe052;
     box-shadow: 0 0.5em 1em rgba(#000, $alpha-hint);
   }
 
