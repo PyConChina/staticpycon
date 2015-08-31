@@ -1,3 +1,15 @@
+id_liang2:
+  name: 亮亮
+  city_global: 1
+  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/tw_liang2.jpg?imageView2/2/h/80
+  intro: 目前就讀台灣大學生醫電資碩士，研究領域為癌症基因調控網路分析。平時經常參與台灣開源社群如 Taipei.py 與 MLDM Monday (Taiwan R User) 活動，於 PyCon APAC 2014、2015 擔任工作人員與講者，同時亦為 PyCon TW 2016 議程組長。去年於北京 Microsoft Asia Research (MSRA) 實習，現於台灣電子商務公司 Pinkoi 實習。
+    - 個人網站：'http://liang2.tw'
+    - @ccwang002
+  topic:
+    title: "用 jieba 处理中文以及台湾的 Py 社团"
+    preview: "首先分享在 Pinkoi 實習的經驗，如何使用 jieba 與改善 Elasticsearch 中文商品搜尋體驗，同時分享調整 jieba 斷詞於搜尋使用的一些經驗。再進一步透過 word2vec 自動找出商品間的關係，利用它語意上的特徵，完成一些如相似商品推薦等進階的搜尋功能。剩下的時間將會介紹現階段台灣 Python 社群發展以及宣傳明年活動。"
+    slide: #
+
 id_alexdong:
   name: Alex Dong
   city_global: 1
@@ -7,6 +19,7 @@ id_alexdong:
     title: "TBD"
     preview: "TBD"
     slide: #
+
 
 ####################################################################
 #   魔都
@@ -57,7 +70,7 @@ id_xuzhou:
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_xuzhou.png?imageView2/2/h/80
   intro: 现任职于Demonware，自动化工程师，致力于 infrastructure 的自动化管理，软件的持续集成和发布。
   intro_en: Pythoneer...
   topic:
@@ -72,7 +85,7 @@ id_dinglaiqiangsh:
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_dinglaiqiang.JPG?imageView2/2/h/80
   intro:  从业十年, Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的Tech Lead, 负责大数据平台相关的ETL和数据可视化相关的工作. 技术兴趣广泛. 擅长C++/Python与JS.
   intro_en: Pythoneer...
   topic:
@@ -87,7 +100,7 @@ id_wangliqi:
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_wangliqi.jpg?imageView2/2/h/80
   intro:  上海仪酷智能科技有限公司产品经理，VIRobotics创始人。在机器人应用开发、Linux、Python、NI图形化软件开发方面有着丰富的经验。
   intro_en: Pythoneer...
   topic:
@@ -152,22 +165,8 @@ id_shell909090:
     preview_en: ...
     slide: #
 
-id_liepin0sh:
-  name: TBD
-  city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  阳曙光（高级工程师）&苏铖（技术副总监）
-  intro_en: Pythoneer...
-  topic:
-    title: "用Python实现Hadoop任务调度管理"
-    title_en: "?"
-    preview: 如何解决大数据任务的依赖、定时、失败重试问题？三大开源调度系统oozie、azkaban、luigi各有所长。但是它们主要面向开发人员，使用门槛较高。针对数据分析场景，我们用python开发了一套可视化、轻量级、易用的大数据任务管理系统，让分析师也能够轻松提交和管理任务，玩转大数据。
-    preview_en: ...
-    slide: #
 id_liepin1sh:
-  name: TBD
+  name: 石晶+单艺
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
@@ -177,7 +176,12 @@ id_liepin1sh:
   topic:
     title: "基于猎聘大数据的Python工程师职业发展研究"
     title_en: "?"
-    preview: 以猎聘网最新、最全的中高端人才和企业招聘数据为基础，结合大数据时代的统计和数据挖掘方法，对Python人才在不同行业市场的供需关系、收入水平进行精准描述，全方位刻画从业者的收入水平、教育背景、求职意愿，准确揭示市场的热点和未来趋势，深刻解读Python人才职业发展的内在规律。
+    preview: 0：我们分析职业发展数据的技术和数学方法
+      1. 人才分布：Python人才在不同行业、地域和职位的分布情况
+      2. 企业需求：招聘市场上的Python人才需求热点和变化趋势
+      3. 职业发展：Python人才职业发展的路径分析，在不同行业间的流动趋势和方向
+      4. 薪资水平：不同行业、地区、职位、工作年限的Python人才薪水分析，与其他技能人才的薪资水平对比
+      5. 人才画像：Python人才的年龄段、教育背景、所学专业情况，以及与职位、收入水平的关系
     preview_en: ...
     slide: #
 
@@ -190,7 +194,22 @@ id_jiankongbaosh:
   intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
   intro_en: Pythoneer...
   topic:
-    title: "TBD"
+    title: "让Python应用快如闪电-python应用性能管理实践"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
+
+id_jiekong:
+  name: 戒空(姜继忠)
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/ali_jirkong.png?imageView2/2/h/80
+  intro:  09年加入阿里，并一直担任ACE的技术专家角色，负责了ACE底层的架构与开发工作，也是Python的忠实用户。
+  intro_en: Pythoneer...
+  topic:
+    title: "ACE的Python环境的使用和架构设计实践"
     title_en: "?"
     preview: ...
     preview_en: ...
@@ -211,7 +230,6 @@ id_nonesh:
     preview: ...
     preview_en: ...
     slide: #
-
 ####################################################################
 #   广州
 #     ____ _____
@@ -366,7 +384,7 @@ id_yankaibj:
   intro:  DaoCloud 联合创始人，首席架构师;圈内著名极客，在大学各类编程比赛中获奖无数，人称“开叔”。曾任职于 EMC 中国研究院，中国第一个 Cloud Foundry 云平台的构建者，在云平台、分布式系统和移动应用开发方面颇有建树。其撰写的相关技术博客拥有很高的人气，并受邀在 CSDN 等专业杂志及网站发表。加入 EMC 之前，颜开曾在盛大游戏负责游戏计算平台的开发及运维，并在当年主导了游戏平台的 Hadoop 大数据分析平台的构建。颜开于 2010 年在南京大学获得计算机专业本科学位。
   intro_en: Pythoneer...
   topic:
-    title: "解决依赖陷阱，从virtualenv到Docker"
+    title: "解决迭代陷阱，Python In Docker"
     title_en: "from virtualenv to Docker"
     preview: Python依赖陷阱是给令人头疼的问题
         描述依赖陷阱造成的问题
@@ -375,7 +393,7 @@ id_yankaibj:
         可以使用Docker来解决
         如何用Docker解决依赖陷阱
         Docker的机制是什么，为什么能解决问题
-        Docker可以给Python带来的其他附加值。部署更方便，集成第三方更容易。CPython，Pypy，Jpython的使用更容易
+        Docker可以给Python带的其他附加值。部署更方便，集成第三方更容易。CPython，Pypy，Jpython的使用更容易
     preview_en: ...
     slide: #
 
@@ -395,12 +413,12 @@ id_linpan:
     preview_en: ...
     slide: #
 
-id_wangzhili:
+id_ZhiliWang:
   name: 王志利
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_ZhiliWang.jpg?imageView2/2/h/80
   intro:  刚入行的python 爱好者，爱运行，哎新奇事物，现在比较蓝海讯通公司任python支持。
   intro_en: Pythoneer...
   topic:
@@ -445,7 +463,7 @@ id_dinglaiqiang:
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_dinglaiqiang.JPG?imageView2/2/h/80
   intro:  从业十年;Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的Tech Lead/ 负责大数据平台相关的ETL和数据可视化相关的工作. 技术兴趣广泛. 擅长C++/Python与JS.
   intro_en: Pythoneer...
   topic:
@@ -504,8 +522,23 @@ id_wuke:
     preview_en: ...
     slide: #
 
+id_liepin1bj:
+  name: 阳曙光+苏铖
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  阳曙光（高级工程师）&苏铖（技术副总监）
+  intro_en: Pythoneer...
+  topic:
+    title: "用Python实现Hadoop任务调度管理"
+    title_en: "Python Rules Hadoop"
+    preview: 如何解决大数据任务的依赖、定时、失败重试问题？三大开源调度系统oozie、azkaban、luigi各有所长。但是它们主要面向开发人员，使用门槛较高。针对数据分析场景，我们用python开发了一套可视化、轻量级、易用的大数据任务管理系统，让分析师也能够轻松提交和管理任务，玩转大数据。
+    preview_en: ...
+    slide: #
+
 id_liepin2bj:
-  name: TBD
+  name: 石晶+单艺
   city_beijing: 1
   city: 北京
   city_en: Beijing
@@ -515,16 +548,21 @@ id_liepin2bj:
   topic:
     title: "基于猎聘大数据的Python工程师职业发展研究"
     title_en: "?"
-    preview: 以猎聘网最新、最全的中高端人才和企业招聘数据为基础，结合大数据时代的统计和数据挖掘方法，对Python人才在不同行业市场的供需关系、收入水平进行精准描述，全方位刻画从业者的收入水平、教育背景、求职意愿，准确揭示市场的热点和未来趋势，深刻解读Python人才职业发展的内在规律。
+    preview: 0：我们分析职业发展数据的技术和数学方法
+      1. 人才分布：Python人才在不同行业、地域和职位的分布情况
+      2. 企业需求：招聘市场上的Python人才需求热点和变化趋势
+      3. 职业发展：Python人才职业发展的路径分析，在不同行业间的流动趋势和方向
+      4. 薪资水平：不同行业、地区、职位、工作年限的Python人才薪水分析，与其他技能人才的薪资水平对比
+      5. 人才画像：Python人才的年龄段、教育背景、所学专业情况，以及与职位、收入水平的关系
     preview_en: ...
     slide: #
 
-id_zhengfang:
+id_zhengk:
   name: 郑堃
   city_beijing: 1
   city: 北京
   city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_zhengk.jpg?imageView2/2/h/80
   intro:  就职于知道创宇，程序员+项目经理。从事的工作是安全相关产品的研发和管理。信奉软件开发中如果有所谓”银弹”的话，那能是靠谱的团队。
   intro_en: Pythoneer...
   topic:
@@ -571,7 +609,7 @@ id_jiankongbaobj:
   intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
   intro_en: Pythoneer...
   topic:
-    title: "TBD"
+    title: "让Python应用快如闪电-python应用性能管理实践"
     title_en: "?"
     preview: ...
     preview_en: ...

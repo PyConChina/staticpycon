@@ -22,7 +22,7 @@ shanghai:
     - time: "09:15"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "09:30", speaker: id_liepin0sh }
+    - { time: "09:30", speaker: id_jiekong }
     - { time: "10:00", speaker: id_yankaish }
     - { time: "10:45", speaker: id_shenweish }
     - { time: "11:30", speaker: id_shell909090 }
@@ -31,19 +31,20 @@ shanghai:
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
-    - { time: "13:30", speaker: id_liepin1sh }
+    - { time: "13:30", speaker: id_liang2 }
     - { time: "14:00", speaker: id_jiankongbaosh }
-    - { time: "14:40", speaker: id_dinglaiqiangsh }
-    - { time: "15:20", speaker: id_wangliqi }
-    - time: "16:00"
+    - { time: "14:30", speaker: id_dinglaiqiangsh }
+    - { time: "15:00", speaker: id_liepin1sh }
+    - time: "15:30"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "16:10", speaker: id_nonesh }
+    - { time: "15:40", speaker: id_chenhaibo }
+    - { time: "16:10", speaker: id_wangliqi }
     - { time: "16:45", speaker: id_xuzhou }
     - { time: "17:15", speaker: id_nonesh }
   lightening_talks:
     - { time: "17:30", speaker: id_xiaokai }
-    - { time: "17:40", speaker: id_chenhaibo }
+    - { time: "17:40", speaker: id_nonesh }
   cancel_talks:
     - { time: "(ー`´ー)", speaker: id_nonesh }
 
@@ -82,6 +83,7 @@ guangzhou:
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
+    - { time: "13:30", speaker: id_liang2 }
     - { time: "14:00", speaker: id_shenweigz }
     - { time: "14:40", speaker: id_laiyonghaogz }
     - { time: "15:20", speaker: id_zuozhenjie }
@@ -117,21 +119,23 @@ beijing:
     - time: "09:00"
       topic: "签到 & 开场"
       topic_en: "Check-in"
-    - time: "09:45"
+    - time: "09:15"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "10:00", speaker: id_liepin2bj }
-    - { time: "10:40", speaker: id_yankaibj }
-    - { time: "11:10", speaker: id_wuke }
-    - { time: "11:30", speaker: id_jiankongbaobj }
+    - { time: "09:30", speaker: id_liepin2bj }
+    - { time: "10:00", speaker: id_yankaibj }
+    - { time: "10:20", speaker: id_wuke }
+    - { time: "10:55", speaker: id_jiankongbaobj }
+    - { time: "11:30", speaker: id_zhengk }
   noon:
     - time: "12:00"
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
-    - { time: "14:00", speaker: id_dinglaiqiang }
+    - { time: "13:30", speaker: id_liang2 }
+    - { time: "14:00", speaker: id_liepin1bj }
     - { time: "14:40", speaker: id_liaoxinxi }
-    - { time: "15:20", speaker: id_zhengfang }
+    - { time: "15:20", speaker: id_dinglaiqiang }
     - time: "16:00"
       topic: 茶歇
       topic_en: Intermission
@@ -139,7 +143,7 @@ beijing:
     - { time: "17:00", speaker: id_linpan }
   lightening_talks:
     - { time: "17:30", speaker: id_chifeng }
-    - { time: "17:40", speaker: id_wangzhili }
+    - { time: "17:40", speaker: id_ZhiliWang }
     - { time: "17:50", speaker: id_zhongww }
     - { time: "18:00", speaker: id_dujun }
     - { time: "18:10", speaker: id_yuzhanyong }
