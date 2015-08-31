@@ -15,8 +15,8 @@ from staticpycon import util
 
 
 def serve():
-    print("Listening on 127.0.0.1:8080 ...")
-    server = TCPServer(('127.0.0.1', 8080), SimpleHTTPRequestHandler)
+    print("Listening on 0.0.0.0:8080 ...")
+    server = TCPServer(('0.0.0.0', 8080), SimpleHTTPRequestHandler)
     os.chdir(gen.SITE_DIR)
     server.serve_forever()
 
