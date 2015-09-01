@@ -135,20 +135,21 @@ beijing:
   afternoon:
     - { time: "13:30", speaker: id_liang2 }
     - { time: "14:00", speaker: id_dinglaiqiang }
-    - { time: "14:40", speaker: id_xiutao }
-    - { time: "15:20", speaker: id_zhengk }
-    - time: "16:00"
-      topic: 茶歇
+    - { time: "14:30", speaker: id_Bouriez }
+    - { time: "15:00", speaker: id_zhengk }
+    - time: "15:30"
+      topic: 茶歇 
       topic_en: Intermission
+    - { time: "15:40", speaker: id_xiutao }
     - { time: "16:10", speaker: id_liuchang }
-    - { time: "17:00", speaker: id_linpan }
+    - { time: "17:10", speaker: id_linpan }
+    - { time: "17:20", speaker: id_ZhiliWang }
   lightening_talks:
     - { time: "17:30", speaker: id_chifeng }
-    - { time: "17:40", speaker: id_ZhiliWang }
-    - { time: "17:45", speaker: id_zhongww }
-    - { time: "17:50", speaker: id_dujun }
-    - { time: "17:55", speaker: id_yuzhanyong }
-    - { time: "18:00", speaker: id_huangjin }
+    - { time: "17:40", speaker: id_zhongww }
+    - { time: "17:45", speaker: id_dujun }
+    - { time: "17:50", speaker: id_yuzhanyong }
+    - { time: "17:55", speaker: id_huangjin }
 
   cancel_talks:
     # - { time: "(ー`´ー)", speaker: id_none }

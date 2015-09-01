@@ -702,6 +702,22 @@ id_xiutao:
     preview_en: ...
     slide: #
 
+id_Bouriez:
+  name: Guillaume Bouriez
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  豆瓣 资深开发工程师 法国人 
+  intro_en: Pythoneer...
+  topic:
+    title: "pidl: python-powered microservices at Douban"
+    title_en: "pidl: python-powered microservices at Douban"
+    preview: "分享豆瓣在全站服务化方面做的一些尝试和努力，以及为此开发的 Pythonic Interface Description Language。Moving to a microservice architecture solves many issues, but it is hard.Pidl, our in-house interface layer, allows to isolate services with only minimal changes in client and service code. A pidl service efficiently exports fully functional python modules, with functions, classes and methods. For the user, it is pure magic: the service is used as a normal python module but its code is never imported! "
+    preview_en: "Pythonic Interface Description Language。Moving to a microservice architecture solves many issues, but it is hard.Pidl, our in-house interface layer, allows to isolate services with only minimal changes in client and service code. A pidl service efficiently exports fully functional python modules, with functions, classes and methods. For the user, it is pure magic: the service is used as a normal python module but its code is never imported! "
+    slide: #
+
+
 id_none:
   name: TBD
   city_beijing: 1
