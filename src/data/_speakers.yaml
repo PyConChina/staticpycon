@@ -404,6 +404,21 @@ id_jiankongbaogz:
     slide: #
 
 
+id_yinhm:
+  name: 殷海明
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/yinhm.jpg?imageView2/2/h/80
+  intro:  广州智硕资产创始人，私募基金经理，珠三角技术沙龙老组委，喜欢Python和Golang
+  intro_en: Pythoneer...
+  topic:
+    title: "Pandas在金融数据分析中的应用"
+    title_en: "?"
+    preview: 时序数据处理，投资组合优化
+    preview_en: ...
+    slide: #
+
 id_nonegz:
   name: TBD
   city_guangzhou: 1

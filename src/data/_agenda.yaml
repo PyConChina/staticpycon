@@ -92,7 +92,7 @@ guangzhou:
       topic: 茶歇
       topic_en: Intermission
     - { time: "16:10", speaker: id_jeffgz }
-    - { time: "17:00", speaker: id_nonegz }
+    - { time: "17:00", speaker: id_yinhm }
   lightening_talks:
     - { time: "17:30", speaker: id_nonegz }
   cancel_talks:
