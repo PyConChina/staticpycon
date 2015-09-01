@@ -20,10 +20,6 @@
 - title: 日程
   title_en: SCHEDULE
   children:
-  - title: 北京
-    title_en: BEIJING
-    url: "beijing.html"
-    url_en: "en/beijing.html"
   - title: 上海
     title_en: SHANGHAI
     url: "shanghai.html"
@@ -32,6 +28,14 @@
     title_en: GUANGZHOU
     url: "guangzhou.html"
     url_en: "en/guangzhou.html"
+  - title: 北京
+    title_en: BEIJING
+    url: "beijing.html"
+    url_en: "en/beijing.html"
+  - title: 杭州
+    title_en: HANGZHOU
+    url: "hangzhou.html"
+    url_en: "en/hangzhou.html"
 - title: 志愿
   title_en: VOLUNTEERS
   url: "volunteers.html"
