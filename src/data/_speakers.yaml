@@ -215,6 +215,56 @@ id_jiekong:
     preview_en: ...
     slide: #
 
+id_kj:
+  name: KJ（阚嘉）
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_kj.jpg?imageView2/2/h/80
+  intro:  齐书云协作CEO，前新加坡MM Games技术总监，ex-Google
+    后端工程师，擅长web架构和iOS基本程序设计
+    2013年 - 现今 创业中
+    2010年 - 2013年8月 新加坡 MM Games 游戏平台 CTO
+    2009年 - 2010年7月 Slide.com 上海早期工程师（PayPal黑帮企业），后被谷歌收购
+    2007年 - 2009年 洛杉矶 Protohaus LLC 高级程序设计师
+    2005年 - 2007年 VeryCD.com 工程师，负责P2P下载程序开发
+  intro_en: Pythoneer...
+  topic:
+    title: "TBD"
+    title_en: "?"
+    preview: ...
+    preview_en: ...
+    slide: #
+
+id_derek:
+  name: Derek 呆
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  來自 Linux Deepin, 目前擔任開源社區拓展, C, BASH, zfs, systemd 愛好者
+  intro_en: Pythoneer...
+  topic:
+    title: "py + gi - 高效 C 庫整合方案"
+    title_en: "?"
+    preview: "要從 Python 使用 C libraries, 通常需要在中間做上一層 binding, 讓 Python runtime 與 target C libraries 能互通, 維護費力易出錯. 經由導入 gobject introspection, 配合 type information, 讓 Python + C 的組合產能最大化!"
+    preview_en: ...
+    slide: #
+
+id_chendawei:
+  name: 陈大伟
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro:  前 17zuoye.com 数据工程师，业务和开源代码双线开发模式至今已持续三年，并有 Luiti 和 Statlysis 等 42 个开源项目。熟悉的体系经验包括 基于Hadoop + Python + MongoDB 的数据处理，Ruby on Rails 全栈式开发，单页前端应用，Python 文本挖掘
+  intro_en: Pythoneer...
+  topic:
+    title: "使用 Luiti 来构建数据仓库"
+    title_en: "?"
+    preview: 在数据量级上升到必须用 Hadoop 去处理的时候，一个易用且高效的离线任务管理框架必不可少。Luiti 正是这样从半年多实践中诞生的务实派开源作品，它是基于 Spotify 开源的 Luigi 模块之上构建起来的，可以像使用 Flask 和 Rails 等 Web 框架一样迅速搭建并运转起整个大型数据仓库。更多请访问 http://luiti.github.io/chinese/index.html
+    preview_en: ...
+    slide: #
 
 id_nonesh:
   name: TBD
@@ -335,6 +385,21 @@ id_jeffgz:
     title: "基于Tornado打造通用长链接代理服务器"
     title_en: "?"
     preview: 长链接实时消息编程的门槛不低，长链接代理服务器可以有效地降低开发者开发实时应用的准入门槛，包括客户端及服务端，在服务端，开发者甚至可以使用HTTP的方式来实现业务逻辑的接入。本主题介绍如何使用Tornado实现一个分布式可扩展的长链接代理服务器。
+    preview_en: ...
+    slide: #
+
+id_jiankongbaogz:
+  name: 高驰涛(Neeke)
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/jiankongbao_neeke.jpg?imageView2/2/h/80
+  intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
+  intro_en: Pythoneer...
+  topic:
+    title: "让Python应用快如闪电-python应用性能管理实践"
+    title_en: "?"
+    preview: ...
     preview_en: ...
     slide: #
 
@@ -589,21 +654,6 @@ id_zhongww:
     preview_en: ...
     slide: #
 
-id_jiankongbaobj:
-  name: 高驰涛(Neeke)
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/jiankongbao_neeke.jpg?imageView2/2/h/80
-  intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
-  intro_en: Pythoneer...
-  topic:
-    title: "让Python应用快如闪电-python应用性能管理实践"
-    title_en: "?"
-    preview: ...
-    preview_en: ...
-    slide: #
-
 id_chifeng:
   name: 曲池峰
   city_beijing: 1
@@ -619,6 +669,36 @@ id_chifeng:
         安卓 WebApp 的设计思路
         QPython 的简介及 WebApp 模式
         QPython 微信号/qpython
+    preview_en: ...
+    slide: #
+
+id_liuchang:
+  name: 刘畅
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 曾就职于微软与阿里云，现在Genedock创业，语言爱好者
+  intro_en: Pythoneer...
+  topic:
+    title: "python的module机制与最佳实践"
+    title_en: "?"
+    preview: 人生苦短，我用python。但是，在使用python的过程中，最让人痛苦的事情有二件，一个是编码问题，另一个则是import不了包。本文将详细介绍关于python的包管理机制，python如何引用包，PYTHONPATH是怎么回事，sys.path与其有什么不同。为什么py3把py2的包引入机制彻底废弃。py3的absolute import又是怎么回事。最后，演讲将介绍关于python项目目录的最佳实践，避免各种引用的问题。
+    preview_en: ...
+    slide: #
+
+id_xiutao:
+  name: 徐涛
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/xu-tao_2_11_xtao.jpg?imageView2/2/h/80
+  intro:  豆瓣 产品开发工程师
+  intro_en: Pythoneer...
+  topic:
+    title: "Dive into Sentry"
+    title_en: "?"
+    preview: "分享 Sentry 一些相关的经验。在豆瓣内部 Sentry 的使用情况，Sentry 迁移经验。以及一些 Sentry 的内部机制，内部实现，以及一些吐槽。blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla 凑不够字数。。"
     preview_en: ...
     slide: #
 
