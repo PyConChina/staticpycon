@@ -1,0 +1,43 @@
+{% extends "base/_base.html" %}
+{% set page_title = message.page_title_speechmaker %}
+
+{% block content %}
+
+<!-- proposals -->
+{% if speakers %}
+    {# render logic #}
+    {% set global_proposals = selectspeakers(speakers, 'global') %}
+    {% set beijing_proposals = selectspeakers(speakers, 'beijing') %}
+    {% set shanghai_proposals = selectspeakers(speakers, 'shanghai') %}
+    {% set guangzhou_proposals = selectspeakers(speakers, 'guangzhou') %}
+    {% macro proposal_list(some_proposals, city_name) -%}
+    <section class="mod-speakers__city">
+    <h2 class="mod-speakers__city__name">{{ city_name }}</h2>
+    <div class="mod-speakers__content">
+        {% for proposal in some_proposals %}
+            <div class="person">
+                <a href="javascript:;" class="person__avatar-link">
+                    <img src="{{ proposal.avatar }}" alt="{{ proposal.name }}"
+                        class="person__avatar" />
+                </a>
+                <div class="person__desc">
+                    <h4 class="person__name">{{ proposal.name }} </h4>
+                    <p class="person__intro">{{ proposal.intro }} </p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    </section>
+    {%- endmacro %}
+    {# presentation #}
+    <section class="page__module mod-speakers">
+    <h1 class="section__title--subpage-header">{{ message.speechmaker }}</h1>
+
+    {{ proposal_list(global_proposals, message.global) }}
+    {{ proposal_list(shanghai_proposals, message.shanghai) }}
+    {{ proposal_list(guangzhou_proposals, message.guangzhou) }}
+    {{ proposal_list(beijing_proposals, message.beijing) }}
+    </section>
+{% endif %}
+
+{% endblock %}
