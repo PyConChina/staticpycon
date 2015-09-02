@@ -12,7 +12,7 @@ shanghai:
   venue_en: "Meeting Hall at SPSP Building"
   traffic: 地铁2号线金科路站
   traffic_en: "Jinke Road Station at Metro Line 2"
-  maplink: 'http://j.map.baidu.com/ltIw5'
+  maplink: 'http://f.amap.com/0FFE0i'
   date: 2015-09-12 09:00~18:00
   notices: ""
   morning:
@@ -62,11 +62,11 @@ shanghai:
 guangzhou:
   address: UC 培训大厅
   address_en: "TBD"
-  venue: TBD
-  venue_en: TBD
-  traffic: (...)
+  venue: 广州市天河区黄埔大道西平云路163号广电平云广场B塔15楼
+  venue_en: ...
+  traffic: (地铁5号线 潭村站 步行1.9公里)
   traffic_en: "(...)"
-  maplink: '...'
+  maplink: 'http://f.amap.com/042E3U'
   date: 2015-09-13 09:00~18:00
   notices: ...
   morning:
@@ -113,7 +113,7 @@ beijing:
   venue_en: '77 Hall'
   traffic: "公交108，104，127路大佛寺站"
   traffic_en: "DAFOSI Stop on Bus 108, 104, 127"
-  maplink: 'http://j.map.baidu.com/QifN0'
+  maplink: 'http://f.amap.com/0B9E8O'
   date: 2015-09-19 09:00~18:00
   notices: ""
   morning:
