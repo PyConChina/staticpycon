@@ -24,8 +24,8 @@ shanghai:
       topic_en: "Opening"
     - { time: "09:30", speaker: id_jiekong }
     - { time: "10:00", speaker: id_yankaish }
-    - { time: "10:45", speaker: id_shenweish }
-    - { time: "11:30", speaker: id_liepin1sh }
+    - { time: "10:45", speaker: id_liepin1sh }
+    - { time: "11:30", speaker: id_shenweish }
   noon:
     - time: "12:00"
       topic: 午餐+合照
@@ -123,10 +123,10 @@ beijing:
     - time: "09:15"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "09:30", speaker: id_liepin2bj }
+    - { time: "09:30", speaker: id_yankaibj }
     - { time: "10:00", speaker: id_wuke }
-    - { time: "10:20", speaker: id_yankaibj }
-    - { time: "10:55", speaker: id_liepin1bj }
+    - { time: "10:20", speaker: id_liepin2bj }
+    - { time: "10:55", speaker: id_dinglaiqiang }
     - { time: "11:30", speaker: id_liaoxinxi }
   noon:
     - time: "12:00"
@@ -134,7 +134,7 @@ beijing:
       topic_en: Lunch + Photo
   afternoon:
     - { time: "13:30", speaker: id_liang2 }
-    - { time: "14:00", speaker: id_dinglaiqiang }
+    - { time: "14:00", speaker: id_liepin1bj }
     - { time: "14:30", speaker: id_Bouriez }
     - { time: "15:00", speaker: id_zhengk }
     - time: "15:30"
