@@ -11,13 +11,6 @@
 -
   level_partner: 1
   level: partner
-  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff14/logo/cstnet-logo.png?imageView2/2/w/200
-  link: http://www.cstnet.net.cn/overview.htm
-  intro: "中国科技网是中国科学院领导下的学术性,非盈利的科研计算机网络. 中国科技网(CSTNET)已经成为中国互联网行业快速发展的一支重要力量,为广大用户提供互联网接入,小区宽带,科研数据中心(IDC),网络管理与安全服务,视频会议系统,邮件系统,桌面会议系统,会议服务平台,科研在线文档库,组织通讯录,实验室信息系统,科研主页,科信,中国科技网通行证等服务,以及网络前沿技术研发等,为国家科学技术的创新发展提供基础性的信息化支撑与保障. "
-  intro_en: "..."
--
-  level_partner: 1
-  level: partner
   logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff15/logo/osc_logo.png?imageView2/2/w/200
   link: http://www.oschina.net/
   intro: "开源中国 成立于2008年8月，是目前国内最大的开源技术社区，拥有超过200万会员，形成了由开源软件库、代码分享、资讯、协作翻译、讨论区和博客等几大频道内容，为IT开发者提供了一个发现、使用、并交流开源技术的平台。2013年，开源中国建立大型综合性的云开发平台-中国源，为中国广大开发者提供团队协作、源码托管、代码质量分析、代码评审、测试、代码演示平台等功能。"
