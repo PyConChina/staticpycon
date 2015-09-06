@@ -266,18 +266,18 @@ id_chendawei:
     preview_en: ...
     slide: #
 
-id_nonesh:
-  name: TBD
+id_ouyeel_sh:
+  name: 孔令开
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  ??
+  intro:  欧冶云商...
   intro_en: Pythoneer...
   topic:
-    title: "?"
+    title: "简单实用的自制Rest API工具"
     title_en: "?"
-    preview: ...
+    preview: 一个简单的小工具，一秒五行写出pythonic的api接口，自动生成接口文档，js调用代码，ios客户端调用代码，ng调用代码...
     preview_en: ...
     slide: #
 ####################################################################
@@ -419,18 +419,33 @@ id_yinhm:
     preview_en: ...
     slide: #
 
-id_nonegz:
-  name: TBD
+id_ouyeel_gz:
+  name: 孔令开
   city_guangzhou: 1
   city: 广州
   city_en: Guangzhou
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  ??
+  intro:  欧冶云商...
   intro_en: Pythoneer...
   topic:
-    title: "?"
+    title: "简单实用的自制Rest API工具"
     title_en: "?"
-    preview: ...
+    preview: 一个简单的小工具，一秒五行写出pythonic的api接口，自动生成接口文档，js调用代码，ios客户端调用代码，ng调用代码...
+    preview_en: ...
+    slide: #
+
+id_gizwits:
+  name: 郑和柳 (Robert Zheng)
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/GizWits_avatar.jpg?imageView2/2/h/80
+  intro:  目前在机智云担任 Python 程序员，09 年开始接触 Python，用 Python 写过嵌入式程序、手机程序（Symbian，Android）、桌面程序（PyQT）、Web 程序（主要是 Django）等等。一个爱运动的技术宅，微博 @ax003d
+  intro_en: Pythoneer...
+  topic:
+    title: "用 Python 实现 DDNS 以及在 Docker 中的应用"
+    title_en: "?"
+    preview: 讲述 DDNS （动态域名解析）原理，如何将自己注册的域名指向自己的 DNS 服务器，以及通过 Python 搭建自己的二级域名 DDNS 服务。另外，还结合 Docker 技术，讲述 DDNS 在 Docker 实践中的应用。
     preview_en: ...
     slide: #
 
