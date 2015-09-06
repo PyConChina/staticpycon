@@ -51,6 +51,13 @@
 -
   level_platinum: 1
   level: platinum
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/GizWits_logo_y.png?imageView2/2/h/90
+  link: http://www.gizwits.com/
+  intro: "机智云（GizWits）是国内第一个智能硬件自助开发和云服务平台, 为开发者提供快捷的智能硬件开发工具，为智能硬件厂家提供一站式物联网开发和运维服务，目前服务的客户来自消费类智能硬件厂家（含智能家居、智能硬件、可穿戴产品）、工业及商业应用客户、智慧城市建设及创新创业支持等，至2015年机智云平台受到全球超过300家客户信赖，平台激活智能硬件设备全球出货总量超过 300 万台，是目前国内外最大的智能硬件集群之一。"
+  intro_en: "... "
+-
+  level_platinum: 1
+  level: platinum
   logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/SpeedyCloud-logo.png?imageView2/2/h/90
   link: http://www.speedycloud.cn/
   intro: "SpeedyCloud是业界领先的云计算服务提供商迅达云成公司旗下品牌,专注于为企业提供互联网及企业IT相关基础设施云服务. 公司成员绝大多数来自于蓝汛,世纪互联等IT运维服务型上市企业, 利用最新的云计算及互联网技术帮助客户迅速扩展在线业务."
