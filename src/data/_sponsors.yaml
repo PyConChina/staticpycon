@@ -4,6 +4,13 @@
 -
   level_partner: 1
   level: partner
+  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff15/logo/shpudongsp_logo.png?imageView2/2/w/200
+  link: http://www.spsp.com.cn/
+  intro: '上海浦东软件园股份有限公司成立于1992年7月,由原信息产业部和上海市人民政府共同组建,承担"国家软件产业基地","国家软件出口基地"---上海浦东软件园园区规划建设,经营管理和产业发展的重要任务,是上海浦东软件园建设的主体. 注册资本3亿元人民币. 公司地处上海浦东张江高科技园区. 除负责园区开发建设外,公司着重于园区服务体系建设,进行产业投资和软件研发.'
+  intro_en: "..."
+-
+  level_partner: 1
+  level: partner
   logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff14/logo/sf-logo-cmyk.png?imageView2/2/w/200
   link: http://segmentfault.com/
   intro: "SegmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
