@@ -156,6 +156,13 @@
   intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销科技图书,是国内计算机图书市场最有影响力的出版单位之一. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内最专业的IT技术'交流+阅读'社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成为国内知名科技电子书出版销售平台. "
   intro_en: "Turing Co., Ltd  persists in planning publishing high quality books of science and technology as the core business, launched a series of high quality best-selling technology books, it's one of China famous and influential computer books publisher and Professional technical & Reading community. Set up nine years, accumulative total sold more than 500 copies of books and have impress millions of readers. Turing Co., Ltd that provide first-class content is its responsibility. Rapid growth in recent years has been for domestic famous ebook sales platform of science and technology."
 
+-
+  level_silver: 1
+  level: silver
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/tuputech_logo_d.png?imageView2/2/w/120
+  link: http://www.tuputech.com/
+  intro: "图普科技是一家站在人工智能前沿的创业科技公司，专注于图像识别技术，成员来自国内顶尖互联网公司和名校研究院。公司在成立之初即与国内顶尖大学人工智能实验室达成战略合作，拥有出色的技术研发能力，并已取得业内多项第一和首创。我们为企业提供图像和视频智能审核、图片搜索、图像分类、深度定制服务。基于深度学习理论，图普搭建并开放了国内首个图像识别云平台，目前合作的企业包括七牛云、融云、迅雷、酷狗、花瓣网等国内优秀互联网公司，业务规模在快速发展中。 "
+
 #########################################
 #   青铜级
 #########################################

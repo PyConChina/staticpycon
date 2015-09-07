@@ -726,18 +726,18 @@ id_Bouriez:
     slide: #
 
 
-id_none:
-  name: TBD
+id_meituan:
+  name: 陈博
   city_beijing: 1
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  ??
+  intro:  美团云计算后台研发工程师，非Python粉，只是工作中使用。毕业于中国科技大学，曾就职于Intel。目前研究方向为主机、虚拟化、云管理平台等。
   intro_en: Pythoneer...
   topic:
-    title: "?"
+    title: "用简单语言构建复杂系统"
     title_en: "?"
-    preview: ...
+    preview: 作为云计算领域的一个领头项目，OpenStack近年来的飞速发展，充分证明了Python语言构架大型复杂系统的可行性。美团云计算团队从3年前开始使用Python开发云计算系统，核心模块完全从零开始编写。目前的Python代码中自研部分有50万行，使用和维护的外部代码有10万行，并且通过Python与底层C代码模块对接（如存储和网络等），二十多个独立服务交互运行。积极吸收社区经验，采用如Tornado、SQLAlchemy、eventlet等成熟项目作为功能组件。作为美团云的最大用户，美团自己的大部分业务目前都跑在这个云计算平台上，产品形态从最初的公司内部私有云，到现在的公有云运营，一直保持快速迭代。美团云团队是Python语言的重度使用者，Python工程师们从开发、测试、运维等多个方面合力保障这套复杂系统的正常运行。
     preview_en: ...
     slide: #
 
