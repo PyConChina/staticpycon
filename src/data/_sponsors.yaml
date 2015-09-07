@@ -11,6 +11,13 @@
 -
   level_partner: 1
   level: partner
+  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff15/logo/techparty.png?imageView2/2/w/200
+  link: http://techparty.org/about/
+  intro: "珠三角技术沙龙 - 打造泛珠三角技术圈线上线下交流的平台! 珠三角技术沙龙以定期主办线下专业技术沙龙为特色，在IT技术行业内享富盛名，以泛珠三角技术圈为核心，致力打造中国顶尖技术交流平台，为广大程序猿、攻城狮、和技术爱好者量身定制。沙龙定期会与各大技术社区合作，组织主办相关沙龙活动，邀请技术行业和各大互联网公司一线大牛，保证终身免费分享专业实用的行业经验和知识。"
+
+-
+  level_partner: 1
+  level: partner
   logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff14/logo/sf-logo-cmyk.png?imageView2/2/w/200
   link: http://segmentfault.com/
   intro: "SegmentFault 是中国领先的开发者社区. 经过两年多年的发展,已经聚集了十多万开发者. 我们的目标是为中文开发者提供一个最纯粹的技术交流平台,一起创造属于开发者的时代!"
