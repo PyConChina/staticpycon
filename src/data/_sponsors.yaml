@@ -120,7 +120,7 @@
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
   link: http://www.douban.com/
-  intro: "豆瓣成立于2005年3月,目前已拥有5,300多万注册用户. 豆瓣一直致力于帮助都市人群发现生活中有用的事物,通过书影音,小组,小站,同城,豆瓣说等多产品及相关移动应用来服务都市生活的不同领域."
+  intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
   intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
 -
   level_gold: 1
@@ -214,7 +214,7 @@
 -
   level_bronze: 1
   level: bronze
-  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/easydo_logo.png?imageView2/2/w/80
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/easydo_logo_h.png?imageView2/2/w/100
   link: http://easydo.cn
   intro: "易开发，是一家为开发者提供企业应用快速开发平台的公司。目前专注于微信企业号的快速（无码）定制开发方案。在当前互联网+浪潮中，我们帮助企业多快好省地迈向互联网化和信息化。我们在丰厚企业信息化基础设施之上，提供了创新的、人性化开发工具，极大地降低开发者门槛，提升开发效率，降低了项目开发和维护成本。"
 -
