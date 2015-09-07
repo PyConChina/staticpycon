@@ -111,6 +111,13 @@
 -
   level_gold: 1
   level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
+  link: http://www.douban.com/
+  intro: "豆瓣成立于2005年3月,目前已拥有5,300多万注册用户. 豆瓣一直致力于帮助都市人群发现生活中有用的事物,通过书影音,小组,小站,同城,豆瓣说等多产品及相关移动应用来服务都市生活的不同领域."
+  intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
+-
+  level_gold: 1
+  level: gold
   logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/alicloud.png?imageView2/2/h/62
   link: http://www.aliyun.com/
   intro: "阿里云致力于打造公共、开放的云计算服务平台。我们将借助技术的创新，不断提升计算能力与规模效益，将云计算变成真正意义上的公共服务。与此同时，我们将通过aliyun.com，用互联网的方式使得大家可以便捷的按需获取阿里云的云计算产品与服务。"
