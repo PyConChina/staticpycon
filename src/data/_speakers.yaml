@@ -186,17 +186,17 @@ id_liepin1sh:
     slide: #
 
 id_jiankongbaosh:
-  name: 高驰涛(Neeke)
+  name: 刘国强 (Bruce Liu)
   city_shanghai: 1
   city: 上海
   city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/jiankongbao_neeke.jpg?imageView2/2/h/80
-  intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 云智慧技术中心(Technical Center)副总裁，全面负责公司的售前、售后、技术咨询和培训方面的工作。在加入云智慧之前，他拥有超过18年的IT行业研发，IT管理，服务器和桌面虚拟架构，数据库和云计算专家，企业级方案专家。历任CA大中华区CTO，售前技术总监。Citrix中国区首席专家顾问，虚拟化系统工程师。在银行，电信，邮政和政府行业服务多年，是资深的行业IT、云计算和应用性能解决方案专家。
   intro_en: Pythoneer...
   topic:
-    title: "让Python应用快如闪电"
+    title: "Python应用的性能优化实践"
     title_en: "?"
-    preview: python应用性能管理实践
+    preview: 如何能够追踪和定位Python应用的程序代码性能？使用云智慧的应用性能平台能够快速定位和发现Python应用的性能瓶颈，并找到有问题的代码。使用云智慧的APM ，您可以深入到运行在实际生产环境中的Python应用程序，从交易级了解Python程序堆栈跟踪诊断性能瓶颈。可以自动检测商业交易，了解响应时间、每分钟调用时间，深入到代码级的诊断显示完整的调用图和执行代码，同时了解到Python调用SQL语句的执行性能。在本次演讲中将我们将分析PythonCode如何插入Python解释器，并采集Python代码堆栈、资源利用情况、代码的错误异常数据等，最终让开发人员和业务人员能够在最短时间内发现问题，降低对业务的影响。
     preview_en: ...
     slide: #
 
@@ -367,20 +367,19 @@ id_jeffgz:
     slide: #
 
 id_jiankongbaogz:
-  name: 高驰涛(Neeke)
+  name: 刘国强（Bruce Liu）
   city_guangzhou: 1
   city: 广州
   city_en: Guangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/jiankongbao_neeke.jpg?imageView2/2/h/80
-  intro:  云智慧高级架构师，是PHP开发组成员，同时也是PECL/SeasLog的作者.10年研发管理经验，早期从事大规模企业信息化研发架构，09年涉足互联网数字营销领域并深入研究架构与性能优化。2014年加入云智慧，致力于APM产品的架构与研发。崇尚敏捷，高效，GettingReal。
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 云智慧技术中心(Technical Center)副总裁，全面负责公司的售前、售后、技术咨询和培训方面的工作。在加入云智慧之前，他拥有超过18年的IT行业研发，IT管理，服务器和桌面虚拟架构，数据库和云计算专家，企业级方案专家。历任CA大中华区CTO，售前技术总监。Citrix中国区首席专家顾问，虚拟化系统工程师。在银行，电信，邮政和政府行业服务多年，是资深的行业IT、云计算和应用性能解决方案专家。
   intro_en: Pythoneer...
   topic:
-    title: "让Python应用快如闪电-python应用性能管理实践"
-    title_en: "?"
-    preview: ...
+    title: "Python应用的性能优化实践"
+    title_en: "Python application performance optimization practice"
+    preview: 如何能够追踪和定位Python应用的程序代码性能？使用云智慧的应用性能平台能够快速定位和发现Python应用的性能瓶颈，并找到有问题的代码。使用云智慧的APM ，您可以深入到运行在实际生产环境中的Python应用程序，从交易级了解Python程序堆栈跟踪诊断性能瓶颈。可以自动检测商业交易，了解响应时间、每分钟调用时间，深入到代码级的诊断显示完整的调用图和执行代码，同时了解到Python调用SQL语句的执行性能。在本次演讲中将我们将分析PythonCode如何插入Python解释器，并采集Python代码堆栈、资源利用情况、代码的错误异常数据等，最终让开发人员和业务人员能够在最短时间内发现问题，降低对业务的影响。
     preview_en: ...
     slide: #
-
 
 id_yinhm:
   name: 殷海明
