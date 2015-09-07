@@ -4,6 +4,18 @@
 {% block content %}
 
 <h1 class="section__title--subpage-header">{{ message.donators }}</h1>
+<div class="section__content">
+<span class="mod-donators__orderby">{{ message.donators_orderby }}</span>
+{% if donators %}
+    <div class="mod-donators__container">
+    <ol class="mod-donators__list">
+        {% for donator in donators %}
+        <li class="mod-donators__person">{{ donator }}</li>
+        {% endfor %}
+    </ol>
+    </div>
+{% endif %}
+</div>
 
 <script src='https://jinshuju.net/f/jMnL83/embedded.js?banner=show&background=white&height=1269'></script>
 
