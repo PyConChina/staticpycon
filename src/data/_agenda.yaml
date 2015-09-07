@@ -26,8 +26,9 @@ shanghai:
     - { time: "10:00", speaker: id_yankaish }
     - { time: "10:45", speaker: id_liepin1sh }
     - { time: "11:30", speaker: id_shenweish }
+    - { time: "12:00", speaker: id_fb_jianmingwu }
   noon:
-    - time: "12:00"
+    - time: "12:10"
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
@@ -127,8 +128,9 @@ beijing:
     - { time: "10:20", speaker: id_meituan }
     - { time: "11:00", speaker: id_liepin2bj }
     - { time: "11:30", speaker: id_dinglaiqiang }
+    - { time: "12:00", speaker: id_fb_rosieli }
   noon:
-    - time: "12:00"
+    - time: "12:10"
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:

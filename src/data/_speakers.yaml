@@ -258,6 +258,22 @@ id_ouyeel_sh:
     preview: 一个简单的小工具，一秒五行写出pythonic的api接口，自动生成接口文档，js调用代码，ios客户端调用代码，ng调用代码...
     preview_en: ...
     slide: #
+
+id_fb_jianmingwu:
+  name: Jianming Wu (吴建明)
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/fb_rosieli.jpg?imageView2/2/h/80
+  intro:  Software Engineer at Facebook
+  intro_en: Software Engineer at Facebook
+  topic:
+    title: "Facebook and Python"
+    title_en: "Facebook and Python"
+    preview: ...
+    preview_en: ...
+    slide: #
+
 ####################################################################
 #   广州
 #     ____ _____
@@ -740,6 +756,20 @@ id_meituan:
     preview_en: ...
     slide: #
 
+id_fb_rosieli:
+  name: Roise Li (李若思)
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/fb_rosieli.jpg?imageView2/2/h/80
+  intro:  Software Engineer at Facebook
+  intro_en: Software Engineer at Facebook
+  topic:
+    title: "Facebook and Python"
+    title_en: "Facebook and Python"
+    preview: ...
+    preview_en: ...
+    slide: #
 
 ####################################################################
 #   杭州
