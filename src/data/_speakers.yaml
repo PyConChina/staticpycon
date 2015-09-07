@@ -270,7 +270,7 @@ id_fb_jianmingwu:
   topic:
     title: "Facebook and Python"
     title_en: "Facebook and Python"
-    preview: ...
+    preview: (英文演讲)
     preview_en: ...
     slide: #
 
@@ -762,12 +762,12 @@ id_fb_rosieli:
   city: 北京
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/fb_rosieli.jpg?imageView2/2/h/80
-  intro:  Software Engineer at Facebook
+  intro: Software Engineer at Facebook
   intro_en: Software Engineer at Facebook
   topic:
     title: "Facebook and Python"
     title_en: "Facebook and Python"
-    preview: ...
+    preview: (英文演讲)
     preview_en: ...
     slide: #
 
