@@ -45,7 +45,6 @@ shanghai:
   lightening_talks:
     - { time: "17:30", speaker: id_derek }
     - { time: "17:40", speaker: id_chendawei }
-    - { time: "17:50", speaker: id_kj }
   cancel_talks:
     - { time: "(ー`´ー)", speaker: id_nonesh }
 

@@ -214,28 +214,6 @@ id_jiekong:
     preview: ...
     preview_en: ...
     slide: #
-
-id_kj:
-  name: KJ（阚嘉）
-  city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_kj.jpg?imageView2/2/h/80
-  intro:  齐书云协作CEO，前新加坡MM Games技术总监，ex-Google
-    后端工程师，擅长web架构和iOS基本程序设计
-    2013年 - 现今 创业中
-    2010年 - 2013年8月 新加坡 MM Games 游戏平台 CTO
-    2009年 - 2010年7月 Slide.com 上海早期工程师（PayPal黑帮企业），后被谷歌收购
-    2007年 - 2009年 洛杉矶 Protohaus LLC 高级程序设计师
-    2005年 - 2007年 VeryCD.com 工程师，负责P2P下载程序开发
-  intro_en: Pythoneer...
-  topic:
-    title: "TBD"
-    title_en: "?"
-    preview: ...
-    preview_en: ...
-    slide: #
-
 id_derek:
   name: Derek 呆
   city_shanghai: 1
