@@ -73,21 +73,23 @@ guangzhou:
     - time: "09:00"
       topic: "签到 & 开场"
       topic_en: "Check-in"
-    - time: "09:45"
+    - time: "09:30"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "10:00", speaker: id_shenweigz }
-    - { time: "10:45", speaker: id_laiyonghaogz }
-    - { time: "11:15", speaker: id_river }
+    - { time: "09:45", speaker: id_laiyonghaogz }
+    - { time: "10:20", speaker: id_shenweigz }
+    - { time: "11:00", speaker: id_river }
+    - { time: "11:30", speaker: id_JokerQyou }
   noon:
     - time: "12:00"
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
     - { time: "13:30", speaker: id_liang2 }
-    - { time: "14:00", speaker: id_jiankongbaogz }
-    - { time: "14:40", speaker: id_JokerQyou }
-    - { time: "15:20", speaker: id_zuozhenjie }
+    - { time: "14:00", speaker: id_ouyeel_gz }
+    - { time: "14:30", speaker: id_gizwits }
+    - { time: "15:00", speaker: id_jiankongbaogz }
+    - { time: "15:30", speaker: id_zuozhenjie }
     - time: "16:00"
       topic: 茶歇
       topic_en: Intermission
