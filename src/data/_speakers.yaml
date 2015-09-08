@@ -417,8 +417,8 @@ id_ouyeel_gz:
   city_guangzhou: 1
   city: 广州
   city_en: Guangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  欧冶云商...
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_ouyeel_gz.jpg?imageView2/2/h/80
+  intro:  曾在微软服务器与工具部门任高级工程师，负责开发家庭服务器与中小企业服务器。微软毕业后投身钢铁电商，负责上海交易中心技术架构，热爱python以及开源项目，对搜索引擎以及各种创业项目十分关注。
   intro_en: Pythoneer...
   topic:
     title: "简单实用的自制Rest API工具"
