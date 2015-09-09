@@ -39,11 +39,11 @@ shanghai:
     - time: "15:30"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:40", speaker: id_wangliqi }
-    - { time: "16:10", speaker: id_ouyeel_sh }
-    - { time: "16:45", speaker: id_shell909090 }
-    - { time: "17:00", speaker: id_xuzhou }
-    - { time: "17:20", speaker: id_xiaokai }
+    - { time: "15:40", speaker: id_ouyeel_sh }
+    - { time: "16:10", speaker: id_shell909090 }
+    - { time: "16:45", speaker: id_xiaokai }
+    - { time: "17:00", speaker: id_wangliqi }
+    - { time: "17:20", speaker: id_xuzhou }
   lightening_talks:
     - { time: "17:30", speaker: id_derek }
     - { time: "17:40", speaker: id_chendawei }
