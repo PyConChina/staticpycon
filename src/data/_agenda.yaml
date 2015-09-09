@@ -186,13 +186,12 @@ hangzhou:
     - time: "13:20"
       topic: PyCon大会及活动组织方介绍
       topic_en: PyCon大会及活动组织方介绍
-    - { time: "13:30 ~ 14:10", speaker: id_nonehz }
-    - { time: "14:20 ~ 15:00", speaker: id_nonehz }
-    - time: "15:00"
+    - { time: "14:00 ~ 15:00", speaker: hz_zhangyu }
+    - { time: "15:00 ~ 16:00", speaker: city_hangzhou }
+    - time: "16:00"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:20", speaker: id_nonehz }
-    - { time: "16:10", speaker: id_nonehz }
+    - { time: "16:20", speaker: id_nonehz }
     - time: "17:00" 
       topic: 合影结束
 

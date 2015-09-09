@@ -838,18 +838,32 @@ id_fb_rosieli:
 #   |_| |_/____|
 #   
 ####################################################################
-id_nonehz:
-  name: TBD
+hz_linshuyong:
+  name: 林曙勇
   city_hangzhou: 1
   city: 杭州
   city_en: Hangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  ??
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/hz_linshuyong.jpg?imageView2/2/h/80
+  intro: 测试架构师，新测试方法和技术的探索者和实践者，相信测试可以比我们现在大多数人认识的更有创造性
   intro_en: Pythoneer...
   topic:
-    title: "?"
+    title: "基于Robot Framework的通用协议测试框架介绍"
     title_en: "?"
-    preview: ...
+    preview: Robot Framework是使用Python实现的开源的测试自动化框架，在测试自动化领域应用十分广泛，演讲者将重点介绍其在通用通信协议测试中的应用介绍。演讲者是来自诺基亚的测试架构师，新测试方法和技术的探索者和实践者，相信测试可以比我们现在大多数人认识的更有创造性
+    preview_en: ...
+    slide: #
+hz_zhangyu:
+  name: 张裕
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/hz_zhangyu.jpg?imageView2/2/h/80
+  intro: 诺基亚测试自动化教练
+  intro_en: Pythoneer...
+  topic:
+    title: "也许是好的Python培训方式"
+    title_en: "?"
+    preview: 演讲者将介绍如何用Python的各种组件，搭起一个包含演示文稿，练习环境及测评的python培训环境。演讲者是来自诺基亚测试自动化教练。
     preview_en: ...
     slide: #
 
