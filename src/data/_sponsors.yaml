@@ -160,6 +160,13 @@
   link: http://www.hzbook.com/About/About.html
   intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
   intro_en: "HZ Book is a joint venture set up with China Machine Press and (US)WanGuo."
+-
+  level_gold: 1
+  level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/upyun-Logo-h200.png?imageView2/2/w/160
+  link: https://www.upyun.com/index.html
+  intro: "又拍云存储是杭州又拍云科技有限公司旗下项目,成立于2005年6月,前期主要为又拍网,又拍图片管家提供图片云存储／云计算服务,于2010年2月对所有用户开放使用."
+  intro_en: "upyun cloud storage is hangzhou youpai technology co., LTD's project, was founded in June 2005, the early main take yupoo.com, and v.yupoo.com , in February 2010 is open to all users to use."
 
 #########################################
 #   白银级
