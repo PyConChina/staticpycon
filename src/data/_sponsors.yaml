@@ -242,3 +242,10 @@
   link: https://gitcafe.com/
   intro: "GitCafe是一个基于代码托管服务打造的技术协作与分享平台，程序开发爱好者们可以通过使用代码版本控制系统Git来将他们所写的开源或商业项目的代码托管在GitCafe上，与其他程序员针对这些项目在线协作开发。两天前，GitCafe结束了长达数月的Alpha封闭测试，发布了第一个Beta版本，现无需邀请码，所有人都能够开始注册使用GitCafe所提供的代码托管服务 。"
   intro_en: "D.G.Z was founded by Thomas Yao at the end of 2012 in Shanghai, China. Our mission is to improve the Information Technology education ecosystem around the world.We are building two bridges to connect people, one is from college and middle school students to real world projects, the other one is from China to western countries and vice versa."
+
+-
+  level_bronze: 1
+  level: bronze
+  logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/epubit.png?imageView2/2/w/100
+  link: http://www.epubit.com.cn/
+  intro: "异步社区由人民邮电出版社信息技术分社创办，是一个集图书购买、生产优质内容、作译者服务、自出版为一体的综合性服务平台。我们希望不论你是专业人员还是业余爱好者，能通过我们的社区来获取和分享最前沿的IT资讯和技术知识。同时，为攻城师、码农、产品经理和设计师们施展自己写作才华提供专业的平台。"
