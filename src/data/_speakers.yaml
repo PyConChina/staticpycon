@@ -440,20 +440,6 @@ id_yinhm:
     preview_en: sequential data analysis, and optimized investment combination
     slide: #
 
-id_ouyeel_gz:
-  name: 孔令开
-  city_guangzhou: 1
-  city: 广州
-  city_en: Guangzhou
-  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_ouyeel_gz.jpg?imageView2/2/h/80
-  intro:  曾在微软服务器与工具部门任高级工程师，负责开发家庭服务器与中小企业服务器。微软毕业后投身钢铁电商，负责上海交易中心技术架构，热爱python以及开源项目，对搜索引擎以及各种创业项目十分关注。
-  intro_en: Pythoneer...
-  topic:
-    title: "简单实用的自制Rest API工具"
-    title_en: "?"
-    preview: 一个简单的小工具，一秒五行写出pythonic的api接口，自动生成接口文档，js调用代码，ios客户端调用代码，ng调用代码...
-    preview_en: ...
-    slide: #
 
 id_gizwits:
   name: 郑和柳 (Robert Zheng)
@@ -864,6 +850,20 @@ hz_zhangyu:
     title: "也许是好的Python培训方式"
     title_en: "?"
     preview: 演讲者将介绍如何用Python的各种组件，搭起一个包含演示文稿，练习环境及测评的python培训环境。演讲者是来自诺基亚测试自动化教练。
+    preview_en: ...
+    slide: #
+id_ouyeel_hz:
+  name: 孔令开
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_ouyeel_gz.jpg?imageView2/2/h/80
+  intro:  曾在微软服务器与工具部门任高级工程师，负责开发家庭服务器与中小企业服务器。微软毕业后投身钢铁电商，负责上海交易中心技术架构，热爱python以及开源项目，对搜索引擎以及各种创业项目十分关注。
+  intro_en: Pythoneer...
+  topic:
+    title: "简单实用的自制Rest API工具"
+    title_en: "?"
+    preview: 一个简单的小工具，一秒五行写出pythonic的api接口，自动生成接口文档，js调用代码，ios客户端调用代码，ng调用代码...
     preview_en: ...
     slide: #
 

@@ -62,7 +62,7 @@ shanghai:
 ####################################################################
 guangzhou:
   address: UC 培训大厅
-  address_en: "TBD"
+  address_en: "..."
   venue: 广州市天河区黄埔大道西平云路163号广电平云广场B塔15楼
   venue_en: ...
   traffic: (地铁5号线 潭村站 步行1.9公里)
@@ -74,20 +74,19 @@ guangzhou:
     - time: "09:00"
       topic: "签到 & 开场"
       topic_en: "Check-in"
-    - time: "09:30"
+    - time: "09:45"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "09:45", speaker: id_laiyonghaogz }
-    - { time: "10:20", speaker: id_shenweigz }
-    - { time: "11:00", speaker: id_river }
-    - { time: "11:30", speaker: id_JokerQyou }
+    - { time: "10:00", speaker: id_laiyonghaogz }
+    - { time: "10:45", speaker: id_shenweigz }
+    - { time: "11:15", speaker: id_river }
   noon:
     - time: "12:00"
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
     - { time: "13:30", speaker: id_liang2 }
-    - { time: "14:00", speaker: id_ouyeel_gz }
+    - { time: "14:00", speaker: id_JokerQyou }
     - { time: "14:30", speaker: id_gizwits }
     - { time: "15:00", speaker: id_jiankongbaogz }
     - { time: "15:30", speaker: id_zuozhenjie }
