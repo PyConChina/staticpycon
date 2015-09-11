@@ -22,7 +22,7 @@ shanghai:
     - time: "09:15"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "09:30", speaker: id_jiekong }
+    - { time: "09:30", speaker: id_ouyeel_sh }
     - { time: "10:00", speaker: id_yankaish }
     - { time: "10:45", speaker: id_liepin1sh }
     - { time: "11:30", speaker: id_shenweish }
@@ -39,7 +39,7 @@ shanghai:
     - time: "15:30"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "15:40", speaker: id_ouyeel_sh }
+    - { time: "15:40", speaker: id_jiekong }
     - { time: "16:10", speaker: id_shell909090 }
     - { time: "16:45", speaker: id_xiaokai }
     - { time: "17:00", speaker: id_wangliqi }
