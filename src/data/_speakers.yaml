@@ -1,3 +1,14 @@
+id_guido:
+  name: Guido van Rossum
+  city_global: 1
+  avatar: http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141201-guido-with-tee.png?imageView2/2/h/150
+  intro: BDFL of Python
+  intro_en: BDFL of Python
+  topic:
+    title: "Happy Python 3"
+    preview: "Happy Python 3"
+    slide: https://youtu.be/PsLies7Fgic
+
 id_liang2:
   name: 亮亮
   city_global: 1
@@ -9,18 +20,8 @@ id_liang2:
     title: "用 jieba 处理中文以及台湾的 Py 社团"
     preview: "首先分享在 Pinkoi 實習的經驗，如何使用 jieba 與改善 Elasticsearch 中文商品搜尋體驗，同時分享調整 jieba 斷詞於搜尋使用的一些經驗。再進一步透過 word2vec 自動找出商品間的關係，利用它語意上的特徵，完成一些如相似商品推薦等進階的搜尋功能。剩下的時間將會介紹現階段台灣 Python 社群發展以及宣傳明年活動。"
     preview_en: "Share some experiences in using Pinkoi. How to use jieba, and how to improve the Elasticsearch user experiences when searching for Chinese commodities, how to find correlation between commodities using word2vec, how to do recommendation. Introduce the Python communities in Taiwan."
-    slide: #
-
-id_alexdong:
-  name: Alex Dong
-  city_global: 1
-  avatar: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/id/g_alexdong.jpg?imageView2/2/h/80
-  intro: 对角巷创始人; 好看簿创始人之一; 微软2004年评出的全球56个架构师MVP中唯一的中国人. 他对历史和艺术有浓厚的兴趣; 相信结构的力量. 在不工作的时候;他喜欢品南方绿茶;听各式音乐;看历史/经济/科幻/技术书籍; 曾经是半职业游泳运动员的他更喜欢绕着玉渊潭跑上15公里;出一身汗; 他还喜欢打篮球;中投自认还不赖.
-  intro_en: Founder of Duijiaoxiang Inc., co-founder of Haokanbu. The sole Chinese of the 2004 global software architect MVP list of Microsoft.  
-  topic:
-    title: "TBD"
-    preview: "TBD"
-    slide: #
+    slide: http://blog.liang2.tw/2015Talk-Chinese-Search/pycon_cn_shanghai.html
+    slide1: http://blog.liang2.tw/2015Talk-Chinese-Search/pycon_cn_guangzhou.html
 
 
 ####################################################################
@@ -67,7 +68,7 @@ id_shenweish:
   intro:  资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。
   intro_en: A senior python developer, author of eurasia. 
   topic:
-    title: "说点儿有趣儿的事儿"
+    title: "Python 炒股指南"
     title_en: "Let's talk about something fun"
     preview: TDB
     preview_en: ...
@@ -272,7 +273,7 @@ id_ouyeel_sh:
   city: 上海
   city_en: Shanghai
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  欧冶云商...
+  intro: 曾在微软服务器与工具部门任高级工程师，负责开发家庭服务器与中小企业服务器。微软毕业后投身钢铁电商，负责上海交易中心技术架构，热爱python以及开源项目，对搜索引擎以及各种创业项目十分关注。
   intro_en: Pythoneer...
   topic:
     title: "简单实用的自制Rest API工具"
@@ -293,6 +294,21 @@ id_fb_jianmingwu:
     title: "Facebook and Python"
     title_en: "Facebook and Python"
     preview: (英文演讲)
+    preview_en: ...
+    slide: #
+
+id_nonesh:
+  name: Pythoneer
+  city_shanghai: 1
+  city: 上海
+  city_en: Shanghai
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: Pythoneer
+  intro_en: Pythoneer...
+  topic:
+    title: "现场报名"
+    title_en: "..."
+    preview: 5分钟分享任意 Pythonic 体验!-)
     preview_en: ...
     slide: #
 
@@ -349,7 +365,7 @@ id_JokerQyou:
     title_en: "Use MQTT to build Slack like instant messaging system"
     preview: 已成为标准的MQTT提供了QoS的消息代理服务，解决了实时系统高并发的问题。易开发的消息服务利用了MQTT、Socket.io、ElasticeSearch等技术，实现单聊、私聊、通知、扩展服务等功能，并提供桌面提醒功能，即将和微信企业号整合。主题将在MQTT服务器选型、服务端产品架构、插件编写、客户端架构、多端聊天状态同步等多方面进行介绍。
     preview_en: MQTT has become the standard of messaging proxy providing QoS control. It meets the high throughput demand of real time systems.  The messaging system from easydo uses MQTT、Socket.io、ElasticeSearch and so on. It support one to one chatting, group chatting, desktop notification and so on.
-    slide: #
+    slide: http://easydo.cn/support/resource/%E6%BC%94%E8%AE%B2%E5%B9%BB%E7%81%AF%E7%89%87/pycon-2015-msg.pdf
 
 id_river:
   name: River
@@ -453,6 +469,21 @@ id_gizwits:
     title: "用 Python 实现 DDNS 以及在 Docker 中的应用"
     title_en: "?"
     preview: 讲述 DDNS （动态域名解析）原理，如何将自己注册的域名指向自己的 DNS 服务器，以及通过 Python 搭建自己的二级域名 DDNS 服务。另外，还结合 Docker 技术，讲述 DDNS 在 Docker 实践中的应用。
+    preview_en: ...
+    slide: #
+
+id_nonegz:
+  name: Pythoneer
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: Pythoneer
+  intro_en: Pythoneer...
+  topic:
+    title: "现场报名"
+    title_en: "..."
+    preview: 5分钟分享任意 Pythonic 体验!-)
     preview_en: ...
     slide: #
 
@@ -867,6 +898,21 @@ id_ouyeel_hz:
     preview_en: ...
     slide: #
 
+id_nonehz:
+  name: Pythoneer
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: Pythoneer
+  intro_en: Pythoneer...
+  topic:
+    title: "现场报名"
+    title_en: "..."
+    preview: 5分钟分享任意 Pythonic 体验!-)
+    preview_en: ...
+    slide: #
+
 ####################################################################
 #   苏州
 #    ____ _____
@@ -877,16 +923,17 @@ id_ouyeel_hz:
 #   
 ####################################################################
 id_nonesz:
-  name: TBD
+  name: Pythoneer
   city_suzhou: 1
   city: 苏州
   city_en: Suzhou
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro:  ??
+  intro: Pythoneer
   intro_en: Pythoneer...
   topic:
-    title: "?"
-    title_en: "?"
-    preview: ...
+    title: "现场报名"
+    title_en: "..."
+    preview: 5分钟分享任意 Pythonic 体验!-)
     preview_en: ...
     slide: #
+

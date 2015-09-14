@@ -16,17 +16,21 @@ shanghai:
   date: 2015-09-12 09:00~18:00
   notices: ""
   morning:
-    - time: "09:00"
+    - time: "08:20"
       topic: "签到 & 开场"
       topic_en: "Check-in"
-    - time: "09:15"
+    - time: "09:00"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "09:30", speaker: id_ouyeel_sh }
-    - { time: "10:00", speaker: id_yankaish }
-    - { time: "10:45", speaker: id_liepin1sh }
-    - { time: "11:30", speaker: id_shenweish }
-    - { time: "12:00", speaker: id_fb_jianmingwu }
+    - { time: "09:10", speaker: id_jiekong }
+    - { time: "09:40", speaker: id_yankaish }
+    - { time: "10:25", speaker: id_liepin1sh }
+    - time: "11:10"
+      topic: 茶歇+抽奖
+      topic_en: Intermission
+    - { time: "11:20", speaker: id_shenweish }
+    - { time: "11:35", speaker: id_ouyeel_sh }
+    - { time: "12:05", speaker: id_fb_jianmingwu }
   noon:
     - time: "12:10"
       topic: 午餐+合照
@@ -37,16 +41,18 @@ shanghai:
     - { time: "14:30", speaker: id_dinglaiqiangsh }
     - { time: "15:00", speaker: id_chenhaibo }
     - time: "15:30"
-      topic: 茶歇
+      topic: 茶歇+抽奖
       topic_en: Intermission
-    - { time: "15:40", speaker: id_jiekong }
-    - { time: "16:10", speaker: id_xuzhou }
-    - { time: "16:45", speaker: id_xiaokai }
+    - { time: "15:40", speaker: id_shell909090 }
+    - { time: "16:15", speaker: id_xiaokai }
+    - { time: "16:35", speaker: id_xuzhou }
     - { time: "17:00", speaker: id_wangliqi }
-    - { time: "17:20", speaker: id_shell909090 }
   lightening_talks:
-    - { time: "17:30", speaker: id_derek }
-    - { time: "17:40", speaker: id_chendawei }
+    - { time: "17:20", speaker: id_derek }
+    - { time: "17:30", speaker: id_chendawei }
+    - time: "17:40"
+      topic: 神秘大奖抽取
+      topic_en: Intermission
   cancel_talks:
     - { time: "(ー`´ー)", speaker: id_nonesh }
 
@@ -69,7 +75,7 @@ guangzhou:
   traffic_en: "(...)"
   maplink: 'http://f.amap.com/042E3U'
   date: 2015-09-13 09:00~18:00
-  notices: ...
+  notices: 注意查收保存签到码,否则无法进场!
   morning:
     - time: "09:00"
       topic: "签到 & 开场"
@@ -88,15 +94,21 @@ guangzhou:
     - { time: "13:30", speaker: id_liang2 }
     - { time: "14:00", speaker: id_JokerQyou }
     - { time: "14:30", speaker: id_gizwits }
-    - { time: "15:00", speaker: id_jiankongbaogz }
-    - { time: "15:30", speaker: id_zuozhenjie }
-    - time: "16:00"
-      topic: 茶歇
+    - time: "15:00"
+      topic: 抽奖/抽奖
       topic_en: Intermission
-    - { time: "16:10", speaker: id_jeffgz }
+    - { time: "15:10", speaker: id_jiankongbaogz }
+    - { time: "15:45", speaker: id_zuozhenjie }
+    - time: "16:15"
+      topic: 茶歇/抽奖
+      topic_en: Intermission
+    - { time: "16:25", speaker: id_jeffgz }
     - { time: "17:00", speaker: id_yinhm }
+    - time: "17:30"
+      topic: 神密大奖抽取
+      topic_en: Intermission
   lightening_talks:
-    - { time: "17:30", speaker: id_nonegz }
+    - { time: "17:35", speaker: id_nonegz }
   cancel_talks:
     # - { time: "(ー`´ー)", speaker: id_nonegz }
 

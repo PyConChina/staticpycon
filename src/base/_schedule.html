@@ -11,6 +11,13 @@
                         {{- message.slide -}}
                     </a>
                 {% endif %}
+
+                {% if a_speaker.topic.slide1 %}
+                    <a href="{{ a_speaker.topic.slide1 }}" class="schedule__topic__slide">
+                        {{- message.slide -}}
+                    </a>
+                {% endif %}
+
                 {% if a_speaker.topic.audio %}
                     <a href="{{ a_speaker.topic.audio }}" class="schedule__topic__audio">
                         {{- message.audio -}}
