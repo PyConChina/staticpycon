@@ -29,6 +29,12 @@
   link: http://www.oschina.net/
   intro: "开源中国 成立于2008年8月，是目前国内最大的开源技术社区，拥有超过200万会员，形成了由开源软件库、代码分享、资讯、协作翻译、讨论区和博客等几大频道内容，为IT开发者提供了一个发现、使用、并交流开源技术的平台。2013年，开源中国建立大型综合性的云开发平台-中国源，为中国广大开发者提供团队协作、源码托管、代码质量分析、代码评审、测试、代码演示平台等功能。"
   intro_en: Open Source China (OSC) founded in August 2008 is the largest open source community in China; It has more than 2.2 million registered members and Alexa ranking 1400 in the world. OSC provides multiple channles including news/ forum/ code sharing/ blogs/ and translation / etc to help local developers study and utilize open soure technology .
+-
+  level_partner: 1
+  level: partner
+  logo: http://dn-pyconcn.qbox.me/zoomquiet/stuff15/logo/31huiyi.png?imageView2/2/w/200
+  link: http://www.31huiyi.com/
+  intro: "31会议网，中国领先的会议活动平台，一站式连接主办方、参会者、供应商。隶属于上海八彦图信息科技有限公司。公司创办于2010年，总部位于上海，在北京、深圳、杭州、广州设有分公司，业务辐射全国。公司致力于会议产业，依托互联网及移动技术，以提升会议品质与效率为公司使命，通过PC与移动端，帮助用户真正实现会议更轻松、更高效、更成功。"
 
 #########################################
 #   超级定制:独家招聘合作伙伴
