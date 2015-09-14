@@ -179,7 +179,8 @@
   level: gold
   logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/uqerio.png?imageView2/2/w/160
   link: http://uqer.io
-  intro: "您的私人金融量化分析的平台，是通联数据旗下的量化分析研究平台。我们旨在打破金融量化的壁垒，为广大量化爱好者提供华尔街专业量化机构的装备。通过提供高质量的海量金融数据与高性能的分析工具，共襄智慧与金融在大数据时代的红利。"
+  intro: "优矿（uqer.io）为用户提供私人金融量化分析的平台，是通联数据旗下的量化分析研究平台。旨在打破金融量化的壁垒，为广大量化爱好者提供华尔街专业量化机构的装备。个人用户免费使用。优矿通过高质量的海量金融数据与高性能的分析工具，让用户自由进行策略撰写、股票投资研究、快速回测和实盘模拟，可靠验证自己的投资想法。优矿还特别为不会编程的用户提供了可视化策略生成器，用户只需按照个人意愿修改参数，即可自动生成策略并进行回测，查看股票组合的历史收益。"
+  intro_en: "The FinTech startup, Uqer.io, is China's first and best algorithmic trading platform in your browser, our missing is to provide powerful yet simplified online tools that allow anyone, if they have the ability, to “write market-beating algorithms”. The recent explosion in data lies at the core of our business. Advances in data mining and machine learning coupled with availability of deep and diverse datasets have given trading algorithms a bigger edge than ever over their human counterparts. We believe everyone should have the tools to harness this wave of innovation and generate market beating returns. Based on cloud computing and big data technology, Uqer offers free and unlimited access to over 10 million financial datasets, quants can create and backteststrategy at anytime anywhere."
 
 
 
