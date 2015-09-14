@@ -386,7 +386,7 @@ id_river:
         The design of Android WebApp
         The introduction of QPython and WebApp
         QPython WeChat account/qpython
-    slide: #
+    slide: http://qpython.org/pyconchina2015/
 
 id_laiyonghaogz:
   name: 赖勇浩
@@ -409,7 +409,8 @@ id_laiyonghaogz:
         3. The difficult of importing C++ libraries compared to C libraries
         4. The best practices of importing C++ libraries
         5. Here are the answers for the questions above
-    slide: #
+    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2015China/slides/gz/pycon150913gz_cython.pdf
+    audio: http://zoomq.qiniudn.com/CPyUG/PyCon2015China/tape/150913pycongz_02_cython_ZOOM0027.MP3
 
 id_jeffgz:
   name: Jeff

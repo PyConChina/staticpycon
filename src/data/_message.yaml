@@ -35,8 +35,10 @@ home_sponsors_en: Sponsors
 #########################################
 # schedule
 #########################################
-slide: 讲义
-slide_en: slide
+slide: 幻灯
+slide_en: slides
+slide1: 幻灯2
+slide1_en: presentations
 audio: 录音
 audio_en: audio
 video: 录像
