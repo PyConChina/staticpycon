@@ -588,6 +588,21 @@ id_huangjin:
     preview_en: Introduce the application of Fabric in enterprises. Regular task automation, interaction with shell, working with multiple source code repository, Jenkins and proxy, checking after deployment, spreadsheet report and structured data for analysis
     slide: #
 
+id_dinglaiqiang2bj:
+  name: 丁来强
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_dinglaiqiang.JPG?imageView2/2/h/80
+  intro:  从业十年, Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的Tech Lead, 负责大数据平台相关的ETL和数据可视化相关的工作. 技术兴趣广泛. 擅长C++/Python与JS.
+  intro_en: Tech lead of Splunk, in charge of ETL and data visualization of big data platform....
+  topic:
+    title: "使用Python进行高效大数据分析处理与可视化"
+    title_en: "Big data analysis and visualization with Python"
+    preview: 大数据处理中;70%左右的时间我们在做处理准备(加载/抽取/清洗/转换/分组/ 合并等); 进行商务分析的过程中(以及之后);又会花相当多的时间做数据可视化的工作. 这个主题介绍了如何使用Python选择高效的数据处理分析与可视化.内容结合一个实际例子覆盖了如何使用Pandas进行高效数据ETL; Pandas的最新特性(Query/ 去GIL等); BokeH如何进行高效数据可视化; Blaze与Spark结合进行更大规模的分布式数据处理等.
+    preview_en:  in big data processing, 70% of the time we are doing data preparation (loading/extraction/cleansing/conversion/classification/integration). After business analysis, a lot of time is needed to do data visualization. It will talk about how to do data ETL with Pandas, the new feature of Pandas(Query/removing of GIL), how to do data visualization with BokeH, how to use Blaze and Spark to do large scale distributed data processing
+    slide: #
+
 id_dinglaiqiang:
   name: 丁来强
   city_beijing: 1
@@ -756,7 +771,7 @@ id_chifeng:
   city_en: Beijing
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/bj_chifeng.jpg?imageView2/2/h/80
   intro:  QPython项目创始人之一，目前在做企业协作应用，多年的互联网从业经验。
-  intro_en: Pythoneer...
+  intro_en: Pythoneer;优趣天下 数据处理工程师
   topic:
     title: "用 QPython 极速开发 安卓 App"
     title_en: "How to do rapid android app development with QPython"
@@ -846,6 +861,23 @@ id_fb_rosieli:
     preview: (英文演讲)
     preview_en: ...
     slide: #
+
+id_SpeedyCloud:
+  name: 汪尊 
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/id_SpeedyCloud.png?imageView2/2/h/80
+  intro:  现任SpeedyCloud的Python攻城狮。目前负责公司业务监控系统的设计与开发，喜欢钻研技术，业余时间会研究各种算法。 
+  intro_en: Pythoneer...
+  topic:
+    title: "浅析Python多线程与多进程的使用"
+    title_en: "..."
+    preview: 人们关于IO密集型和计算密集型采用何种并发模型的讨论由来已久，到底采用多线程还是多进程，对很多同学来说都有些纠结。本次分享将通过一些测试方法，为大家展示不同编程模型的性能表现，以及在并发编程中可能遇到的问题及其解法。
+    preview_en: ...
+    slide: #
+
+
 
 ####################################################################
 #   杭州
