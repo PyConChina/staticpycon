@@ -195,21 +195,24 @@ hangzhou:
   notices: "..."
   date: "2015-9-20 13:00~17:00"
   noon:
-    - time: "13:00"
+    - time: "12:00"
       topic: 签到
       topic_en: Check in
   afternoon:
-    - time: "13:20"
+    - time: "13:00"
       topic: PyCon大会及活动组织方介绍
       topic_en: PyCon大会及活动组织方介绍
-    - { time: "14:00 ~ 15:00", speaker: hz_zhangyu }
-    - { time: "15:00 ~ 16:00", speaker: city_hangzhou }
-    - time: "16:00"
+    - { time: "13:30 ~ 14:10", speaker: hz_linshuyong }
+    - { time: "14:15 ~ 15:00", speaker: id_chenhaibo_hz }
+    - { time: "15:05 ~ 16:00", speaker: hz_zhangyu }
+    - time: "15:30"
       topic: 茶歇
       topic_en: Intermission
-    - { time: "16:20", speaker: id_nonehz }
-    - time: "17:00" 
-      topic: 合影结束
+    - { time: "15:45", speaker: id_zhupengfei }
+    - { time: "16:25", speaker: id_jiankongbao_hz }
+    - { time: "17:05", speaker: id_ouyeel_hz }
+    - time: "17:30" 
+      topic: 合影.结束
 
 ####################################################################
 #   苏州

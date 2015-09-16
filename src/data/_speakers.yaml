@@ -599,7 +599,7 @@ id_dinglaiqiang2bj:
   topic:
     title: "使用Python进行高效大数据分析处理与可视化"
     title_en: "Big data analysis and visualization with Python"
-    preview: 大数据处理中;70%左右的时间我们在做处理准备(加载/抽取/清洗/转换/分组/ 合并等); 进行商务分析的过程中(以及之后);又会花相当多的时间做数据可视化的工作. 这个主题介绍了如何使用Python选择高效的数据处理分析与可视化.内容结合一个实际例子覆盖了如何使用Pandas进行高效数据ETL; Pandas的最新特性(Query/ 去GIL等); BokeH如何进行高效数据可视化; Blaze与Spark结合进行更大规模的分布式数据处理等.
+    preview: 大数据处理中;70%左右的时间我们在做处理准备(加载/抽取/清洗/转换/分组/ 合并等); 进行商务分析的过程中(以及之后);又会花相当多的时间做数据可视化的工作. 这个主题介绍了如何使用Python选择高效的数据处理分析与可视化.内容通过多个实例, 覆盖了如何使用Pandas进行高效数据ETL与分析; 使用SeaBorn与BokeH进行高效数据可视化; 使用Blaze与Spark与Pandas结合进行更大规模的数据分析与可视化等.
     preview_en:  in big data processing, 70% of the time we are doing data preparation (loading/extraction/cleansing/conversion/classification/integration). After business analysis, a lot of time is needed to do data visualization. It will talk about how to do data ETL with Pandas, the new feature of Pandas(Query/removing of GIL), how to do data visualization with BokeH, how to use Blaze and Spark to do large scale distributed data processing
     slide: #
 
@@ -902,6 +902,7 @@ hz_linshuyong:
     preview: Robot Framework是使用Python实现的开源的测试自动化框架，在测试自动化领域应用十分广泛，演讲者将重点介绍其在通用通信协议测试中的应用介绍。演讲者是来自诺基亚的测试架构师，新测试方法和技术的探索者和实践者，相信测试可以比我们现在大多数人认识的更有创造性
     preview_en: ...
     slide: #
+
 hz_zhangyu:
   name: 张裕
   city_hangzhou: 1
@@ -916,6 +917,7 @@ hz_zhangyu:
     preview: 演讲者将介绍如何用Python的各种组件，搭起一个包含演示文稿，练习环境及测评的python培训环境。演讲者是来自诺基亚测试自动化教练。
     preview_en: ...
     slide: #
+
 id_ouyeel_hz:
   name: 孔令开
   city_hangzhou: 1
@@ -928,6 +930,64 @@ id_ouyeel_hz:
     title: "简单实用的自制Rest API工具"
     title_en: "?"
     preview: 一个简单的小工具，一秒五行写出pythonic的api接口，自动生成接口文档，js调用代码，ios客户端调用代码，ng调用代码...
+    preview_en: ...
+    slide: #
+id_chenhaibo_hz:
+  name: 陈海波
+  name: Pythoneer
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/sh_chenghaibo.jpg?imageView2/2/h/80
+  intro: 在Python与桌面软件编程上，有比较多的涉猎
+  intro_en: experienced in python desktop programming...
+  topic:
+    title: "Python&GUI"
+    title_en: "Python&GUI"
+    preview: 国内貌似对于Python&GUI上能直接看到的资料，基本停留于Hello World的阶段，没有梳理过，但内容应该会有下面这些：
+        Why GUI
+        基本技术路线的选择
+        不同平台上的编译、打包软件
+        界面怎么绘制？
+        ...
+        GUI赋予的想象力
+        如何开始你的第一个桌面软件？
+    preview_en: basic introduction to Python&GUI
+        Why GUI
+        Different technology paths to choose from
+        Compilation and packaging on different platforms
+        How to draw interface?
+        The imagination powered by GUI
+        How to make your first desktop software?
+    slide: http://7bv7nx.com1.z0.glb.clouddn.com/Pycon-2015-Hepo.key
+
+id_jiankongbao_hz:
+  name: 高驰涛
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff15/id/jiankongbao_neeke.jpg?imageView2/2/h/80
+  intro: 云智慧高级架构师，PHP开发组成员，同时也是 PECL/SeasLog 的作者
+  intro_en: senior architect, author of PECL/SeasLog. ...
+  topic:
+    title: "Python应用的性能优化实践"
+    title_en: "Let python software be lightning fast"
+    preview: 如何能够追踪和定位Python应用的程序代码性能？使用云智慧的应用性能平台能够快速定位和发现Python应用的性能瓶颈，并找到有问题的代码。使用云智慧的APM ，您可以深入到运行在实际生产环境中的Python应用程序，从交易级了解Python程序堆栈跟踪诊断性能瓶颈。可以自动检测商业交易，了解响应时间、每分钟调用时间，深入到代码级的诊断显示完整的调用图和执行代码，同时了解到Python调用SQL语句的执行性能。在本次演讲中将我们将分析PythonCode如何插入Python解释器，并采集Python代码堆栈、资源利用情况、代码的错误异常数据等，最终让开发人员和业务人员能够在最短时间内发现问题，降低对业务的影响。
+    preview_en:  the practical guide to python performance tuning...
+    slide: #
+
+id_zhupengfei:
+  name: 舒鹏飞
+  city_hangzhou: 1
+  city: 杭州
+  city_en: Hangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: Pythoneer
+  intro_en: Pythoneer...
+  topic:
+    title: "TDD 的另外一半"
+    title_en: "..."
+    preview: TDD即测试驱动开发，演讲者将会用python语言给你演示TDD中那不为人知的另一半，非常适合爱写程序的小伙伴们。
     preview_en: ...
     slide: #
 
