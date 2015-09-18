@@ -331,11 +331,15 @@ id_shenweigz:
   intro:  资深 python 开发者，高效能服务器 eurasia 的作者。湖州迅普信息技术有限公司创始人，广州遛宝计算机技术有限公司联合创始人、技术总监。
   intro_en: A senior python developer, author of eurasia
   topic:
-    title: "再说点儿有趣儿的事儿"
-    title_en: "Let's talk about something fun"
-    preview: TDB
-    preview_en: TDB
-    slide: #
+    title: "PY摄影指南+股票指南"
+    title_en: "play in photograph and stock with Python"
+    preview: 如何用 Python 解决日常家庭摄影中的问题?!用普通手机摄像头拍摄出专业相机的成品?
+      又或是如何用 Python 帮助自己及时在手机上分析股票走向?
+      一切在 Python 的光辉中都变成了可能 ;-)
+    preview_en: ...
+    slide: http://zoomq.qiniudn.com/pychina/PyCon2015China/slides/gz/pycon2015gz_wileishn_PYphotograph.pdf
+    slide1: http://zoomq.qiniudn.com/pychina/PyCon2015China/slides/gz/pycon2015gz_wileishn_PYstock.pdf
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_03_foto_ZOOM0028.MP3
 
 id_zuozhenjie:
   name: 卓振杰
@@ -350,7 +354,8 @@ id_zuozhenjie:
     title_en: "design and implementation of soft data inteface"
     preview: 微信 CMDB 是运维的基础核心系统，管理运营所需的所有元数据和配置。因此，对于运营建设而言，管理配置信息的 CMDB 系统，提供一个高效易用、敏捷开发的接口，用以支撑各运营系统的接入和建设、是整体效率的保证。在此讨论和分享一个业务数据接口系统的开发、设计实现以及业务维护上的经验。
     preview_en: WeChat CMDB is the core of devops, managing all meta data and configuration related to business data. So a efficient and agile interface is vital to support the plugin of all sub systems. 
-    slide: #
+    slide: http://zoomq.qiniudn.com/pychina/PyCon2015China/slides/gz/PyCon2015_wx_CMDB.pdf
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_08_qqcmdb_ZOOM0034.MP3
 
 id_JokerQyou:
   name: 邱文武
@@ -366,6 +371,7 @@ id_JokerQyou:
     preview: 已成为标准的MQTT提供了QoS的消息代理服务，解决了实时系统高并发的问题。易开发的消息服务利用了MQTT、Socket.io、ElasticeSearch等技术，实现单聊、私聊、通知、扩展服务等功能，并提供桌面提醒功能，即将和微信企业号整合。主题将在MQTT服务器选型、服务端产品架构、插件编写、客户端架构、多端聊天状态同步等多方面进行介绍。
     preview_en: MQTT has become the standard of messaging proxy providing QoS control. It meets the high throughput demand of real time systems.  The messaging system from easydo uses MQTT、Socket.io、ElasticeSearch and so on. It support one to one chatting, group chatting, desktop notification and so on.
     slide: http://easydo.cn/support/resource/%E6%BC%94%E8%AE%B2%E5%B9%BB%E7%81%AF%E7%89%87/pycon-2015-msg.pdf
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_05_mqtt_qa_ZOOM0031.MP3
 
 id_river:
   name: River
@@ -387,6 +393,7 @@ id_river:
         The introduction of QPython and WebApp
         QPython WeChat account/qpython
     slide: http://qpython.org/pyconchina2015/
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_04_qpython_ZOOM0029.MP3
 
 id_laiyonghaogz:
   name: 赖勇浩
@@ -409,8 +416,8 @@ id_laiyonghaogz:
         3. The difficult of importing C++ libraries compared to C libraries
         4. The best practices of importing C++ libraries
         5. Here are the answers for the questions above
-    slide: http://zoomq.qiniudn.com/CPyUG/PyCon2015China/slides/gz/pycon150913gz_cython.pdf
-    audio: http://zoomq.qiniudn.com/CPyUG/PyCon2015China/tape/150913pycongz_02_cython_ZOOM0027.MP3
+    slide: http://zoomq.qiniudn.com/pychina/PyCon2015China/slides/gz/pycon150913gz_cython.pdf
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_02_cython_ZOOM0027.MP3
 
 id_jeffgz:
   name: Jeff
@@ -425,7 +432,8 @@ id_jeffgz:
     title_en: "Using Tornado to build a long-lived connection proxy"
     preview: 长链接实时消息编程的门槛不低，长链接代理服务器可以有效地降低开发者开发实时应用的准入门槛，包括客户端及服务端，在服务端，开发者甚至可以使用HTTP的方式来实现业务逻辑的接入。本主题介绍如何使用Tornado实现一个分布式可扩展的长链接代理服务器。
     preview_en: Tt is not easy to do long-lived connection instant messaging programming. Long-lived connection proxy can lower the barrier for developers. This topic covers a distributed and extensible long-lived connection proxy built with Tornado.
-    slide: #
+    slide: http://zoomq.qiniudn.com/pychina/PyCon2015China/slides/gz/pycon150913gz_rainbow.pdf
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_09_jeff_ZOOM0035.MP3
 
 id_jiankongbaogz:
   name: 刘国强（Bruce Liu）
@@ -440,7 +448,8 @@ id_jiankongbaogz:
     title_en: "Python application performance optimization practice"
     preview: 如何能够追踪和定位Python应用的程序代码性能？使用云智慧的应用性能平台能够快速定位和发现Python应用的性能瓶颈，并找到有问题的代码。使用云智慧的APM ，您可以深入到运行在实际生产环境中的Python应用程序，从交易级了解Python程序堆栈跟踪诊断性能瓶颈。可以自动检测商业交易，了解响应时间、每分钟调用时间，深入到代码级的诊断显示完整的调用图和执行代码，同时了解到Python调用SQL语句的执行性能。在本次演讲中将我们将分析PythonCode如何插入Python解释器，并采集Python代码堆栈、资源利用情况、代码的错误异常数据等，最终让开发人员和业务人员能够在最短时间内发现问题，降低对业务的影响。
     preview_en: ...
-    slide: #
+    slide: http://zoomq.qiniudn.com/pychina/PyCon2015China/slides/gz/APM-PyAppPerformancev2.pdf
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_07_apm_ZOOM0033.MP3
 
 id_yinhm:
   name: 殷海明
@@ -455,7 +464,8 @@ id_yinhm:
     title_en: "The use of Pandas in financial data analysis"
     preview: 时序数据处理，投资组合优化
     preview_en: sequential data analysis, and optimized investment combination
-    slide: #
+    ipynb: https://github.com/yinhm/talks/blob/master/pycon2015_cn_pandas/pandas.ipynb
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_10_pandas_ZOOM0036.MP3
 
 
 id_gizwits:
@@ -471,22 +481,57 @@ id_gizwits:
     title_en: "?"
     preview: 讲述 DDNS （动态域名解析）原理，如何将自己注册的域名指向自己的 DNS 服务器，以及通过 Python 搭建自己的二级域名 DDNS 服务。另外，还结合 Docker 技术，讲述 DDNS 在 Docker 实践中的应用。
     preview_en: ...
-    slide: #
+    slide: https://github.com/ax003d/pycon-ddns-docker/blob/master/pycon-ddns-docker.dps
+    ipynb: https://github.com/ax003d/pycon-ddns-docker/blob/master/pycon-docker-ddns.ipynb
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_06_ddns_ZOOM0032.MP3
 
-id_nonegz:
-  name: Pythoneer
+
+id_wenmin:
+  name: 温铭
   city_guangzhou: 1
   city: 广州
   city_en: Guangzhou
   avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
-  intro: Pythoneer
+  intro: 360 Pythoneer
   intro_en: Pythoneer...
   topic:
-    title: "现场报名"
+    title: "Python 会被其它语言替代嘛"
     title_en: "..."
-    preview: 5分钟分享任意 Pythonic 体验!-)
+    preview: 5分钟分享~ Python 在团队中和其它语言共存的现场
     preview_en: ...
-    slide: #
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_lt0_360_ZOOM0037.MP3
+
+id_panjy:
+  name: 潘俊勇
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://pyconcn.qiniudn.com/zoomquiet/stuff14/cpug-logo-188x188.png?imageView2/2/h/80
+  intro: 润普创始人;资深 Pythoneer
+  intro_en: Pythoneer...
+  topic:
+    title: "tus 断点上传协议及服务介绍"
+    title_en: "..."
+    preview: 5分钟分享~ tus 这一开源项目的使用体验
+    preview_en: ...
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_lt1_tus_ZOOM0038.MP3
+
+
+id_zoomq:
+  name: 大妈 (Zoom.Quiet)
+  city_guangzhou: 1
+  city: 广州
+  city_en: Guangzhou
+  avatar: http://dn-pyconcn.qbox.me/images/volunteer/zhouqi.png?imageView2/2/h/80
+  intro: 各种 技术社区 创始成员以及管理员; 江湖人称大妈的大妈 Pythoneer ;-)
+  intro_en: Pythoneer...
+  topic:
+    title: "苦短衫和老爹的故事..."
+    title_en: "..."
+    preview: 5分钟分享~ 苦短衫的变迁;并倡议开始为明年的 Slogen 贡献想象力吧!
+    preview_en: ...
+    audio: http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_lt2_lifeisss_ZOOM0039.MP3
+
 
 ####################################################################
 #   帝都

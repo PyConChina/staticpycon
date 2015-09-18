@@ -18,6 +18,12 @@
                     </a>
                 {% endif %}
 
+                {% if a_speaker.topic.ipynb %}
+                    <a href="{{ a_speaker.topic.ipynb }}" class="schedule__topic__slide">
+                        {{- message.ipynb -}}
+                    </a>
+                {% endif %}
+
                 {% if a_speaker.topic.audio %}
                     <a href="{{ a_speaker.topic.audio }}" class="schedule__topic__audio">
                         {{- message.audio -}}

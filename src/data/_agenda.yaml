@@ -75,7 +75,7 @@ guangzhou:
   traffic_en: "(...)"
   maplink: 'http://f.amap.com/042E3U'
   date: 2015-09-13 09:00~18:00
-  notices: 注意查收保存签到码,否则无法进场!
+  notices: <ul><li>现场自述 ~ <a href="http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_00_introself_ZOOM0025.MP3">录音</a></li><li>大妈开场 ~ <a href="http://zoomq.qiniudn.com/pychina/PyCon2015China/tape/150913pycongz_01_start_ZOOM0026.MP3">录音</a></li></ul>
   morning:
     - time: "09:00"
       topic: "签到 & 开场"
@@ -108,7 +108,9 @@ guangzhou:
       topic: 神密大奖抽取
       topic_en: Intermission
   lightening_talks:
-    - { time: "17:35", speaker: id_nonegz }
+    - { time: "17:40", speaker: id_wenmin }
+    - { time: "17:46", speaker: id_panjy }
+    - { time: "17:55", speaker: id_zoomq }
   cancel_talks:
     # - { time: "(ー`´ー)", speaker: id_nonegz }
 
