@@ -698,7 +698,7 @@ id_yuzhanyong:
     title_en: "Python and network sniffing"
     preview: 利用python网络抓包，传统的抓包如利用tcpdump wireshark 不方便做实时分析，在socket包处理上，不能修改封包内容，还有现在针对移动端的抓包也仅限于抓取http包，在像移动游戏之类用到长连接的socket包，是不能方便抓取到的。利用python，可轻松实现如上功能
     preview_en: Normally network sniffing uses tcpdump, wireshark. It is not convenient for real time analysis, and cannot modify the content of the package, and limited to http packages. Python can solve these.
-    slide: #
+    slide: http://www.so-cools.com/down/pyconppt.pdf
 
 id_wuke:
   name: 吴柯
