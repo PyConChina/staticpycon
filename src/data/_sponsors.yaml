@@ -122,7 +122,6 @@
 #########################################
 #   黄金级
 #########################################
-
 -
   level_gold: 1
   level: gold
@@ -182,6 +181,12 @@
   intro: "优矿（uqer.io）为用户提供私人金融量化分析的平台，是通联数据旗下的量化分析研究平台。旨在打破金融量化的壁垒，为广大量化爱好者提供华尔街专业量化机构的装备。个人用户免费使用。优矿通过高质量的海量金融数据与高性能的分析工具，让用户自由进行策略撰写、股票投资研究、快速回测和实盘模拟，可靠验证自己的投资想法。优矿还特别为不会编程的用户提供了可视化策略生成器，用户只需按照个人意愿修改参数，即可自动生成策略并进行回测，查看股票组合的历史收益。"
   intro_en: "The FinTech startup, Uqer.io, is China's first and best algorithmic trading platform in your browser, our missing is to provide powerful yet simplified online tools that allow anyone, if they have the ability, to “write market-beating algorithms”. The recent explosion in data lies at the core of our business. Advances in data mining and machine learning coupled with availability of deep and diverse datasets have given trading algorithms a bigger edge than ever over their human counterparts. We believe everyone should have the tools to harness this wave of innovation and generate market beating returns. Based on cloud computing and big data technology, Uqer offers free and unlimited access to over 10 million financial datasets, quants can create and backteststrategy at anytime anywhere."
 
+-
+  level_gold: 1
+  level: gold
+  logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/knownsec.jpg?imageView2/2/w/180
+  link: http://www.knownsec.com/
+  intro: "知道创宇由数位国际顶尖的安全专家创办，并拥有近百位国内一线安全人才作为核心安全研究团队，长期为政府及企业提供国际先进的网络安全解决方案。知道创宇擅长全新形势下的网络攻防一体技术、产品研发。利用在云计算及大数据处理方面的行业领先能力，为客户提供具备国际一流安全技术标准的可视化解决方案，提升客户网络安全监测、预警及防御能力。公司技术实力受到国家公安部、国务院中央政府采购网、工信部、CNNVD、央行、香港赛马会、微软、浙江卫视等知名客户的强烈认可。"
 
 
 
