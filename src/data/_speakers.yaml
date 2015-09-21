@@ -102,7 +102,7 @@ id_dinglaiqiangsh:
     title_en: "Big data analysis and visualization with Python"
     preview: 大数据处理中;70%左右的时间我们在做处理准备(加载/抽取/清洗/转换/分组/ 合并等); 进行商务分析的过程中(以及之后);又会花相当多的时间做数据可视化的工作. 这个主题介绍了如何使用Python选择高效的数据处理分析与可视化.内容结合一个实际例子覆盖了如何使用Pandas进行高效数据ETL; Pandas的最新特性(Query/ 去GIL等); BokeH如何进行高效数据可视化; Blaze与Spark结合进行更大规模的分布式数据处理等.
     preview_en:  in big data processing, 70% of the time we are doing data preparation (loading/extraction/cleansing/conversion/classification/integration). After business analysis, a lot of time is needed to do data visualization. It will talk about how to do data ETL with Pandas, the new feature of Pandas(Query/removing of GIL), how to do data visualization with BokeH, how to use Blaze and Spark to do large scale distributed data processing
-    slide: #
+    slide: https://github.com/wjo1212/ChinaPyCon2015
 
 id_wangliqi:
   name: 王立奇
@@ -646,7 +646,7 @@ id_dinglaiqiang2bj:
     title_en: "Big data analysis and visualization with Python"
     preview: 大数据处理中;70%左右的时间我们在做处理准备(加载/抽取/清洗/转换/分组/ 合并等); 进行商务分析的过程中(以及之后);又会花相当多的时间做数据可视化的工作. 这个主题介绍了如何使用Python选择高效的数据处理分析与可视化.内容通过多个实例, 覆盖了如何使用Pandas进行高效数据ETL与分析; 使用SeaBorn与BokeH进行高效数据可视化; 使用Blaze与Spark与Pandas结合进行更大规模的数据分析与可视化等.
     preview_en:  in big data processing, 70% of the time we are doing data preparation (loading/extraction/cleansing/conversion/classification/integration). After business analysis, a lot of time is needed to do data visualization. It will talk about how to do data ETL with Pandas, the new feature of Pandas(Query/removing of GIL), how to do data visualization with BokeH, how to use Blaze and Spark to do large scale distributed data processing
-    slide: #
+    slide: https://github.com/wjo1212/ChinaPyCon2015
 
 id_dinglaiqiang:
   name: 丁来强
@@ -663,7 +663,7 @@ id_dinglaiqiang:
       本主题涵盖函数式编程的各种重要特性在Python的关键点实现, 覆盖Python核心语法(function, lambda, generator, iterator, decorator等)和相关标准库(functools, operators, itertools)外, 涉及到函数式编程的核心思想, 技术(pure function, persistent data, high order function, currying, TCO, trampoline, overloading, pattern matching, laziness streaming等), 工具(multipledispatch, pyrsistent, fn, PyToolz, ipython cluster, python-parallel, 等)以及并发相关的编程, 进行有效的函数式编程. 
     preview_en: Different from Object Oriented Programming, functional programming wins public attention by low side effect, high reusability, and easy  to use. Python, although not a pure functional programming language, provides powerful support to do functional programming.
       This speech covers how the key features of functional programming is implemented in Python. It will touch on core grammar of Python(function, lambda, generator, iterator, decorator and so on) and standard library(functools, operators, itertools) , the core concepts in functional programming (pure function, persistent data, high order function, currying, TCO, trampoline, overloading, pattern matching, laziness streaming), tools (multipledispatch, pyrsistent, fn, PyToolz, ipython cluster, python-parallel), concurrent programming, and effective functional programming.
-    slide: #
+    slide: https://github.com/wjo1212/ChinaPyCon2015
 
 id_liaoxinxi:
   name: 廖新喜
